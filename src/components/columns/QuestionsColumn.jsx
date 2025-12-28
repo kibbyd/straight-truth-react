@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import { useApp } from '../../context/AppContext'
 import { formatVerseRef } from '../../data/bibleBooks'
 
@@ -6,7 +6,72 @@ function QuestionsColumn({ columnId, data }) {
   const { data: appData, goToVerse, openStrongs } = useApp()
   const [expandedCategory, setExpandedCategory] = useState(null)
   const [expandedQuestion, setExpandedQuestion] = useState(null)
+  const [expandedVerses, setExpandedVerses] = useState({}) // Track which verses are expanded
   const [searchQuery, setSearchQuery] = useState('')
+
+  // Toggle verse expansion
+  const toggleVerse = useCallback((verseId) => {
+    setExpandedVerses(prev => ({
+      ...prev,
+      [verseId]: !prev[verseId]
+    }))
+  }, [])
+
+  // Get verse text by ID
+  const getVerseText = useCallback((verseId) => {
+    const [book, chapter, verse] = verseId.split('.')
+    const found = appData.verses.find(v =>
+      v.book === book && v.chapter === parseInt(chapter) && v.verse === parseInt(verse)
+    )
+    return found?.text || null
+  }, [appData.verses])
+
+  // Get Strong's data for a verse
+  const getStrongsForVerse = useCallback((verseId) => {
+    return appData.strongs.verses?.[verseId] || []
+  }, [appData.strongs.verses])
+
+  // Highlight Strong's words in verse text
+  const highlightVerseText = useCallback((text, verseId, relatedStrongs = null) => {
+    const strongsData = getStrongsForVerse(verseId)
+    if (!strongsData.length) return text
+
+    const words = text.split(/(\s+)/)
+    const result = []
+    let wordIndex = 0
+
+    for (let i = 0; i < words.length; i++) {
+      const word = words[i]
+      if (/^\s+$/.test(word)) {
+        result.push(word)
+        continue
+      }
+
+      const strongsMatch = strongsData.find(s => s.pos === wordIndex)
+      if (strongsMatch) {
+        // Check if this matches the related Strong's number
+        const isHighlighted = relatedStrongs && strongsMatch.strong === relatedStrongs
+        result.push(
+          <span
+            key={`${i}-strong`}
+            className={`hl strongs${isHighlighted ? ' selected' : ''}`}
+            onClick={(e) => {
+              e.stopPropagation()
+              openStrongs(strongsMatch.strong)
+            }}
+            title={`Strong's ${strongsMatch.strong}`}
+            style={{ cursor: 'pointer' }}
+          >
+            {word}
+          </span>
+        )
+      } else {
+        result.push(word)
+      }
+      wordIndex++
+    }
+    return result
+  }, [getStrongsForVerse, openStrongs])
 
   const questions = appData.questions || []
 
@@ -107,19 +172,46 @@ function QuestionsColumn({ columnId, data }) {
                             <div className="question-section-title">📖 What Scripture Says</div>
                             {question.scripture_says.map((item, i) => (
                               <div key={i} className="question-point">
-                                <div>{item.text}</div>
+                                <div style={{ marginBottom: '8px' }}>{item.text}</div>
                                 {item.references && item.references.length > 0 && (
-                                  <div className="catalogue-refs" style={{ marginTop: '6px' }}>
+                                  <div style={{ marginLeft: '10px' }}>
                                     {item.references.map((ref, j) => {
                                       const parsed = parseRef(ref)
+                                      const verseText = getVerseText(parsed.verseId)
+                                      const isExpanded = expandedVerses[parsed.verseId]
+
                                       return (
-                                        <span
-                                          key={j}
-                                          className="catalogue-ref-link"
-                                          onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId); }}
-                                        >
-                                          {parsed.display}
-                                        </span>
+                                        <div key={j} style={{ marginBottom: '8px', borderLeft: '3px solid #ddd', paddingLeft: '10px' }}>
+                                          <div
+                                            style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', padding: '4px 0' }}
+                                            onClick={(e) => { e.stopPropagation(); toggleVerse(parsed.verseId); }}
+                                          >
+                                            <span style={{ color: '#888', marginRight: '6px', fontSize: '12px' }}>
+                                              {isExpanded ? '▼' : '▶'}
+                                            </span>
+                                            <span className="catalogue-ref-link" style={{ fontWeight: '600' }}>
+                                              {parsed.display}
+                                            </span>
+                                          </div>
+                                          {isExpanded && verseText && (
+                                            <div style={{
+                                              padding: '8px 12px',
+                                              background: '#fafaf8',
+                                              borderRadius: '4px',
+                                              marginTop: '4px',
+                                              fontFamily: 'Georgia, serif',
+                                              lineHeight: '1.6',
+                                              fontSize: '14px'
+                                            }}>
+                                              {highlightVerseText(verseText, parsed.verseId)}
+                                            </div>
+                                          )}
+                                          {isExpanded && !verseText && (
+                                            <div style={{ padding: '8px', color: '#888', fontStyle: 'italic' }}>
+                                              Verse not found
+                                            </div>
+                                          )}
+                                        </div>
                                       )
                                     })}
                                   </div>
