@@ -1,0 +1,1151 @@
+[
+  {
+    "id": "justification",
+    "term": "Justification",
+    "simple_definition": "Being declared 'not guilty' before God—like a judge pronouncing a verdict of innocent.",
+    "expanded": "In legal terms, justification means being declared righteous. Scripture teaches that through faith in Christ, a person's sins are no longer counted against them. It is a status change, not a behavior change.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ.'",
+        "reference": "Rom.5.1"
+      },
+      {
+        "text": "Paul wrote: 'A person is not justified by works of the law but through faith in Jesus Christ.'",
+        "reference": "Gal.2.16"
+      },
+      {
+        "text": "Paul wrote: 'Being justified by his grace as a gift.'",
+        "reference": "Rom.3.24"
+      }
+    ],
+    "original_language": {
+      "greek": "dikaiosis (δικαίωσις)",
+      "strongs": "G1347",
+      "meaning": "acquittal, the act of pronouncing righteous"
+    },
+    "related_terms": ["righteousness", "grace", "faith"],
+    "category": "Salvation"
+  },
+  {
+    "id": "sanctification",
+    "term": "Sanctification",
+    "simple_definition": "The process of becoming more like Christ—being 'set apart' and growing in holiness over time.",
+    "expanded": "While justification is a one-time declaration, sanctification is an ongoing process. It refers to being made holy or set apart for God's purposes. Scripture presents it as both something God does and something believers participate in.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'For this is the will of God, your sanctification.'",
+        "reference": "1Th.4.3"
+      },
+      {
+        "text": "Hebrews states: 'For by a single offering he has perfected for all time those who are being sanctified.'",
+        "reference": "Heb.10.14"
+      },
+      {
+        "text": "Paul prayed: 'May the God of peace himself sanctify you completely.'",
+        "reference": "1Th.5.23"
+      }
+    ],
+    "original_language": {
+      "greek": "hagiasmos (ἁγιασμός)",
+      "strongs": "G38",
+      "meaning": "the process of making holy, consecration"
+    },
+    "related_terms": ["holiness", "righteousness", "transformation"],
+    "category": "Salvation"
+  },
+  {
+    "id": "grace",
+    "term": "Grace",
+    "simple_definition": "Unearned favor—receiving good things you didn't deserve and couldn't earn.",
+    "expanded": "Grace is God giving freely what cannot be earned. It stands in contrast to wages (what you work for) or debt (what you're owed). Scripture emphasizes that salvation comes through grace, not human effort.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works.'",
+        "reference": "Eph.2.8-9"
+      },
+      {
+        "text": "John wrote: 'From his fullness we have all received, grace upon grace.'",
+        "reference": "Joh.1.16"
+      },
+      {
+        "text": "God told Paul: 'My grace is sufficient for you.'",
+        "reference": "2Co.12.9"
+      }
+    ],
+    "original_language": {
+      "greek": "charis (χάρις)",
+      "strongs": "G5485",
+      "meaning": "favor, kindness, a gift freely given"
+    },
+    "related_terms": ["mercy", "gift", "salvation"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "redemption",
+    "term": "Redemption",
+    "simple_definition": "Being bought back or set free—like paying a ransom to release a captive.",
+    "expanded": "In the ancient world, redemption meant paying a price to free a slave or prisoner. Scripture uses this imagery to describe how Christ's death purchased freedom for humanity from sin and death.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'In him we have redemption through his blood, the forgiveness of our trespasses.'",
+        "reference": "Eph.1.7"
+      },
+      {
+        "text": "Jesus said: 'The Son of Man came... to give his life as a ransom for many.'",
+        "reference": "Mar.10.45"
+      },
+      {
+        "text": "Peter wrote: 'You were ransomed... not with perishable things such as silver or gold, but with the precious blood of Christ.'",
+        "reference": "1Pe.1.18-19"
+      }
+    ],
+    "original_language": {
+      "greek": "apolytrosis (ἀπολύτρωσις)",
+      "strongs": "G629",
+      "meaning": "release effected by payment of ransom, deliverance"
+    },
+    "related_terms": ["ransom", "freedom", "salvation"],
+    "category": "Salvation"
+  },
+  {
+    "id": "atonement",
+    "term": "Atonement",
+    "simple_definition": "Making things right between two parties—restoring a broken relationship.",
+    "expanded": "Atonement addresses the problem of sin separating humans from God. In the Old Testament, animal sacrifices covered sin temporarily. The New Testament presents Jesus' death as the final atonement—fully dealing with sin once for all.",
+    "scripture_references": [
+      {
+        "text": "John wrote: 'He is the propitiation for our sins, and not for ours only but also for the sins of the whole world.'",
+        "reference": "1Jo.2.2"
+      },
+      {
+        "text": "Paul wrote: 'God put forward [Christ] as a propitiation by his blood.'",
+        "reference": "Rom.3.25"
+      },
+      {
+        "text": "On the Day of Atonement, the high priest made atonement for the sins of all Israel.",
+        "reference": "Lev.16.30"
+      }
+    ],
+    "original_language": {
+      "hebrew": "kippur (כִּפֻּר)",
+      "strongs": "H3725",
+      "meaning": "covering, to cover over sin"
+    },
+    "related_terms": ["propitiation", "sacrifice", "forgiveness"],
+    "category": "Salvation"
+  },
+  {
+    "id": "propitiation",
+    "term": "Propitiation",
+    "simple_definition": "Satisfying wrath—turning away anger through a sacrifice or offering.",
+    "expanded": "Propitiation means satisfying a demand or turning away wrath. In scripture, it refers to Christ's sacrifice satisfying divine justice. The related term 'mercy seat' (where blood was sprinkled) uses the same Greek root.",
+    "scripture_references": [
+      {
+        "text": "John wrote: 'In this is love, not that we have loved God but that he loved us and sent his Son to be the propitiation for our sins.'",
+        "reference": "1Jo.4.10"
+      },
+      {
+        "text": "Paul wrote that God put forward Christ 'as a propitiation by his blood, to be received by faith.'",
+        "reference": "Rom.3.25"
+      }
+    ],
+    "original_language": {
+      "greek": "hilasmos (ἱλασμός)",
+      "strongs": "G2434",
+      "meaning": "an appeasing, a means of appeasing"
+    },
+    "related_terms": ["atonement", "sacrifice", "wrath"],
+    "category": "Salvation"
+  },
+  {
+    "id": "reconciliation",
+    "term": "Reconciliation",
+    "simple_definition": "Restoring a relationship that was broken—enemies becoming friends again.",
+    "expanded": "Reconciliation means bringing together parties who were separated or hostile. Scripture describes humans as enemies of God because of sin, and reconciliation as the restoration of that relationship through Christ.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'While we were enemies we were reconciled to God by the death of his Son.'",
+        "reference": "Rom.5.10"
+      },
+      {
+        "text": "Paul wrote: 'God... reconciled us to himself through Christ and gave us the ministry of reconciliation.'",
+        "reference": "2Co.5.18"
+      },
+      {
+        "text": "Paul wrote: 'In Christ God was reconciling the world to himself, not counting their trespasses against them.'",
+        "reference": "2Co.5.19"
+      }
+    ],
+    "original_language": {
+      "greek": "katallage (καταλλαγή)",
+      "strongs": "G2643",
+      "meaning": "exchange, restoration to favor"
+    },
+    "related_terms": ["peace", "forgiveness", "relationship"],
+    "category": "Salvation"
+  },
+  {
+    "id": "repentance",
+    "term": "Repentance",
+    "simple_definition": "A change of mind that leads to a change of direction—turning around and going the other way.",
+    "expanded": "Repentance is more than feeling sorry. The Greek word means a complete change of mind, while the Hebrew word means to turn or return. It involves recognizing wrong, changing one's thinking, and moving in a new direction.",
+    "scripture_references": [
+      {
+        "text": "Jesus proclaimed: 'Repent, for the kingdom of heaven is at hand.'",
+        "reference": "Mat.4.17"
+      },
+      {
+        "text": "Peter preached: 'Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins.'",
+        "reference": "Act.2.38"
+      },
+      {
+        "text": "Paul wrote of 'godly grief' that 'produces a repentance that leads to salvation.'",
+        "reference": "2Co.7.10"
+      }
+    ],
+    "original_language": {
+      "greek": "metanoia (μετάνοια)",
+      "strongs": "G3341",
+      "meaning": "a change of mind, turning around"
+    },
+    "related_terms": ["conversion", "confession", "forgiveness"],
+    "category": "Salvation"
+  },
+  {
+    "id": "faith",
+    "term": "Faith",
+    "simple_definition": "Trust that acts—believing something is true and living accordingly.",
+    "expanded": "Faith is not mere intellectual agreement. Biblical faith involves trusting in something or someone enough to act on that trust. It is reliance, not just belief.",
+    "scripture_references": [
+      {
+        "text": "Hebrews defines: 'Now faith is the assurance of things hoped for, the conviction of things not seen.'",
+        "reference": "Heb.11.1"
+      },
+      {
+        "text": "James wrote: 'Faith by itself, if it does not have works, is dead.'",
+        "reference": "Jam.2.17"
+      },
+      {
+        "text": "Paul wrote: 'Abraham believed God, and it was counted to him as righteousness.'",
+        "reference": "Rom.4.3"
+      }
+    ],
+    "original_language": {
+      "greek": "pistis (πίστις)",
+      "strongs": "G4102",
+      "meaning": "trust, confidence, reliance"
+    },
+    "related_terms": ["belief", "trust", "hope"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "sin",
+    "term": "Sin",
+    "simple_definition": "Missing the mark—falling short of God's standard, whether by action, attitude, or neglect.",
+    "expanded": "The primary biblical word for sin literally means 'missing the mark'—like an arrow falling short of its target. Sin includes both doing wrong (commission) and failing to do right (omission).",
+    "scripture_references": [
+      {
+        "text": "John wrote: 'Sin is lawlessness.'",
+        "reference": "1Jo.3.4"
+      },
+      {
+        "text": "Paul wrote: 'All have sinned and fall short of the glory of God.'",
+        "reference": "Rom.3.23"
+      },
+      {
+        "text": "James wrote: 'Whoever knows the right thing to do and fails to do it, for him it is sin.'",
+        "reference": "Jam.4.17"
+      }
+    ],
+    "original_language": {
+      "greek": "hamartia (ἁμαρτία)",
+      "strongs": "G266",
+      "meaning": "missing the mark, failure, offense"
+    },
+    "related_terms": ["transgression", "iniquity", "trespass"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "transgression",
+    "term": "Transgression",
+    "simple_definition": "Crossing a line—deliberately stepping over a known boundary.",
+    "expanded": "While sin can be unintentional, transgression implies knowingly breaking a rule or crossing a boundary. It suggests willful disobedience rather than accidental failure.",
+    "scripture_references": [
+      {
+        "text": "The psalmist prayed: 'Blessed is the one whose transgression is forgiven.'",
+        "reference": "Psa.32.1"
+      },
+      {
+        "text": "Isaiah wrote: 'He was pierced for our transgressions.'",
+        "reference": "Isa.53.5"
+      },
+      {
+        "text": "Paul wrote: 'Where there is no law there is no transgression.'",
+        "reference": "Rom.4.15"
+      }
+    ],
+    "original_language": {
+      "hebrew": "pesha (פֶּשַׁע)",
+      "strongs": "H6588",
+      "meaning": "rebellion, revolt, stepping over"
+    },
+    "related_terms": ["sin", "rebellion", "disobedience"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "iniquity",
+    "term": "Iniquity",
+    "simple_definition": "Crookedness—a bent or twisted nature, moral perversion.",
+    "expanded": "Iniquity emphasizes the twisted or crooked nature of sin. It points to the corruption within, not just outward acts. It is often associated with guilt and moral distortion.",
+    "scripture_references": [
+      {
+        "text": "Isaiah wrote: 'The LORD has laid on him the iniquity of us all.'",
+        "reference": "Isa.53.6"
+      },
+      {
+        "text": "The psalmist prayed: 'Wash me thoroughly from my iniquity, and cleanse me from my sin.'",
+        "reference": "Psa.51.2"
+      },
+      {
+        "text": "God declared: 'I will forgive their iniquity, and I will remember their sin no more.'",
+        "reference": "Jer.31.34"
+      }
+    ],
+    "original_language": {
+      "hebrew": "avon (עָוֹן)",
+      "strongs": "H5771",
+      "meaning": "crookedness, guilt, punishment for guilt"
+    },
+    "related_terms": ["sin", "guilt", "wickedness"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "righteousness",
+    "term": "Righteousness",
+    "simple_definition": "Being right with God—living and acting in line with God's standard.",
+    "expanded": "Righteousness means being in right standing or acting rightly. Scripture speaks of God's righteousness (his perfect standard), imputed righteousness (credited to believers), and practical righteousness (right living).",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'Abraham believed God, and it was counted to him as righteousness.'",
+        "reference": "Rom.4.3"
+      },
+      {
+        "text": "Jesus said: 'Seek first the kingdom of God and his righteousness.'",
+        "reference": "Mat.6.33"
+      },
+      {
+        "text": "Paul wrote: 'For our sake he made him to be sin who knew no sin, so that in him we might become the righteousness of God.'",
+        "reference": "2Co.5.21"
+      }
+    ],
+    "original_language": {
+      "greek": "dikaiosyne (δικαιοσύνη)",
+      "strongs": "G1343",
+      "meaning": "rightness, justice, what is right"
+    },
+    "related_terms": ["justification", "holiness", "justice"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "holiness",
+    "term": "Holiness",
+    "simple_definition": "Set apart—being different, separate from the ordinary, dedicated to God.",
+    "expanded": "Holiness fundamentally means 'set apart' or 'other.' God is holy because he is completely separate from and above creation. Believers are called holy because they are set apart for God's purposes.",
+    "scripture_references": [
+      {
+        "text": "The seraphim cried: 'Holy, holy, holy is the LORD of hosts!'",
+        "reference": "Isa.6.3"
+      },
+      {
+        "text": "Peter wrote: 'As he who called you is holy, you also be holy in all your conduct.'",
+        "reference": "1Pe.1.15"
+      },
+      {
+        "text": "God declared: 'You shall be holy, for I the LORD your God am holy.'",
+        "reference": "Lev.19.2"
+      }
+    ],
+    "original_language": {
+      "hebrew": "qodesh (קֹדֶשׁ)",
+      "strongs": "H6944",
+      "meaning": "apartness, sacredness, separateness"
+    },
+    "related_terms": ["sanctification", "purity", "consecration"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "gospel",
+    "term": "Gospel",
+    "simple_definition": "Good news—specifically, the announcement that Jesus died for sins and rose again.",
+    "expanded": "Gospel literally means 'good news' or 'glad tidings.' In the Bible, it refers to the message about Jesus Christ—his life, death, resurrection, and the salvation available through him.",
+    "scripture_references": [
+      {
+        "text": "Paul defined: 'Christ died for our sins in accordance with the Scriptures... he was buried... he was raised on the third day.'",
+        "reference": "1Co.15.3-4"
+      },
+      {
+        "text": "Paul wrote: 'I am not ashamed of the gospel, for it is the power of God for salvation to everyone who believes.'",
+        "reference": "Rom.1.16"
+      },
+      {
+        "text": "Jesus proclaimed: 'The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel.'",
+        "reference": "Mar.1.15"
+      }
+    ],
+    "original_language": {
+      "greek": "euangelion (εὐαγγέλιον)",
+      "strongs": "G2098",
+      "meaning": "good news, glad tidings"
+    },
+    "related_terms": ["salvation", "kingdom", "proclamation"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "kingdom-of-god",
+    "term": "Kingdom of God",
+    "simple_definition": "God's rule—wherever God reigns as king, both now and in the future.",
+    "expanded": "The kingdom of God (or kingdom of heaven in Matthew) refers to God's reign and rule. Jesus announced it was 'at hand' with his coming. It is both present (in hearts of believers) and future (when fully realized).",
+    "scripture_references": [
+      {
+        "text": "Jesus proclaimed: 'The kingdom of God is at hand.'",
+        "reference": "Mar.1.15"
+      },
+      {
+        "text": "Jesus said: 'The kingdom of God is not coming in ways that can be observed... the kingdom of God is in the midst of you.'",
+        "reference": "Luk.17.20-21"
+      },
+      {
+        "text": "Jesus taught his disciples to pray: 'Your kingdom come, your will be done, on earth as it is in heaven.'",
+        "reference": "Mat.6.10"
+      }
+    ],
+    "original_language": {
+      "greek": "basileia tou theou (βασιλεία τοῦ θεοῦ)",
+      "strongs": "G932",
+      "meaning": "royal power, kingship, dominion, rule"
+    },
+    "related_terms": ["reign", "heaven", "eternal life"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "eternal-life",
+    "term": "Eternal Life",
+    "simple_definition": "Life without end—but more than duration; it's a quality of life in relationship with God.",
+    "expanded": "Eternal life is not just living forever. Jesus defined it as knowing God. It is a present possession for believers (they 'have' eternal life now) and a future hope (resurrection and life in the new creation).",
+    "scripture_references": [
+      {
+        "text": "Jesus defined: 'This is eternal life, that they know you, the only true God, and Jesus Christ whom you have sent.'",
+        "reference": "Joh.17.3"
+      },
+      {
+        "text": "Jesus said: 'Whoever believes in the Son has eternal life.'",
+        "reference": "Joh.3.36"
+      },
+      {
+        "text": "John wrote: 'God gave us eternal life, and this life is in his Son.'",
+        "reference": "1Jo.5.11"
+      }
+    ],
+    "original_language": {
+      "greek": "zoe aionios (ζωὴ αἰώνιος)",
+      "strongs": "G166, G2222",
+      "meaning": "life of the age to come, perpetual life"
+    },
+    "related_terms": ["salvation", "resurrection", "heaven"],
+    "category": "Salvation"
+  },
+  {
+    "id": "baptism",
+    "term": "Baptism",
+    "simple_definition": "Immersion in water—an outward sign of an inward change, identifying with Christ.",
+    "expanded": "Baptism involves being immersed in (or having water applied). It symbolizes death to the old life and resurrection to new life. Different Christian traditions practice it differently (immersion, pouring, sprinkling; infant or believer).",
+    "scripture_references": [
+      {
+        "text": "Jesus commanded: 'Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.'",
+        "reference": "Mat.28.19"
+      },
+      {
+        "text": "Paul wrote: 'We were buried therefore with him by baptism into death, in order that... we too might walk in newness of life.'",
+        "reference": "Rom.6.4"
+      },
+      {
+        "text": "Peter preached: 'Repent and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins.'",
+        "reference": "Act.2.38"
+      }
+    ],
+    "original_language": {
+      "greek": "baptizo (βαπτίζω)",
+      "strongs": "G907",
+      "meaning": "to dip, immerse, submerge"
+    },
+    "related_terms": ["washing", "regeneration", "symbol"],
+    "category": "Practices"
+  },
+  {
+    "id": "communion",
+    "term": "Communion / Lord's Supper",
+    "simple_definition": "A shared meal remembering Jesus' death—bread representing his body, wine (or juice) representing his blood.",
+    "expanded": "Also called the Lord's Supper, Eucharist, or Breaking of Bread. Jesus instituted it at his last meal with the disciples. Christians practice it to remember his death and proclaim it until he returns.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'This is my body, which is given for you. Do this in remembrance of me.'",
+        "reference": "Luk.22.19"
+      },
+      {
+        "text": "Paul wrote: 'For as often as you eat this bread and drink the cup, you proclaim the Lord's death until he comes.'",
+        "reference": "1Co.11.26"
+      },
+      {
+        "text": "Jesus said: 'This cup is the new covenant in my blood.'",
+        "reference": "Luk.22.20"
+      }
+    ],
+    "original_language": {
+      "greek": "koinonia (κοινωνία)",
+      "strongs": "G2842",
+      "meaning": "fellowship, sharing, participation"
+    },
+    "related_terms": ["eucharist", "remembrance", "covenant"],
+    "category": "Practices"
+  },
+  {
+    "id": "church",
+    "term": "Church",
+    "simple_definition": "The gathering of believers—not a building, but people called together by God.",
+    "expanded": "The Greek word means 'called out ones' or 'assembly.' It can refer to a local congregation or all believers everywhere. Scripture describes the church as Christ's body, a temple, and a family.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'On this rock I will build my church.'",
+        "reference": "Mat.16.18"
+      },
+      {
+        "text": "Paul described: 'The church, which is his body.'",
+        "reference": "Eph.1.22-23"
+      },
+      {
+        "text": "Jesus said: 'Where two or three are gathered in my name, there am I among them.'",
+        "reference": "Mat.18.20"
+      }
+    ],
+    "original_language": {
+      "greek": "ekklesia (ἐκκλησία)",
+      "strongs": "G1577",
+      "meaning": "assembly, congregation, those called out"
+    },
+    "related_terms": ["body of Christ", "congregation", "fellowship"],
+    "category": "Practices"
+  },
+  {
+    "id": "covenant",
+    "term": "Covenant",
+    "simple_definition": "A binding agreement—like a contract or treaty, but deeper; a committed relationship with obligations.",
+    "expanded": "Biblical covenants are solemn agreements, often between God and people. Major covenants include those with Noah, Abraham, Moses (Sinai), David, and the New Covenant through Jesus.",
+    "scripture_references": [
+      {
+        "text": "God established a covenant with Noah: 'I establish my covenant with you.'",
+        "reference": "Gen.9.11"
+      },
+      {
+        "text": "Jesus said: 'This cup is the new covenant in my blood.'",
+        "reference": "Luk.22.20"
+      },
+      {
+        "text": "Jeremiah prophesied: 'I will make a new covenant with the house of Israel.'",
+        "reference": "Jer.31.31"
+      }
+    ],
+    "original_language": {
+      "hebrew": "berit (בְּרִית)",
+      "strongs": "H1285",
+      "meaning": "covenant, alliance, pledge"
+    },
+    "related_terms": ["promise", "testament", "agreement"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "messiah",
+    "term": "Messiah / Christ",
+    "simple_definition": "The Anointed One—the promised deliverer that Israel expected.",
+    "expanded": "Messiah (Hebrew) and Christ (Greek) both mean 'anointed one.' In Israel, kings and priests were anointed with oil. The Messiah was the promised king from David's line who would deliver God's people.",
+    "scripture_references": [
+      {
+        "text": "Peter declared: 'You are the Christ, the Son of the living God.'",
+        "reference": "Mat.16.16"
+      },
+      {
+        "text": "Andrew told Simon: 'We have found the Messiah (which means Christ).'",
+        "reference": "Joh.1.41"
+      },
+      {
+        "text": "Daniel prophesied of 'Messiah the Prince.'",
+        "reference": "Dan.9.25"
+      }
+    ],
+    "original_language": {
+      "hebrew": "mashiach (מָשִׁיחַ)",
+      "greek": "christos (Χριστός)",
+      "strongs": "H4899, G5547",
+      "meaning": "anointed one"
+    },
+    "related_terms": ["Jesus", "savior", "king"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "lord",
+    "term": "Lord",
+    "simple_definition": "Master or ruler—one who has authority and deserves obedience.",
+    "expanded": "Lord can mean master, sir, or owner. When applied to God (LORD in capitals), it represents the divine name YHWH. Calling Jesus 'Lord' is a declaration of his authority and deity.",
+    "scripture_references": [
+      {
+        "text": "Thomas declared: 'My Lord and my God!'",
+        "reference": "Joh.20.28"
+      },
+      {
+        "text": "Paul wrote: 'If you confess with your mouth that Jesus is Lord... you will be saved.'",
+        "reference": "Rom.10.9"
+      },
+      {
+        "text": "Paul wrote: 'Every tongue confess that Jesus Christ is Lord, to the glory of God the Father.'",
+        "reference": "Phi.2.11"
+      }
+    ],
+    "original_language": {
+      "greek": "kyrios (κύριος)",
+      "strongs": "G2962",
+      "meaning": "master, lord, one having authority"
+    },
+    "related_terms": ["master", "God", "authority"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "salvation",
+    "term": "Salvation",
+    "simple_definition": "Being rescued or delivered—saved from danger, harm, or in spiritual terms, from sin and its consequences.",
+    "expanded": "Salvation encompasses the whole of God's rescue: from sin's penalty (justification), sin's power (sanctification), and sin's presence (glorification). It is past (we have been saved), present (we are being saved), and future (we will be saved).",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'For by grace you have been saved through faith.'",
+        "reference": "Eph.2.8"
+      },
+      {
+        "text": "Paul wrote: 'The gospel... is the power of God for salvation to everyone who believes.'",
+        "reference": "Rom.1.16"
+      },
+      {
+        "text": "Peter preached: 'There is salvation in no one else.'",
+        "reference": "Act.4.12"
+      }
+    ],
+    "original_language": {
+      "greek": "soteria (σωτηρία)",
+      "strongs": "G4991",
+      "meaning": "deliverance, preservation, safety"
+    },
+    "related_terms": ["redemption", "deliverance", "rescue"],
+    "category": "Salvation"
+  },
+  {
+    "id": "forgiveness",
+    "term": "Forgiveness",
+    "simple_definition": "Releasing a debt—choosing not to hold an offense against someone anymore.",
+    "expanded": "Forgiveness means letting go of the right to punish or seek payment for a wrong. Divine forgiveness releases people from the penalty of sin. Human forgiveness releases others from debts owed.",
+    "scripture_references": [
+      {
+        "text": "John wrote: 'If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.'",
+        "reference": "1Jo.1.9"
+      },
+      {
+        "text": "Jesus taught: 'Forgive us our debts, as we also have forgiven our debtors.'",
+        "reference": "Mat.6.12"
+      },
+      {
+        "text": "Paul wrote: 'Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.'",
+        "reference": "Eph.4.32"
+      }
+    ],
+    "original_language": {
+      "greek": "aphesis (ἄφεσις)",
+      "strongs": "G859",
+      "meaning": "release, pardon, cancellation of debt"
+    },
+    "related_terms": ["pardon", "mercy", "reconciliation"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "mercy",
+    "term": "Mercy",
+    "simple_definition": "Compassion in action—not getting the punishment you deserve.",
+    "expanded": "Mercy is often contrasted with grace: mercy is not receiving the bad we deserve; grace is receiving the good we don't deserve. Both flow from God's compassion toward those in need.",
+    "scripture_references": [
+      {
+        "text": "James wrote: 'Mercy triumphs over judgment.'",
+        "reference": "Jam.2.13"
+      },
+      {
+        "text": "Paul wrote: 'God, being rich in mercy, because of the great love with which he loved us... made us alive.'",
+        "reference": "Eph.2.4-5"
+      },
+      {
+        "text": "Jesus said: 'Blessed are the merciful, for they shall receive mercy.'",
+        "reference": "Mat.5.7"
+      }
+    ],
+    "original_language": {
+      "greek": "eleos (ἔλεος)",
+      "strongs": "G1656",
+      "meaning": "compassion, pity, kindness"
+    },
+    "related_terms": ["grace", "compassion", "forgiveness"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "born-again",
+    "term": "Born Again",
+    "simple_definition": "Spiritual rebirth—starting over with a new life from God.",
+    "expanded": "Jesus used this phrase with Nicodemus. Being 'born again' (or 'born from above') refers to spiritual regeneration—receiving new life from God through the Spirit. It is the beginning of spiritual life.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'Unless one is born again he cannot see the kingdom of God.'",
+        "reference": "Joh.3.3"
+      },
+      {
+        "text": "Jesus explained: 'That which is born of the flesh is flesh, and that which is born of the Spirit is spirit.'",
+        "reference": "Joh.3.6"
+      },
+      {
+        "text": "Peter wrote: 'You have been born again, not of perishable seed but of imperishable, through the living and abiding word of God.'",
+        "reference": "1Pe.1.23"
+      }
+    ],
+    "original_language": {
+      "greek": "gennao anothen (γεννάω ἄνωθεν)",
+      "strongs": "G1080, G509",
+      "meaning": "born again, born from above"
+    },
+    "related_terms": ["regeneration", "new creation", "conversion"],
+    "category": "Salvation"
+  },
+  {
+    "id": "regeneration",
+    "term": "Regeneration",
+    "simple_definition": "Being made new—God giving spiritual life to what was spiritually dead.",
+    "expanded": "Regeneration is the act of God giving new life. It is what happens when someone is 'born again.' Scripture describes it as being made alive, given a new heart, and becoming a new creation.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'He saved us... by the washing of regeneration and renewal of the Holy Spirit.'",
+        "reference": "Tit.3.5"
+      },
+      {
+        "text": "Paul wrote: 'If anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.'",
+        "reference": "2Co.5.17"
+      },
+      {
+        "text": "God promised: 'I will give you a new heart, and a new spirit I will put within you.'",
+        "reference": "Eze.36.26"
+      }
+    ],
+    "original_language": {
+      "greek": "palingenesia (παλιγγενεσία)",
+      "strongs": "G3824",
+      "meaning": "new birth, regeneration, renewal"
+    },
+    "related_terms": ["born again", "new creation", "renewal"],
+    "category": "Salvation"
+  },
+  {
+    "id": "glorification",
+    "term": "Glorification",
+    "simple_definition": "The final transformation—when believers receive resurrection bodies and are completely freed from sin.",
+    "expanded": "Glorification is the future and final aspect of salvation. It refers to the transformation believers will experience at the resurrection—receiving new bodies and being fully conformed to Christ's image.",
+    "scripture_references": [
+      {
+        "text": "Paul wrote: 'Those whom he justified he also glorified.'",
+        "reference": "Rom.8.30"
+      },
+      {
+        "text": "Paul wrote: 'Our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body.'",
+        "reference": "Phi.3.20-21"
+      },
+      {
+        "text": "John wrote: 'When he appears we shall be like him, because we shall see him as he is.'",
+        "reference": "1Jo.3.2"
+      }
+    ],
+    "original_language": {
+      "greek": "doxazo (δοξάζω)",
+      "strongs": "G1392",
+      "meaning": "to render glorious, to honor"
+    },
+    "related_terms": ["resurrection", "transformation", "heaven"],
+    "category": "Salvation"
+  },
+  {
+    "id": "trinity",
+    "term": "Trinity",
+    "simple_definition": "One God in three persons—Father, Son, and Holy Spirit, distinct yet one.",
+    "expanded": "The word 'Trinity' doesn't appear in Scripture, but the concept does: one God exists eternally as three distinct persons. Each is fully God; there is one God, not three. Christians have used 'Trinity' since the early centuries to describe this teaching.",
+    "scripture_references": [
+      {
+        "text": "Jesus commanded baptism 'in the name of the Father and of the Son and of the Holy Spirit.'",
+        "reference": "Mat.28.19"
+      },
+      {
+        "text": "Paul wrote: 'The grace of the Lord Jesus Christ and the love of God and the fellowship of the Holy Spirit be with you all.'",
+        "reference": "2Co.13.14"
+      },
+      {
+        "text": "The Shema declares: 'Hear, O Israel: The LORD our God, the LORD is one.'",
+        "reference": "Deu.6.4"
+      }
+    ],
+    "original_language": {
+      "latin": "trinitas",
+      "meaning": "threeness, triad"
+    },
+    "related_terms": ["God", "Father", "Son", "Holy Spirit"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "holy-spirit",
+    "term": "Holy Spirit",
+    "simple_definition": "God's presence and power at work—the third person of the Trinity who lives in believers.",
+    "expanded": "The Holy Spirit is fully God, not an impersonal force. Scripture describes him as speaking, teaching, guiding, grieving, and interceding. He convicts of sin, regenerates believers, and empowers for service.",
+    "scripture_references": [
+      {
+        "text": "Jesus promised: 'The Helper, the Holy Spirit, whom the Father will send in my name, he will teach you all things.'",
+        "reference": "Joh.14.26"
+      },
+      {
+        "text": "Paul wrote: 'Do you not know that your body is a temple of the Holy Spirit within you?'",
+        "reference": "1Co.6.19"
+      },
+      {
+        "text": "At Pentecost, 'they were all filled with the Holy Spirit.'",
+        "reference": "Act.2.4"
+      }
+    ],
+    "original_language": {
+      "greek": "pneuma hagion (πνεῦμα ἅγιον)",
+      "strongs": "G4151, G40",
+      "meaning": "Holy Spirit, Holy Breath/Wind"
+    },
+    "related_terms": ["Spirit", "Comforter", "Helper"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "resurrection",
+    "term": "Resurrection",
+    "simple_definition": "Coming back to life bodily—not just the soul surviving, but the body being raised.",
+    "expanded": "Resurrection is more than survival after death or a spiritual existence. It is bodily rising from death to life. Jesus' resurrection was physical—he ate, could be touched, yet also passed through doors.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live.'",
+        "reference": "Joh.11.25"
+      },
+      {
+        "text": "Paul wrote: 'If Christ has not been raised, your faith is futile.'",
+        "reference": "1Co.15.17"
+      },
+      {
+        "text": "Paul wrote: 'The dead will be raised imperishable, and we shall be changed.'",
+        "reference": "1Co.15.52"
+      }
+    ],
+    "original_language": {
+      "greek": "anastasis (ἀνάστασις)",
+      "strongs": "G386",
+      "meaning": "a standing up, rising"
+    },
+    "related_terms": ["life", "body", "glorification"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "heaven",
+    "term": "Heaven",
+    "simple_definition": "God's dwelling place—and the future home of believers, or the renewed creation.",
+    "expanded": "Heaven can refer to the sky, the cosmos, or God's dwelling place. For believers, it is being with God after death. Revelation describes the ultimate hope as a 'new heaven and new earth' where God dwells with his people.",
+    "scripture_references": [
+      {
+        "text": "Jesus promised: 'In my Father's house are many rooms... I go to prepare a place for you.'",
+        "reference": "Joh.14.2"
+      },
+      {
+        "text": "Paul wrote: 'Our citizenship is in heaven.'",
+        "reference": "Phi.3.20"
+      },
+      {
+        "text": "John saw: 'A new heaven and a new earth... And I heard a loud voice from the throne saying, \"Behold, the dwelling place of God is with man.\"'",
+        "reference": "Rev.21.1-3"
+      }
+    ],
+    "original_language": {
+      "greek": "ouranos (οὐρανός)",
+      "strongs": "G3772",
+      "meaning": "sky, heaven, the abode of God"
+    },
+    "related_terms": ["paradise", "eternal life", "new creation"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "hell",
+    "term": "Hell / Gehenna",
+    "simple_definition": "A place of final judgment—separation from God and punishment for those who reject him.",
+    "expanded": "Several terms are translated 'hell': Gehenna (place of final punishment), Hades (realm of the dead), and Tartarus (where fallen angels are held). Jesus spoke of Gehenna as a place of fire and destruction.",
+    "scripture_references": [
+      {
+        "text": "Jesus warned: 'Do not fear those who kill the body but cannot kill the soul. Rather fear him who can destroy both soul and body in hell.'",
+        "reference": "Mat.10.28"
+      },
+      {
+        "text": "Jesus described Gehenna as a place 'where their worm does not die and the fire is not quenched.'",
+        "reference": "Mar.9.48"
+      },
+      {
+        "text": "Revelation describes the lake of fire as 'the second death.'",
+        "reference": "Rev.20.14-15"
+      }
+    ],
+    "original_language": {
+      "greek": "geenna (γέεννα)",
+      "strongs": "G1067",
+      "meaning": "Gehenna, Valley of Hinnom"
+    },
+    "related_terms": ["judgment", "punishment", "death"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "prophet",
+    "term": "Prophet",
+    "simple_definition": "God's spokesperson—someone who speaks God's message to people.",
+    "expanded": "A prophet is not primarily a fortune-teller but a forth-teller—speaking God's word to their generation. This often included warnings, calls to repentance, and sometimes predictions of future events.",
+    "scripture_references": [
+      {
+        "text": "God told Moses: 'I will raise up for them a prophet like you from among their brothers. And I will put my words in his mouth.'",
+        "reference": "Deu.18.18"
+      },
+      {
+        "text": "Peter wrote: 'Men spoke from God as they were carried along by the Holy Spirit.'",
+        "reference": "2Pe.1.21"
+      },
+      {
+        "text": "Hebrews opens: 'Long ago, at many times and in many ways, God spoke to our fathers by the prophets.'",
+        "reference": "Heb.1.1"
+      }
+    ],
+    "original_language": {
+      "hebrew": "navi (נָבִיא)",
+      "strongs": "H5030",
+      "meaning": "spokesman, speaker, prophet"
+    },
+    "related_terms": ["prophecy", "revelation", "word of God"],
+    "category": "Biblical Roles"
+  },
+  {
+    "id": "apostle",
+    "term": "Apostle",
+    "simple_definition": "One sent out—specifically, the original disciples sent by Jesus to spread the message.",
+    "expanded": "The word means 'sent one.' It refers primarily to the twelve disciples Jesus chose and commissioned, plus Paul. They had authority to establish churches and write Scripture.",
+    "scripture_references": [
+      {
+        "text": "Jesus 'called his disciples and chose from them twelve, whom he named apostles.'",
+        "reference": "Luk.6.13"
+      },
+      {
+        "text": "Paul described his calling: 'Paul, an apostle—not from men nor through man, but through Jesus Christ and God the Father.'",
+        "reference": "Gal.1.1"
+      },
+      {
+        "text": "The church was 'built on the foundation of the apostles and prophets.'",
+        "reference": "Eph.2.20"
+      }
+    ],
+    "original_language": {
+      "greek": "apostolos (ἀπόστολος)",
+      "strongs": "G652",
+      "meaning": "one sent, messenger, delegate"
+    },
+    "related_terms": ["disciple", "missionary", "witness"],
+    "category": "Biblical Roles"
+  },
+  {
+    "id": "disciple",
+    "term": "Disciple",
+    "simple_definition": "A learner or student—someone who follows a teacher to learn their ways.",
+    "expanded": "A disciple is more than a student in a classroom. In the biblical world, disciples lived with their teacher, learned their way of life, and aimed to become like them. Jesus' disciples followed him, learned from him, and were sent to make more disciples.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'A disciple is not above his teacher, but everyone when he is fully trained will be like his teacher.'",
+        "reference": "Luk.6.40"
+      },
+      {
+        "text": "Jesus commanded: 'Go therefore and make disciples of all nations.'",
+        "reference": "Mat.28.19"
+      },
+      {
+        "text": "Jesus said: 'By this all people will know that you are my disciples, if you have love for one another.'",
+        "reference": "Joh.13.35"
+      }
+    ],
+    "original_language": {
+      "greek": "mathetes (μαθητής)",
+      "strongs": "G3101",
+      "meaning": "learner, pupil, follower"
+    },
+    "related_terms": ["follower", "student", "believer"],
+    "category": "Biblical Roles"
+  },
+  {
+    "id": "priest",
+    "term": "Priest",
+    "simple_definition": "A mediator between God and people—one who offers sacrifices and represents the people before God.",
+    "expanded": "In the Old Testament, priests from the tribe of Levi offered sacrifices and served in the tabernacle/temple. The New Testament presents Jesus as the ultimate high priest, and all believers as a 'priesthood.'",
+    "scripture_references": [
+      {
+        "text": "Hebrews states: 'We have a great high priest who has passed through the heavens, Jesus, the Son of God.'",
+        "reference": "Heb.4.14"
+      },
+      {
+        "text": "Peter wrote: 'You are a chosen race, a royal priesthood.'",
+        "reference": "1Pe.2.9"
+      },
+      {
+        "text": "The high priest entered the Holy of Holies once a year to make atonement.",
+        "reference": "Heb.9.7"
+      }
+    ],
+    "original_language": {
+      "hebrew": "kohen (כֹּהֵן)",
+      "strongs": "H3548",
+      "meaning": "priest, one who officiates"
+    },
+    "related_terms": ["sacrifice", "mediator", "temple"],
+    "category": "Biblical Roles"
+  },
+  {
+    "id": "sacrifice",
+    "term": "Sacrifice",
+    "simple_definition": "An offering given up—something valuable presented to God, often involving the death of an animal.",
+    "expanded": "Old Testament sacrifices were offerings to God for various purposes: atonement for sin, thanksgiving, fellowship. The New Testament presents Jesus' death as the ultimate sacrifice that ended the need for animal sacrifices.",
+    "scripture_references": [
+      {
+        "text": "Hebrews states: 'Without the shedding of blood there is no forgiveness of sins.'",
+        "reference": "Heb.9.22"
+      },
+      {
+        "text": "John the Baptist declared: 'Behold, the Lamb of God, who takes away the sin of the world!'",
+        "reference": "Joh.1.29"
+      },
+      {
+        "text": "Paul wrote: 'Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God.'",
+        "reference": "Eph.5.2"
+      }
+    ],
+    "original_language": {
+      "greek": "thysia (θυσία)",
+      "strongs": "G2378",
+      "meaning": "sacrifice, victim, offering"
+    },
+    "related_terms": ["offering", "atonement", "blood"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "word-of-god",
+    "term": "Word of God",
+    "simple_definition": "God's communication—referring to Scripture, to Jesus himself, or to God's spoken message.",
+    "expanded": "Scripture uses 'word of God' in three ways: the written Scriptures, the spoken message of God, and Jesus Christ himself (as the Word made flesh). All three are ways God reveals himself.",
+    "scripture_references": [
+      {
+        "text": "John wrote: 'In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh.'",
+        "reference": "Joh.1.1,14"
+      },
+      {
+        "text": "Hebrews states: 'The word of God is living and active, sharper than any two-edged sword.'",
+        "reference": "Heb.4.12"
+      },
+      {
+        "text": "Jesus prayed: 'Sanctify them in the truth; your word is truth.'",
+        "reference": "Joh.17.17"
+      }
+    ],
+    "original_language": {
+      "greek": "logos (λόγος)",
+      "strongs": "G3056",
+      "meaning": "word, speech, message, reason"
+    },
+    "related_terms": ["Scripture", "Bible", "revelation"],
+    "category": "Core Concepts"
+  },
+  {
+    "id": "amen",
+    "term": "Amen",
+    "simple_definition": "So be it—a word of affirmation meaning 'truly' or 'I agree.'",
+    "expanded": "Amen comes from a Hebrew word meaning firm, faithful, or true. It is used to affirm what has been said, to agree with a prayer, or to emphasize truth. Jesus used 'Amen, amen' (truly, truly) to introduce important statements.",
+    "scripture_references": [
+      {
+        "text": "Jesus said: 'Amen, amen, I say to you, whoever believes has eternal life.'",
+        "reference": "Joh.6.47"
+      },
+      {
+        "text": "Paul wrote: 'For all the promises of God find their Yes in him. That is why it is through him that we utter our Amen to God.'",
+        "reference": "2Co.1.20"
+      },
+      {
+        "text": "The people responded 'Amen' to the blessings and curses read by the Levites.",
+        "reference": "Deu.27.15-26"
+      }
+    ],
+    "original_language": {
+      "hebrew": "amen (אָמֵן)",
+      "strongs": "H543",
+      "meaning": "truly, so be it, may it be fulfilled"
+    },
+    "related_terms": ["truth", "affirmation", "agreement"],
+    "category": "Worship"
+  },
+  {
+    "id": "hallelujah",
+    "term": "Hallelujah / Alleluia",
+    "simple_definition": "Praise the LORD—an exclamation of worship.",
+    "expanded": "Hallelujah is Hebrew for 'Praise Yah' (Yah being short for YHWH/Yahweh). It appears frequently in the Psalms and in Revelation's heavenly worship scenes.",
+    "scripture_references": [
+      {
+        "text": "The psalmist wrote: 'Praise the LORD! Praise God in his sanctuary... Let everything that has breath praise the LORD!'",
+        "reference": "Psa.150.1,6"
+      },
+      {
+        "text": "John heard: 'A great multitude in heaven, crying out, \"Hallelujah! Salvation and glory and power belong to our God.\"'",
+        "reference": "Rev.19.1"
+      }
+    ],
+    "original_language": {
+      "hebrew": "halelu-Yah (הַלְלוּ־יָהּ)",
+      "strongs": "H1984, H3050",
+      "meaning": "praise Yah (the LORD)"
+    },
+    "related_terms": ["praise", "worship", "glory"],
+    "category": "Worship"
+  },
+  {
+    "id": "selah",
+    "term": "Selah",
+    "simple_definition": "A musical or liturgical notation in the Psalms—possibly meaning 'pause' or 'lift up.'",
+    "expanded": "Selah appears 71 times in Psalms and 3 times in Habakkuk. Its exact meaning is uncertain. It may indicate a musical interlude, a pause for reflection, or a call to lift up voices or instruments.",
+    "scripture_references": [
+      {
+        "text": "The psalmist wrote: 'Know that the LORD, he is God! It is he who made us, and we are his. Selah.'",
+        "reference": "Psa.100.3"
+      },
+      {
+        "text": "David wrote: 'But you, O LORD, are a shield about me, my glory, and the lifter of my head. Selah.'",
+        "reference": "Psa.3.3"
+      }
+    ],
+    "original_language": {
+      "hebrew": "selah (סֶלָה)",
+      "strongs": "H5542",
+      "meaning": "uncertain; possibly 'pause' or 'lift up'"
+    },
+    "related_terms": ["psalm", "music", "worship"],
+    "category": "Worship"
+  }
+]

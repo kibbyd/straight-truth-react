@@ -1,0 +1,206 @@
+{
+  "_meta": {
+    "description": "Names and titles of God in the Bible",
+    "note": "Includes Hebrew (OT) and Greek (NT) names with meanings"
+  },
+  "names": [
+    {
+      "name": "Elohim",
+      "language": "Hebrew",
+      "meaning": "God (plural of majesty)",
+      "strongs": "H430",
+      "references": ["Gen.1.1"],
+      "usage": "Used over 2,500 times; emphasizes God's power and might"
+    },
+    {
+      "name": "YHWH (Yahweh)",
+      "language": "Hebrew",
+      "meaning": "The LORD, I AM",
+      "strongs": "H3068",
+      "references": ["Exo.3.14-15"],
+      "usage": "The personal covenant name of God; occurs over 6,800 times"
+    },
+    {
+      "name": "Adonai",
+      "language": "Hebrew",
+      "meaning": "Lord, Master",
+      "strongs": "H136",
+      "references": ["Gen.15.2"],
+      "usage": "Emphasizes God's authority and lordship"
+    },
+    {
+      "name": "El Shaddai",
+      "language": "Hebrew",
+      "meaning": "God Almighty",
+      "strongs": "H7706",
+      "references": ["Gen.17.1"],
+      "usage": "Emphasizes God's all-sufficient power"
+    },
+    {
+      "name": "El Elyon",
+      "language": "Hebrew",
+      "meaning": "Most High God",
+      "strongs": "H5945",
+      "references": ["Gen.14.18-20"],
+      "usage": "Emphasizes God's supreme position"
+    },
+    {
+      "name": "El Olam",
+      "language": "Hebrew",
+      "meaning": "Everlasting God",
+      "strongs": "H5769",
+      "references": ["Gen.21.33"],
+      "usage": "Emphasizes God's eternal nature"
+    },
+    {
+      "name": "El Roi",
+      "language": "Hebrew",
+      "meaning": "God Who Sees",
+      "strongs": "H7210",
+      "references": ["Gen.16.13"],
+      "usage": "Hagar's name for God after He saw her distress"
+    },
+    {
+      "name": "YHWH Yireh",
+      "language": "Hebrew",
+      "meaning": "The LORD Will Provide",
+      "strongs": "H3070",
+      "references": ["Gen.22.14"],
+      "usage": "Abraham's name for the place where God provided a ram"
+    },
+    {
+      "name": "YHWH Rapha",
+      "language": "Hebrew",
+      "meaning": "The LORD Who Heals",
+      "strongs": "H7495",
+      "references": ["Exo.15.26"],
+      "usage": "Revealed at Marah regarding Israel's health"
+    },
+    {
+      "name": "YHWH Nissi",
+      "language": "Hebrew",
+      "meaning": "The LORD Is My Banner",
+      "strongs": "H5251",
+      "references": ["Exo.17.15"],
+      "usage": "Moses' altar name after victory over Amalek"
+    },
+    {
+      "name": "YHWH Shalom",
+      "language": "Hebrew",
+      "meaning": "The LORD Is Peace",
+      "strongs": "H7965",
+      "references": ["Jdg.6.24"],
+      "usage": "Gideon's altar name after seeing the Angel of the LORD"
+    },
+    {
+      "name": "YHWH Sabaoth",
+      "language": "Hebrew",
+      "meaning": "The LORD of Hosts",
+      "strongs": "H6635",
+      "references": ["1Sa.1.3"],
+      "usage": "Emphasizes God's command of heavenly armies"
+    },
+    {
+      "name": "YHWH Rohi",
+      "language": "Hebrew",
+      "meaning": "The LORD Is My Shepherd",
+      "strongs": "H7462",
+      "references": ["Psa.23.1"],
+      "usage": "David's declaration of God's care"
+    },
+    {
+      "name": "YHWH Tsidkenu",
+      "language": "Hebrew",
+      "meaning": "The LORD Our Righteousness",
+      "strongs": "H6664",
+      "references": ["Jer.23.6"],
+      "usage": "Messianic title prophesied by Jeremiah"
+    },
+    {
+      "name": "YHWH Shammah",
+      "language": "Hebrew",
+      "meaning": "The LORD Is There",
+      "strongs": "H8033",
+      "references": ["Eze.48.35"],
+      "usage": "Name of the eschatological city in Ezekiel's vision"
+    },
+    {
+      "name": "Qanna",
+      "language": "Hebrew",
+      "meaning": "Jealous",
+      "strongs": "H7067",
+      "references": ["Exo.34.14"],
+      "usage": "Describes God's righteous jealousy for His people"
+    },
+    {
+      "name": "Attiq Yomin",
+      "language": "Aramaic",
+      "meaning": "Ancient of Days",
+      "strongs": "H6268",
+      "references": ["Dan.7.9"],
+      "usage": "Daniel's vision of God on His throne"
+    },
+    {
+      "name": "Theos",
+      "language": "Greek",
+      "meaning": "God",
+      "strongs": "G2316",
+      "references": ["Joh.1.1"],
+      "usage": "General Greek word for God; used over 1,300 times in NT"
+    },
+    {
+      "name": "Kyrios",
+      "language": "Greek",
+      "meaning": "Lord",
+      "strongs": "G2962",
+      "references": ["Mat.22.44"],
+      "usage": "Greek equivalent of Adonai; applied to Jesus"
+    },
+    {
+      "name": "Pater",
+      "language": "Greek",
+      "meaning": "Father",
+      "strongs": "G3962",
+      "references": ["Mat.6.9"],
+      "usage": "Jesus' characteristic address for God"
+    },
+    {
+      "name": "Abba",
+      "language": "Aramaic",
+      "meaning": "Father (intimate)",
+      "strongs": "G5",
+      "references": ["Mar.14.36", "Rom.8.15", "Gal.4.6"],
+      "usage": "Intimate term for father; used by Jesus and believers"
+    },
+    {
+      "name": "Pantokrator",
+      "language": "Greek",
+      "meaning": "Almighty, Ruler of All",
+      "strongs": "G3841",
+      "references": ["Rev.1.8"],
+      "usage": "Emphasizes God's supreme power; used in Revelation"
+    },
+    {
+      "name": "Alpha and Omega",
+      "language": "Greek",
+      "meaning": "The First and the Last",
+      "strongs": "G1",
+      "references": ["Rev.1.8", "Rev.22.13"],
+      "usage": "God as beginning and end of all things"
+    },
+    {
+      "name": "I AM",
+      "language": "Greek",
+      "meaning": "Ego Eimi",
+      "strongs": "G1510",
+      "references": ["Joh.8.58"],
+      "usage": "Jesus' claim to deity, echoing Exodus 3:14"
+    }
+  ],
+  "categories": {
+    "Primary Names": "Elohim, YHWH, Adonai",
+    "Compound Names": "Names combined with YHWH or El",
+    "Descriptive Titles": "Characteristics and attributes of God",
+    "NT Names": "Greek names and titles used in the New Testament"
+  }
+}

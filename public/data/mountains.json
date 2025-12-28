@@ -1,0 +1,220 @@
+{
+  "_meta": {
+    "description": "Biblical mountains and hills",
+    "source": "Direct biblical text references",
+    "total_mountains": 30,
+    "method": "Curated list of named mountains in Scripture"
+  },
+  "mountains": [
+    {
+      "name": "Sinai",
+      "category": "Major Mountains",
+      "reference": "Exo.19.11",
+      "description": "Mountain where Moses received the Law",
+      "restricted": false
+    },
+    {
+      "name": "Horeb",
+      "category": "Major Mountains",
+      "reference": "Exo.3.1",
+      "description": "Mountain of God, another name for Sinai",
+      "restricted": false
+    },
+    {
+      "name": "Ararat",
+      "category": "Major Mountains",
+      "reference": "Gen.8.4",
+      "description": "Where Noah's ark came to rest",
+      "restricted": false
+    },
+    {
+      "name": "Moriah",
+      "category": "Major Mountains",
+      "reference": "Gen.22.2",
+      "description": "Where Abraham was to sacrifice Isaac, site of the Temple",
+      "restricted": false
+    },
+    {
+      "name": "Zion",
+      "category": "Major Mountains",
+      "reference": "2Sa.5.7",
+      "description": "Hill in Jerusalem, City of David",
+      "restricted": false
+    },
+    {
+      "name": "Carmel",
+      "category": "Major Mountains",
+      "reference": "1Ki.18.19",
+      "description": "Site of Elijah's contest with Baal prophets",
+      "restricted": false
+    },
+    {
+      "name": "Hermon",
+      "category": "Major Mountains",
+      "reference": "Deu.3.8",
+      "description": "Highest mountain in Israel region",
+      "restricted": false
+    },
+    {
+      "name": "Tabor",
+      "category": "Major Mountains",
+      "reference": "Jdg.4.6",
+      "description": "Mountain in Galilee, traditional site of Transfiguration",
+      "restricted": false
+    },
+    {
+      "name": "Nebo",
+      "category": "Major Mountains",
+      "reference": "Deu.32.49",
+      "description": "Where Moses viewed the Promised Land and died",
+      "restricted": false
+    },
+    {
+      "name": "Pisgah",
+      "category": "Major Mountains",
+      "reference": "Deu.3.27",
+      "description": "Peak where Moses viewed Canaan",
+      "restricted": false
+    },
+    {
+      "name": "Olivet",
+      "category": "Major Mountains",
+      "reference": "2Sa.15.30",
+      "description": "Mount of Olives, east of Jerusalem",
+      "restricted": false
+    },
+    {
+      "name": "Olives",
+      "category": "Major Mountains",
+      "reference": "Zec.14.4",
+      "description": "Mount of Olives",
+      "restricted": false
+    },
+    {
+      "name": "Ebal",
+      "category": "Regional Mountains",
+      "reference": "Deu.11.29",
+      "description": "Mountain of curses opposite Gerizim",
+      "restricted": false
+    },
+    {
+      "name": "Gerizim",
+      "category": "Regional Mountains",
+      "reference": "Deu.11.29",
+      "description": "Mountain of blessings, Samaritan holy site",
+      "restricted": false
+    },
+    {
+      "name": "Gilboa",
+      "category": "Regional Mountains",
+      "reference": "1Sa.31.1",
+      "description": "Where Saul and Jonathan died in battle",
+      "restricted": false
+    },
+    {
+      "name": "Gilead",
+      "category": "Regional Mountains",
+      "reference": "Gen.31.21",
+      "description": "Mountain region east of Jordan",
+      "restricted": true
+    },
+    {
+      "name": "Seir",
+      "category": "Regional Mountains",
+      "reference": "Gen.14.6",
+      "description": "Mountain region of Edom",
+      "restricted": false
+    },
+    {
+      "name": "Hor",
+      "category": "Regional Mountains",
+      "reference": "Num.20.22",
+      "description": "Where Aaron died",
+      "restricted": false
+    },
+    {
+      "name": "Bashan",
+      "category": "Regional Mountains",
+      "reference": "Psa.68.15",
+      "description": "Mountain region east of Galilee",
+      "restricted": true
+    },
+    {
+      "name": "Lebanon",
+      "category": "Regional Mountains",
+      "reference": "Deu.1.7",
+      "description": "Mountain range famous for cedars",
+      "restricted": true
+    },
+    {
+      "name": "Ephraim",
+      "category": "Regional Mountains",
+      "reference": "Jos.17.15",
+      "description": "Hill country of Ephraim",
+      "restricted": true
+    },
+    {
+      "name": "Judah",
+      "category": "Regional Mountains",
+      "reference": "Jos.11.21",
+      "description": "Hill country of Judah",
+      "restricted": true
+    },
+    {
+      "name": "Zalmon",
+      "category": "Minor Mountains",
+      "reference": "Jdg.9.48",
+      "description": "Mountain near Shechem",
+      "restricted": false
+    },
+    {
+      "name": "Halak",
+      "category": "Minor Mountains",
+      "reference": "Jos.11.17",
+      "description": "Mountain marking southern boundary",
+      "restricted": false
+    },
+    {
+      "name": "Mizar",
+      "category": "Minor Mountains",
+      "reference": "Psa.42.6",
+      "description": "Small hill mentioned in Psalms",
+      "restricted": false
+    },
+    {
+      "name": "Perazim",
+      "category": "Minor Mountains",
+      "reference": "Isa.28.21",
+      "description": "Mount Perazim, site of David's victory",
+      "restricted": false
+    },
+    {
+      "name": "Baalah",
+      "category": "Minor Mountains",
+      "reference": "Jos.15.11",
+      "description": "Mount Baalah on Judah's border",
+      "restricted": false
+    },
+    {
+      "name": "Jearim",
+      "category": "Minor Mountains",
+      "reference": "Jos.15.10",
+      "description": "Mount Jearim (Chesalon)",
+      "restricted": false
+    },
+    {
+      "name": "Gaash",
+      "category": "Minor Mountains",
+      "reference": "Jos.24.30",
+      "description": "Hill where Joshua was buried nearby",
+      "restricted": false
+    },
+    {
+      "name": "Heres",
+      "category": "Minor Mountains",
+      "reference": "Jdg.1.35",
+      "description": "Mount Heres in Dan territory",
+      "restricted": false
+    }
+  ]
+}

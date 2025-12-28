@@ -1,0 +1,102 @@
+import { useMemo } from 'react'
+import { useApp } from '../../context/AppContext'
+import { formatVerseRef } from '../../data/bibleBooks'
+
+function StrongsColumn({ columnId, data }) {
+  const { data: appData, lookups, goToVerse } = useApp()
+
+  const strongNum = data?.strongNum
+
+  // Get Strong's entry from lexicon
+  const strongsEntry = useMemo(() => {
+    if (!strongNum) return null
+
+    // Normalize the number (ensure proper format like H0430)
+    let normalizedNum = strongNum.toUpperCase()
+    if (normalizedNum.startsWith('H') || normalizedNum.startsWith('G')) {
+      const prefix = normalizedNum[0]
+      const numPart = normalizedNum.slice(1).padStart(4, '0')
+      normalizedNum = prefix + numPart
+    }
+
+    return appData.strongs.lexicon?.[normalizedNum] || appData.strongs.lexicon?.[strongNum]
+  }, [strongNum, appData.strongs.lexicon])
+
+  // Get all verses containing this Strong's number
+  const occurrences = useMemo(() => {
+    if (!strongNum) return []
+    return lookups.strongsToVerses[strongNum] || []
+  }, [strongNum, lookups.strongsToVerses])
+
+  const isHebrew = strongNum?.startsWith('H')
+
+  if (!strongNum) {
+    return (
+      <div className="strongs-column-content">
+        <div className="strongs-empty">
+          Click on an underlined word in a verse to view Strong's data
+        </div>
+      </div>
+    )
+  }
+
+  if (!strongsEntry) {
+    return (
+      <div className="strongs-column-content">
+        <div className="strongs-header">
+          <div className={`strongs-number-large ${isHebrew ? 'hebrew' : 'greek'}`}>
+            {strongNum}
+          </div>
+          <div className="strongs-meaning-large">
+            No entry found for this Strong's number
+          </div>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="strongs-column-content">
+      <div className="strongs-header">
+        <div className={`strongs-number-large ${isHebrew ? 'hebrew' : 'greek'}`}>
+          {strongsEntry.strong || strongNum}
+        </div>
+        {strongsEntry.original && (
+          <div className="strongs-original-large">{strongsEntry.original}</div>
+        )}
+        {strongsEntry.translit && (
+          <div className="strongs-translit-large">{strongsEntry.translit}</div>
+        )}
+        {strongsEntry.gloss && (
+          <div className="strongs-gloss-large">{strongsEntry.gloss}</div>
+        )}
+        {strongsEntry.meaning && (
+          <div className="strongs-meaning-large">{strongsEntry.meaning}</div>
+        )}
+      </div>
+
+      <div className="strongs-occurrences-header">
+        Occurrences ({occurrences.length})
+      </div>
+
+      <div className="strongs-occurrences-list">
+        {occurrences.slice(0, 100).map(verseId => (
+          <div
+            key={verseId}
+            className="strongs-occurrence-item"
+            onClick={() => goToVerse(verseId)}
+          >
+            <span className="catalogue-ref-link">{formatVerseRef(verseId)}</span>
+          </div>
+        ))}
+        {occurrences.length > 100 && (
+          <div className="strongs-occurrence-more">
+            ... and {occurrences.length - 100} more occurrences
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default StrongsColumn

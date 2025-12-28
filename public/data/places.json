@@ -1,0 +1,843 @@
+{
+  "_meta": {
+    "description": "Biblical places - cities, towns, villages, countries, regions",
+    "source": "Direct biblical text references",
+    "total_places": 120,
+    "method": "Curated list of named locations in Scripture"
+  },
+  "places": [
+    {
+      "name": "Jerusalem",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Jos.10.1",
+      "restricted": false
+    },
+    {
+      "name": "Babylon",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "2Ki.17.24",
+      "restricted": false
+    },
+    {
+      "name": "Nineveh",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.10.11",
+      "restricted": false
+    },
+    {
+      "name": "Damascus",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.14.15",
+      "restricted": false
+    },
+    {
+      "name": "Samaria",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "1Ki.16.24",
+      "restricted": false
+    },
+    {
+      "name": "Bethlehem",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Gen.35.19",
+      "restricted": false
+    },
+    {
+      "name": "Nazareth",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.2.23",
+      "restricted": false
+    },
+    {
+      "name": "Capernaum",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.4.13",
+      "restricted": false
+    },
+    {
+      "name": "Bethany",
+      "type": "village",
+      "category": "Towns",
+      "reference": "Mat.21.17",
+      "restricted": false
+    },
+    {
+      "name": "Jericho",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Num.22.1",
+      "restricted": false
+    },
+    {
+      "name": "Hebron",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.13.18",
+      "restricted": false
+    },
+    {
+      "name": "Shechem",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.12.6",
+      "restricted": false
+    },
+    {
+      "name": "Shiloh",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Jos.18.1",
+      "restricted": false
+    },
+    {
+      "name": "Bethel",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.12.8",
+      "restricted": false
+    },
+    {
+      "name": "Dan",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.14.14",
+      "restricted": true
+    },
+    {
+      "name": "Beersheba",
+      "type": "city",
+      "category": "Major Cities",
+      "reference": "Gen.21.31",
+      "restricted": false
+    },
+    {
+      "name": "Gaza",
+      "type": "city",
+      "category": "Philistine Cities",
+      "reference": "Gen.10.19",
+      "restricted": false
+    },
+    {
+      "name": "Ashkelon",
+      "type": "city",
+      "category": "Philistine Cities",
+      "reference": "Jdg.1.18",
+      "restricted": false
+    },
+    {
+      "name": "Ashdod",
+      "type": "city",
+      "category": "Philistine Cities",
+      "reference": "Jos.11.22",
+      "restricted": false
+    },
+    {
+      "name": "Gath",
+      "type": "city",
+      "category": "Philistine Cities",
+      "reference": "1Sa.5.8",
+      "restricted": false
+    },
+    {
+      "name": "Ekron",
+      "type": "city",
+      "category": "Philistine Cities",
+      "reference": "Jos.13.3",
+      "restricted": false
+    },
+    {
+      "name": "Tyre",
+      "type": "city",
+      "category": "Phoenician Cities",
+      "reference": "Jos.19.29",
+      "restricted": false
+    },
+    {
+      "name": "Sidon",
+      "type": "city",
+      "category": "Phoenician Cities",
+      "reference": "Gen.10.15",
+      "restricted": false
+    },
+    {
+      "name": "Sodom",
+      "type": "city",
+      "category": "Ancient Cities",
+      "reference": "Gen.10.19",
+      "restricted": false
+    },
+    {
+      "name": "Gomorrah",
+      "type": "city",
+      "category": "Ancient Cities",
+      "reference": "Gen.10.19",
+      "restricted": false
+    },
+    {
+      "name": "Ur",
+      "type": "city",
+      "category": "Ancient Cities",
+      "reference": "Gen.11.28",
+      "restricted": false
+    },
+    {
+      "name": "Haran",
+      "type": "city",
+      "category": "Ancient Cities",
+      "reference": "Gen.11.31",
+      "restricted": true
+    },
+    {
+      "name": "Susa",
+      "type": "city",
+      "category": "Persian Cities",
+      "reference": "Neh.1.1",
+      "restricted": false
+    },
+    {
+      "name": "Persepolis",
+      "type": "city",
+      "category": "Persian Cities",
+      "reference": "Est.1.2",
+      "restricted": false
+    },
+    {
+      "name": "Rome",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.2.10",
+      "restricted": false
+    },
+    {
+      "name": "Antioch",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.6.5",
+      "restricted": false
+    },
+    {
+      "name": "Ephesus",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.18.19",
+      "restricted": false
+    },
+    {
+      "name": "Corinth",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.18.1",
+      "restricted": false
+    },
+    {
+      "name": "Athens",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.17.15",
+      "restricted": false
+    },
+    {
+      "name": "Thessalonica",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.17.1",
+      "restricted": false
+    },
+    {
+      "name": "Philippi",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.16.12",
+      "restricted": false
+    },
+    {
+      "name": "Colossae",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Col.1.2",
+      "restricted": false
+    },
+    {
+      "name": "Laodicea",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Col.2.1",
+      "restricted": false
+    },
+    {
+      "name": "Smyrna",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Rev.1.11",
+      "restricted": false
+    },
+    {
+      "name": "Pergamum",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Rev.1.11",
+      "restricted": false
+    },
+    {
+      "name": "Thyatira",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.16.14",
+      "restricted": false
+    },
+    {
+      "name": "Sardis",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Rev.1.11",
+      "restricted": false
+    },
+    {
+      "name": "Philadelphia",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Rev.1.11",
+      "restricted": false
+    },
+    {
+      "name": "Troas",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.16.8",
+      "restricted": false
+    },
+    {
+      "name": "Caesarea",
+      "type": "city",
+      "category": "Roman Cities",
+      "reference": "Act.8.40",
+      "restricted": false
+    },
+    {
+      "name": "Egypt",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.12.10",
+      "restricted": false
+    },
+    {
+      "name": "Assyria",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.2.14",
+      "restricted": false
+    },
+    {
+      "name": "Persia",
+      "type": "country",
+      "category": "Countries",
+      "reference": "2Ch.36.20",
+      "restricted": false
+    },
+    {
+      "name": "Babylon",
+      "type": "country",
+      "category": "Countries",
+      "reference": "2Ki.17.24",
+      "restricted": false
+    },
+    {
+      "name": "Edom",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.25.30",
+      "restricted": false
+    },
+    {
+      "name": "Moab",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.19.37",
+      "restricted": false
+    },
+    {
+      "name": "Ammon",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.19.38",
+      "restricted": true
+    },
+    {
+      "name": "Philistia",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Exo.15.14",
+      "restricted": false
+    },
+    {
+      "name": "Canaan",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.11.31",
+      "restricted": false
+    },
+    {
+      "name": "Midian",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.25.2",
+      "restricted": false
+    },
+    {
+      "name": "Sheba",
+      "type": "country",
+      "category": "Countries",
+      "reference": "1Ki.10.1",
+      "restricted": true
+    },
+    {
+      "name": "Tarshish",
+      "type": "country",
+      "category": "Countries",
+      "reference": "1Ki.10.22",
+      "restricted": false
+    },
+    {
+      "name": "Cush",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Gen.2.13",
+      "restricted": true
+    },
+    {
+      "name": "Ethiopia",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Act.8.27",
+      "restricted": false
+    },
+    {
+      "name": "Arabia",
+      "type": "country",
+      "category": "Countries",
+      "reference": "1Ki.10.15",
+      "restricted": false
+    },
+    {
+      "name": "Greece",
+      "type": "country",
+      "category": "Countries",
+      "reference": "Dan.8.21",
+      "restricted": false
+    },
+    {
+      "name": "Macedonia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.16.9",
+      "restricted": false
+    },
+    {
+      "name": "Achaia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.18.12",
+      "restricted": false
+    },
+    {
+      "name": "Galatia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.16.6",
+      "restricted": false
+    },
+    {
+      "name": "Cappadocia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.2.9",
+      "restricted": false
+    },
+    {
+      "name": "Pontus",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.2.9",
+      "restricted": false
+    },
+    {
+      "name": "Bithynia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.16.7",
+      "restricted": false
+    },
+    {
+      "name": "Pamphylia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.2.10",
+      "restricted": false
+    },
+    {
+      "name": "Lycaonia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.14.6",
+      "restricted": false
+    },
+    {
+      "name": "Pisidia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.13.14",
+      "restricted": false
+    },
+    {
+      "name": "Cilicia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.6.9",
+      "restricted": false
+    },
+    {
+      "name": "Syria",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Jdg.10.6",
+      "restricted": false
+    },
+    {
+      "name": "Phoenicia",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.11.19",
+      "restricted": false
+    },
+    {
+      "name": "Decapolis",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Mat.4.25",
+      "restricted": false
+    },
+    {
+      "name": "Idumea",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Mar.3.8",
+      "restricted": false
+    },
+    {
+      "name": "Perea",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Mat.19.1",
+      "restricted": false
+    },
+    {
+      "name": "Goshen",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Gen.45.10",
+      "restricted": false
+    },
+    {
+      "name": "Negev",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Gen.12.9",
+      "restricted": false
+    },
+    {
+      "name": "Ai",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Gen.12.8",
+      "restricted": false
+    },
+    {
+      "name": "Hazor",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Jos.11.1",
+      "restricted": false
+    },
+    {
+      "name": "Megiddo",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Jos.12.21",
+      "restricted": false
+    },
+    {
+      "name": "Gezer",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Jos.10.33",
+      "restricted": false
+    },
+    {
+      "name": "Lachish",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Jos.10.3",
+      "restricted": false
+    },
+    {
+      "name": "Gibeon",
+      "type": "city",
+      "category": "Canaanite Cities",
+      "reference": "Jos.9.3",
+      "restricted": false
+    },
+    {
+      "name": "Dothan",
+      "type": "city",
+      "category": "Towns",
+      "reference": "Gen.37.17",
+      "restricted": false
+    },
+    {
+      "name": "Nain",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Luk.7.11",
+      "restricted": false
+    },
+    {
+      "name": "Cana",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Joh.2.1",
+      "restricted": false
+    },
+    {
+      "name": "Emmaus",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Luk.24.13",
+      "restricted": false
+    },
+    {
+      "name": "Bethsaida",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.11.21",
+      "restricted": false
+    },
+    {
+      "name": "Chorazin",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.11.21",
+      "restricted": false
+    },
+    {
+      "name": "Magdala",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.15.39",
+      "restricted": false
+    },
+    {
+      "name": "Sychar",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Joh.4.5",
+      "restricted": false
+    },
+    {
+      "name": "Joppa",
+      "type": "city",
+      "category": "Coastal Cities",
+      "reference": "Jon.1.3",
+      "restricted": false
+    },
+    {
+      "name": "Ptolemais",
+      "type": "city",
+      "category": "Coastal Cities",
+      "reference": "Act.21.7",
+      "restricted": false
+    },
+    {
+      "name": "Ramah",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Sa.1.19",
+      "restricted": false
+    },
+    {
+      "name": "Mizpah",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Gen.31.49",
+      "restricted": false
+    },
+    {
+      "name": "Gibeah",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Jdg.19.12",
+      "restricted": false
+    },
+    {
+      "name": "Gilgal",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Jos.4.19",
+      "restricted": false
+    },
+    {
+      "name": "Bethhoron",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Jos.10.10",
+      "restricted": false
+    },
+    {
+      "name": "Arimathea",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Mat.27.57",
+      "restricted": false
+    },
+    {
+      "name": "Lydda",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Act.9.32",
+      "restricted": false
+    },
+    {
+      "name": "Sharon",
+      "type": "region",
+      "category": "Regions",
+      "reference": "Act.9.35",
+      "restricted": false
+    },
+    {
+      "name": "Zarephath",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Ki.17.9",
+      "restricted": false
+    },
+    {
+      "name": "Tekoa",
+      "type": "town",
+      "category": "Towns",
+      "reference": "2Sa.14.2",
+      "restricted": false
+    },
+    {
+      "name": "Anathoth",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Jer.1.1",
+      "restricted": false
+    },
+    {
+      "name": "Nob",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Sa.21.1",
+      "restricted": false
+    },
+    {
+      "name": "Endor",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Sa.28.7",
+      "restricted": false
+    },
+    {
+      "name": "Shunem",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Sa.28.4",
+      "restricted": false
+    },
+    {
+      "name": "Jezreel",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Jos.19.18",
+      "restricted": false
+    },
+    {
+      "name": "Succoth",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Gen.33.17",
+      "restricted": false
+    },
+    {
+      "name": "Penuel",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Gen.32.30",
+      "restricted": false
+    },
+    {
+      "name": "Mahanaim",
+      "type": "town",
+      "category": "Towns",
+      "reference": "Gen.32.2",
+      "restricted": false
+    },
+    {
+      "name": "Jabesh",
+      "type": "town",
+      "category": "Towns",
+      "reference": "1Sa.11.1",
+      "restricted": false
+    },
+    {
+      "name": "Rabbah",
+      "type": "city",
+      "category": "Foreign Cities",
+      "reference": "2Sa.11.1",
+      "restricted": false
+    },
+    {
+      "name": "Petra",
+      "type": "city",
+      "category": "Foreign Cities",
+      "reference": "2Ki.14.7",
+      "restricted": false
+    },
+    {
+      "name": "Bozrah",
+      "type": "city",
+      "category": "Foreign Cities",
+      "reference": "Gen.36.33",
+      "restricted": false
+    },
+    {
+      "name": "Memphis",
+      "type": "city",
+      "category": "Egyptian Cities",
+      "reference": "Hos.9.6",
+      "restricted": false
+    },
+    {
+      "name": "Thebes",
+      "type": "city",
+      "category": "Egyptian Cities",
+      "reference": "Nah.3.8",
+      "restricted": false
+    },
+    {
+      "name": "Alexandria",
+      "type": "city",
+      "category": "Egyptian Cities",
+      "reference": "Act.6.9",
+      "restricted": false
+    }
+  ]
+}

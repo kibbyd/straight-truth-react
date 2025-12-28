@@ -1,0 +1,259 @@
+{
+  "_meta": {
+    "description": "Miracles of Jesus as recorded in the Gospels",
+    "note": "References are to the primary account; parallel passages listed separately"
+  },
+  "miracles": [
+    {
+      "name": "Water turned into wine",
+      "category": "Nature",
+      "location": "Cana",
+      "references": ["Joh.2.1-11"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of the official's son",
+      "category": "Healing",
+      "location": "Cana/Capernaum",
+      "references": ["Joh.4.46-54"],
+      "parallels": []
+    },
+    {
+      "name": "First miraculous catch of fish",
+      "category": "Nature",
+      "location": "Sea of Galilee",
+      "references": ["Luk.5.1-11"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a demon-possessed man in synagogue",
+      "category": "Exorcism",
+      "location": "Capernaum",
+      "references": ["Mar.1.21-28"],
+      "parallels": ["Luk.4.31-37"]
+    },
+    {
+      "name": "Healing of Peter's mother-in-law",
+      "category": "Healing",
+      "location": "Capernaum",
+      "references": ["Mar.1.29-31"],
+      "parallels": ["Mat.8.14-15", "Luk.4.38-39"]
+    },
+    {
+      "name": "Healing of a leper",
+      "category": "Healing",
+      "location": "Galilee",
+      "references": ["Mar.1.40-45"],
+      "parallels": ["Mat.8.1-4", "Luk.5.12-16"]
+    },
+    {
+      "name": "Healing of a paralytic let down through roof",
+      "category": "Healing",
+      "location": "Capernaum",
+      "references": ["Mar.2.1-12"],
+      "parallels": ["Mat.9.1-8", "Luk.5.17-26"]
+    },
+    {
+      "name": "Healing of a man with a withered hand",
+      "category": "Healing",
+      "location": "Synagogue",
+      "references": ["Mar.3.1-6"],
+      "parallels": ["Mat.12.9-14", "Luk.6.6-11"]
+    },
+    {
+      "name": "Calming the storm",
+      "category": "Nature",
+      "location": "Sea of Galilee",
+      "references": ["Mar.4.35-41"],
+      "parallels": ["Mat.8.23-27", "Luk.8.22-25"]
+    },
+    {
+      "name": "Healing of the Gerasene demoniac",
+      "category": "Exorcism",
+      "location": "Gerasenes/Gadarenes",
+      "references": ["Mar.5.1-20"],
+      "parallels": ["Mat.8.28-34", "Luk.8.26-39"]
+    },
+    {
+      "name": "Raising of Jairus's daughter",
+      "category": "Resurrection",
+      "location": "Capernaum",
+      "references": ["Mar.5.21-43"],
+      "parallels": ["Mat.9.18-26", "Luk.8.40-56"]
+    },
+    {
+      "name": "Healing of woman with issue of blood",
+      "category": "Healing",
+      "location": "Capernaum",
+      "references": ["Mar.5.25-34"],
+      "parallels": ["Mat.9.20-22", "Luk.8.43-48"]
+    },
+    {
+      "name": "Healing of two blind men",
+      "category": "Healing",
+      "location": "Galilee",
+      "references": ["Mat.9.27-31"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a mute demon-possessed man",
+      "category": "Exorcism",
+      "location": "Galilee",
+      "references": ["Mat.9.32-34"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a man at Pool of Bethesda",
+      "category": "Healing",
+      "location": "Jerusalem",
+      "references": ["Joh.5.1-15"],
+      "parallels": []
+    },
+    {
+      "name": "Feeding of the 5,000",
+      "category": "Nature",
+      "location": "Near Bethsaida",
+      "references": ["Mar.6.30-44"],
+      "parallels": ["Mat.14.13-21", "Luk.9.10-17", "Joh.6.1-15"]
+    },
+    {
+      "name": "Walking on water",
+      "category": "Nature",
+      "location": "Sea of Galilee",
+      "references": ["Mar.6.45-52"],
+      "parallels": ["Mat.14.22-33", "Joh.6.16-21"]
+    },
+    {
+      "name": "Healing of the Syrophoenician woman's daughter",
+      "category": "Exorcism",
+      "location": "Tyre and Sidon",
+      "references": ["Mar.7.24-30"],
+      "parallels": ["Mat.15.21-28"]
+    },
+    {
+      "name": "Healing of a deaf man with speech impediment",
+      "category": "Healing",
+      "location": "Decapolis",
+      "references": ["Mar.7.31-37"],
+      "parallels": []
+    },
+    {
+      "name": "Feeding of the 4,000",
+      "category": "Nature",
+      "location": "Decapolis",
+      "references": ["Mar.8.1-10"],
+      "parallels": ["Mat.15.32-39"]
+    },
+    {
+      "name": "Healing of a blind man at Bethsaida",
+      "category": "Healing",
+      "location": "Bethsaida",
+      "references": ["Mar.8.22-26"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a demon-possessed boy",
+      "category": "Exorcism",
+      "location": "Near Mount Hermon",
+      "references": ["Mar.9.14-29"],
+      "parallels": ["Mat.17.14-21", "Luk.9.37-43"]
+    },
+    {
+      "name": "Coin in fish's mouth",
+      "category": "Nature",
+      "location": "Capernaum",
+      "references": ["Mat.17.24-27"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a man born blind",
+      "category": "Healing",
+      "location": "Jerusalem",
+      "references": ["Joh.9.1-41"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a crippled woman on Sabbath",
+      "category": "Healing",
+      "location": "Synagogue",
+      "references": ["Luk.13.10-17"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of a man with dropsy",
+      "category": "Healing",
+      "location": "Pharisee's house",
+      "references": ["Luk.14.1-6"],
+      "parallels": []
+    },
+    {
+      "name": "Raising of Lazarus",
+      "category": "Resurrection",
+      "location": "Bethany",
+      "references": ["Joh.11.1-44"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of ten lepers",
+      "category": "Healing",
+      "location": "Samaria/Galilee border",
+      "references": ["Luk.17.11-19"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of blind Bartimaeus",
+      "category": "Healing",
+      "location": "Jericho",
+      "references": ["Mar.10.46-52"],
+      "parallels": ["Mat.20.29-34", "Luk.18.35-43"]
+    },
+    {
+      "name": "Cursing of the fig tree",
+      "category": "Nature",
+      "location": "Near Jerusalem",
+      "references": ["Mar.11.12-14", "Mar.11.20-25"],
+      "parallels": ["Mat.21.18-22"]
+    },
+    {
+      "name": "Healing of Malchus's ear",
+      "category": "Healing",
+      "location": "Gethsemane",
+      "references": ["Luk.22.50-51"],
+      "parallels": ["Joh.18.10"]
+    },
+    {
+      "name": "Second miraculous catch of fish",
+      "category": "Nature",
+      "location": "Sea of Galilee",
+      "references": ["Joh.21.1-14"],
+      "parallels": []
+    },
+    {
+      "name": "Raising of widow's son at Nain",
+      "category": "Resurrection",
+      "location": "Nain",
+      "references": ["Luk.7.11-17"],
+      "parallels": []
+    },
+    {
+      "name": "Healing of centurion's servant",
+      "category": "Healing",
+      "location": "Capernaum",
+      "references": ["Mat.8.5-13"],
+      "parallels": ["Luk.7.1-10"]
+    },
+    {
+      "name": "Healing of a blind and mute demon-possessed man",
+      "category": "Exorcism",
+      "location": "Galilee",
+      "references": ["Mat.12.22-23"],
+      "parallels": ["Luk.11.14"]
+    }
+  ],
+  "categories": {
+    "Healing": "Physical healing of disease or disability",
+    "Exorcism": "Casting out demons/unclean spirits",
+    "Nature": "Power over natural elements",
+    "Resurrection": "Raising the dead"
+  }
+}

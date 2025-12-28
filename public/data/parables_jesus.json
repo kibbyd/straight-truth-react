@@ -1,0 +1,270 @@
+{
+  "_meta": {
+    "description": "Parables of Jesus as recorded in the Gospels",
+    "note": "References are to the primary account; parallel passages listed separately"
+  },
+  "parables": [
+    {
+      "name": "The Sower",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.3-23"],
+      "parallels": ["Mar.4.3-20", "Luk.8.5-15"]
+    },
+    {
+      "name": "The Weeds (Tares)",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.24-30", "Mat.13.36-43"],
+      "parallels": []
+    },
+    {
+      "name": "The Mustard Seed",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.31-32"],
+      "parallels": ["Mar.4.30-32", "Luk.13.18-19"]
+    },
+    {
+      "name": "The Leaven",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.33"],
+      "parallels": ["Luk.13.20-21"]
+    },
+    {
+      "name": "The Hidden Treasure",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.44"],
+      "parallels": []
+    },
+    {
+      "name": "The Pearl of Great Price",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mat.13.45-46"],
+      "parallels": []
+    },
+    {
+      "name": "The Dragnet",
+      "theme": "Judgment",
+      "location": "By the sea",
+      "references": ["Mat.13.47-50"],
+      "parallels": []
+    },
+    {
+      "name": "The Unmerciful Servant",
+      "theme": "Forgiveness",
+      "location": "Capernaum",
+      "references": ["Mat.18.23-35"],
+      "parallels": []
+    },
+    {
+      "name": "The Workers in the Vineyard",
+      "theme": "Grace",
+      "location": "Perea",
+      "references": ["Mat.20.1-16"],
+      "parallels": []
+    },
+    {
+      "name": "The Two Sons",
+      "theme": "Obedience",
+      "location": "Jerusalem",
+      "references": ["Mat.21.28-32"],
+      "parallels": []
+    },
+    {
+      "name": "The Wicked Tenants",
+      "theme": "Judgment",
+      "location": "Jerusalem",
+      "references": ["Mat.21.33-46"],
+      "parallels": ["Mar.12.1-12", "Luk.20.9-19"]
+    },
+    {
+      "name": "The Wedding Feast",
+      "theme": "Kingdom",
+      "location": "Jerusalem",
+      "references": ["Mat.22.1-14"],
+      "parallels": ["Luk.14.16-24"]
+    },
+    {
+      "name": "The Fig Tree",
+      "theme": "Prophecy",
+      "location": "Mount of Olives",
+      "references": ["Mat.24.32-35"],
+      "parallels": ["Mar.13.28-31", "Luk.21.29-33"]
+    },
+    {
+      "name": "The Faithful and Wicked Servants",
+      "theme": "Watchfulness",
+      "location": "Mount of Olives",
+      "references": ["Mat.24.45-51"],
+      "parallels": ["Luk.12.42-48"]
+    },
+    {
+      "name": "The Ten Virgins",
+      "theme": "Watchfulness",
+      "location": "Mount of Olives",
+      "references": ["Mat.25.1-13"],
+      "parallels": []
+    },
+    {
+      "name": "The Talents",
+      "theme": "Stewardship",
+      "location": "Mount of Olives",
+      "references": ["Mat.25.14-30"],
+      "parallels": ["Luk.19.12-27"]
+    },
+    {
+      "name": "The Sheep and the Goats",
+      "theme": "Judgment",
+      "location": "Mount of Olives",
+      "references": ["Mat.25.31-46"],
+      "parallels": []
+    },
+    {
+      "name": "The Growing Seed",
+      "theme": "Kingdom",
+      "location": "By the sea",
+      "references": ["Mar.4.26-29"],
+      "parallels": []
+    },
+    {
+      "name": "The Watchful Servants",
+      "theme": "Watchfulness",
+      "location": "Mount of Olives",
+      "references": ["Mar.13.34-37"],
+      "parallels": ["Luk.12.35-40"]
+    },
+    {
+      "name": "The Two Debtors",
+      "theme": "Forgiveness",
+      "location": "Galilee",
+      "references": ["Luk.7.41-43"],
+      "parallels": []
+    },
+    {
+      "name": "The Good Samaritan",
+      "theme": "Love",
+      "location": "Judea",
+      "references": ["Luk.10.30-37"],
+      "parallels": []
+    },
+    {
+      "name": "The Friend at Midnight",
+      "theme": "Prayer",
+      "location": "Judea",
+      "references": ["Luk.11.5-8"],
+      "parallels": []
+    },
+    {
+      "name": "The Rich Fool",
+      "theme": "Wealth",
+      "location": "Judea",
+      "references": ["Luk.12.16-21"],
+      "parallels": []
+    },
+    {
+      "name": "The Barren Fig Tree",
+      "theme": "Repentance",
+      "location": "Judea",
+      "references": ["Luk.13.6-9"],
+      "parallels": []
+    },
+    {
+      "name": "The Great Banquet",
+      "theme": "Kingdom",
+      "location": "Perea",
+      "references": ["Luk.14.16-24"],
+      "parallels": ["Mat.22.1-14"]
+    },
+    {
+      "name": "The Tower Builder",
+      "theme": "Discipleship",
+      "location": "Perea",
+      "references": ["Luk.14.28-30"],
+      "parallels": []
+    },
+    {
+      "name": "The Warring King",
+      "theme": "Discipleship",
+      "location": "Perea",
+      "references": ["Luk.14.31-33"],
+      "parallels": []
+    },
+    {
+      "name": "The Lost Sheep",
+      "theme": "Salvation",
+      "location": "Perea",
+      "references": ["Luk.15.4-7"],
+      "parallels": ["Mat.18.12-14"]
+    },
+    {
+      "name": "The Lost Coin",
+      "theme": "Salvation",
+      "location": "Perea",
+      "references": ["Luk.15.8-10"],
+      "parallels": []
+    },
+    {
+      "name": "The Prodigal Son",
+      "theme": "Salvation",
+      "location": "Perea",
+      "references": ["Luk.15.11-32"],
+      "parallels": []
+    },
+    {
+      "name": "The Shrewd Manager",
+      "theme": "Stewardship",
+      "location": "Perea",
+      "references": ["Luk.16.1-13"],
+      "parallels": []
+    },
+    {
+      "name": "The Rich Man and Lazarus",
+      "theme": "Wealth",
+      "location": "Perea",
+      "references": ["Luk.16.19-31"],
+      "parallels": []
+    },
+    {
+      "name": "The Persistent Widow",
+      "theme": "Prayer",
+      "location": "Perea",
+      "references": ["Luk.18.1-8"],
+      "parallels": []
+    },
+    {
+      "name": "The Pharisee and Tax Collector",
+      "theme": "Humility",
+      "location": "Perea",
+      "references": ["Luk.18.9-14"],
+      "parallels": []
+    },
+    {
+      "name": "The Ten Minas",
+      "theme": "Stewardship",
+      "location": "Near Jericho",
+      "references": ["Luk.19.12-27"],
+      "parallels": ["Mat.25.14-30"]
+    }
+  ],
+  "themes": {
+    "Kingdom": "Nature and growth of God's kingdom",
+    "Judgment": "Final judgment and separation",
+    "Forgiveness": "God's forgiveness and our response",
+    "Grace": "Unmerited favor from God",
+    "Obedience": "Doing God's will",
+    "Watchfulness": "Being prepared for Christ's return",
+    "Stewardship": "Faithful use of resources",
+    "Prophecy": "Signs of the end times",
+    "Love": "Love for God and neighbor",
+    "Prayer": "Persistence in prayer",
+    "Wealth": "Dangers of riches",
+    "Repentance": "Turning from sin",
+    "Discipleship": "Counting the cost",
+    "Salvation": "God seeking the lost",
+    "Humility": "Right attitude before God"
+  }
+}

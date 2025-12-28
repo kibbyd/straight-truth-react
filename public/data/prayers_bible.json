@@ -1,0 +1,320 @@
+{
+  "_meta": {
+    "description": "Notable prayers recorded in the Bible",
+    "note": "Includes prayers from both Old and New Testaments"
+  },
+  "prayers": [
+    {
+      "name": "Abraham's Prayer for Sodom",
+      "person": "Abraham",
+      "context": "Intercession for the righteous in Sodom",
+      "testament": "OT",
+      "references": ["Gen.18.23-32"]
+    },
+    {
+      "name": "Abraham's Servant's Prayer",
+      "person": "Eliezer",
+      "context": "Finding a wife for Isaac",
+      "testament": "OT",
+      "references": ["Gen.24.12-14"]
+    },
+    {
+      "name": "Jacob's Prayer at Peniel",
+      "person": "Jacob",
+      "context": "Wrestling with God before meeting Esau",
+      "testament": "OT",
+      "references": ["Gen.32.9-12"]
+    },
+    {
+      "name": "Moses' Prayer at the Red Sea",
+      "person": "Moses",
+      "context": "Deliverance from Egypt",
+      "testament": "OT",
+      "references": ["Exo.14.15-16"]
+    },
+    {
+      "name": "Moses' Intercession for Israel",
+      "person": "Moses",
+      "context": "After the golden calf",
+      "testament": "OT",
+      "references": ["Exo.32.11-14", "Exo.32.31-32"]
+    },
+    {
+      "name": "Moses' Prayer to See God's Glory",
+      "person": "Moses",
+      "context": "Requesting to see God",
+      "testament": "OT",
+      "references": ["Exo.33.18-23"]
+    },
+    {
+      "name": "Hannah's Prayer for a Son",
+      "person": "Hannah",
+      "context": "Barrenness and vow",
+      "testament": "OT",
+      "references": ["1Sa.1.10-11"]
+    },
+    {
+      "name": "Hannah's Song of Praise",
+      "person": "Hannah",
+      "context": "Thanksgiving for Samuel",
+      "testament": "OT",
+      "references": ["1Sa.2.1-10"]
+    },
+    {
+      "name": "David's Prayer of Thanksgiving",
+      "person": "David",
+      "context": "God's covenant promises",
+      "testament": "OT",
+      "references": ["2Sa.7.18-29"]
+    },
+    {
+      "name": "David's Prayer of Confession",
+      "person": "David",
+      "context": "After sin with Bathsheba",
+      "testament": "OT",
+      "references": ["Psa.51.1-19"]
+    },
+    {
+      "name": "Solomon's Prayer for Wisdom",
+      "person": "Solomon",
+      "context": "Beginning of his reign",
+      "testament": "OT",
+      "references": ["1Ki.3.6-9"]
+    },
+    {
+      "name": "Solomon's Temple Dedication",
+      "person": "Solomon",
+      "context": "Dedicating the temple",
+      "testament": "OT",
+      "references": ["1Ki.8.22-53"]
+    },
+    {
+      "name": "Elijah's Prayer on Mount Carmel",
+      "person": "Elijah",
+      "context": "Contest with prophets of Baal",
+      "testament": "OT",
+      "references": ["1Ki.18.36-37"]
+    },
+    {
+      "name": "Elijah's Prayer Under the Broom Tree",
+      "person": "Elijah",
+      "context": "Fleeing from Jezebel",
+      "testament": "OT",
+      "references": ["1Ki.19.4"]
+    },
+    {
+      "name": "Hezekiah's Prayer for Deliverance",
+      "person": "Hezekiah",
+      "context": "Assyrian threat",
+      "testament": "OT",
+      "references": ["2Ki.19.15-19"]
+    },
+    {
+      "name": "Hezekiah's Prayer in Illness",
+      "person": "Hezekiah",
+      "context": "When told he would die",
+      "testament": "OT",
+      "references": ["2Ki.20.2-3"]
+    },
+    {
+      "name": "Jabez's Prayer",
+      "person": "Jabez",
+      "context": "Request for blessing",
+      "testament": "OT",
+      "references": ["1Ch.4.10"]
+    },
+    {
+      "name": "Jehoshaphat's Prayer",
+      "person": "Jehoshaphat",
+      "context": "Facing enemy armies",
+      "testament": "OT",
+      "references": ["2Ch.20.6-12"]
+    },
+    {
+      "name": "Ezra's Prayer of Confession",
+      "person": "Ezra",
+      "context": "Intermarriage with pagans",
+      "testament": "OT",
+      "references": ["Ezr.9.5-15"]
+    },
+    {
+      "name": "Nehemiah's Prayer for Jerusalem",
+      "person": "Nehemiah",
+      "context": "Hearing of Jerusalem's condition",
+      "testament": "OT",
+      "references": ["Neh.1.5-11"]
+    },
+    {
+      "name": "Job's Response to Suffering",
+      "person": "Job",
+      "context": "After losing everything",
+      "testament": "OT",
+      "references": ["Job.1.20-21"]
+    },
+    {
+      "name": "Isaiah's Response to God's Call",
+      "person": "Isaiah",
+      "context": "Temple vision",
+      "testament": "OT",
+      "references": ["Isa.6.8"]
+    },
+    {
+      "name": "Jeremiah's Complaint",
+      "person": "Jeremiah",
+      "context": "Persecution for prophecy",
+      "testament": "OT",
+      "references": ["Jer.20.7-18"]
+    },
+    {
+      "name": "Daniel's Prayer of Confession",
+      "person": "Daniel",
+      "context": "For Israel's restoration",
+      "testament": "OT",
+      "references": ["Dan.9.4-19"]
+    },
+    {
+      "name": "Jonah's Prayer from the Fish",
+      "person": "Jonah",
+      "context": "Inside the great fish",
+      "testament": "OT",
+      "references": ["Jon.2.1-9"]
+    },
+    {
+      "name": "Habakkuk's Prayer",
+      "person": "Habakkuk",
+      "context": "Questioning God's ways",
+      "testament": "OT",
+      "references": ["Hab.3.1-19"]
+    },
+    {
+      "name": "Mary's Magnificat",
+      "person": "Mary",
+      "context": "After the annunciation",
+      "testament": "NT",
+      "references": ["Luk.1.46-55"]
+    },
+    {
+      "name": "Zechariah's Benedictus",
+      "person": "Zechariah",
+      "context": "At John's birth",
+      "testament": "NT",
+      "references": ["Luk.1.68-79"]
+    },
+    {
+      "name": "Simeon's Nunc Dimittis",
+      "person": "Simeon",
+      "context": "Seeing infant Jesus",
+      "testament": "NT",
+      "references": ["Luk.2.29-32"]
+    },
+    {
+      "name": "The Lord's Prayer",
+      "person": "Jesus",
+      "context": "Teaching disciples to pray",
+      "testament": "NT",
+      "references": ["Mat.6.9-13"],
+      "parallels": ["Luk.11.2-4"]
+    },
+    {
+      "name": "Jesus' Prayer of Thanksgiving",
+      "person": "Jesus",
+      "context": "Revelation to the childlike",
+      "testament": "NT",
+      "references": ["Mat.11.25-26"],
+      "parallels": ["Luk.10.21"]
+    },
+    {
+      "name": "Jesus' Prayer at Lazarus' Tomb",
+      "person": "Jesus",
+      "context": "Before raising Lazarus",
+      "testament": "NT",
+      "references": ["Joh.11.41-42"]
+    },
+    {
+      "name": "Jesus' High Priestly Prayer",
+      "person": "Jesus",
+      "context": "Before his arrest",
+      "testament": "NT",
+      "references": ["Joh.17.1-26"]
+    },
+    {
+      "name": "Jesus' Prayer in Gethsemane",
+      "person": "Jesus",
+      "context": "Before the crucifixion",
+      "testament": "NT",
+      "references": ["Mat.26.39-44"],
+      "parallels": ["Mar.14.35-39", "Luk.22.41-44"]
+    },
+    {
+      "name": "Jesus' Prayer on the Cross",
+      "person": "Jesus",
+      "context": "Forgiving his executioners",
+      "testament": "NT",
+      "references": ["Luk.23.34"]
+    },
+    {
+      "name": "Jesus' Final Words",
+      "person": "Jesus",
+      "context": "Committing his spirit",
+      "testament": "NT",
+      "references": ["Luk.23.46"]
+    },
+    {
+      "name": "The Tax Collector's Prayer",
+      "person": "Tax Collector",
+      "context": "In the temple (parable)",
+      "testament": "NT",
+      "references": ["Luk.18.13"]
+    },
+    {
+      "name": "The Thief on the Cross",
+      "person": "Criminal",
+      "context": "At the crucifixion",
+      "testament": "NT",
+      "references": ["Luk.23.42"]
+    },
+    {
+      "name": "Stephen's Prayer",
+      "person": "Stephen",
+      "context": "While being stoned",
+      "testament": "NT",
+      "references": ["Act.7.59-60"]
+    },
+    {
+      "name": "Church Prayer for Boldness",
+      "person": "Early Church",
+      "context": "After Peter and John's release",
+      "testament": "NT",
+      "references": ["Act.4.24-30"]
+    },
+    {
+      "name": "Paul's Prayer for the Ephesians",
+      "person": "Paul",
+      "context": "For spiritual strength",
+      "testament": "NT",
+      "references": ["Eph.3.14-21"]
+    },
+    {
+      "name": "Paul's Prayer for the Philippians",
+      "person": "Paul",
+      "context": "For love and discernment",
+      "testament": "NT",
+      "references": ["Php.1.9-11"]
+    },
+    {
+      "name": "Paul's Prayer for the Colossians",
+      "person": "Paul",
+      "context": "For knowledge and fruitfulness",
+      "testament": "NT",
+      "references": ["Col.1.9-12"]
+    }
+  ],
+  "categories": {
+    "Intercession": "Praying on behalf of others",
+    "Confession": "Acknowledging sin",
+    "Thanksgiving": "Expressing gratitude",
+    "Petition": "Making requests",
+    "Praise": "Glorifying God",
+    "Lament": "Expressing grief or complaint"
+  }
+}
