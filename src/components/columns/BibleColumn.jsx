@@ -8,6 +8,8 @@ function BibleColumn({ columnId, data }) {
     lookups,
     selectedVerse,
     setSelectedVerse,
+    highlightedStrong,
+    setHighlightedStrong,
     openStrongs,
     openCrossRefs
   } = useApp()
@@ -61,12 +63,15 @@ function BibleColumn({ columnId, data }) {
       if (lookups.mountainNames.has(cleanWord)) entityIcons += '⛰️'
 
       if (strongsMatch) {
+        // Check if this Strong's number matches the highlighted one
+        const isHighlighted = highlightedStrong && strongsMatch.strong === highlightedStrong
         result.push(
           <span
             key={`${i}-strong`}
-            className="hl strongs"
+            className={`hl strongs${isHighlighted ? ' selected' : ''}`}
             onClick={(e) => {
               e.stopPropagation()
+              setHighlightedStrong(null) // Clear highlight when clicking a new word
               openStrongs(strongsMatch.strong)
             }}
             title={`Strong's ${strongsMatch.strong}`}
@@ -90,7 +95,7 @@ function BibleColumn({ columnId, data }) {
     }
 
     return result
-  }, [getStrongsForVerse, lookups, openStrongs])
+  }, [getStrongsForVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong])
 
   // Handle verse click
   const handleVerseClick = useCallback((verseId) => {

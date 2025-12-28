@@ -125,20 +125,15 @@ function StrongsColumn({ columnId, data }) {
       </div>
 
       <div className="strongs-occurrences-list">
-        {occurrences.slice(0, 100).map(verseId => (
+        {occurrences.map(verseId => (
           <div
             key={verseId}
             className="strongs-occurrence-item"
-            onClick={() => goToVerse(verseId)}
+            onClick={() => goToVerse(verseId, strongNum)}
           >
             <span className="catalogue-ref-link">{formatVerseRef(verseId)}</span>
           </div>
         ))}
-        {occurrences.length > 100 && (
-          <div className="strongs-occurrence-more">
-            ... and {occurrences.length - 100} more occurrences
-          </div>
-        )}
       </div>
     </div>
   )

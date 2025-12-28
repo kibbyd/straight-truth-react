@@ -45,6 +45,7 @@ export function AppProvider({ children }) {
   const [currentBook, setCurrentBook] = useState('Gen')
   const [currentChapter, setCurrentChapter] = useState(1)
   const [selectedVerse, setSelectedVerse] = useState(null)
+  const [highlightedStrong, setHighlightedStrong] = useState(null)
 
   // Column state
   const [columns, setColumns] = useState([
@@ -187,11 +188,12 @@ export function AppProvider({ children }) {
   }, [])
 
   // Navigation functions
-  const goToVerse = useCallback((verseId) => {
+  const goToVerse = useCallback((verseId, strongNum = null) => {
     const [book, chapter, verse] = verseId.split('.')
     setCurrentBook(book)
     setCurrentChapter(parseInt(chapter))
     setSelectedVerse(verseId)
+    setHighlightedStrong(strongNum)
 
     // Update the first passage column
     const passageColumn = columns.find(c => c.type === 'passage')
@@ -237,6 +239,8 @@ export function AppProvider({ children }) {
     setCurrentChapter,
     selectedVerse,
     setSelectedVerse,
+    highlightedStrong,
+    setHighlightedStrong,
     goToVerse,
 
     // Columns
