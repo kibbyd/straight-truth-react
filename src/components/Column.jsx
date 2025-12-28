@@ -55,7 +55,9 @@ function Column({
       return `${column.data.book || 'Gen'} ${column.data.chapter || 1}`
     }
     if (column.type === 'strongs' && column.data?.strongNum) {
-      return `Strong's ${column.data.strongNum}`
+      // Strip "Strong's " prefix if present to avoid "Strong's Strong's G2288"
+      const num = column.data.strongNum.replace(/^Strong's\s*/i, '')
+      return `Strong's ${num}`
     }
     if (column.type === 'search' && column.data?.query) {
       return `Search: "${column.data.query}"`

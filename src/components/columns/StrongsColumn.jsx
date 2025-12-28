@@ -5,27 +5,72 @@ import { formatVerseRef } from '../../data/bibleBooks'
 function StrongsColumn({ columnId, data }) {
   const { data: appData, lookups, goToVerse } = useApp()
 
-  const strongNum = data?.strongNum
+  // Strip "Strong's " prefix if present (from Questions/Glossary columns)
+  const rawNum = data?.strongNum || ''
+  const strongNum = rawNum.replace(/^Strong's\s*/i, '')
 
   // Get Strong's entry from lexicon
   const strongsEntry = useMemo(() => {
     if (!strongNum) return null
 
-    // Normalize the number (ensure proper format like H0430)
-    let normalizedNum = strongNum.toUpperCase()
-    if (normalizedNum.startsWith('H') || normalizedNum.startsWith('G')) {
-      const prefix = normalizedNum[0]
-      const numPart = normalizedNum.slice(1).padStart(4, '0')
-      normalizedNum = prefix + numPart
+    const lexicon = appData.strongs.lexicon
+    if (!lexicon) return null
+
+    // The lexicon has inconsistent key formatting:
+    // - Numbers 1-999 are stored WITH leading zeros: "G0001", "H0430"
+    // - Numbers 1000+ are stored WITHOUT leading zeros: "G2288", "H1494"
+    // Try multiple formats to find the entry
+
+    const upperNum = strongNum.toUpperCase()
+
+    // Try as-is first
+    if (lexicon[upperNum]) return lexicon[upperNum]
+
+    if (upperNum.startsWith('H') || upperNum.startsWith('G')) {
+      const prefix = upperNum[0]
+      const numPart = upperNum.slice(1)
+
+      // Try with leading zeros (padded to 4 digits)
+      const paddedNum = prefix + numPart.padStart(4, '0')
+      if (lexicon[paddedNum]) return lexicon[paddedNum]
+
+      // Try without leading zeros
+      const unpaddedNum = prefix + parseInt(numPart, 10).toString()
+      if (lexicon[unpaddedNum]) return lexicon[unpaddedNum]
     }
 
-    return appData.strongs.lexicon?.[normalizedNum] || appData.strongs.lexicon?.[strongNum]
+    return null
   }, [strongNum, appData.strongs.lexicon])
 
   // Get all verses containing this Strong's number
   const occurrences = useMemo(() => {
     if (!strongNum) return []
-    return lookups.strongsToVerses[strongNum] || []
+
+    const upperNum = strongNum.toUpperCase()
+
+    // Try multiple formats (same inconsistency as lexicon)
+    if (lookups.strongsToVerses[upperNum]) {
+      return lookups.strongsToVerses[upperNum]
+    }
+
+    if (upperNum.startsWith('H') || upperNum.startsWith('G')) {
+      const prefix = upperNum[0]
+      const numPart = upperNum.slice(1)
+
+      // Try with leading zeros
+      const paddedNum = prefix + numPart.padStart(4, '0')
+      if (lookups.strongsToVerses[paddedNum]) {
+        return lookups.strongsToVerses[paddedNum]
+      }
+
+      // Try without leading zeros
+      const unpaddedNum = prefix + parseInt(numPart, 10).toString()
+      if (lookups.strongsToVerses[unpaddedNum]) {
+        return lookups.strongsToVerses[unpaddedNum]
+      }
+    }
+
+    return []
   }, [strongNum, lookups.strongsToVerses])
 
   const isHebrew = strongNum?.startsWith('H')

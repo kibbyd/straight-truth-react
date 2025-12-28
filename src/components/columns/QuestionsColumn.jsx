@@ -144,7 +144,12 @@ function QuestionsColumn({ columnId, data }) {
                                         {source.strongs ? (
                                           <span
                                             className="catalogue-strongs-link"
-                                            onClick={(e) => { e.stopPropagation(); openStrongs(source.strongs); }}
+                                            onClick={(e) => {
+                                              e.stopPropagation()
+                                              // Strip "Strong's " prefix if present
+                                              const num = source.strongs.replace(/^Strong's\s*/i, '')
+                                              openStrongs(num)
+                                            }}
                                             style={{ cursor: 'pointer' }}
                                           >
                                             {source.strongs}

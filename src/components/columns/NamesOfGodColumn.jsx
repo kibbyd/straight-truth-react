@@ -80,7 +80,11 @@ function NamesOfGodColumn({ columnId, data }) {
                   {name.strongs && (
                     <span
                       className="catalogue-strongs-link"
-                      onClick={() => openStrongs(name.strongs)}
+                      onClick={() => {
+                        // Strip "Strong's " prefix if present
+                        const num = name.strongs.replace(/^Strong's\s*/i, '')
+                        openStrongs(num)
+                      }}
                       style={{ marginRight: '8px' }}
                     >
                       {name.strongs}

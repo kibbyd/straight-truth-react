@@ -123,7 +123,11 @@ function GlossaryColumn({ columnId, data }) {
                     {item.original_language.strongs && (
                       <span
                         className="catalogue-strongs-link"
-                        onClick={() => openStrongs(item.original_language.strongs)}
+                        onClick={() => {
+                          // Strip "Strong's " prefix if present
+                          const num = item.original_language.strongs.replace(/^Strong's\s*/i, '')
+                          openStrongs(num)
+                        }}
                         style={{ cursor: 'pointer' }}
                       >
                         {item.original_language.strongs}
