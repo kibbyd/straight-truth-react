@@ -68,17 +68,22 @@ export function AppProvider({ children }) {
         const waterNames = new Set(loadedData.waters.map(w => w.name))
         const mountainNames = new Set(loadedData.mountains.map(m => m.name))
 
-        // Build strongs to verses lookup
-        const strongsToVerses = {}
+        // Build strongs to verses lookup (using Set to avoid duplicates)
+        const strongsToVersesSet = {}
         if (loadedData.strongs.verses) {
           for (const [verseId, words] of Object.entries(loadedData.strongs.verses)) {
             for (const word of words) {
-              if (!strongsToVerses[word.strong]) {
-                strongsToVerses[word.strong] = []
+              if (!strongsToVersesSet[word.strong]) {
+                strongsToVersesSet[word.strong] = new Set()
               }
-              strongsToVerses[word.strong].push(verseId)
+              strongsToVersesSet[word.strong].add(verseId)
             }
           }
+        }
+        // Convert Sets to Arrays
+        const strongsToVerses = {}
+        for (const [strong, verseSet] of Object.entries(strongsToVersesSet)) {
+          strongsToVerses[strong] = Array.from(verseSet)
         }
 
         setLookups({
