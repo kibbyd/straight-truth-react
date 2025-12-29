@@ -52,7 +52,7 @@ export const bibleBooks = [
   { abbr: '2Co', name: '2 Corinthians', chapters: 13 },
   { abbr: 'Gal', name: 'Galatians', chapters: 6 },
   { abbr: 'Eph', name: 'Ephesians', chapters: 6 },
-  { abbr: 'Php', name: 'Philippians', chapters: 4 },
+  { abbr: 'Phi', name: 'Philippians', chapters: 4 },
   { abbr: 'Col', name: 'Colossians', chapters: 4 },
   { abbr: '1Th', name: '1 Thessalonians', chapters: 5 },
   { abbr: '2Th', name: '2 Thessalonians', chapters: 3 },
@@ -61,7 +61,7 @@ export const bibleBooks = [
   { abbr: 'Tit', name: 'Titus', chapters: 3 },
   { abbr: 'Phm', name: 'Philemon', chapters: 1 },
   { abbr: 'Heb', name: 'Hebrews', chapters: 13 },
-  { abbr: 'Jas', name: 'James', chapters: 5 },
+  { abbr: 'Jam', name: 'James', chapters: 5 },
   { abbr: '1Pe', name: '1 Peter', chapters: 5 },
   { abbr: '2Pe', name: '2 Peter', chapters: 3 },
   { abbr: '1Jo', name: '1 John', chapters: 5 },
@@ -76,18 +76,43 @@ export const bookByAbbr = Object.fromEntries(
   bibleBooks.map(book => [book.abbr, book])
 )
 
+// Alias map for alternate abbreviations (strongs_data uses different abbrs)
+const abbrAliases = {
+  'Jhn': 'Joh',   // John gospel
+  'Mrk': 'Mar',   // Mark
+  '1Jn': '1Jo',   // 1 John
+  '2Jn': '2Jo',   // 2 John
+  '3Jn': '3Jo',   // 3 John
+  'Php': 'Phi',   // Philippians
+}
+
+// Normalize book abbreviation to canonical form
+export function normalizeBookAbbr(abbr) {
+  return abbrAliases[abbr] || abbr
+}
+
 // Format verse reference: "Gen.1.1" -> "Genesis 1:1"
 export function formatVerseRef(verseId) {
   if (!verseId) return ''
-  const [abbr, chapter, verse] = verseId.split('.')
+  const [rawAbbr, chapter, verse] = verseId.split('.')
+  const abbr = normalizeBookAbbr(rawAbbr)
   const book = bookByAbbr[abbr]
   if (!book) return verseId
   return `${book.name} ${chapter}:${verse}`
 }
 
 // Format chapter reference: "Gen", 1 -> "Genesis 1"
-export function formatChapterRef(abbr, chapter) {
+export function formatChapterRef(rawAbbr, chapter) {
+  const abbr = normalizeBookAbbr(rawAbbr)
   const book = bookByAbbr[abbr]
-  if (!book) return `${abbr} ${chapter}`
+  if (!book) return `${rawAbbr} ${chapter}`
   return `${book.name} ${chapter}`
+}
+
+// Normalize verse ID to canonical form: "Jhn.3.16" -> "Joh.3.16"
+export function normalizeVerseId(verseId) {
+  if (!verseId) return verseId
+  const [rawAbbr, chapter, verse] = verseId.split('.')
+  const abbr = normalizeBookAbbr(rawAbbr)
+  return `${abbr}.${chapter}.${verse}`
 }

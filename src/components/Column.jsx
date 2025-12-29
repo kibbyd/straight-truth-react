@@ -18,7 +18,7 @@ import ConverterColumn from './columns/ConverterColumn'
 
 // Column title mapping
 const columnTitles = {
-  passage: 'Bible Passage',
+  passage: 'Bible',
   strongs: "Strong's Concordance",
   crossrefs: 'Cross-References',
   notes: 'Notes',
@@ -51,9 +51,6 @@ function Column({
 
   // Get title based on column type
   const getTitle = () => {
-    if (column.type === 'passage' && column.data) {
-      return `${column.data.book || 'Gen'} ${column.data.chapter || 1}`
-    }
     if (column.type === 'strongs' && column.data?.strongNum) {
       // Strip "Strong's " prefix if present to avoid "Strong's Strong's G2288"
       const num = column.data.strongNum.replace(/^Strong's\s*/i, '')

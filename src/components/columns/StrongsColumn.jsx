@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, normalizeVerseId } from '../../data/bibleBooks'
 
 function StrongsColumn({ columnId, data }) {
   const { data: appData, lookups, goToVerse } = useApp()
@@ -129,7 +129,7 @@ function StrongsColumn({ columnId, data }) {
           <div
             key={verseId}
             className="strongs-occurrence-item"
-            onClick={() => goToVerse(verseId, strongNum)}
+            onClick={() => goToVerse(normalizeVerseId(verseId), strongNum)}
           >
             <span className="catalogue-ref-link">{formatVerseRef(verseId)}</span>
           </div>
