@@ -3,7 +3,7 @@ import { useApp } from '../../context/AppContext'
 import { formatVerseRef, formatChapterRef, formatChapterRange, normalizeVerseId, normalizeBookAbbr, bookByAbbr } from '../../data/bibleBooks'
 
 function QuestionsColumn({ columnId, data }) {
-  const { data: appData, goToVerse, openStrongs } = useApp()
+  const { data: appData, goToVerse, openStrongs, openAncientText } = useApp()
   const [expandedCategory, setExpandedCategory] = useState(null)
   const [expandedQuestion, setExpandedQuestion] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
@@ -182,8 +182,19 @@ function QuestionsColumn({ columnId, data }) {
                                           >
                                             {source.strongs}
                                           </span>
+                                        ) : source.id ? (
+                                          <span
+                                            className="catalogue-source-link"
+                                            onClick={(e) => {
+                                              e.stopPropagation()
+                                              openAncientText(source.id)
+                                            }}
+                                            style={{ cursor: 'pointer' }}
+                                          >
+                                            {source.label || source.id}
+                                          </span>
                                         ) : (
-                                          <span>{source.label || source.id}</span>
+                                          <span>{source.label || source.text}</span>
                                         )}
                                       </span>
                                     ))}

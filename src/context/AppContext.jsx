@@ -28,7 +28,8 @@ export function AppProvider({ children }) {
     familyTrees: [],
     questions: [],
     glossary: [],
-    measures: { categories: {}, measures: [] }
+    measures: { categories: {}, measures: [] },
+    ancientTexts: {}
   })
 
   // Lookup sets for O(1) entity checking
@@ -54,6 +55,9 @@ export function AppProvider({ children }) {
 
   // Toast state
   const [toast, setToast] = useState({ show: false, message: '' })
+
+  // Ancient text modal state
+  const [ancientTextModal, setAncientTextModal] = useState({ show: false, source: null })
 
   // Load all data on mount
   useEffect(() => {
@@ -187,6 +191,20 @@ export function AppProvider({ children }) {
     setTimeout(() => setToast({ show: false, message: '' }), 3000)
   }, [])
 
+  // Ancient text modal functions
+  const openAncientText = useCallback((sourceId) => {
+    const source = data.ancientTexts[sourceId]
+    if (source) {
+      setAncientTextModal({ show: true, source })
+    } else {
+      showToast(`Source "${sourceId}" not yet available`)
+    }
+  }, [data.ancientTexts, showToast])
+
+  const closeAncientText = useCallback(() => {
+    setAncientTextModal({ show: false, source: null })
+  }, [])
+
   // Navigation functions
   // highlight=false navigates without highlighting (for chapter ranges)
   const goToVerse = useCallback((verseId, strongNum = null, highlight = true) => {
@@ -298,7 +316,12 @@ export function AppProvider({ children }) {
     showToast,
 
     // Toast
-    toast
+    toast,
+
+    // Ancient text modal
+    ancientTextModal,
+    openAncientText,
+    closeAncientText
   }
 
   return (

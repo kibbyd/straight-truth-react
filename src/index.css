@@ -1387,3 +1387,117 @@ body {
     font-size: var(--font-lg);
     text-align: center;
 }
+
+/* ========== ANCIENT TEXT MODAL ========== */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 8px;
+    max-width: 600px;
+    max-height: 80vh;
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    line-height: 1;
+}
+
+.modal-close:hover {
+    color: #333;
+}
+
+.ancient-text-modal {
+    padding: 24px;
+}
+
+.ancient-text-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.ancient-text-author {
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ancient-text-work {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin: 4px 0;
+}
+
+.ancient-text-ref {
+    font-size: 16px;
+    color: #1976d2;
+    font-weight: 500;
+}
+
+.ancient-text-date {
+    font-size: 13px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.ancient-text-body {
+    margin: 16px 0;
+}
+
+.ancient-text-quote {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    margin: 0;
+    padding: 16px 20px;
+    background: #fafafa;
+    border-left: 4px solid #1976d2;
+    font-style: italic;
+}
+
+.ancient-text-context {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #e0e0e0;
+}
+
+/* Source link style */
+.catalogue-source-link {
+    color: #7b1fa2;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.catalogue-source-link:hover {
+    color: #4a148c;
+    text-decoration-style: solid;
+}

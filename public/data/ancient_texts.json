@@ -1,0 +1,404 @@
+{
+  "sources": {
+    "josephus-antiquities-1.3.1": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 1, Chapter 3, Section 1",
+      "date": "William Whiston (1737)",
+      "text": "For many angels of God accompanied with women, and begat sons that proved unjust, and despisers of all that was good, on account of the confidence they had in their own strength; for the tradition is, that these men did what resembled the acts of those whom the Grecians call giants.",
+      "context": "Josephus's interpretation of Genesis 6:1-4 regarding the Nephilim"
+    },
+    "josephus-antiquities-1.10.2": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 1, Chapter 10, Section 2",
+      "date": "William Whiston (1737)",
+      "text": "After this manner Shem, the third son of Noah, who was born of Melchizedek, reigned in Salem, and was called the \"King of righteousness.\" And that Salem which Melchizedek reigned was afterwards called Jerusalem.",
+      "context": "Josephus identifies Salem with Jerusalem"
+    },
+    "josephus-antiquities-2.15.2": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 2, Chapter 15, Section 2",
+      "date": "William Whiston (1737)",
+      "text": "They left Egypt in the month Xanthicus, on the fifteenth day of the lunar month; four hundred and thirty years after our forefather Abraham came into Canaan, but two hundred and fifteen years only after Jacob removed into Egypt.",
+      "context": "Josephus records two traditions about the time in Egypt"
+    },
+    "josephus-antiquities-4.8.22": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 4, Chapter 8, Section 22",
+      "date": "William Whiston (1737)",
+      "text": "Let there be three tithes of all the fruits of the earth every year: one for the Levites, one to be used in the feasts and sacrifices, and one for the distribution to those in need, who are to be relieved by every Israelite according to their ability.",
+      "context": "Josephus describes the multiple tithes required under the Law"
+    },
+    "josephus-antiquities-20.5.1": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 20, Chapter 5, Section 1",
+      "date": "William Whiston (1737)",
+      "text": "Now it came to pass, while Fadus was procurator of Judea, that a certain magician, whose name was Theudas, persuaded a great part of the people to take their effects with them, and follow him to the river Jordan; for he told them he was a prophet, and that he would, by his own command, divide the river, and afford them an easy passage over it.",
+      "context": "Example of false prophets and miracle claims in 1st century Palestine"
+    },
+    "josephus-jewish-war-2.8.14": {
+      "author": "Josephus",
+      "work": "Josephus, Jewish War",
+      "reference": "Book 2, Chapter 8, Section 14",
+      "date": "William Whiston (1737)",
+      "text": "For their doctrine is this: That bodies are corruptible, and that the matter they are made of is not permanent; but that the souls are immortal, and continue for ever; and that they come out of the most subtile air, and are united to their bodies as to prisons, into which they are drawn by a certain natural enticement; but that when they are set free from the bonds of the flesh, they then, as released from a long bondage, rejoice and mount upward.",
+      "context": "Josephus describes Pharisaic belief in resurrection and immortality"
+    },
+    "josephus-jewish-war-2.13.4-5": {
+      "author": "Josephus",
+      "work": "Josephus, Jewish War",
+      "reference": "Book 2, Chapter 13, Sections 4-5",
+      "date": "William Whiston (1737)",
+      "text": "These works, that were done by the robbers, filled the city with all sorts of impiety. And now these impostors and deceivers persuaded the multitude to follow them into the wilderness, and pretended that they would exhibit manifest wonders and signs, that should be performed by the providence of God.",
+      "context": "False prophets and miracle workers in first-century Palestine"
+    },
+    "josephus-against-apion-1.8": {
+      "author": "Josephus",
+      "work": "Josephus, Against Apion",
+      "reference": "Book 1, Section 8",
+      "date": "William Whiston (1737)",
+      "text": "For we have not an innumerable multitude of books among us, disagreeing from and contradicting one another, but only twenty-two books, which contain the records of all the past times; which are justly believed to be divine; and of them five belong to Moses, which contain his laws and the traditions of the origin of mankind till his death.",
+      "context": "Josephus attributes the five books of Moses to Moses himself"
+    },
+    "didache-2.2": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 2, Verse 2",
+      "date": "Roberts-Donaldson",
+      "text": "You shall not murder. You shall not commit adultery. You shall not corrupt boys. You shall not be sexually immoral. You shall not steal. You shall not practice magic. You shall not use potions. You shall not procure abortion, nor commit infanticide.",
+      "context": "Early Christian moral teaching, explicitly condemning infanticide"
+    },
+    "didache-4.14": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 4, Verse 14",
+      "date": "Roberts-Donaldson",
+      "text": "In the congregation you shall confess your transgressions, and you shall not come to your prayer with an evil conscience. This is the way of life.",
+      "context": "Early instruction on confession before prayer"
+    },
+    "didache-7.1-3": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 7, Verses 1-3",
+      "date": "Roberts-Donaldson",
+      "text": "Concerning baptism, baptize thus: Having first rehearsed all these things, baptize in the name of the Father and of the Son and of the Holy Spirit, in running water. But if you have no running water, baptize in other water; and if you cannot in cold, then in warm. But if you have neither, pour water three times on the head in the name of the Father, Son, and Holy Spirit.",
+      "context": "Earliest description of Christian baptismal practice outside the NT"
+    },
+    "didache-8.1": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 8, Verse 1",
+      "date": "Roberts-Donaldson",
+      "text": "Let not your fasts be with the hypocrites, for they fast on the second and fifth day of the week. But fast on the fourth day and the Preparation (Friday).",
+      "context": "Christians instructed to fast Wednesday/Friday, not Monday/Thursday like Pharisees"
+    },
+    "didache-8.3": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 8, Verse 3",
+      "date": "Roberts-Donaldson",
+      "text": "Neither pray as the hypocrites, but as the Lord commanded in His Gospel, so pray: 'Our Father, who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done, as in heaven, so also on earth; give us this day our daily bread; and forgive us our debt, as we also forgive our debtors; and lead us not into temptation, but deliver us from evil; for Thine is the power and the glory forever.' Three times in the day pray thus.",
+      "context": "Instruction to pray the Lord's Prayer three times daily"
+    },
+    "didache-9-10": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapters 9-10",
+      "date": "Roberts-Donaldson",
+      "text": "Concerning the Eucharist, give thanks thus: First, concerning the cup: 'We thank Thee, our Father, for the holy vine of David Thy servant, which Thou hast made known to us through Jesus Thy Servant; to Thee be the glory forever.' And concerning the broken bread: 'We thank Thee, our Father, for the life and knowledge which Thou hast made known to us through Jesus Thy Servant; to Thee be the glory forever. As this broken bread was scattered upon the mountains, and was gathered together and became one, so let Thy Church be gathered together from the ends of the earth into Thy kingdom; for Thine is the glory and the power through Jesus Christ forever.'",
+      "context": "Earliest Eucharistic prayers outside the New Testament"
+    },
+    "didache-12.3-5": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 12, Verses 3-5",
+      "date": "Roberts-Donaldson",
+      "text": "But if he wishes to settle among you, and has a trade, let him work and eat. But if he has no trade, according to your understanding, provide that he shall not live idle among you as a Christian. But if he will not act thus, he is making traffic of Christ. Beware of such.",
+      "context": "Early Christian work ethic - no idle living"
+    },
+    "didache-14.1": {
+      "author": "Didache",
+      "work": "Didache (Teaching of the Twelve Apostles)",
+      "reference": "Chapter 14, Verse 1",
+      "date": "Roberts-Donaldson",
+      "text": "On the Lord's Day of the Lord come together, break bread and hold Eucharist, after confessing your transgressions, that your offering may be pure.",
+      "context": "Early reference to Sunday ('Lord's Day') worship"
+    },
+    "hammurabi-prologue": {
+      "author": "Code of Hammurabi",
+      "work": "Code of Hammurabi",
+      "reference": "Prologue",
+      "date": "L.W. King (1910)",
+      "text": "When Anu the Sublime, King of the Anunnaki, and Bel, the lord of Heaven and earth, who decreed the fate of the land, assigned to Marduk, the over-ruling son of Ea, God of righteousness, dominion over earthly man, and made him great among the Igigi, they called Babylon by his illustrious name, made it great on earth, and founded an everlasting kingdom in it, whose foundations are laid so solidly as those of heaven and earth; then Anu and Bel called by name me, Hammurabi, the exalted prince, who feared God, to bring about the rule of righteousness in the land, to destroy the wicked and the evil-doers; so that the strong should not harm the weak.",
+      "context": "Ancient Near Eastern kings were expected to protect the weak"
+    },
+    "hammurabi-law-1": {
+      "author": "Code of Hammurabi",
+      "work": "Code of Hammurabi",
+      "reference": "Law 1",
+      "date": "L.W. King (1910)",
+      "text": "If any one ensnare another, putting a ban upon him, but he can not prove it, then he that ensnared him shall be put to death.",
+      "context": "False accusation carried death penalty"
+    },
+    "hammurabi-law-6": {
+      "author": "Code of Hammurabi",
+      "work": "Code of Hammurabi",
+      "reference": "Law 6",
+      "date": "L.W. King (1910)",
+      "text": "If any one steal the property of a temple or of the court, he shall be put to death, and also the one who receives the stolen thing from him shall be put to death.",
+      "context": "Death penalty for temple theft"
+    },
+    "hammurabi-laws-88-96": {
+      "author": "Code of Hammurabi",
+      "work": "Code of Hammurabi",
+      "reference": "Laws 88-96",
+      "date": "L.W. King (1910)",
+      "text": "If a merchant lend grain at interest, he shall receive sixty qa of grain for one gur as interest. If he lend money at interest, for each shekel of silver lent, he shall receive one-sixth of a shekel plus six grains as interest.",
+      "context": "Interest rates in ancient Babylon: 20% on grain, 33% on silver"
+    },
+    "hammurabi-laws-117-119": {
+      "author": "Code of Hammurabi",
+      "work": "Code of Hammurabi",
+      "reference": "Laws 117-119",
+      "date": "L.W. King (1910)",
+      "text": "If any one fail to meet a claim for debt, and sell himself, his wife, his son, and daughter for money or give them away to forced labor: they shall work for three years in the house of the man who bought them, or the proprietor, and in the fourth year they shall be set free.",
+      "context": "Debt slavery limited to three years in Babylon"
+    },
+    "mishnah-avot-2.2": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Avot (Ethics of the Fathers) 2:2",
+      "date": "Herbert Danby",
+      "text": "Rabban Gamaliel the son of Rabbi Judah the Prince said: Excellent is the study of the Torah together with a worldly occupation, for the labor demanded by both of them causes sinful inclinations to be forgotten. All study of the Torah without work must in the end be futile and become the cause of sin.",
+      "context": "Jewish teaching on combining Torah study with honest work"
+    },
+    "mishnah-avot-5.19-20": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Avot (Ethics of the Fathers) 5:19-20",
+      "date": "Herbert Danby",
+      "text": "Whoever has these three characteristics is of the disciples of Abraham our father; whoever has the three opposite characteristics is of the disciples of Balaam the wicked. A good eye, a humble spirit, and a lowly soul—these are of the disciples of Abraham. An evil eye, a haughty spirit, and a proud soul—these are of the disciples of Balaam the wicked. What is the difference between the disciples of Abraham and the disciples of Balaam? The disciples of Abraham enjoy this world and inherit the World to Come... But the disciples of Balaam inherit Gehenna and descend to the pit of destruction.",
+      "context": "Early Jewish teaching about Gehenna as place of punishment"
+    },
+    "mishnah-gittin-9.10": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Gittin 9:10",
+      "date": "Herbert Danby",
+      "text": "The School of Shammai say: A man may not divorce his wife unless he has found unchastity in her, for it is written, 'Because he hath found in her indecency in anything.' And the School of Hillel say: He may divorce her even if she spoiled a dish for him, for it is written, 'Because he hath found in her indecency in anything.' Rabbi Akiba says: Even if he found another fairer than she, for it is written, 'And it shall be if she find no favor in his eyes.'",
+      "context": "Jewish debate on divorce grounds - Shammai strict, Hillel lenient"
+    },
+    "mishnah-sanhedrin-10.1": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Sanhedrin 10:1",
+      "date": "Herbert Danby",
+      "text": "All Israelites have a share in the world to come, for it is written, 'And thy people shall all be righteous, they shall inherit the land for ever.' But these have no share in the world to come: one who says that the resurrection of the dead is not taught in the Torah, and one who says that the Torah is not from Heaven, and an Epicurean.",
+      "context": "Denial of resurrection excluded one from the world to come"
+    },
+    "mishnah-kiddushin": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Kiddushin 1:1",
+      "date": "Herbert Danby",
+      "text": "A woman is acquired in three ways and acquires herself in two ways. She is acquired by money, by document, or by intercourse... She acquires herself by a bill of divorce or by the death of her husband.",
+      "context": "Jewish marriage (betrothal/erusin) involved formal acquisition"
+    },
+    "mishnah-yoma": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Yoma 8:9",
+      "date": "Herbert Danby",
+      "text": "Rabbi Eliezer ben Azariah expounded: 'From all your sins before the Lord shall ye be clean'—for transgressions between man and God the Day of Atonement effects atonement; but for transgressions between a man and his fellow the Day of Atonement effects atonement only if he has appeased his fellow.",
+      "context": "Yom Kippur and the need for interpersonal reconciliation"
+    },
+    "talmud-bava-batra-14b": {
+      "author": "Babylonian Talmud",
+      "work": "Babylonian Talmud",
+      "reference": "Bava Batra 14b",
+      "date": "Soncino",
+      "text": "Who wrote the Scriptures? Moses wrote his own book and the portion of Balaam and Job. Joshua wrote the book which bears his name and the last eight verses of the Torah. Samuel wrote the book which bears his name and the Book of Judges and Ruth. David wrote the Book of Psalms, including in it the work of the ten elders.",
+      "context": "Talmudic tradition attributing the Pentateuch to Moses"
+    },
+    "1-enoch-15.8-12": {
+      "author": "1 Enoch",
+      "work": "1 Enoch (Book of Enoch)",
+      "reference": "Chapter 15, Verses 8-12",
+      "date": "R.H. Charles (1917)",
+      "text": "And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling. Evil spirits have proceeded from their bodies; because they are born from men and from the holy Watchers is their beginning and primal origin; they shall be evil spirits on earth, and evil spirits shall they be called. As for the spirits of heaven, in heaven shall be their dwelling, but as for the spirits of the earth which were born upon the earth, on the earth shall be their dwelling. And the spirits of the giants afflict, oppress, destroy, attack, do battle, and work destruction on the earth, and cause trouble.",
+      "context": "1 Enoch identifies demons as spirits of the dead giants (Nephilim)"
+    },
+    "1-enoch-22.1-14": {
+      "author": "1 Enoch",
+      "work": "1 Enoch (Book of Enoch)",
+      "reference": "Chapter 22, Verses 1-14",
+      "date": "R.H. Charles (1917)",
+      "text": "And thence I went to another place, and he showed me in the west another great and high mountain of hard rock. And there was in it four hollow places, deep and wide and very smooth. And I said: 'How smooth are the hollow places and deep and dark to view.' Then Raphael answered, one of the holy angels who was with me, and said unto me: 'These hollow places have been created for this very purpose, that the spirits of the souls of the dead should assemble therein, yea that all the souls of the children of men should assemble here. And these places have been made to receive them till the day of their judgement and till their appointed period, till the great judgement comes upon them.' I saw the spirits of the children of men who were dead, and their voice went forth to heaven and made suit.",
+      "context": "1 Enoch describes compartments in Sheol for different categories of the dead"
+    },
+    "1-enoch-61.10": {
+      "author": "1 Enoch",
+      "work": "1 Enoch (Book of Enoch)",
+      "reference": "Chapter 61, Verse 10",
+      "date": "R.H. Charles (1917)",
+      "text": "And He will call all the host of the heavens, and all the holy ones above, and the host of God, the Cherubim, Seraphim, and Ophannim, and all the angels of power, and all the angels of principalities, and the Elect One, and the other powers on the earth and over the water.",
+      "context": "1 Enoch lists various angelic orders and hierarchies"
+    },
+    "2-enoch-8.1-8": {
+      "author": "2 Enoch",
+      "work": "2 Enoch (Slavonic Enoch)",
+      "reference": "Chapter 8, Verses 1-8",
+      "date": "W.R. Morfill (1896)",
+      "text": "And those men took me thence, and led me up on to the third heaven, and placed me there; and I looked downwards, and saw the produce of these places, such as has never been known for goodness. And I saw all the sweet-flowering trees and beheld their fruits, which were sweet-smelling, and all the foods borne by them, bubbling with fragrant exhalation. And in the midst of the trees that of life, in that place whereon the Lord rests, when he goes up into paradise; and this tree is of ineffable goodness and fragrance, and adorned more than every existing thing.",
+      "context": "2 Enoch describes the third heaven as paradise where the Tree of Life is located"
+    },
+    "2-enoch-20.1-3": {
+      "author": "2 Enoch",
+      "work": "2 Enoch (Slavonic Enoch)",
+      "reference": "Chapter 20, Verses 1-3",
+      "date": "W.R. Morfill (1896)",
+      "text": "And those men took me from there, and they bore me up to the seventh heaven, and I saw there a very great light, and all the fiery hosts of great archangels, and incorporeal powers, and lordships, and principalities, and powers, and cherubim, and seraphim, and thrones, and the watchfulness of many eyes. There were ten troops, a station of brightness, and I was afraid and trembled with great fear.",
+      "context": "2 Enoch describes the seventh heaven with angelic hierarchies"
+    },
+    "4-ezra-7.75-101": {
+      "author": "4 Ezra",
+      "work": "4 Ezra (2 Esdras)",
+      "reference": "Chapter 7, Verses 75-101",
+      "date": "R.H. Charles",
+      "text": "I answered and said, 'If I have found favour in your sight, show me this also: whether after death, as soon as every one of us yields up his soul, we shall be kept in rest until those times come when you will renew the creation, or whether we shall be tormented forthwith?' He answered me and said, 'I will show you that also. As for death, the decree is: When the Most High has given sentence that a man shall die, as the spirit leaves the body to return again to him who gave it, first of all it adores the glory of the Most High. And if it is one of those who have shown scorn and have not kept the way of the Most High, who have despised his law and hated those who fear God—such spirits shall not enter into habitations, but shall immediately wander about in torments. But those who have kept the ways of the Most High, this is the order when they shall be separated from their mortal body: they shall see with great joy the glory of him who receives them.'",
+      "context": "4 Ezra describes the intermediate state of souls between death and final judgment"
+    },
+    "testament-levi-3.1-8": {
+      "author": "Testament of Levi",
+      "work": "Testament of Levi",
+      "reference": "Chapter 3, Verses 1-8",
+      "date": "R.H. Charles (1908)",
+      "text": "Hear, therefore, regarding the heavens which have been shown to thee. The lowest is for this cause gloomy, in that it beholds all the unrighteous deeds of men. The second hath fire, snow, ice ready for the day of the ordinance of the Lord, in the righteous judgment of God. In it are all the spirits of the retributions for vengeance on men. In the third are the hosts of armies which are ordained for the day of judgment, to work vengeance on the spirits of deceit and of Beliar. And the heavens up to the fourth above these are holy. In the highest of all dwelleth the Great Glory, far above all holiness.",
+      "context": "Testament of Levi describes multiple heavens with different functions"
+    },
+    "jubilees-10.1-13": {
+      "author": "Jubilees",
+      "work": "Jubilees (Little Genesis)",
+      "reference": "Chapter 10, Verses 1-13",
+      "date": "R.H. Charles (1902)",
+      "text": "And in the third week of this jubilee the unclean demons began to lead astray the children of the sons of Noah, and to make to err and destroy them. And the sons of Noah came to Noah their father, and they told him concerning the demons which were leading astray and blinding and slaying his sons' sons. And he prayed before the Lord his God, and said: 'God of the spirits of all flesh, who hast shown mercy unto me and hast saved me and my sons from the waters of the flood... Let Thy grace be lift up upon my sons, and let not wicked spirits rule over them lest they should destroy them from the earth.' And the Lord our God bade us to bind all. And the chief of the spirits, Mastema, came and said: 'Lord, Creator, let some of them remain before me, and let them hearken to my voice, and do all that I shall say unto them.' And He said: 'Let the tenth part of them remain before him, and let nine parts descend into the place of condemnation.'",
+      "context": "Jubilees explains demons as spirits of the giants, with 1/10 permitted to remain on earth"
+    },
+    "tertullian-modesty-13": {
+      "author": "Tertullian",
+      "work": "Tertullian, On Modesty",
+      "reference": "Chapter 13",
+      "date": "S. Thelwall (Ante-Nicene Fathers)",
+      "text": "For that 'thorn in the flesh' which was given him as an 'angel of Satan,' to buffet him, lest he should be exalted by the abundance of revelations, some think to be earache or headache. For commonly these bodily ailments are wont to be assigned to the agency of demons.",
+      "context": "Tertullian's interpretation of Paul's thorn in the flesh"
+    },
+    "chrysostom-2cor-26": {
+      "author": "John Chrysostom",
+      "work": "John Chrysostom, Homilies on 2 Corinthians",
+      "reference": "Homily 26",
+      "date": "Talbot W. Chambers (Nicene Fathers)",
+      "text": "Some say that he means headache, others say the persecutions and trials he underwent. But I hold that the thorn was the constant temptations of persecution - Alexander the coppersmith, the fights with false apostles, the plots laid against him by his own countrymen.",
+      "context": "Chrysostom interprets Paul's thorn as persecution"
+    },
+    "augustine-sermons-71": {
+      "author": "Augustine",
+      "work": "Augustine, Sermons",
+      "reference": "Sermon 71",
+      "date": "R.G. MacMullen (Nicene Fathers)",
+      "text": "What is meant by the blasphemy against the Holy Spirit, which shall not be forgiven? It is final impenitence. He who dies in obstinate resistance to God, refusing to the end to accept forgiveness offered through the Holy Spirit, this is the sin that shall not be forgiven.",
+      "context": "Augustine interprets the unforgivable sin as final impenitence"
+    },
+    "athanasius-serapion": {
+      "author": "Athanasius",
+      "work": "Athanasius, Letters to Serapion",
+      "reference": "Letter 4",
+      "date": "C.R.B. Shapland",
+      "text": "The blasphemy against the Spirit is this: to attribute to the evil one the work of the Spirit - as those Pharisees did who, seeing Christ casting out demons by the Spirit of God, said it was by Beelzebul the prince of demons that he was casting them out.",
+      "context": "Athanasius links the unforgivable sin to attributing Spirit's work to Satan"
+    },
+    "papias-judas": {
+      "author": "Papias",
+      "work": "Papias, Fragments",
+      "reference": "Preserved in Apollinaris of Laodicea",
+      "date": "Alexander Roberts (Ante-Nicene Fathers)",
+      "text": "Judas walked about in this world a great example of ungodliness; for his body having swollen to such an extent that he could not pass where a chariot could pass easily, he was crushed by the chariot, so that his bowels gushed out.",
+      "context": "Papias's tradition about Judas's death - body swelling"
+    },
+    "letter-diognetus-5.6": {
+      "author": "Letter to Diognetus",
+      "work": "Letter to Diognetus",
+      "reference": "Chapter 5, Verse 6",
+      "date": "Roberts-Donaldson (Ante-Nicene Fathers)",
+      "text": "They marry, as do all; they beget children; but they do not cast away their offspring. They have a common table, but not a common bed. They are in the flesh, but they do not live after the flesh.",
+      "context": "Early Christian practice: marriage, children, rejection of infanticide"
+    },
+    "martyrdom-polycarp": {
+      "author": "Martyrdom of Polycarp",
+      "work": "Martyrdom of Polycarp",
+      "reference": "Chapter 9",
+      "date": "Roberts-Donaldson (Ante-Nicene Fathers)",
+      "text": "The proconsul urged him, saying, 'Swear by the fortune of Caesar; repent; say, Away with the atheists!' Polycarp looked with a stern countenance upon all the crowd of wicked heathen who were in the stadium, and waved his hand toward them, and groaning and looking up to heaven, said, 'Away with the atheists!' When the proconsul pressed him and said, 'Swear, and I will release thee; revile Christ,' Polycarp said, 'Eighty and six years have I served Him, and He has done me no wrong. How then can I blaspheme my King and Savior?'",
+      "context": "Example of early Christian refusal to worship emperor"
+    },
+    "pliny-letters-10.96-97": {
+      "author": "Pliny the Younger",
+      "work": "Pliny the Younger, Letters",
+      "reference": "Letters 10.96-97 (to Emperor Trajan)",
+      "date": "W. Melmoth, revised by W.M.L. Hutchinson",
+      "text": "They asserted, however, that the sum and substance of their fault or error had been that they were accustomed to meet on a fixed day before dawn and sing responsively a hymn to Christ as to a god, and to bind themselves by oath, not to some crime, but not to commit fraud, theft, or adultery, not falsify their trust, nor to refuse to return a trust when called upon to do so. When this was over, it was their custom to depart and to assemble again to partake of food--but ordinary and innocent food.",
+      "context": "Roman governor's description of early Christian worship (c. 112 AD)"
+    },
+    "pliny-natural-history-14.6": {
+      "author": "Pliny the Elder",
+      "work": "Pliny the Elder, Natural History",
+      "reference": "Book 14, Chapter 6",
+      "date": "John Bostock (1855)",
+      "text": "Wine is mixed with water in various proportions. The ancients had a preference for mixing one part wine to two of water, or one to three, or one to four. Some persons are never satisfied unless they drink wine in a pure and unmixed state.",
+      "context": "Ancient practice of mixing wine with water"
+    },
+    "dss-war-scroll-1qm": {
+      "author": "Dead Sea Scrolls - War Scroll",
+      "work": "Dead Sea Scrolls - War Scroll",
+      "reference": "1QM (War Scroll)",
+      "date": "G. Vermes",
+      "text": "For it is a time of distress for Israel, and of the appointed battle against all the nations. There shall be eternal deliverance for the company of God, but destruction for all the nations of wickedness. The sons of light shall battle with the company of darkness amid the shouts of a great multitude and the clamor of gods and men. For it is the day appointed by Him for the battle of destruction of the sons of darkness.",
+      "context": "Qumran community's apocalyptic vision of cosmic spiritual warfare"
+    },
+    "1-maccabees-4.46": {
+      "author": "1 Maccabees",
+      "work": "1 Maccabees",
+      "reference": "4:46",
+      "date": "Revised Standard Version",
+      "text": "And they laid up the stones in the mountain of the temple in a convenient place, until there should come a prophet to give an answer concerning them.",
+      "context": "Recognition that prophecy had ceased awaiting future restoration"
+    },
+    "1-maccabees-9.27": {
+      "author": "1 Maccabees",
+      "work": "1 Maccabees",
+      "reference": "9:27",
+      "date": "Revised Standard Version",
+      "text": "And there was great distress in Israel, such as had not been since the time that prophets ceased to appear among them.",
+      "context": "Acknowledgment of cessation of prophecy in intertestamental period"
+    },
+    "1-maccabees-14.41": {
+      "author": "1 Maccabees",
+      "work": "1 Maccabees",
+      "reference": "14:41",
+      "date": "Revised Standard Version",
+      "text": "And the Jews and their priests decided that Simon should be their leader and high priest for ever, until a trustworthy prophet should arise.",
+      "context": "Authority provisional until a prophet arises"
+    },
+    "2-maccabees-7.9": {
+      "author": "2 Maccabees",
+      "work": "2 Maccabees",
+      "reference": "7:9",
+      "date": "Revised Standard Version",
+      "text": "And when he was at his last breath, he said, 'You dismiss us from this present life, but the King of the universe will raise us up to an everlasting renewal of life, because we have died for his laws.'",
+      "context": "Intertestamental expression of resurrection hope"
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { AppProvider, useApp } from './context/AppContext'
 import Header from './components/Header'
 import Workspace from './components/Workspace'
 import Toast from './components/Toast'
+import AncientTextModal from './components/AncientTextModal'
 
 function AppContent() {
   const { loading, error } = useApp()
@@ -37,6 +38,7 @@ function AppContent() {
       <Header />
       <Workspace />
       <Toast />
+      <AncientTextModal />
     </div>
   )
 }
