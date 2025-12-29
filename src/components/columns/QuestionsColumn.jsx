@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, formatChapterRef, formatChapterRange, normalizeVerseId, normalizeBookAbbr, bookByAbbr } from '../../data/bibleBooks'
 
 function QuestionsColumn({ columnId, data }) {
   const { data: appData, goToVerse, openStrongs } = useApp()
@@ -42,17 +42,45 @@ function QuestionsColumn({ columnId, data }) {
     return filtered
   }, [groupedQuestions, searchQuery])
 
-  // Parse verse reference
+  // Parse verse reference - handles multiple formats:
+  // - Book.Chapter.Verse (Gen.1.1)
+  // - Book.Chapter.Verse-Verse (Gen.1.1-3)
+  // - Book.Chapter-Chapter (Exo.7-12) - chapter ranges
   const parseRef = (ref) => {
-    // Handle ranges like "Gen.1.1-3" or "Joh.5.46-47"
-    const match = ref.match(/^([^.]+)\.(\d+)\.(\d+)/)
-    if (match) {
+    // First try Book.Chapter.Verse format
+    const verseMatch = ref.match(/^([^.]+)\.(\d+)\.(\d+)/)
+    if (verseMatch) {
+      const rawVerseId = `${verseMatch[1]}.${verseMatch[2]}.${verseMatch[3]}`
       return {
-        display: formatVerseRef(`${match[1]}.${match[2]}.${match[3]}`),
-        verseId: `${match[1]}.${match[2]}.${match[3]}`
+        display: formatVerseRef(rawVerseId),
+        verseId: normalizeVerseId(rawVerseId),
+        isChapterRange: false
       }
     }
-    return { display: ref, verseId: ref }
+
+    // Try Book.Chapter-Chapter format (chapter range)
+    const chapterRangeMatch = ref.match(/^([^.]+)\.(\d+)-(\d+)$/)
+    if (chapterRangeMatch) {
+      const rawVerseId = `${chapterRangeMatch[1]}.${chapterRangeMatch[2]}.1`
+      return {
+        display: formatChapterRange(chapterRangeMatch[1], chapterRangeMatch[2], chapterRangeMatch[3]),
+        verseId: normalizeVerseId(rawVerseId),
+        isChapterRange: true
+      }
+    }
+
+    // Try Book.Chapter format (single chapter)
+    const chapterMatch = ref.match(/^([^.]+)\.(\d+)$/)
+    if (chapterMatch) {
+      const rawVerseId = `${chapterMatch[1]}.${chapterMatch[2]}.1`
+      return {
+        display: formatChapterRef(chapterMatch[1], chapterMatch[2]),
+        verseId: normalizeVerseId(rawVerseId),
+        isChapterRange: false
+      }
+    }
+
+    return { display: ref, verseId: normalizeVerseId(ref), isChapterRange: false }
   }
 
   const categories = Object.keys(filteredGroups).sort()
@@ -116,7 +144,7 @@ function QuestionsColumn({ columnId, data }) {
                                         <span
                                           key={j}
                                           className="catalogue-ref-link"
-                                          onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId); }}
+                                          onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId, null, !parsed.isChapterRange); }}
                                         >
                                           {parsed.display}
                                         </span>
@@ -176,7 +204,7 @@ function QuestionsColumn({ columnId, data }) {
                                   <span
                                     key={i}
                                     className="catalogue-ref-link"
-                                    onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId); }}
+                                    onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId, null, !parsed.isChapterRange); }}
                                   >
                                     {parsed.display}
                                   </span>

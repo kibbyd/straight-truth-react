@@ -1,5 +1,5 @@
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, normalizeVerseId } from '../../data/bibleBooks'
 
 function FestivalsColumn({ columnId, data }) {
   const { data: appData, goToVerse } = useApp()
@@ -15,12 +15,13 @@ function FestivalsColumn({ columnId, data }) {
   const parseRef = (ref) => {
     const match = ref.match(/^([^.]+)\.(\d+)\.(\d+)/)
     if (match) {
+      const rawVerseId = `${match[1]}.${match[2]}.${match[3]}`
       return {
-        display: formatVerseRef(`${match[1]}.${match[2]}.${match[3]}`),
-        verseId: `${match[1]}.${match[2]}.${match[3]}`
+        display: formatVerseRef(rawVerseId),
+        verseId: normalizeVerseId(rawVerseId)
       }
     }
-    return { display: ref, verseId: ref }
+    return { display: ref, verseId: normalizeVerseId(ref) }
   }
 
   // Render a festival item

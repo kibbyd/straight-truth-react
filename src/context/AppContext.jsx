@@ -188,11 +188,16 @@ export function AppProvider({ children }) {
   }, [])
 
   // Navigation functions
-  const goToVerse = useCallback((verseId, strongNum = null) => {
+  // highlight=false navigates without highlighting (for chapter ranges)
+  const goToVerse = useCallback((verseId, strongNum = null, highlight = true) => {
     const [book, chapter, verse] = verseId.split('.')
     setCurrentBook(book)
     setCurrentChapter(parseInt(chapter))
-    setSelectedVerse(verseId)
+    if (highlight) {
+      setSelectedVerse(verseId)
+    } else {
+      setSelectedVerse(null)
+    }
     setHighlightedStrong(strongNum)
 
     // Update the first passage column

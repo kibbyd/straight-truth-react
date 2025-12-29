@@ -109,6 +109,14 @@ export function formatChapterRef(rawAbbr, chapter) {
   return `${book.name} ${chapter}`
 }
 
+// Format chapter range: "Exo", 7, 12 -> "Exodus chs. 7-12"
+export function formatChapterRange(rawAbbr, startChapter, endChapter) {
+  const abbr = normalizeBookAbbr(rawAbbr)
+  const book = bookByAbbr[abbr]
+  if (!book) return `${rawAbbr} chs. ${startChapter}-${endChapter}`
+  return `${book.name} chs. ${startChapter}-${endChapter}`
+}
+
 // Normalize verse ID to canonical form: "Jhn.3.16" -> "Joh.3.16"
 export function normalizeVerseId(verseId) {
   if (!verseId) return verseId

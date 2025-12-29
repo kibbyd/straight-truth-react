@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, normalizeVerseId } from '../../data/bibleBooks'
 
 // Connection type display names
 const typeLabels = {
@@ -80,7 +80,7 @@ function CrossRefsColumn({ columnId, data }) {
               <div
                 key={index}
                 className="crossref-col-item"
-                onClick={() => goToVerse(ref.target)}
+                onClick={() => goToVerse(normalizeVerseId(ref.target))}
               >
                 <div className="crossref-col-verse">
                   {formatVerseRef(ref.target)}

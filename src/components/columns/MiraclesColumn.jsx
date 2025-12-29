@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, normalizeVerseId } from '../../data/bibleBooks'
 
 function MiraclesColumn({ columnId, data }) {
   const { data: appData, goToVerse } = useApp()
@@ -28,12 +28,13 @@ function MiraclesColumn({ columnId, data }) {
       // Handle ranges like "Joh.2.1-11"
       const match = ref.match(/^([^.]+)\.(\d+)\.(\d+)(?:-(\d+))?$/)
       if (match) {
+        const rawVerseId = `${match[1]}.${match[2]}.${match[3]}`
         return {
           display: formatVerseRef(ref.split('-')[0]),
-          verseId: `${match[1]}.${match[2]}.${match[3]}`
+          verseId: normalizeVerseId(rawVerseId)
         }
       }
-      return { display: ref, verseId: ref }
+      return { display: ref, verseId: normalizeVerseId(ref) }
     })
   }
 
