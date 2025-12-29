@@ -4,22 +4,67 @@ import { formatVerseRef } from '../../data/bibleBooks'
 
 function FamilyTreesColumn({ columnId, data }) {
   const { data: appData, goToVerse } = useApp()
-  const [selectedPerson, setSelectedPerson] = useState(null)
+  const [expandedLine, setExpandedLine] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
 
-  const persons = appData.familyTrees || []
+  const persons = appData.familyTrees?.persons || []
+  const lines = appData.familyTrees?.lines || {}
 
-  // Create lookup map
+  // Create lookup map for person by ID
   const personMap = useMemo(() => {
     const map = {}
     persons.forEach(p => { map[p.id] = p })
     return map
   }, [persons])
 
-  // Filter persons by search
-  const filteredPersons = searchQuery
-    ? persons.filter(p => p.name.toLowerCase().includes(searchQuery.toLowerCase()))
-    : persons
+  // Group persons by line
+  const groupedByLine = useMemo(() => {
+    const groups = {}
+    persons.forEach(p => {
+      const line = p.line || 'other'
+      if (!groups[line]) groups[line] = []
+      groups[line].push(p)
+    })
+    return groups
+  }, [persons])
+
+  // Line display order
+  const lineOrder = ['adam-jesus', 'adam-jesus-luke', 'levi', 'israel', 'joseph', 'judah', 'ishmael', 'abraham-keturah', 'esau', 'shem', 'ham', 'japheth', 'cain', 'other']
+
+  // Filter and get available lines
+  const availableLines = useMemo(() => {
+    if (!searchQuery) {
+      return lineOrder.filter(lineId => groupedByLine[lineId]?.length > 0)
+    }
+
+    const query = searchQuery.toLowerCase()
+    const filteredLines = []
+
+    lineOrder.forEach(lineId => {
+      const linePersons = groupedByLine[lineId] || []
+      const matchingPersons = linePersons.filter(p =>
+        p.name.toLowerCase().includes(query) ||
+        p.meaning?.toLowerCase().includes(query)
+      )
+      if (matchingPersons.length > 0) {
+        filteredLines.push(lineId)
+      }
+    })
+
+    return filteredLines
+  }, [groupedByLine, searchQuery])
+
+  // Get filtered persons for a line
+  const getFilteredPersons = (lineId) => {
+    const linePersons = groupedByLine[lineId] || []
+    if (!searchQuery) return linePersons
+
+    const query = searchQuery.toLowerCase()
+    return linePersons.filter(p =>
+      p.name.toLowerCase().includes(query) ||
+      p.meaning?.toLowerCase().includes(query)
+    )
+  }
 
   // Parse verse reference
   const parseRef = (ref) => {
@@ -34,15 +79,13 @@ function FamilyTreesColumn({ columnId, data }) {
   }
 
   // Get person name from ID
-  const getPersonName = (id) => {
-    return personMap[id]?.name || id
-  }
+  const getPersonName = (id) => personMap[id]?.name || id
 
   return (
     <div className="catalogue-column-content">
       <div className="catalogue-header" style={{ background: 'linear-gradient(to bottom, #e8f5e9, #c8e6c9)', borderColor: '#a5d6a7' }}>
-        <div className="catalogue-title">🌳 Family Trees</div>
-        <div className="catalogue-subtitle">{persons.length} persons recorded</div>
+        <div className="catalogue-title">🌳 Biblical Family Trees</div>
+        <div className="catalogue-subtitle">{persons.length} people · Click a line to expand</div>
       </div>
 
       <div style={{ padding: '10px 15px', borderBottom: '1px solid #eee' }}>
@@ -55,141 +98,89 @@ function FamilyTreesColumn({ columnId, data }) {
         />
       </div>
 
-      {selectedPerson ? (
-        <div style={{ padding: '15px' }}>
-          <button
-            onClick={() => setSelectedPerson(null)}
-            style={{ marginBottom: '15px', padding: '6px 12px', cursor: 'pointer' }}
-          >
-            ← Back to list
-          </button>
+      <div style={{ overflow: 'auto', flex: 1 }}>
+        {availableLines.map(lineId => {
+          const lineInfo = lines[lineId] || { name: lineId, color: '#666' }
+          const linePersons = getFilteredPersons(lineId)
+          const isExpanded = expandedLine === lineId
 
-          <h3 style={{ marginBottom: '10px', color: '#333' }}>{selectedPerson.name}</h3>
-
-          {selectedPerson.meaning && (
-            <div style={{ fontSize: '14px', fontStyle: 'italic', color: '#666', marginBottom: '12px' }}>
-              "{selectedPerson.meaning}"
-            </div>
-          )}
-
-          {selectedPerson.lifespan?.years && (
-            <div style={{ fontSize: '14px', marginBottom: '8px' }}>
-              <strong>Lifespan:</strong> {selectedPerson.lifespan.years} years
-              {selectedPerson.lifespan.ageAtFirstSon && ` (first son at ${selectedPerson.lifespan.ageAtFirstSon})`}
-            </div>
-          )}
-
-          {selectedPerson.father && (
-            <div style={{ fontSize: '14px', marginBottom: '4px' }}>
-              <strong>Father:</strong>{' '}
-              <span
-                style={{ color: '#1976d2', cursor: 'pointer' }}
-                onClick={() => personMap[selectedPerson.father] && setSelectedPerson(personMap[selectedPerson.father])}
+          return (
+            <div key={lineId} className="accordion-section">
+              <div
+                className={`accordion-header ${isExpanded ? 'expanded' : ''}`}
+                onClick={() => setExpandedLine(isExpanded ? null : lineId)}
+                style={{ borderLeft: `4px solid ${lineInfo.color}` }}
               >
-                {getPersonName(selectedPerson.father)}
-              </span>
-            </div>
-          )}
-
-          {selectedPerson.mother && (
-            <div style={{ fontSize: '14px', marginBottom: '4px' }}>
-              <strong>Mother:</strong>{' '}
-              <span
-                style={{ color: '#1976d2', cursor: 'pointer' }}
-                onClick={() => personMap[selectedPerson.mother] && setSelectedPerson(personMap[selectedPerson.mother])}
-              >
-                {getPersonName(selectedPerson.mother)}
-              </span>
-            </div>
-          )}
-
-          {selectedPerson.spouses && selectedPerson.spouses.length > 0 && (
-            <div style={{ fontSize: '14px', marginBottom: '4px' }}>
-              <strong>Spouse(s):</strong>{' '}
-              {selectedPerson.spouses.map((spouse, i) => (
-                <span key={i}>
-                  {i > 0 && ', '}
-                  <span
-                    style={{ color: '#1976d2', cursor: 'pointer' }}
-                    onClick={() => personMap[spouse] && setSelectedPerson(personMap[spouse])}
-                  >
-                    {getPersonName(spouse)}
-                  </span>
-                </span>
-              ))}
-            </div>
-          )}
-
-          {selectedPerson.children && selectedPerson.children.length > 0 && (
-            <div style={{ fontSize: '14px', marginBottom: '8px' }}>
-              <strong>Children:</strong>{' '}
-              {selectedPerson.children.map((child, i) => (
-                <span key={i}>
-                  {i > 0 && ', '}
-                  <span
-                    style={{ color: '#1976d2', cursor: 'pointer' }}
-                    onClick={() => personMap[child] && setSelectedPerson(personMap[child])}
-                  >
-                    {getPersonName(child)}
-                  </span>
-                </span>
-              ))}
-            </div>
-          )}
-
-          {selectedPerson.notes && (
-            <div style={{ fontSize: '14px', color: '#555', marginTop: '10px', marginBottom: '10px' }}>
-              {selectedPerson.notes}
-            </div>
-          )}
-
-          <div className="catalogue-refs" style={{ marginTop: '12px' }}>
-            {(selectedPerson.references || []).map((ref, i) => {
-              const parsed = parseRef(ref)
-              return (
-                <span
-                  key={i}
-                  className="catalogue-ref-link"
-                  onClick={() => goToVerse(parsed.verseId)}
-                >
-                  {parsed.display}
-                </span>
-              )
-            })}
-          </div>
-        </div>
-      ) : (
-        <div className="catalogue-list">
-          {filteredPersons.map((person, index) => (
-            <div
-              key={index}
-              className="catalogue-item"
-              onClick={() => setSelectedPerson(person)}
-              style={{ cursor: 'pointer' }}
-            >
-              <div className="catalogue-item-name">
-                {person.name}
-                {person.line && (
-                  <span style={{ float: 'right', fontSize: '12px', color: '#888' }}>
-                    {person.line}
-                  </span>
-                )}
+                <span className="accordion-icon">▶</span>
+                <span className="accordion-title">{lineInfo.name}</span>
+                <span className="accordion-count">{linePersons.length}</span>
               </div>
-              {person.meaning && (
-                <div style={{ fontSize: '13px', color: '#666', fontStyle: 'italic' }}>
-                  "{person.meaning}"
+
+              {isExpanded && (
+                <div className="accordion-content">
+                  {linePersons.map((person, index) => {
+                    const primaryRef = person.references?.[0] || ''
+                    const fatherName = person.father ? getPersonName(person.father) : null
+                    const lifespanText = person.lifespan?.years ? `(${person.lifespan.years} yrs)` : ''
+
+                    return (
+                      <div
+                        key={person.id || index}
+                        className="catalogue-item"
+                        onClick={() => primaryRef && goToVerse(parseRef(primaryRef).verseId)}
+                        style={{ cursor: primaryRef ? 'pointer' : 'default' }}
+                      >
+                        <div className="catalogue-item-name">
+                          {person.name}
+                          {lifespanText && (
+                            <span style={{ color: '#888', fontWeight: 'normal', marginLeft: '6px' }}>
+                              {lifespanText}
+                            </span>
+                          )}
+                        </div>
+                        {person.meaning && (
+                          <div className="catalogue-item-meaning">"{person.meaning}"</div>
+                        )}
+                        {fatherName && (
+                          <div className="catalogue-item-details">Son of {fatherName}</div>
+                        )}
+                        {person.notes && (
+                          <div className="catalogue-item-context">{person.notes}</div>
+                        )}
+                        {person.references && person.references.length > 0 && (
+                          <div className="catalogue-refs">
+                            {person.references.slice(0, 3).map((ref, i) => {
+                              const parsed = parseRef(ref)
+                              return (
+                                <span
+                                  key={i}
+                                  className="catalogue-ref-link"
+                                  onClick={(e) => {
+                                    e.stopPropagation()
+                                    goToVerse(parsed.verseId)
+                                  }}
+                                >
+                                  {parsed.display}
+                                </span>
+                              )
+                            })}
+                          </div>
+                        )}
+                      </div>
+                    )
+                  })}
                 </div>
               )}
             </div>
-          ))}
+          )
+        })}
 
-          {filteredPersons.length === 0 && (
-            <div style={{ padding: '20px', textAlign: 'center', color: '#888' }}>
-              No persons found
-            </div>
-          )}
-        </div>
-      )}
+        {availableLines.length === 0 && (
+          <div style={{ padding: '20px', textAlign: 'center', color: '#888' }}>
+            {searchQuery ? 'No persons match your search' : 'No family tree data available'}
+          </div>
+        )}
+      </div>
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import { useMemo, useCallback } from 'react'
+import { useMemo, useCallback, useEffect, useRef } from 'react'
 import { useApp } from '../../context/AppContext'
 import { formatChapterRef } from '../../data/bibleBooks'
 
@@ -16,6 +16,29 @@ function BibleColumn({ columnId, data }) {
 
   const book = data?.book || 'Gen'
   const chapter = data?.chapter || 1
+  const columnHighlightVerse = data?.highlightVerse || null
+  const verseRefs = useRef({})
+
+  // Determine which verse to highlight - prefer column-specific, fall back to global
+  const activeHighlightVerse = columnHighlightVerse || selectedVerse
+
+  // Scroll to highlighted verse when it changes or on mount
+  useEffect(() => {
+    const verseToScroll = columnHighlightVerse || selectedVerse
+    if (verseToScroll) {
+      const [selBook, selChapter] = verseToScroll.split('.')
+      // Only scroll if the verse is in this column's chapter
+      if (selBook === book && parseInt(selChapter) === chapter) {
+        // Small delay to ensure DOM is ready
+        setTimeout(() => {
+          const verseEl = verseRefs.current[verseToScroll]
+          if (verseEl) {
+            verseEl.scrollIntoView({ behavior: 'smooth', block: 'center' })
+          }
+        }, 100)
+      }
+    }
+  }, [columnHighlightVerse, selectedVerse, book, chapter])
 
   // Get verses for current chapter
   const verses = useMemo(() => {
@@ -31,6 +54,15 @@ function BibleColumn({ columnId, data }) {
   const getStrongsForVerse = useCallback((verseId) => {
     return appData.strongs.verses?.[verseId] || []
   }, [appData.strongs.verses])
+
+  // Normalize Strong's number for comparison (handle H430 vs H0430)
+  const normalizeStrong = (s) => {
+    if (!s) return ''
+    const upper = s.toUpperCase()
+    const match = upper.match(/^([HG])0*(\d+)$/)
+    if (match) return `${match[1]}${match[2]}`
+    return upper
+  }
 
   // Highlight entities in text
   const highlightText = useCallback((text, verseId) => {
@@ -48,6 +80,9 @@ function BibleColumn({ columnId, data }) {
         continue
       }
 
+      // Increment BEFORE checking - Strong's positions are 1-indexed
+      wordIndex++
+
       // Check for Strong's number at this position
       const strongsMatch = strongsData.find(s => s.pos === wordIndex)
 
@@ -63,8 +98,8 @@ function BibleColumn({ columnId, data }) {
       if (lookups.mountainNames.has(cleanWord)) entityIcons += '⛰️'
 
       if (strongsMatch) {
-        // Check if this Strong's number matches the highlighted one
-        const isHighlighted = highlightedStrong && strongsMatch.strong === highlightedStrong
+        // Check if this Strong's number matches the highlighted one (normalize for format differences)
+        const isHighlighted = highlightedStrong && normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
         result.push(
           <span
             key={`${i}-strong`}
@@ -90,8 +125,6 @@ function BibleColumn({ columnId, data }) {
       } else {
         result.push(word)
       }
-
-      wordIndex++
     }
 
     return result
@@ -114,12 +147,13 @@ function BibleColumn({ columnId, data }) {
 
       {verses.map(verse => {
         const verseId = `${verse.book}.${verse.chapter}.${verse.verse}`
-        const isSelected = selectedVerse === verseId
+        const isSelected = activeHighlightVerse === verseId
         const hasRefs = hasCrossRefs(verseId)
 
         return (
           <div
             key={verseId}
+            ref={el => verseRefs.current[verseId] = el}
             className={`verse ${isSelected ? 'selected' : ''}`}
             onClick={() => handleVerseClick(verseId)}
           >

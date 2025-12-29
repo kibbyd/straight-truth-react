@@ -223,6 +223,42 @@ export function AppProvider({ children }) {
     }
   }, [columns, addColumn, updateColumn])
 
+  // Compare two passages side-by-side (for OT→NT quotations)
+  const comparePassages = useCallback((otVerseRef, ntVerseRef) => {
+    const otParts = otVerseRef.split('.')
+    const ntParts = ntVerseRef.split('.')
+    if (otParts.length < 3 || ntParts.length < 3) return
+
+    const [otBook, otChapter] = otParts
+    const [ntBook, ntChapter] = ntParts
+    const otChapterNum = parseInt(otChapter)
+    const ntChapterNum = parseInt(ntChapter)
+
+    // Get existing passage columns
+    const passageColumns = columns.filter(c => c.type === 'passage')
+    const nonPassageColumns = columns.filter(c => c.type !== 'passage')
+
+    // Create two passage columns - OT first (left), NT second (right)
+    const newPassageColumns = [
+      {
+        id: `passage-ot-${Date.now()}`,
+        type: 'passage',
+        data: { book: otBook, chapter: otChapterNum, highlightVerse: otVerseRef }
+      },
+      {
+        id: `passage-nt-${Date.now() + 1}`,
+        type: 'passage',
+        data: { book: ntBook, chapter: ntChapterNum, highlightVerse: ntVerseRef }
+      }
+    ]
+
+    // Replace passage columns, keeping other columns
+    setColumns([...newPassageColumns, ...nonPassageColumns.slice(0, 2)])
+
+    // Set the OT verse as selected for highlighting
+    setSelectedVerse(otVerseRef)
+  }, [columns])
+
   const value = {
     // Loading state
     loading,
@@ -253,6 +289,7 @@ export function AppProvider({ children }) {
     // Actions
     openStrongs,
     openCrossRefs,
+    comparePassages,
     showToast,
 
     // Toast

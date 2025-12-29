@@ -74,9 +74,13 @@ export async function loadAllData() {
     covenants: covenants.covenants || [],
     festivals: {
       calendar: festivals.calendar || {},
-      festivals: festivals.festivals || []
+      festivals: festivals.festivals || [],
+      postExilic: festivals.post_exilic_festivals || []
     },
-    familyTrees: familyTrees.persons || [],
+    familyTrees: {
+      persons: familyTrees.persons || [],
+      lines: familyTrees.lines || {}
+    },
     questions,
     glossary,
     measures: {

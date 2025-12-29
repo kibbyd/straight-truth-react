@@ -3,7 +3,7 @@ import { useApp } from '../../context/AppContext'
 import { formatVerseRef } from '../../data/bibleBooks'
 
 function QuotationsColumn({ columnId, data }) {
-  const { data: appData, goToVerse } = useApp()
+  const { data: appData, comparePassages } = useApp()
   const [searchQuery, setSearchQuery] = useState('')
 
   const quotations = appData.quotations || []
@@ -48,27 +48,30 @@ function QuotationsColumn({ columnId, data }) {
       <div className="catalogue-list">
         {filteredQuotations.map((quotation, index) => {
           const otParsed = parseRef(quotation.ot)
+          const ntRefs = quotation.nt || []
+          const firstNtParsed = ntRefs.length > 0 ? parseRef(ntRefs[0]) : null
 
           return (
-            <div key={index} className="quotation-item">
+            <div
+              key={index}
+              className="quotation-item"
+              onClick={() => firstNtParsed && comparePassages(otParsed.verseId, firstNtParsed.verseId)}
+              style={{ cursor: 'pointer' }}
+            >
               <div className="quotation-ot">
                 <span className="quotation-label">OT:</span>
-                <span
-                  className="catalogue-ref-link ot-ref"
-                  onClick={() => goToVerse(otParsed.verseId)}
-                >
+                <span className="catalogue-ref-link ot-ref">
                   {otParsed.display}
                 </span>
               </div>
               <div className="quotation-nt">
-                <span className="quotation-label">NT:</span>
-                {(quotation.nt || []).map((ntRef, i) => {
+                <span className="quotation-label">→ NT:</span>
+                {ntRefs.map((ntRef, i) => {
                   const ntParsed = parseRef(ntRef)
                   return (
                     <span
                       key={i}
                       className="catalogue-ref-link nt-ref"
-                      onClick={() => goToVerse(ntParsed.verseId)}
                       style={{ marginLeft: i > 0 ? '4px' : '0' }}
                     >
                       {ntParsed.display}
