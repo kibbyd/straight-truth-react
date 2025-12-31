@@ -29,7 +29,9 @@ export function AppProvider({ children }) {
     questions: [],
     glossary: [],
     measures: { categories: {}, measures: [] },
-    ancientTexts: {}
+    ancientTexts: {},
+    timelines: {},
+    maps: { categories: [] }
   })
 
   // Lookup sets for O(1) entity checking
@@ -147,7 +149,7 @@ export function AppProvider({ children }) {
     // For most types, only allow one instance
     const singleInstanceTypes = ['crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
-      'questions', 'glossary', 'converter', 'strongs']
+      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps']
 
     if (singleInstanceTypes.includes(type)) {
       const existing = columns.find(c => c.type === type)

@@ -34,3 +34,7 @@ npm-debug.log*
 
 # Windows artifacts
 nul
+
+# Temporary map staging folders
+possibles/
+zips/

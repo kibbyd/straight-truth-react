@@ -147,6 +147,8 @@ function Header() {
           <option value="questions">❓ Questions</option>
           <option value="glossary">📚 Glossary</option>
           <option value="converter">📏 Measures & Weights</option>
+          <option value="timelines">📅 Timelines</option>
+          <option value="maps">🗺️ Maps & Geography</option>
         </select>
       </div>
     </div>

@@ -32,7 +32,9 @@ export async function loadAllData() {
     questions,
     glossary,
     measures,
-    ancientTexts
+    ancientTexts,
+    timelines,
+    maps
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -53,7 +55,9 @@ export async function loadAllData() {
     fetchJSON('questions.json'),
     fetchJSON('glossary.json'),
     fetchJSON('biblical_measures.json'),
-    fetchJSON('ancient_texts.json')
+    fetchJSON('ancient_texts.json'),
+    fetchJSON('timelines.json'),
+    fetchJSON('maps.json')
   ])
 
   // Process cross-references from connections
@@ -89,6 +93,8 @@ export async function loadAllData() {
       categories: measures.categories || {},
       measures: measures.measures || []
     },
-    ancientTexts: ancientTexts.sources || {}
+    ancientTexts: ancientTexts.sources || {},
+    timelines,
+    maps
   }
 }

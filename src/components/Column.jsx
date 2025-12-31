@@ -15,6 +15,8 @@ import FamilyTreesColumn from './columns/FamilyTreesColumn'
 import QuestionsColumn from './columns/QuestionsColumn'
 import GlossaryColumn from './columns/GlossaryColumn'
 import ConverterColumn from './columns/ConverterColumn'
+import TimelinesColumn from './columns/TimelinesColumn'
+import MapsColumn from './columns/MapsColumn'
 
 // Column title mapping
 const columnTitles = {
@@ -33,7 +35,9 @@ const columnTitles = {
   familytrees: 'Family Trees',
   questions: 'Questions',
   glossary: 'Glossary',
-  converter: 'Measures & Weights'
+  converter: 'Measures & Weights',
+  timelines: 'Biblical Timelines',
+  maps: 'Maps & Geography'
 }
 
 function Column({
@@ -97,6 +101,10 @@ function Column({
         return <GlossaryColumn columnId={column.id} data={column.data} />
       case 'converter':
         return <ConverterColumn columnId={column.id} data={column.data} />
+      case 'timelines':
+        return <TimelinesColumn columnId={column.id} data={column.data} />
+      case 'maps':
+        return <MapsColumn columnId={column.id} data={column.data} />
       default:
         return <div className="window-content">Unknown column type: {column.type}</div>
     }
