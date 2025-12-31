@@ -10,7 +10,8 @@ function Header() {
     setCurrentChapter,
     columns,
     addColumn,
-    updateColumn
+    updateColumn,
+    clearColumns
   } = useApp()
 
   const [searchQuery, setSearchQuery] = useState('')
@@ -152,6 +153,13 @@ function Header() {
           <option value="parallels">⇆ Parallel Passages</option>
           <option value="peoples">👥 Peoples & Cultures</option>
         </select>
+        <button
+          className="clear-btn"
+          onClick={clearColumns}
+          title="Clear all columns and start fresh"
+        >
+          Clear
+        </button>
       </div>
     </div>
   )

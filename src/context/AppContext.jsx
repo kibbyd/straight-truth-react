@@ -148,8 +148,9 @@ export function AppProvider({ children }) {
       return
     }
 
-    // For most types, only allow one instance
-    const singleInstanceTypes = ['crossrefs', 'notes', 'miracles', 'parables', 'prayers',
+    // For most types, only allow one instance (via dropdown)
+    // Note: comparePassages/compareMultiplePassages bypass this by using setColumns directly
+    const singleInstanceTypes = ['passage', 'search', 'crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
       'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels', 'peoples']
 
@@ -187,6 +188,16 @@ export function AppProvider({ children }) {
       result.splice(toIndex, 0, removed)
       return result
     })
+  }, [])
+
+  const clearColumns = useCallback(() => {
+    setColumns([
+      { id: `passage-${Date.now()}`, type: 'passage', data: { book: 'Gen', chapter: 1 } }
+    ])
+    setCurrentBook('Gen')
+    setCurrentChapter(1)
+    setSelectedVerse(null)
+    setHighlightedStrong(null)
   }, [])
 
   // Toast function
@@ -343,6 +354,7 @@ export function AppProvider({ children }) {
     closeColumn,
     updateColumn,
     reorderColumns,
+    clearColumns,
 
     // Actions
     openStrongs,
