@@ -1,0 +1,3682 @@
+{
+  "_meta": {
+    "description": "Parallel passages in Scripture - same events or texts recorded in multiple books",
+    "categories": {
+      "identical": "Passages that are nearly word-for-word identical",
+      "samuel_chronicles": "Events recorded in both Samuel and Chronicles",
+      "kings_chronicles": "Events recorded in both Kings and Chronicles",
+      "synoptic": "Events recorded in Matthew, Mark, and/or Luke"
+    },
+    "note": "Only includes passages with 2+ parallel accounts"
+  },
+  "parallel_sets": [
+    {
+      "id": "identical-001",
+      "name": "David's Song of Deliverance",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.22.1-51"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.18.1-50"
+        }
+      ]
+    },
+    {
+      "id": "identical-002",
+      "name": "The Fool Says in His Heart",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.14.1-7"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.53.1-6"
+        }
+      ]
+    },
+    {
+      "id": "identical-003",
+      "name": "Prayer for Deliverance",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.40.13-17"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.70.1-5"
+        }
+      ]
+    },
+    {
+      "id": "identical-004",
+      "name": "Composite Psalm of Praise",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.57.7-11"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.60.5-12"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.108.1-13"
+        }
+      ],
+      "note": "Psalm 108 combines portions of Psalms 57 and 60"
+    },
+    {
+      "id": "identical-005",
+      "name": "Hezekiah, Sennacherib, and Isaiah",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.18.13-20.19"
+        },
+        {
+          "book": "Isaiah",
+          "reference": "Isa.36.1-39.8"
+        }
+      ]
+    },
+    {
+      "id": "identical-006",
+      "name": "Fall of Jerusalem and Exile",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.24.18-25.30"
+        },
+        {
+          "book": "Jeremiah",
+          "reference": "Jer.52.1-34"
+        }
+      ]
+    },
+    {
+      "id": "identical-007",
+      "name": "Cyrus Decree",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.36.22-23"
+        },
+        {
+          "book": "Ezra",
+          "reference": "Ezr.1.1-3"
+        }
+      ]
+    },
+    {
+      "id": "identical-008",
+      "name": "Returning Exiles List",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Ezra",
+          "reference": "Ezr.2.1-70"
+        },
+        {
+          "book": "Nehemiah",
+          "reference": "Neh.7.6-73"
+        }
+      ]
+    },
+    {
+      "id": "identical-009",
+      "name": "Nations Streaming to Zion",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Isaiah",
+          "reference": "Isa.2.2-4"
+        },
+        {
+          "book": "Micah",
+          "reference": "Mic.4.1-3"
+        }
+      ]
+    },
+    {
+      "id": "identical-010",
+      "name": "David's Psalm of Thanksgiving - Part 1",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.105.1-15"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.16.8-22"
+        }
+      ]
+    },
+    {
+      "id": "identical-011",
+      "name": "David's Psalm of Thanksgiving - Part 2",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.96.1-13"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.16.23-33"
+        }
+      ]
+    },
+    {
+      "id": "identical-012",
+      "name": "David's Psalm of Thanksgiving - Conclusion",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Psalms",
+          "reference": "Psa.106.1"
+        },
+        {
+          "book": "Psalms",
+          "reference": "Psa.106.47-48"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.16.34-36"
+        }
+      ]
+    },
+    {
+      "id": "identical-013",
+      "name": "Prophecy Against Edom",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Obadiah",
+          "reference": "Oba.1.1-4"
+        },
+        {
+          "book": "Jeremiah",
+          "reference": "Jer.49.14-16"
+        }
+      ]
+    },
+    {
+      "id": "identical-014",
+      "name": "Edom's Destruction",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Obadiah",
+          "reference": "Oba.1.5-6"
+        },
+        {
+          "book": "Jeremiah",
+          "reference": "Jer.49.9-10"
+        }
+      ]
+    },
+    {
+      "id": "identical-015",
+      "name": "Ten Commandments",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Exodus",
+          "reference": "Exo.20.1-17"
+        },
+        {
+          "book": "Deuteronomy",
+          "reference": "Deu.5.6-21"
+        }
+      ]
+    },
+    {
+      "id": "identical-016",
+      "name": "The Shema",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Deuteronomy",
+          "reference": "Deu.6.4-9"
+        },
+        {
+          "book": "Deuteronomy",
+          "reference": "Deu.11.13-21"
+        }
+      ]
+    },
+    {
+      "id": "identical-017",
+      "name": "Balaam's Oracles",
+      "category": "identical",
+      "passages": [
+        {
+          "book": "Numbers",
+          "reference": "Num.23.7-10"
+        },
+        {
+          "book": "Numbers",
+          "reference": "Num.23.18-24"
+        },
+        {
+          "book": "Numbers",
+          "reference": "Num.24.3-9"
+        },
+        {
+          "book": "Numbers",
+          "reference": "Num.24.15-19"
+        }
+      ],
+      "note": "Four parallel oracles with similar structure"
+    },
+    {
+      "id": "sc-001",
+      "name": "Death of Saul",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "1 Samuel",
+          "reference": "1Sa.31.1-13"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.10.1-14"
+        }
+      ]
+    },
+    {
+      "id": "sc-002",
+      "name": "David Made King over All Israel",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.5.1-5"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.11.1-3"
+        }
+      ]
+    },
+    {
+      "id": "sc-003",
+      "name": "Capture of Jerusalem",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.5.6-10"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.11.4-9"
+        }
+      ]
+    },
+    {
+      "id": "sc-004",
+      "name": "David's Mighty Men",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.23.8-39"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.11.10-47"
+        }
+      ]
+    },
+    {
+      "id": "sc-005",
+      "name": "Ark Brought from Kiriath-jearim",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.6.1-11"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.13.1-14"
+        }
+      ]
+    },
+    {
+      "id": "sc-006",
+      "name": "Ark Brought to Jerusalem",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.6.12-19"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.15.25-16.3"
+        }
+      ]
+    },
+    {
+      "id": "sc-007",
+      "name": "Davidic Covenant",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.7.1-29"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.17.1-27"
+        }
+      ]
+    },
+    {
+      "id": "sc-008",
+      "name": "David's Victories",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.8.1-14"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.18.1-13"
+        }
+      ]
+    },
+    {
+      "id": "sc-009",
+      "name": "David's Officials",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.8.15-18"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.18.14-17"
+        }
+      ]
+    },
+    {
+      "id": "sc-010",
+      "name": "War with Ammon and Aram",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.10.1-19"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.19.1-19"
+        }
+      ]
+    },
+    {
+      "id": "sc-011",
+      "name": "Capture of Rabbah",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.12.26-31"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.20.1-3"
+        }
+      ]
+    },
+    {
+      "id": "sc-012",
+      "name": "Wars with Philistine Giants",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.21.15-22"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.20.4-8"
+        }
+      ]
+    },
+    {
+      "id": "sc-013",
+      "name": "David's Census",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.24.1-25"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.21.1-30"
+        }
+      ]
+    },
+    {
+      "id": "sc-014",
+      "name": "David's Sons Born in Hebron",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.3.2-5"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.3.1-4"
+        }
+      ]
+    },
+    {
+      "id": "sc-015",
+      "name": "David's Sons Born in Jerusalem",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.5.13-16"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.3.5-9"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.14.3-7"
+        }
+      ]
+    },
+    {
+      "id": "sc-016",
+      "name": "Philistine Defeat at Baal-perazim",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.5.17-21"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.14.8-12"
+        }
+      ]
+    },
+    {
+      "id": "sc-017",
+      "name": "Philistine Defeat at Balsam Trees",
+      "category": "samuel_chronicles",
+      "passages": [
+        {
+          "book": "2 Samuel",
+          "reference": "2Sa.5.22-25"
+        },
+        {
+          "book": "1 Chronicles",
+          "reference": "1Ch.14.13-17"
+        }
+      ]
+    },
+    {
+      "id": "kc-001",
+      "name": "Solomon Asks for Wisdom",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.3.4-15"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.1.1-13"
+        }
+      ]
+    },
+    {
+      "id": "kc-002",
+      "name": "Solomon's Wealth and Wisdom",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.10.1-29"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.9.1-28"
+        }
+      ]
+    },
+    {
+      "id": "kc-003",
+      "name": "Building the Temple",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.6.1-38"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.3.1-17"
+        }
+      ]
+    },
+    {
+      "id": "kc-004",
+      "name": "Temple Furnishings",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.7.13-51"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.4.1-5.1"
+        }
+      ]
+    },
+    {
+      "id": "kc-005",
+      "name": "Ark Brought to Temple",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.8.1-11"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.5.2-14"
+        }
+      ]
+    },
+    {
+      "id": "kc-006",
+      "name": "Solomon's Temple Dedication Prayer",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.8.12-53"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.6.1-42"
+        }
+      ]
+    },
+    {
+      "id": "kc-007",
+      "name": "God Appears to Solomon",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.9.1-9"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.7.11-22"
+        }
+      ]
+    },
+    {
+      "id": "kc-008",
+      "name": "Death of Solomon",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.11.41-43"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.9.29-31"
+        }
+      ]
+    },
+    {
+      "id": "kc-009",
+      "name": "Division of the Kingdom",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.12.1-24"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.10.1-11.4"
+        }
+      ]
+    },
+    {
+      "id": "kc-010",
+      "name": "Shishak's Invasion",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.14.25-28"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.12.1-12"
+        }
+      ]
+    },
+    {
+      "id": "kc-011",
+      "name": "Abijah's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.15.1-8"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.13.1-22"
+        }
+      ]
+    },
+    {
+      "id": "kc-012",
+      "name": "Asa's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.15.9-24"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.14.1-16.14"
+        }
+      ]
+    },
+    {
+      "id": "kc-013",
+      "name": "Jehoshaphat's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.22.41-50"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.17.1-21.1"
+        }
+      ]
+    },
+    {
+      "id": "kc-014",
+      "name": "Micaiah Prophesies Against Ahab",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.22.1-40"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.18.1-34"
+        }
+      ]
+    },
+    {
+      "id": "kc-015",
+      "name": "Jehoram's Reign (Judah)",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.8.16-24"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.21.1-20"
+        }
+      ]
+    },
+    {
+      "id": "kc-016",
+      "name": "Ahaziah's Reign (Judah)",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.8.25-29"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.22.1-9"
+        }
+      ]
+    },
+    {
+      "id": "kc-017",
+      "name": "Athaliah and Joash",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.11.1-21"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.22.10-23.21"
+        }
+      ]
+    },
+    {
+      "id": "kc-018",
+      "name": "Joash Repairs the Temple",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.12.1-21"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.24.1-27"
+        }
+      ]
+    },
+    {
+      "id": "kc-019",
+      "name": "Amaziah's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.14.1-22"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.25.1-28"
+        }
+      ]
+    },
+    {
+      "id": "kc-020",
+      "name": "Uzziah's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.15.1-7"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.26.1-23"
+        }
+      ]
+    },
+    {
+      "id": "kc-021",
+      "name": "Jotham's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.15.32-38"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.27.1-9"
+        }
+      ]
+    },
+    {
+      "id": "kc-022",
+      "name": "Ahaz's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.16.1-20"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.28.1-27"
+        }
+      ]
+    },
+    {
+      "id": "kc-023",
+      "name": "Hezekiah's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.18.1-20.21"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.29.1-32.33"
+        }
+      ]
+    },
+    {
+      "id": "kc-024",
+      "name": "Manasseh's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.21.1-18"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.33.1-20"
+        }
+      ]
+    },
+    {
+      "id": "kc-025",
+      "name": "Amon's Reign",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.21.19-26"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.33.21-25"
+        }
+      ]
+    },
+    {
+      "id": "kc-026",
+      "name": "Josiah's Reforms",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.22.1-23.30"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.34.1-35.27"
+        }
+      ]
+    },
+    {
+      "id": "kc-027",
+      "name": "Last Kings and Fall of Jerusalem",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "2 Kings",
+          "reference": "2Ki.23.31-25.21"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.36.1-21"
+        }
+      ]
+    },
+    {
+      "id": "kc-028",
+      "name": "Solomon's Agreement with Hiram",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.5.1-18"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.2.1-18"
+        }
+      ]
+    },
+    {
+      "id": "kc-029",
+      "name": "Queen of Sheba Visits",
+      "category": "kings_chronicles",
+      "passages": [
+        {
+          "book": "1 Kings",
+          "reference": "1Ki.10.1-13"
+        },
+        {
+          "book": "2 Chronicles",
+          "reference": "2Ch.9.1-12"
+        }
+      ]
+    },
+    {
+      "id": "syn-001",
+      "name": "Genealogy of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.1.1-17"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.3.23-38"
+        }
+      ]
+    },
+    {
+      "id": "syn-007",
+      "name": "Birth of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.1.18-25"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.2.1-7"
+        }
+      ]
+    },
+    {
+      "id": "syn-013",
+      "name": "Return to Nazareth",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.2.19-23"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.2.39-40"
+        }
+      ]
+    },
+    {
+      "id": "syn-015",
+      "name": "John the Baptist's Ministry",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.3.1-12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.1-8"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.3.1-18"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.1.19-28"
+        }
+      ]
+    },
+    {
+      "id": "syn-016",
+      "name": "Baptism of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.3.13-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.9-11"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.3.21-22"
+        }
+      ]
+    },
+    {
+      "id": "syn-017",
+      "name": "Temptation of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.4.1-11"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.12-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.1-13"
+        }
+      ]
+    },
+    {
+      "id": "syn-026",
+      "name": "Arrest of John the Baptist",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.4.12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.3.19-20"
+        }
+      ]
+    },
+    {
+      "id": "syn-027",
+      "name": "Beginning of Galilean Ministry",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.4.12-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.14-15"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.14-15"
+        }
+      ]
+    },
+    {
+      "id": "syn-028",
+      "name": "Rejection at Nazareth",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.53-58"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.1-6"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.16-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-029",
+      "name": "Calling of Four Fishermen",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.4.18-22"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.16-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.1-11"
+        }
+      ]
+    },
+    {
+      "id": "syn-030",
+      "name": "Demoniac in Capernaum Synagogue",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.1.21-28"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.31-37"
+        }
+      ]
+    },
+    {
+      "id": "syn-031",
+      "name": "Healing of Peter's Mother-in-law",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.14-15"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.29-31"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.38-39"
+        }
+      ]
+    },
+    {
+      "id": "syn-032",
+      "name": "Healing Many at Evening",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.16-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.32-34"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.40-41"
+        }
+      ]
+    },
+    {
+      "id": "syn-033",
+      "name": "Jesus Departs to Pray",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.1.35-39"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.4.42-44"
+        }
+      ]
+    },
+    {
+      "id": "syn-034",
+      "name": "Cleansing of a Leper",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.1-4"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.40-45"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.12-16"
+        }
+      ]
+    },
+    {
+      "id": "syn-035",
+      "name": "Healing of the Paralytic",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.1-8"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.2.1-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.17-26"
+        }
+      ]
+    },
+    {
+      "id": "syn-036",
+      "name": "Calling of Matthew/Levi",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.9"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.2.13-14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.27-28"
+        }
+      ]
+    },
+    {
+      "id": "syn-037",
+      "name": "Eating with Tax Collectors",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.10-13"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.2.15-17"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.29-32"
+        }
+      ]
+    },
+    {
+      "id": "syn-038",
+      "name": "Question about Fasting",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.14-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.2.18-22"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.5.33-39"
+        }
+      ]
+    },
+    {
+      "id": "syn-040",
+      "name": "Plucking Grain on the Sabbath",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.1-8"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.2.23-28"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.1-5"
+        }
+      ]
+    },
+    {
+      "id": "syn-041",
+      "name": "Man with Withered Hand",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.9-14"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.3.1-6"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.6-11"
+        }
+      ]
+    },
+    {
+      "id": "syn-042",
+      "name": "Crowds Follow Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.15-21"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.3.7-12"
+        }
+      ]
+    },
+    {
+      "id": "syn-043",
+      "name": "Choosing the Twelve",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.1-4"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.3.13-19"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.12-16"
+        }
+      ]
+    },
+    {
+      "id": "syn-044",
+      "name": "Sermon on the Mount - Introduction",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.1-2"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.17-20"
+        }
+      ]
+    },
+    {
+      "id": "syn-045",
+      "name": "The Beatitudes",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.3-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.20-26"
+        }
+      ]
+    },
+    {
+      "id": "syn-046",
+      "name": "Salt and Light",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.13-16"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.50"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.14.34-35"
+        }
+      ]
+    },
+    {
+      "id": "syn-047",
+      "name": "Fulfillment of the Law",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.17-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.16.17"
+        }
+      ]
+    },
+    {
+      "id": "syn-048",
+      "name": "Teaching on Anger",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.21-26"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.57-59"
+        }
+      ]
+    },
+    {
+      "id": "syn-050",
+      "name": "Teaching on Divorce",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.31-32"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.19.1-12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.1-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.16.18"
+        }
+      ]
+    },
+    {
+      "id": "syn-052",
+      "name": "Teaching on Retaliation",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.38-42"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.29-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-053",
+      "name": "Love Your Enemies",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.5.43-48"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.27-28"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.32-36"
+        }
+      ]
+    },
+    {
+      "id": "syn-056",
+      "name": "The Lord's Prayer",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.6.9-15"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.1-4"
+        }
+      ]
+    },
+    {
+      "id": "syn-058",
+      "name": "Treasures in Heaven",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.6.19-21"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.33-34"
+        }
+      ]
+    },
+    {
+      "id": "syn-059",
+      "name": "The Eye as Lamp",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.6.22-23"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.34-36"
+        }
+      ]
+    },
+    {
+      "id": "syn-060",
+      "name": "Serving Two Masters",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.6.24"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.16.13"
+        }
+      ]
+    },
+    {
+      "id": "syn-061",
+      "name": "Do Not Be Anxious",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.6.25-34"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.22-32"
+        }
+      ]
+    },
+    {
+      "id": "syn-062",
+      "name": "Judging Others",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.1-5"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.37-42"
+        }
+      ]
+    },
+    {
+      "id": "syn-064",
+      "name": "Ask, Seek, Knock",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.7-11"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.9-13"
+        }
+      ]
+    },
+    {
+      "id": "syn-065",
+      "name": "The Golden Rule",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.31"
+        }
+      ]
+    },
+    {
+      "id": "syn-066",
+      "name": "The Narrow Gate",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.13-14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.13.23-24"
+        }
+      ]
+    },
+    {
+      "id": "syn-067",
+      "name": "Tree and Its Fruit",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.15-20"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.33-35"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.43-45"
+        }
+      ]
+    },
+    {
+      "id": "syn-068",
+      "name": "I Never Knew You",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.21-23"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.46"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.13.25-27"
+        }
+      ]
+    },
+    {
+      "id": "syn-069",
+      "name": "Wise and Foolish Builders",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.24-27"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.6.47-49"
+        }
+      ]
+    },
+    {
+      "id": "syn-070",
+      "name": "Response to the Sermon",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.7.28-29"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.1.22"
+        }
+      ]
+    },
+    {
+      "id": "syn-071",
+      "name": "Centurion's Servant",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.5-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.7.1-10"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.4.46-54"
+        }
+      ]
+    },
+    {
+      "id": "syn-073",
+      "name": "John's Question from Prison",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.11.2-6"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.7.18-23"
+        }
+      ]
+    },
+    {
+      "id": "syn-074",
+      "name": "Jesus' Testimony about John",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.11.7-19"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.7.24-35"
+        }
+      ]
+    },
+    {
+      "id": "syn-075",
+      "name": "Woes to Unrepentant Cities",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.11.20-24"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.10.13-15"
+        }
+      ]
+    },
+    {
+      "id": "syn-076",
+      "name": "Come to Me, All Who Labor",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.11.25-30"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.10.21-22"
+        }
+      ]
+    },
+    {
+      "id": "syn-079",
+      "name": "Beelzebul Controversy",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.22-32"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.3.20-30"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.14-23"
+        }
+      ]
+    },
+    {
+      "id": "syn-080",
+      "name": "Return of Unclean Spirit",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.43-45"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.24-26"
+        }
+      ]
+    },
+    {
+      "id": "syn-081",
+      "name": "Sign of Jonah",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.38-42"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.1-4"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.11-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.29-32"
+        }
+      ]
+    },
+    {
+      "id": "syn-082",
+      "name": "Jesus' True Family",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.12.46-50"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.3.31-35"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.19-21"
+        }
+      ]
+    },
+    {
+      "id": "syn-083",
+      "name": "Parable of the Sower",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.1-9"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.1-9"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.4-8"
+        }
+      ]
+    },
+    {
+      "id": "syn-084",
+      "name": "Purpose of Parables",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.10-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.10-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.9-10"
+        }
+      ]
+    },
+    {
+      "id": "syn-085",
+      "name": "Parable of the Sower Explained",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.18-23"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.13-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.11-15"
+        }
+      ]
+    },
+    {
+      "id": "syn-086",
+      "name": "Lamp Under a Basket",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.4.21-25"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.16-18"
+        }
+      ]
+    },
+    {
+      "id": "syn-089",
+      "name": "Parable of the Mustard Seed",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.31-32"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.30-32"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.13.18-19"
+        }
+      ]
+    },
+    {
+      "id": "syn-090",
+      "name": "Parable of the Leaven",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.33"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.13.20-21"
+        }
+      ]
+    },
+    {
+      "id": "syn-091",
+      "name": "Use of Parables",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.13.34-35"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.33-34"
+        }
+      ]
+    },
+    {
+      "id": "syn-096",
+      "name": "Calming the Storm",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.23-27"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.4.35-41"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.22-25"
+        }
+      ]
+    },
+    {
+      "id": "syn-097",
+      "name": "Gerasene Demoniac",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.28-34"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.5.1-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.26-39"
+        }
+      ]
+    },
+    {
+      "id": "syn-098",
+      "name": "Jairus's Daughter and Woman with Bleeding",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.18-26"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.5.21-43"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.8.40-56"
+        }
+      ]
+    },
+    {
+      "id": "syn-101",
+      "name": "Compassion for the Crowds",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.9.35-38"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.34"
+        }
+      ]
+    },
+    {
+      "id": "syn-102",
+      "name": "Sending Out the Twelve",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.5-15"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.7-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.1-6"
+        }
+      ]
+    },
+    {
+      "id": "syn-103",
+      "name": "Coming Persecutions",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.16-25"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.9-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.12-17"
+        }
+      ]
+    },
+    {
+      "id": "syn-104",
+      "name": "Fear Not Those Who Kill the Body",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.26-33"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.2-9"
+        }
+      ]
+    },
+    {
+      "id": "syn-105",
+      "name": "Division in Families",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.34-39"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.51-53"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.14.26-27"
+        }
+      ]
+    },
+    {
+      "id": "syn-106",
+      "name": "Rewards of Discipleship",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.40-42"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.41"
+        }
+      ]
+    },
+    {
+      "id": "syn-107",
+      "name": "Death of John the Baptist",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.14.1-12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.14-29"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.7-9"
+        }
+      ]
+    },
+    {
+      "id": "syn-108",
+      "name": "Return of the Twelve",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.6.30-31"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.10"
+        }
+      ]
+    },
+    {
+      "id": "syn-109",
+      "name": "Feeding the Five Thousand",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.14.13-21"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.32-44"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.10-17"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.6.1-15"
+        }
+      ]
+    },
+    {
+      "id": "syn-110",
+      "name": "Walking on Water",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.14.22-33"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.45-52"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.6.16-21"
+        }
+      ]
+    },
+    {
+      "id": "syn-111",
+      "name": "Healings at Gennesaret",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.14.34-36"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.6.53-56"
+        }
+      ]
+    },
+    {
+      "id": "syn-113",
+      "name": "Traditions and Defilement",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.15.1-20"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.7.1-23"
+        }
+      ]
+    },
+    {
+      "id": "syn-114",
+      "name": "Syrophoenician Woman's Faith",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.15.21-28"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.7.24-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-117",
+      "name": "Feeding the Four Thousand",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.15.32-39"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.1-10"
+        }
+      ]
+    },
+    {
+      "id": "syn-118",
+      "name": "Pharisees and Sadducees Demand a Sign",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.1-4"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.11-13"
+        }
+      ]
+    },
+    {
+      "id": "syn-119",
+      "name": "Leaven of Pharisees and Sadducees",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.5-12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.14-21"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.12.1"
+        }
+      ]
+    },
+    {
+      "id": "syn-121",
+      "name": "Peter's Confession",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.13-20"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.27-30"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.18-21"
+        }
+      ]
+    },
+    {
+      "id": "syn-122",
+      "name": "First Passion Prediction",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.21-23"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.31-33"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.22"
+        }
+      ]
+    },
+    {
+      "id": "syn-123",
+      "name": "Taking Up the Cross",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.24-28"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.8.34-9.1"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.23-27"
+        }
+      ]
+    },
+    {
+      "id": "syn-124",
+      "name": "Transfiguration",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.17.1-8"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.2-8"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.28-36"
+        }
+      ]
+    },
+    {
+      "id": "syn-125",
+      "name": "Coming of Elijah",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.17.9-13"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.9-13"
+        }
+      ]
+    },
+    {
+      "id": "syn-126",
+      "name": "Healing of Boy with Demon",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.17.14-21"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.14-29"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.37-43"
+        }
+      ]
+    },
+    {
+      "id": "syn-127",
+      "name": "Second Passion Prediction",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.17.22-23"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.30-32"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.43-45"
+        }
+      ]
+    },
+    {
+      "id": "syn-129",
+      "name": "Who Is Greatest?",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.18.1-5"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.33-37"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.46-48"
+        }
+      ]
+    },
+    {
+      "id": "syn-130",
+      "name": "Unknown Exorcist",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.9.38-41"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.49-50"
+        }
+      ]
+    },
+    {
+      "id": "syn-131",
+      "name": "Temptations to Sin",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.18.6-9"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.9.42-50"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.17.1-2"
+        }
+      ]
+    },
+    {
+      "id": "syn-132",
+      "name": "Parable of the Lost Sheep",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.18.10-14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.15.3-7"
+        }
+      ]
+    },
+    {
+      "id": "syn-133",
+      "name": "If Your Brother Sins",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.18.15-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.17.3"
+        }
+      ]
+    },
+    {
+      "id": "syn-135",
+      "name": "Would-Be Followers",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.8.18-22"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.9.57-62"
+        }
+      ]
+    },
+    {
+      "id": "syn-147",
+      "name": "Woes to Pharisees and Lawyers",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.23.1-36"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.11.37-54"
+        }
+      ]
+    },
+    {
+      "id": "syn-148",
+      "name": "Acknowledging Christ Before Men",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.12.8-12"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.10.32-33"
+        }
+      ]
+    },
+    {
+      "id": "syn-150",
+      "name": "Watchful Servants",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.12.35-48"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.45-51"
+        }
+      ]
+    },
+    {
+      "id": "syn-151",
+      "name": "Interpreting the Time",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.12.54-56"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.16.2-3"
+        }
+      ]
+    },
+    {
+      "id": "syn-155",
+      "name": "Lament over Jerusalem",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.23.37-39"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.13.34-35"
+        }
+      ]
+    },
+    {
+      "id": "syn-159",
+      "name": "Parable of the Great Banquet",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.22.1-14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.14.15-24"
+        }
+      ]
+    },
+    {
+      "id": "syn-166",
+      "name": "Teaching on Faith",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.17.5-6"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.17.20"
+        }
+      ]
+    },
+    {
+      "id": "syn-174",
+      "name": "Teaching on Divorce (repeated)",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.19.1-12"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.1-12"
+        }
+      ]
+    },
+    {
+      "id": "syn-175",
+      "name": "Blessing the Children",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.19.13-15"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.13-16"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.18.15-17"
+        }
+      ]
+    },
+    {
+      "id": "syn-176",
+      "name": "Rich Young Man",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.19.16-30"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.17-31"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.18.18-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-178",
+      "name": "Third Passion Prediction",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.20.17-19"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.32-34"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.18.31-34"
+        }
+      ]
+    },
+    {
+      "id": "syn-179",
+      "name": "Request of James and John",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.20.20-28"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.35-45"
+        }
+      ]
+    },
+    {
+      "id": "syn-180",
+      "name": "Blind Bartimaeus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.20.29-34"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.10.46-52"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.18.35-43"
+        }
+      ]
+    },
+    {
+      "id": "syn-182",
+      "name": "Parable of the Ten Minas",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.19.11-27"
+        },
+        {
+          "book": "Matthew",
+          "reference": "Mat.25.14-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-183",
+      "name": "Anointing at Bethany",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.6-13"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.3-9"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.12.1-8"
+        }
+      ]
+    },
+    {
+      "id": "syn-184",
+      "name": "Triumphal Entry",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.21.1-11"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.11.1-11"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.19.28-44"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.12.12-19"
+        }
+      ]
+    },
+    {
+      "id": "syn-185",
+      "name": "Cleansing the Temple",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.21.12-17"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.11.15-19"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.19.45-48"
+        }
+      ]
+    },
+    {
+      "id": "syn-186",
+      "name": "Cursing the Fig Tree",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.21.18-22"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.11.12-14"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.11.20-26"
+        }
+      ]
+    },
+    {
+      "id": "syn-189",
+      "name": "Authority of Jesus Questioned",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.21.23-27"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.11.27-33"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.1-8"
+        }
+      ]
+    },
+    {
+      "id": "syn-191",
+      "name": "Parable of the Wicked Tenants",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.21.33-46"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.1-12"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.9-19"
+        }
+      ]
+    },
+    {
+      "id": "syn-192",
+      "name": "Paying Taxes to Caesar",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.22.15-22"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.13-17"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.20-26"
+        }
+      ]
+    },
+    {
+      "id": "syn-193",
+      "name": "Question about Resurrection",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.22.23-33"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.18-27"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.27-40"
+        }
+      ]
+    },
+    {
+      "id": "syn-194",
+      "name": "Greatest Commandment",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.22.34-40"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.28-34"
+        }
+      ]
+    },
+    {
+      "id": "syn-195",
+      "name": "David's Son",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.22.41-46"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.35-37"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.41-44"
+        }
+      ]
+    },
+    {
+      "id": "syn-196",
+      "name": "Woes to Scribes and Pharisees",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.23.1-36"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.12.38-40"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.20.45-47"
+        }
+      ]
+    },
+    {
+      "id": "syn-197",
+      "name": "Widow's Offering",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.12.41-44"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.1-4"
+        }
+      ]
+    },
+    {
+      "id": "syn-198",
+      "name": "Olivet Discourse - Temple's Destruction",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.1-2"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.1-2"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.5-6"
+        }
+      ]
+    },
+    {
+      "id": "syn-199",
+      "name": "Olivet Discourse - Signs of the End",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.3-14"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.3-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.7-19"
+        }
+      ]
+    },
+    {
+      "id": "syn-200",
+      "name": "Olivet Discourse - Abomination of Desolation",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.15-28"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.14-23"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.20-24"
+        }
+      ]
+    },
+    {
+      "id": "syn-201",
+      "name": "Olivet Discourse - Coming of Son of Man",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.29-31"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.24-27"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.25-28"
+        }
+      ]
+    },
+    {
+      "id": "syn-202",
+      "name": "Lesson of the Fig Tree",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.32-35"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.28-31"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.29-33"
+        }
+      ]
+    },
+    {
+      "id": "syn-203",
+      "name": "Unknown Day and Hour",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.24.36-44"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.13.32-37"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.21.34-36"
+        }
+      ]
+    },
+    {
+      "id": "syn-207",
+      "name": "Plot to Kill Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.1-5"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.1-2"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.1-2"
+        }
+      ]
+    },
+    {
+      "id": "syn-208",
+      "name": "Judas Agrees to Betray",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.14-16"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.10-11"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.3-6"
+        }
+      ]
+    },
+    {
+      "id": "syn-209",
+      "name": "Preparation for Passover",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.17-19"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.12-16"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.7-13"
+        }
+      ]
+    },
+    {
+      "id": "syn-211",
+      "name": "Identification of the Betrayer",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.20-25"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.17-21"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.21-23"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.13.21-30"
+        }
+      ]
+    },
+    {
+      "id": "syn-212",
+      "name": "Institution of Lord's Supper",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.26-29"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.22-25"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.15-20"
+        }
+      ]
+    },
+    {
+      "id": "syn-215",
+      "name": "Prediction of Peter's Denial",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.30-35"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.26-31"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.31-34"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.13.36-38"
+        }
+      ]
+    },
+    {
+      "id": "syn-223",
+      "name": "Gethsemane",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.36-46"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.32-42"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.39-46"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.1"
+        }
+      ]
+    },
+    {
+      "id": "syn-224",
+      "name": "Arrest of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.47-56"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.43-52"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.47-53"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.2-12"
+        }
+      ]
+    },
+    {
+      "id": "syn-225",
+      "name": "Jesus before Annas",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "John",
+          "reference": "Joh.18.13-14"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.19-24"
+        }
+      ]
+    },
+    {
+      "id": "syn-226",
+      "name": "Jesus before Caiaphas",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.57-68"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.53-65"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.54"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.63-71"
+        }
+      ]
+    },
+    {
+      "id": "syn-227",
+      "name": "Peter's Denial",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.26.69-75"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.14.66-72"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.22.55-62"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.15-18"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.25-27"
+        }
+      ]
+    },
+    {
+      "id": "syn-229",
+      "name": "Jesus Delivered to Pilate",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.1-2"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.1"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.1"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.28"
+        }
+      ]
+    },
+    {
+      "id": "syn-230",
+      "name": "Trial before Pilate",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.11-14"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.2-5"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.2-5"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.29-38"
+        }
+      ]
+    },
+    {
+      "id": "syn-232",
+      "name": "Pilate Declares Jesus Innocent",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Luke",
+          "reference": "Luk.23.13-16"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.38-40"
+        }
+      ]
+    },
+    {
+      "id": "syn-233",
+      "name": "Jesus or Barabbas",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.15-23"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.6-14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.17-23"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.18.39-40"
+        }
+      ]
+    },
+    {
+      "id": "syn-235",
+      "name": "Jesus Scourged and Mocked",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.27-31"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.16-20"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.19.1-3"
+        }
+      ]
+    },
+    {
+      "id": "syn-237",
+      "name": "Road to Golgotha",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.32"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.21"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.26-32"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.19.17"
+        }
+      ]
+    },
+    {
+      "id": "syn-238",
+      "name": "Crucifixion",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.33-44"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.22-32"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.33-43"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.19.18-27"
+        }
+      ]
+    },
+    {
+      "id": "syn-239",
+      "name": "Death of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.45-56"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.33-41"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.44-49"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.19.28-37"
+        }
+      ]
+    },
+    {
+      "id": "syn-240",
+      "name": "Burial of Jesus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.27.57-61"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.15.42-47"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.23.50-56"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.19.38-42"
+        }
+      ]
+    },
+    {
+      "id": "syn-242",
+      "name": "Women at the Tomb",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.28.1-8"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.16.1-8"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.24.1-12"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.20.1-10"
+        }
+      ]
+    },
+    {
+      "id": "syn-244",
+      "name": "Jesus Appears to Mary Magdalene",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.16.9-11"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.20.11-18"
+        }
+      ]
+    },
+    {
+      "id": "syn-246",
+      "name": "Road to Emmaus",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.16.12-13"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.24.13-35"
+        }
+      ]
+    },
+    {
+      "id": "syn-247",
+      "name": "Jesus Appears to Disciples",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.16.14"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.24.36-43"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.20.19-23"
+        }
+      ]
+    },
+    {
+      "id": "syn-250",
+      "name": "Jesus Appears in Galilee",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.28.16-17"
+        },
+        {
+          "book": "John",
+          "reference": "Joh.21.1-14"
+        }
+      ]
+    },
+    {
+      "id": "syn-252",
+      "name": "Great Commission",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Matthew",
+          "reference": "Mat.28.18-20"
+        },
+        {
+          "book": "Mark",
+          "reference": "Mar.16.15-18"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.24.44-49"
+        }
+      ]
+    },
+    {
+      "id": "syn-253",
+      "name": "Ascension",
+      "category": "synoptic",
+      "passages": [
+        {
+          "book": "Mark",
+          "reference": "Mar.16.19-20"
+        },
+        {
+          "book": "Luke",
+          "reference": "Luk.24.50-53"
+        }
+      ]
+    }
+  ]
+}

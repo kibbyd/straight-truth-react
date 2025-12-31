@@ -22,16 +22,42 @@ function BibleColumn({ columnId, data }) {
   // Determine which verse to highlight - prefer column-specific, fall back to global
   const activeHighlightVerse = columnHighlightVerse || selectedVerse
 
+  // Check if a verse falls within a highlight range (e.g., "Mat.14.13-21")
+  const isVerseHighlighted = (verseId, highlightRef) => {
+    if (!highlightRef) return false
+    if (highlightRef === verseId) return true
+
+    // Parse highlight reference for range
+    const [hBook, hChapter, hVerseRange] = highlightRef.split('.')
+    const [vBook, vChapter, vVerse] = verseId.split('.')
+
+    if (hBook !== vBook || hChapter !== vChapter) return false
+
+    // Check for range (e.g., "13-21")
+    if (hVerseRange && hVerseRange.includes('-')) {
+      const [start, end] = hVerseRange.split('-').map(Number)
+      const verse = parseInt(vVerse)
+      return verse >= start && verse <= end
+    }
+
+    return hVerseRange === vVerse
+  }
+
   // Scroll to highlighted verse when it changes or on mount
   useEffect(() => {
     const verseToScroll = columnHighlightVerse || selectedVerse
     if (verseToScroll) {
-      const [selBook, selChapter] = verseToScroll.split('.')
+      const [selBook, selChapter, selVerseRange] = verseToScroll.split('.')
       // Only scroll if the verse is in this column's chapter
       if (selBook === book && parseInt(selChapter) === chapter) {
+        // Get first verse of range for scrolling
+        const firstVerse = selVerseRange?.includes('-')
+          ? selVerseRange.split('-')[0]
+          : selVerseRange
+        const scrollTarget = `${selBook}.${selChapter}.${firstVerse}`
         // Small delay to ensure DOM is ready
         setTimeout(() => {
-          const verseEl = verseRefs.current[verseToScroll]
+          const verseEl = verseRefs.current[scrollTarget]
           if (verseEl) {
             verseEl.scrollIntoView({ behavior: 'smooth', block: 'center' })
           }
@@ -147,7 +173,7 @@ function BibleColumn({ columnId, data }) {
 
       {verses.map(verse => {
         const verseId = `${verse.book}.${verse.chapter}.${verse.verse}`
-        const isSelected = activeHighlightVerse === verseId
+        const isSelected = isVerseHighlighted(verseId, activeHighlightVerse)
         const hasRefs = hasCrossRefs(verseId)
 
         return (

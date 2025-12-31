@@ -116,6 +116,7 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 - **Metric Converter** - 49 biblical units across 7 categories
 - **Timelines** - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
+- **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
 
 ### NOT YET IMPLEMENTED
 
@@ -126,7 +127,6 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 - **Archaeology** - Artifacts, excavated sites, manuscript evidence
 
 #### Advanced Study
-- **Parallel Passages** - Synoptic Gospels, Kings vs Chronicles side-by-side
 - **Definitions** - Let scripture define scripture (show all verses where term appears)
 - **Topical Study** - Bottom-up Strong's co-occurrence clustering (see detailed plan below)
 
@@ -199,6 +199,7 @@ All categories implemented:
 - `biblical_measures.json` - 49 biblical units with modern equivalents (length, volume, weight, currency, time, area)
 - `timelines.json` - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - `maps.json` - 74 biblical maps organized by category (journeys, kingdoms, empires, periods, temple plans)
+- `parallel_passages.json` - 214 parallel passage sets with 2+ accounts (identical, samuel/chronicles, kings/chronicles, synoptic gospels)
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)

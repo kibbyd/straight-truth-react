@@ -31,7 +31,8 @@ export function AppProvider({ children }) {
     measures: { categories: {}, measures: [] },
     ancientTexts: {},
     timelines: {},
-    maps: { categories: [] }
+    maps: { categories: [] },
+    parallelPassages: []
   })
 
   // Lookup sets for O(1) entity checking
@@ -140,16 +141,16 @@ export function AppProvider({ children }) {
 
   // Column management functions
   const addColumn = useCallback((type, columnData = {}) => {
-    // Max 4 columns
-    if (columns.length >= 4) {
-      showToast('Maximum 4 columns allowed')
+    // Max 5 columns
+    if (columns.length >= 5) {
+      showToast('Maximum 5 columns allowed')
       return
     }
 
     // For most types, only allow one instance
     const singleInstanceTypes = ['crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
-      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps']
+      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels']
 
     if (singleInstanceTypes.includes(type)) {
       const existing = columns.find(c => c.type === type)
@@ -284,6 +285,35 @@ export function AppProvider({ children }) {
     setSelectedVerse(otVerseRef)
   }, [columns])
 
+  // Compare multiple passages side-by-side (for parallel passages - up to 4)
+  const compareMultiplePassages = useCallback((verseRefs) => {
+    if (!verseRefs || verseRefs.length < 2) return
+
+    // Limit to 4 passages
+    const refs = verseRefs.slice(0, 4)
+
+    const newPassageColumns = refs.map((ref, index) => {
+      const parts = ref.split('.')
+      if (parts.length < 3) return null
+
+      const [book, chapter] = parts
+      return {
+        id: `passage-${index}-${Date.now() + index}`,
+        type: 'passage',
+        data: { book, chapter: parseInt(chapter), highlightVerse: ref }
+      }
+    }).filter(Boolean)
+
+    if (newPassageColumns.length < 2) return
+
+    // Get non-passage columns, keep only 1 to stay within 5 column limit
+    const nonPassageColumns = columns.filter(c => c.type !== 'passage')
+    const keepNonPassage = nonPassageColumns.slice(0, 5 - newPassageColumns.length)
+
+    setColumns([...newPassageColumns, ...keepNonPassage])
+    setSelectedVerse(refs[0])
+  }, [columns])
+
   const value = {
     // Loading state
     loading,
@@ -315,6 +345,7 @@ export function AppProvider({ children }) {
     openStrongs,
     openCrossRefs,
     comparePassages,
+    compareMultiplePassages,
     showToast,
 
     // Toast

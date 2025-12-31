@@ -149,6 +149,7 @@ function Header() {
           <option value="converter">📏 Measures & Weights</option>
           <option value="timelines">📅 Timelines</option>
           <option value="maps">🗺️ Maps & Geography</option>
+          <option value="parallels">⇆ Parallel Passages</option>
         </select>
       </div>
     </div>

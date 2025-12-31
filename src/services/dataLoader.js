@@ -34,7 +34,8 @@ export async function loadAllData() {
     measures,
     ancientTexts,
     timelines,
-    maps
+    maps,
+    parallelPassages
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -57,7 +58,8 @@ export async function loadAllData() {
     fetchJSON('biblical_measures.json'),
     fetchJSON('ancient_texts.json'),
     fetchJSON('timelines.json'),
-    fetchJSON('maps.json')
+    fetchJSON('maps.json'),
+    fetchJSON('parallel_passages.json')
   ])
 
   // Process cross-references from connections
@@ -95,6 +97,7 @@ export async function loadAllData() {
     },
     ancientTexts: ancientTexts.sources || {},
     timelines,
-    maps
+    maps,
+    parallelPassages: parallelPassages.parallel_sets || []
   }
 }

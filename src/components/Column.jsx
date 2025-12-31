@@ -17,6 +17,7 @@ import GlossaryColumn from './columns/GlossaryColumn'
 import ConverterColumn from './columns/ConverterColumn'
 import TimelinesColumn from './columns/TimelinesColumn'
 import MapsColumn from './columns/MapsColumn'
+import ParallelPassagesColumn from './columns/ParallelPassagesColumn'
 
 // Column title mapping
 const columnTitles = {
@@ -37,7 +38,8 @@ const columnTitles = {
   glossary: 'Glossary',
   converter: 'Measures & Weights',
   timelines: 'Biblical Timelines',
-  maps: 'Maps & Geography'
+  maps: 'Maps & Geography',
+  parallels: 'Parallel Passages'
 }
 
 function Column({
@@ -105,6 +107,8 @@ function Column({
         return <TimelinesColumn columnId={column.id} data={column.data} />
       case 'maps':
         return <MapsColumn columnId={column.id} data={column.data} />
+      case 'parallels':
+        return <ParallelPassagesColumn columnId={column.id} data={column.data} />
       default:
         return <div className="window-content">Unknown column type: {column.type}</div>
     }
