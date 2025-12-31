@@ -1,5 +1,21 @@
 # Bible Reader - Handoff Notes
 
+## Latest Session Summary (Dec 31, 2024)
+
+**Completed:**
+- Added 11 Social Subclasses to Peoples & Cultures (tax collectors, shepherds, lepers, fishermen, widows/orphans, slaves/servants, sinners/prostitutes, proselytes, God-fearers, Samaritans as outcasts)
+- Cross-references now open side-by-side passage comparison (like parallel passages) instead of navigating away
+- Total Peoples & Cultures entries: 52
+
+**Remaining Tasks:**
+1. Ancient Religions - Egyptian, Canaanite, Babylonian gods and practices
+2. Daily Life - Occupations, food, clothing, housing, marriage customs
+3. Archaeology - Artifacts, excavated sites, manuscript evidence
+4. Definitions - Let scripture define scripture
+5. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
+
+---
+
 ## Current State
 
 ### Modular UI (`reader_modular.html`)
@@ -7,7 +23,7 @@ A column-based Bible study interface with:
 
 **Working Features:**
 - **Passage columns** (max 2) - Parent passage + cross-reference passage
-- **Cross-references column** - Shows connections grouped by type (quotes, same person, genealogy, same place)
+- **Cross-references column** - Shows connections grouped by type; clicking opens side-by-side passage comparison
 - **Notes column** - Study notes with verse/chapter/general pinning, "View All" toggle
 - **Search column** - Full-text search with highlighted results
 - **Strong's word study column** - Click any word to see definition + all occurrences
