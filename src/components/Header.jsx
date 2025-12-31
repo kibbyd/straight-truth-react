@@ -150,6 +150,7 @@ function Header() {
           <option value="timelines">📅 Timelines</option>
           <option value="maps">🗺️ Maps & Geography</option>
           <option value="parallels">⇆ Parallel Passages</option>
+          <option value="peoples">👥 Peoples & Cultures</option>
         </select>
       </div>
     </div>

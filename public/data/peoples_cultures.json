@@ -1,0 +1,754 @@
+{
+  "_meta": {
+    "description": "Biblical peoples and cultures",
+    "categories": {
+      "empires": "Major ruling powers",
+      "neighbors": "Nations bordering Israel",
+      "canaan": "People living in Canaan before Israel",
+      "nt_era": "New Testament period peoples"
+    }
+  },
+  "peoples": [
+    {
+      "id": "egyptians",
+      "name": "Egyptians",
+      "category": "empires",
+      "region": "Northeast Africa (Nile Valley)",
+      "period": "c. 3100 BC onward",
+      "description": "One of the oldest civilizations, built along the Nile River. Egypt appears almost 700 times in the Hebrew Bible—more than any place outside Canaan.",
+      "biblical_role": "Egypt was both a place of safety and a place of slavery for Israel. Abraham went there during famine. Joseph rose to power there. Israel lived there 400 years before the Exodus.",
+      "worldview": {
+        "cosmos": "Egyptians believed the sky was a solid dome. The Nile flooding every year was seen as a gift from the gods that kept everything in balance.",
+        "humanity": "People existed to serve the gods. The pharaoh was seen as a god on earth, responsible for keeping the world in order.",
+        "afterlife": "Death was not the end but a doorway. The soul traveled to the underworld after death. The heart was weighed—if it was lighter than a feather, you entered paradise. If heavier, a monster ate it.",
+        "divine_order": "Everything centered on Ma'at—a word meaning truth, justice, and order. Living a good life meant you would be judged favorably after death. Chaos was the enemy of all existence."
+      },
+      "social_structure": {
+        "hierarchy": "Pharaoh at top, then priests, nobles, scribes, craftsmen, farmers, and slaves at bottom.",
+        "family": "Men led households, but women had more freedom than in many ancient cultures. Women could own property, go to court, and serve as priestesses.",
+        "slavery": "Slaves worked in homes, temples, and building projects. Some could earn their freedom."
+      },
+      "customs": {
+        "burial": "Bodies were preserved through mummification for the afterlife. Tombs were filled with food, clothes, and valuables the dead would need. The Book of the Dead contained spells for protection.",
+        "worship": "Priests fed and clothed statues of gods daily. These weren't just representations—Egyptians believed the statue was the god. Festivals featured processions through the streets.",
+        "marriage": "Usually one husband and one wife. Marriage was a practical arrangement, not a religious ceremony. Either husband or wife could seek divorce."
+      },
+      "values": {
+        "primary": "Truth, justice, order, loyalty to pharaoh, proper burial, keeping the world in balance.",
+        "moral_code": "How you lived determined your eternal fate. Good conduct meant a good afterlife."
+      },
+      "religion": "Egyptians worshipped many gods: Ra (sun), Osiris (death and rebirth), Isis, Horus, Anubis (embalming), and Thoth (wisdom). The pharaoh was considered divine.",
+      "key_interactions": [
+        {"event": "Abraham's sojourn", "reference": "Gen.12.10-20", "summary": "Abraham goes to Egypt during famine; Pharaoh takes Sarah"},
+        {"event": "Joseph sold into Egypt", "reference": "Gen.37.28", "summary": "Joseph sold to traders who take him to Egypt"},
+        {"event": "Joseph rises to power", "reference": "Gen.41.41-45", "summary": "Joseph becomes second-in-command to Pharaoh"},
+        {"event": "Israel settles in Goshen", "reference": "Gen.46.28-34", "summary": "Jacob's family (70 people) settles in Egypt"},
+        {"event": "Enslavement of Israel", "reference": "Exo.1.8-14", "summary": "New Pharaoh enslaves the Israelites"},
+        {"event": "Ten Plagues", "reference": "Exo.7.14-12.30", "summary": "God sends ten plagues on Egypt, showing power over Egyptian gods"},
+        {"event": "The Exodus", "reference": "Exo.14.1-31", "summary": "Israel leaves Egypt; Red Sea crossing"},
+        {"event": "Solomon's alliance", "reference": "1Ki.3.1", "summary": "Solomon marries Pharaoh's daughter"},
+        {"event": "Shishak's invasion", "reference": "1Ki.14.25-26", "summary": "Pharaoh Shishak attacks Jerusalem, takes temple treasures"},
+        {"event": "Flight to Egypt", "reference": "Mat.2.13-15", "summary": "Joseph, Mary, and Jesus flee to Egypt from Herod"}
+      ],
+      "key_figures": [
+        {"name": "Pharaoh of the Exodus", "note": "Not named in scripture"},
+        {"name": "Pharaoh Shishak", "reference": "1Ki.14.25"},
+        {"name": "Pharaoh Necho", "reference": "2Ki.23.29"}
+      ],
+      "references": ["Gen.12.10", "Gen.37.28", "Gen.46.3-4", "Exo.1.8-14", "Exo.12.40-41", "Deu.6.12", "1Ki.3.1", "Isa.19.1", "Mat.2.13-15"]
+    },
+    {
+      "id": "canaanites",
+      "name": "Canaanites",
+      "category": "canaan",
+      "region": "Land of Canaan (modern Israel/Palestine, Lebanon, western Syria)",
+      "period": "c. 3000-1200 BC",
+      "description": "The people living in Canaan before Israel arrived. They descended from Canaan, son of Ham (Gen 10:15-19). The 'Seven Nations' of Canaan were larger and stronger than Israel.",
+      "biblical_role": "The inhabitants of the promised land. God commanded Israel to drive them out. Their religious practices were repeatedly condemned.",
+      "worldview": {
+        "cosmos": "The gods were like a family or clan. El was the father figure. Baal was the active king—like a young ruler doing the work while an older king held the title.",
+        "fertility_cycle": "Life ran in seven-year cycles. Baal (representing life and rain) fought against Mot (death and drought). When Baal won, the land had seven good years. When he lost, seven years of drought.",
+        "nature": "Everything in nature was controlled by gods. Rain, storms, and good harvests depended on keeping the gods happy through proper worship."
+      },
+      "social_structure": {
+        "political": "Each city had its own king who also played an important religious role. Some kings may have been treated as gods during ceremonies.",
+        "religious": "Professional priests ran temples and shrines. Both men and women served in religious roles."
+      },
+      "customs": {
+        "worship": "Worship happened outdoors on hilltops called 'high places.' Stone pillars represented male gods; wooden poles represented female gods. Altars stood in front of these.",
+        "sacrifice": "Animal sacrifices were normal. In times of crisis, some practiced child sacrifice (especially firstborn) to gain the gods' favor—scripture calls this 'detestable.'",
+        "fertility_rites": "Sexual rituals were part of worship. People believed participating in these rituals would make their crops and animals fertile."
+      },
+      "values": {
+        "primary": "Good harvests, keeping the gods happy, performing the right rituals."
+      },
+      "religion": "Canaanites worshipped many gods focused on fertility. El was the chief god. Baal controlled rain and storms. Asherah/Astarte was the goddess. Ancient texts discovered in 1929 at Ugarit revealed their beliefs directly.",
+      "sub_groups": [
+        {"name": "Amorites", "location": "Hill country and eastern mountains", "note": "Controlled five major kingdoms including Jerusalem (Jos 10:5)"},
+        {"name": "Hittites", "location": "Hill country around Hebron", "note": "Abraham bought the burial cave from Ephron the Hittite (Gen 23); Uriah was a Hittite (2Sa 11:3)"},
+        {"name": "Hivites", "location": "North of Sea of Galilee, Shechem, Gibeon", "note": "The Gibeonites who tricked Joshua were Hivites (Jos 9:7)"},
+        {"name": "Perizzites", "location": "Hill country, unwalled villages", "note": "Mentioned from Abraham's time (Gen 13:7) to after the exile (Ezr 9:1)"},
+        {"name": "Girgashites", "location": "East of Sea of Galilee", "note": "The least mentioned of the seven nations"},
+        {"name": "Jebusites", "location": "Jerusalem (then called Jebus)", "note": "Held Jerusalem until David conquered it (2Sa 5:6-9); Araunah's threshing floor became the Temple site (2Sa 24:16-24)"}
+      ],
+      "key_interactions": [
+        {"event": "Seven nations listed", "reference": "Deu.7.1-2", "summary": "God commands Israel to destroy seven nations larger and stronger than them"},
+        {"event": "Conquest under Joshua", "reference": "Jos.3.10", "summary": "God promises to drive out the nations"},
+        {"event": "Incomplete conquest", "reference": "Jdg.1.27-36", "summary": "Israel fails to fully drive out Canaanites; they become problems"},
+        {"event": "Solomon's forced labor", "reference": "1Ki.9.20-21", "summary": "Descendants of Canaanites become Solomon's slaves"}
+      ],
+      "references": ["Gen.10.15-19", "Gen.15.18-21", "Deu.7.1-5", "Jos.3.10", "Jos.24.11", "Jdg.1.27-36", "1Ki.9.20-21"]
+    },
+    {
+      "id": "philistines",
+      "name": "Philistines",
+      "category": "neighbors",
+      "region": "Southwestern coastal plain (Gaza Strip area)",
+      "period": "c. 1175-604 BC",
+      "description": "Sea peoples who came from the Mediterranean (probably Crete or the Aegean region) and settled on the southern coast. DNA studies confirm they had Southern European ancestry. They had five major cities: Gaza, Ashkelon, Ashdod, Ekron, and Gath.",
+      "biblical_role": "Recurring enemies of Israel from Judges through David's reign. The name 'Palestine' comes from 'Philistine.' They had better iron weapons and were skilled warriors.",
+      "worldview": {
+        "origins": "They were migrants from various places in the eastern Mediterranean who arrived over several decades. They settled mostly peacefully among Canaanites and created a mixed culture.",
+        "cultural_identity": "At first they kept strong ties to their Aegean homeland (shown by their pottery style). Over time they blended with local Canaanite culture."
+      },
+      "social_structure": {
+        "political": "Five cities formed a loose alliance. Each city was led by a 'seren' (lord)—a word that may be related to the Greek word for ruler.",
+        "military": "Known for professional soldiers and better iron weapons when Israel still used bronze. They used champions for one-on-one combat (like Goliath)."
+      },
+      "customs": {
+        "burial": "Careful burial with pottery and personal items, suggesting they believed in an afterlife. Over 150 burials were found at a cemetery in Ashkelon.",
+        "material_culture": "Distinctive pottery that evolved from Aegean styles. Unique buildings, metalwork, and lion-shaped cups for rituals.",
+        "diet": "They ate pork—unlike neighboring Israelites who did not."
+      },
+      "values": {
+        "primary": "Military honor, trade wealth, cultural sophistication."
+      },
+      "religion": "Worshipped Dagon (grain god), Baal-Zebub (at Ekron), and Ashtoreth. Their temples had altars and religious art. Household religion showed more Aegean influences than public worship.",
+      "key_interactions": [
+        {"event": "Samson and the Philistines", "reference": "Jdg.14.1-16.31", "summary": "Samson's conflicts end with destroying Dagon's temple"},
+        {"event": "Ark captured", "reference": "1Sa.4.1-11", "summary": "Philistines defeat Israel and capture the Ark of the Covenant"},
+        {"event": "Ark causes plagues", "reference": "1Sa.5.1-6.12", "summary": "Ark brings tumors and mice to Philistines; they send it back"},
+        {"event": "David and Goliath", "reference": "1Sa.17.1-51", "summary": "David kills the giant Goliath of Gath with a sling and stone"},
+        {"event": "David among Philistines", "reference": "1Sa.27.1-12", "summary": "David hides in Philistine territory under King Achish"},
+        {"event": "Saul's death", "reference": "1Sa.31.1-10", "summary": "Saul dies fighting Philistines on Mount Gilboa; body hung on Beth-shan walls"}
+      ],
+      "key_figures": [
+        {"name": "Goliath", "reference": "1Sa.17.4", "note": "Giant warrior from Gath"},
+        {"name": "Achish", "reference": "1Sa.21.10", "note": "King of Gath who sheltered David"},
+        {"name": "Delilah", "reference": "Jdg.16.4", "note": "Betrayed Samson to the Philistines for money"}
+      ],
+      "references": ["Gen.21.32", "Jdg.13.1", "1Sa.4.1", "1Sa.17.1-51", "2Sa.5.17-25", "Jer.47.4", "Amo.1.8"]
+    },
+    {
+      "id": "assyrians",
+      "name": "Assyrians",
+      "category": "empires",
+      "region": "Northern Mesopotamia (modern northern Iraq)",
+      "period": "c. 2500-609 BC (Empire peak: 911-609 BC)",
+      "description": "A powerful empire known for its military strength and calculated cruelty. Their capital was Nineveh. They conquered the Northern Kingdom of Israel in 722 BC and scattered its people across the empire.",
+      "biblical_role": "God used them to punish Israel. Later, Nineveh itself was destroyed as prophesied by Nahum.",
+      "worldview": {
+        "divine_mandate": "Military campaigns were presented as orders from the gods. Enemies were said to have insulted the gods, making conquest a religious duty.",
+        "cosmic_order": "The king's cruelty was explained as divine punishment—keeping peace through the threat of war.",
+        "psychology_of_war": "Terror was deliberate. Assyrians would seize the gods of conquered peoples, making them feel abandoned and guilty—as if their gods had left them."
+      },
+      "social_structure": {
+        "political": "The king had absolute power as chief priest and military commander. A large government managed conquered territories.",
+        "military": "The first professional standing army in the ancient world. Specialized units: cavalry, archers, engineers, and siege experts. They adopted iron weapons from the Hittites.",
+        "women": "Evidence suggests women had little power or freedom."
+      },
+      "customs": {
+        "burial": "Unlike other peoples nearby, Assyrians kept their dead at home. Poor families dug holes in the floor; rich families built burial rooms. Oil lamps burned near graves with food and water provided.",
+        "warfare": "First to use battering rams and siege towers. They routinely deported conquered peoples to break their national identity and prevent rebellion.",
+        "terror_tactics": "Torture was shown in detail on palace walls: cutting off hands, feet, noses; gouging out eyes; skinning alive. This was advertised on purpose to frighten enemies. Inscriptions recorded every punishment."
+      },
+      "values": {
+        "primary": "Military conquest, terror as a tool of government, divine approval through victory, loyalty to king and gods.",
+        "irony": "The cruelty backfired. Though feared, they were hated. Their subjects constantly rebelled."
+      },
+      "religion": "Many gods: Ashur (national god), Ishtar (war and love), Sin (moon), Shamash (sun). King Sennacherib worshipped Nisroch (2Ki 19:37). Temples had observatories—Assyrians pioneered the study of stars and planets.",
+      "key_interactions": [
+        {"event": "Tiglath-Pileser invades", "reference": "2Ki.15.29", "summary": "Assyria captures Galilee and scatters the population (733 BC)"},
+        {"event": "Fall of Samaria", "reference": "2Ki.17.5-6", "summary": "Assyria conquers Northern Kingdom, exiles Israel (722 BC)"},
+        {"event": "Foreign settlers", "reference": "2Ki.17.24", "summary": "Assyria moves foreigners into Samaria, creating mixed population"},
+        {"event": "Sennacherib's invasion", "reference": "2Ki.18.13-19.37", "summary": "Assyria invades Judah; angel destroys 185,000 soldiers overnight"},
+        {"event": "Jonah sent to Nineveh", "reference": "Jon.1.1-2", "summary": "Jonah reluctantly preaches to Nineveh; city repents"},
+        {"event": "Fall of Nineveh", "reference": "Nah.3.1-7", "summary": "Nahum prophesies destruction: 'Woe to the city of blood' (612 BC)"}
+      ],
+      "key_figures": [
+        {"name": "Tiglath-Pileser III", "reference": "2Ki.15.29", "note": "Also called Pul (2Ki 15:19); invaded Israel"},
+        {"name": "Shalmaneser V", "reference": "2Ki.17.3", "note": "Besieged Samaria for three years"},
+        {"name": "Sargon II", "note": "Finished conquering Samaria; recorded it on palace walls"},
+        {"name": "Sennacherib", "reference": "2Ki.18.13", "note": "Invaded Judah; later killed by his own sons in temple of Nisroch"}
+      ],
+      "references": ["2Ki.15.19-20", "2Ki.15.29", "2Ki.17.5-6", "2Ki.18.13-19.37", "Isa.36.1-37.38", "Jon.1.2", "Nah.1.1"]
+    },
+    {
+      "id": "babylonians",
+      "name": "Babylonians",
+      "category": "empires",
+      "region": "Southern Mesopotamia (modern southern Iraq)",
+      "period": "Empire: 626-539 BC",
+      "description": "Also called Chaldeans. They conquered Assyria and Egypt to become the dominant power. They destroyed Jerusalem and the Temple in 586 BC. Babylon was the second most mentioned city in the Bible.",
+      "biblical_role": "God used them to punish Judah. They carried out the 70-year exile prophesied by Jeremiah.",
+      "worldview": {
+        "cosmos": "The sky was believed to be a solid dome. The ziggurat (stepped tower) connected heaven and earth. Babylon's great tower may have inspired the Tower of Babel story.",
+        "divine_kingship": "The king represented the gods on earth with both religious and political power. His job included performing rituals and ensuring good harvests.",
+        "creation": "Their creation story (Enuma Elish) tells how the god Marduk defeated the sea monster Tiamat and made heaven and earth from her body. This was recited every New Year."
+      },
+      "social_structure": {
+        "classes": "Three levels: upper (officials, military, priests), middle (landowners, common citizens), and slaves. People could move between the free classes.",
+        "slavery": "Often temporary. If someone went deeply into debt, they could become a slave until they paid it off.",
+        "women": "More rights than in later societies. Women could go to court, own property, pass it to children, and serve as priestesses. Divorce was possible."
+      },
+      "customs": {
+        "temple_practice": "Priests fed statues of gods three times a day, served them wine and beer, and dressed them with jewelry. The statue wasn't just a symbol—it was the god.",
+        "new_year": "The Akitu festival celebrated Marduk's victory. Gods were paraded through streets. The festival united rich and poor, heaven and earth.",
+        "marriage": "Children were the main purpose. A man could only take a second wife if the first couldn't have children. Engagements could be broken; divorce was allowed."
+      },
+      "values": {
+        "primary": "Order, proper worship, justice (Hammurabi's law code), good harvests, honoring ancestors."
+      },
+      "religion": "Centered on Marduk, the national god of Babylon. Also Nebo/Nabu (wisdom) and Ishtar (love and war). Massive temple complexes employed thousands. Marduk was god of justice, magic, and truth.",
+      "key_interactions": [
+        {"event": "First deportation", "reference": "2Ki.24.1-4", "summary": "Nebuchadnezzar takes captives including Daniel (605 BC)"},
+        {"event": "Second deportation", "reference": "2Ki.24.10-16", "summary": "Jehoiachin exiled with 10,000 captives (597 BC)"},
+        {"event": "Jerusalem destroyed", "reference": "2Ki.25.1-21", "summary": "Nebuchadnezzar destroys Jerusalem and Temple; Zedekiah's sons killed before him, then he is blinded (586 BC)"},
+        {"event": "Gedaliah murdered", "reference": "2Ki.25.22-26", "summary": "Remaining people flee to Egypt after governor's murder"},
+        {"event": "Fall of Babylon", "reference": "Dan.5.1-31", "summary": "Belshazzar's feast; handwriting on wall; Babylon falls to Medes and Persians (539 BC)"}
+      ],
+      "key_figures": [
+        {"name": "Nebuchadnezzar II", "reference": "2Ki.24.1", "note": "Conquered Jerusalem; had dreams interpreted by Daniel; later humbled (Dan 4)"},
+        {"name": "Evil-Merodach", "reference": "2Ki.25.27", "note": "Released Jehoiachin from prison after 37 years"},
+        {"name": "Belshazzar", "reference": "Dan.5.1", "note": "Saw handwriting on wall; killed when Babylon fell that night"}
+      ],
+      "references": ["2Ki.24.1-4", "2Ki.25.1-21", "2Ch.36.5-21", "Jer.25.11-12", "Jer.52.1-34", "Dan.1.1-2", "Dan.5.1-31"]
+    },
+    {
+      "id": "persians",
+      "name": "Persians and Medes",
+      "category": "empires",
+      "region": "Iran (Persia) and northwestern Iran (Media)",
+      "period": "Empire: 539-331 BC",
+      "description": "A united empire that conquered Babylon. Known for treating conquered peoples relatively well and for efficient government. Cyrus allowed Jewish exiles to return home and rebuild the Temple.",
+      "biblical_role": "God used them to restore Israel from exile. Cyrus is uniquely called God's 'anointed' (Isa 45:1)—the only non-Israelite given this title.",
+      "worldview": {
+        "dualism": "Their religion (Zoroastrianism) taught that the universe is a battle between good (truth, order) and evil (lies, chaos). Every person must choose which side to follow.",
+        "purpose": "Human purpose was to live by Good Thoughts, Good Words, Good Deeds.",
+        "tolerance": "Cyrus ruled by his religious principles but didn't force his religion on others. 'The Persians adopt more foreign customs than anyone else' (Herodotus)."
+      },
+      "social_structure": {
+        "hierarchy": "Royal family at top, then priests, nobles and military, merchants and craftsmen, peasants at bottom.",
+        "administration": "The empire was divided into provinces with good roads for communication. Local customs and religions were generally respected."
+      },
+      "customs": {
+        "religion": "Zoroastrian priests (Magi) interpreted dreams, fought 'evil animals,' and left the dead exposed rather than burying them. Fire temples with flames that never went out.",
+        "ethics": "Strong emphasis on telling the truth. Lying was considered the worst sin. Caring for farms and the environment was a religious duty."
+      },
+      "values": {
+        "primary": "Truth, tolerance, good government, respect for local customs.",
+        "influence": "Zoroastrianism contributed ideas that appear in Judaism, Christianity, and Islam: good vs. evil, angels, judgment after death, a messiah figure, end times."
+      },
+      "religion": "Zoroastrianism: worship of Ahura Mazda, one good creator god. Fire was a sacred symbol. They believed in final judgment and resurrection. The Cyrus Cylinder is sometimes called an early human rights document.",
+      "key_interactions": [
+        {"event": "Conquest of Babylon", "reference": "Dan.5.30-31", "summary": "Medes and Persians conquer Babylon without a fight (539 BC)"},
+        {"event": "Cyrus's decree", "reference": "Ezr.1.1-4", "summary": "Cyrus permits Jews to return and rebuild Temple"},
+        {"event": "Temple rebuilding", "reference": "Ezr.6.1-15", "summary": "Darius confirms Cyrus's decree; Temple completed (516 BC)"},
+        {"event": "Esther's story", "reference": "Est.1.1-10.3", "summary": "Queen Esther saves Jews from Haman's genocide plot"},
+        {"event": "Daniel in lions' den", "reference": "Dan.6.1-28", "summary": "Daniel survives under Darius the Mede"},
+        {"event": "Nehemiah rebuilds walls", "reference": "Neh.2.1-8", "summary": "Artaxerxes permits Nehemiah to rebuild Jerusalem's walls"}
+      ],
+      "key_figures": [
+        {"name": "Cyrus the Great", "reference": "Ezr.1.1", "note": "Called God's 'shepherd' (Isa 44:28) and 'anointed' (Isa 45:1)"},
+        {"name": "Darius I", "reference": "Ezr.6.1", "note": "Confirmed decree to rebuild Temple"},
+        {"name": "Xerxes (Ahasuerus)", "reference": "Est.1.1", "note": "Husband of Esther"},
+        {"name": "Artaxerxes I", "reference": "Ezr.7.1", "note": "Sent Ezra and later Nehemiah to Jerusalem"}
+      ],
+      "references": ["2Ch.36.22-23", "Ezr.1.1-4", "Ezr.6.1-15", "Neh.2.1-8", "Est.1.1", "Isa.44.28-45.1", "Dan.5.28", "Dan.6.1-28", "Dan.8.20"]
+    },
+    {
+      "id": "moabites",
+      "name": "Moabites",
+      "category": "neighbors",
+      "region": "East of the Dead Sea (modern central Jordan)",
+      "period": "c. 1300-400 BC",
+      "description": "Descended from Moab, son of Lot by his older daughter (Gen 19:37). 'Moab' means 'from my father.' They were related to Israel but often hostile. Ruth the Moabitess became an ancestor of David and Jesus.",
+      "biblical_role": "A recurring enemy who hired Balaam to curse Israel. Despite the law excluding Moabites (Deu 23:3), Ruth was accepted into Israel—showing grace overcoming law.",
+      "worldview": {
+        "national_deity": "Chemosh was their supreme god who gave victory when properly worshipped. The Mesha Stele (a stone monument discovered in 1868) confirms these beliefs.",
+        "divine_warfare": "Military outcomes showed whether the god was pleased. Defeat meant the god was angry; victory meant proper worship."
+      },
+      "social_structure": {
+        "political": "A kingdom with the king serving as the main representative before Chemosh.",
+        "kinship": "Close ethnic ties to Israel (both descended from Abraham's family) but a distinct national identity."
+      },
+      "customs": {
+        "mourning": "Cutting off hair at the back of the head and trimming the beard (Jer 48:37)—practices forbidden to Israelites.",
+        "sacrifice": "Animal sacrifice was normal. Human sacrifice, especially of firstborn children, was practiced in times of military crisis (2Ki 3:27).",
+        "religion": "Chemosh worship was similar in form to Israelite worship of Yahweh but with crucial differences in beliefs and ethics."
+      },
+      "values": {
+        "primary": "National identity, loyalty to Chemosh, protecting their territory."
+      },
+      "religion": "Worshipped Chemosh ('destroyer' or 'subduer'), similar to Baal. At times of crisis, human sacrifice was offered. Solomon built a worship site for Chemosh (1Ki 11:7).",
+      "key_interactions": [
+        {"event": "Origin from Lot", "reference": "Gen.19.30-37", "summary": "Moab born to Lot and his older daughter after Sodom's destruction"},
+        {"event": "Balaam hired", "reference": "Num.22.1-6", "summary": "Balak king of Moab hires Balaam to curse Israel"},
+        {"event": "Moabite women", "reference": "Num.25.1-3", "summary": "Israelites led into idol worship by Moabite women at Peor"},
+        {"event": "Eglon oppresses Israel", "reference": "Jdg.3.12-30", "summary": "King Eglon rules Israel 18 years; killed by Ehud with hidden sword"},
+        {"event": "Ruth's story", "reference": "Rut.1.1-4.22", "summary": "Ruth's loyalty to Naomi; marries Boaz; ancestor of David"},
+        {"event": "David's parents sheltered", "reference": "1Sa.22.3-4", "summary": "David sends his parents to safety with the king of Moab (his great-grandmother was Ruth)"},
+        {"event": "Mesha's sacrifice", "reference": "2Ki.3.26-27", "summary": "King Mesha sacrifices his son on the wall; Israel withdraws"}
+      ],
+      "key_figures": [
+        {"name": "Balak", "reference": "Num.22.4", "note": "King who hired Balaam to curse Israel"},
+        {"name": "Eglon", "reference": "Jdg.3.12", "note": "Very fat king who oppressed Israel; killed by Ehud"},
+        {"name": "Ruth", "reference": "Rut.1.4", "note": "Moabitess who became ancestor of David and Jesus"},
+        {"name": "Mesha", "reference": "2Ki.3.4", "note": "King who rebelled; his stone monument confirms biblical account"}
+      ],
+      "references": ["Gen.19.37", "Num.22.1-6", "Num.25.1-3", "Deu.23.3", "Jdg.3.12-30", "Rut.1.4", "2Sa.8.2", "2Ki.3.4-27"]
+    },
+    {
+      "id": "ammonites",
+      "name": "Ammonites",
+      "category": "neighbors",
+      "region": "East of the Jordan, north of Moab (modern Amman, Jordan area)",
+      "period": "c. 1300-400 BC",
+      "description": "Descended from Ben-Ammi ('son of my people'), son of Lot by his younger daughter (Gen 19:38). Their capital was Rabbah (modern Amman). Often allied with Moab against Israel.",
+      "biblical_role": "Recurring enemies of Israel. Associated with worship of Molech/Milcom and child sacrifice.",
+      "worldview": {
+        "national_deity": "Milcom/Molech was their national god. Some scholars think 'Molech' was a type of sacrifice rather than a god's name.",
+        "sacrifice": "Child sacrifice was practiced and condemned by the prophets as 'detestable.'"
+      },
+      "social_structure": {
+        "political": "A kingdom centered in Rabbah.",
+        "kinship": "Like Moabites, related to Israel through Lot but with a distinct national identity."
+      },
+      "customs": {
+        "warfare": "Often allied with other nations against Israel. Known for cruelty (threatening to gouge out eyes, Am 1:13).",
+        "religion": "Molech/Milcom worship with child sacrifice. Similar to but distinct from Moabite Chemosh worship."
+      },
+      "values": {
+        "primary": "National survival, keeping Milcom happy, expanding territory."
+      },
+      "religion": "Worshipped Milcom/Molech (1Ki 11:5, 33). Child sacrifice was associated with this worship. Solomon built a worship site for Milcom.",
+      "key_interactions": [
+        {"event": "Origin from Lot", "reference": "Gen.19.38", "summary": "Ben-Ammi born to Lot and his younger daughter"},
+        {"event": "Jephthah fights Ammon", "reference": "Jdg.11.1-33", "summary": "Jephthah defeats Ammonites after his tragic vow"},
+        {"event": "Nahash threatens Jabesh", "reference": "1Sa.11.1-11", "summary": "Nahash demands gouging out right eyes; Saul rescues Jabesh-Gilead"},
+        {"event": "David's war with Ammon", "reference": "2Sa.10.1-19", "summary": "Ammonites humiliate David's messengers by shaving half their beards"},
+        {"event": "Siege of Rabbah", "reference": "2Sa.11.1", "summary": "Joab besieges Rabbah; context of David and Bathsheba sin"},
+        {"event": "Solomon's wives", "reference": "1Ki.11.1-5", "summary": "Solomon's Ammonite wives led him to build altar to Milcom"}
+      ],
+      "key_figures": [
+        {"name": "Nahash", "reference": "1Sa.11.1", "note": "King who threatened to gouge out eyes of Jabesh-Gilead"},
+        {"name": "Hanun", "reference": "2Sa.10.1-4", "note": "King who humiliated David's messengers"},
+        {"name": "Naamah", "reference": "1Ki.14.21", "note": "Ammonite wife of Solomon; mother of Rehoboam"}
+      ],
+      "references": ["Gen.19.38", "Deu.23.3", "Jdg.11.1-33", "1Sa.11.1-11", "2Sa.10.1-19", "1Ki.11.5", "Neh.4.3", "Jer.49.1-6", "Amo.1.13"]
+    },
+    {
+      "id": "edomites",
+      "name": "Edomites",
+      "category": "neighbors",
+      "region": "South of the Dead Sea (modern southern Jordan)",
+      "period": "c. 1300 BC - 70 AD (as Idumeans)",
+      "description": "Descended from Esau (also called Edom), Jacob's twin brother. 'Edom' means 'red.' Their capital Sela is known today as Petra. King Herod the Great was an Idumean (Edomite).",
+      "biblical_role": "A brother nation to Israel but often hostile. Prophecy declared Esau would serve Jacob (Gen 25:23). Obadiah pronounced judgment for celebrating Jerusalem's fall.",
+      "worldview": {
+        "national_deity": "Qaus was their national god, called upon in blessings. Some scholars see Qaus as similar to Yahweh, suggesting common roots.",
+        "identity": "Strong sense of connection to Israel through Esau, but also strong national pride."
+      },
+      "social_structure": {
+        "political": "Had kings 'before any king reigned over Israel' (Gen 36:31). Sophisticated government with fortresses and trade control.",
+        "economy": "Controlled the King's Highway—essential for spice and copper trade. They taxed caravan traders heavily."
+      },
+      "customs": {
+        "circumcision": "Likely practiced circumcision like other related peoples.",
+        "trade": "Their location let them control valuable trade routes. They also farmed and raised cattle.",
+        "warfare": "Regularly attacked Israel despite being related. Celebrated when Jerusalem fell (Psa 137:7)."
+      },
+      "values": {
+        "primary": "National pride, trade wealth, independence from Israel."
+      },
+      "religion": "Worshipped Qaus (national god) plus El, Baal, and other Canaanite gods. Similar to surrounding pagan fertility religions. Later forcibly converted to Judaism under the Hasmoneans.",
+      "key_interactions": [
+        {"event": "Esau settles in Seir", "reference": "Gen.36.8", "summary": "Esau's descendants become Edomites in the hill country"},
+        {"event": "Passage refused", "reference": "Num.20.14-21", "summary": "Edom refuses to let Israel pass through; Israel forced to go around"},
+        {"event": "David conquers Edom", "reference": "2Sa.8.14", "summary": "David stations troops in Edom; Edomites become servants"},
+        {"event": "Edom rebels", "reference": "2Ki.8.20-22", "summary": "Edom revolts against Judah under Jehoram and stays independent"},
+        {"event": "Jerusalem's fall", "reference": "Psa.137.7", "summary": "Edomites cried 'Tear it down!' when Jerusalem was destroyed"},
+        {"event": "Obadiah's prophecy", "reference": "Oba.1.1-21", "summary": "Judgment pronounced: 'As you have done, it will be done to you'"}
+      ],
+      "key_figures": [
+        {"name": "Esau/Edom", "reference": "Gen.36.1", "note": "Patriarch; sold his birthright for red stew"},
+        {"name": "Doeg the Edomite", "reference": "1Sa.22.18", "note": "Killed 85 priests at Saul's command when no Israelite would"},
+        {"name": "Herod the Great", "reference": "Mat.2.1", "note": "Idumean king who tried to kill infant Jesus"}
+      ],
+      "references": ["Gen.25.30", "Gen.36.1-43", "Num.20.14-21", "2Sa.8.14", "1Ki.11.14-22", "Psa.137.7", "Oba.1.1-21", "Mal.1.2-4"]
+    },
+    {
+      "id": "midianites",
+      "name": "Midianites",
+      "category": "neighbors",
+      "region": "East of Gulf of Aqaba, Arabian Peninsula",
+      "period": "c. 1500-1000 BC",
+      "description": "Descended from Midian, son of Abraham by Keturah (Gen 25:2). Nomadic traders. Moses lived among them for 40 years and married Zipporah. Often mentioned together with Ishmaelites.",
+      "biblical_role": "Both ally (through Jethro) and enemy (oppressors in Judges). Gideon's victory over Midian became a famous example of God's deliverance against impossible odds.",
+      "worldview": {
+        "religion": "Jethro was 'priest of Midian.' After Israel's exodus, Jethro declared Yahweh is 'greater than all gods' (Exo 18:11), suggesting some Midianites came to worship Yahweh.",
+        "lifestyle": "Semi-nomadic traders and herders. Traveled with camels across desert regions."
+      },
+      "social_structure": {
+        "political": "A tribal confederation with multiple 'kings' and 'princes.'",
+        "family": "Jethro's family included daughters who tended flocks—Moses met Zipporah at a well."
+      },
+      "customs": {
+        "trade": "Caravan traders carrying spices, balm, and myrrh between regions. Joseph was sold to Midianite/Ishmaelite traders.",
+        "warfare": "Used camels in raids—could appear suddenly and destroy crops before retreating."
+      },
+      "values": {
+        "primary": "Tribal loyalty, trading success, survival in the harsh desert."
+      },
+      "religion": "Jethro worshipped and sacrificed to Yahweh (Exo 18:10-12). Later Midianites allied with Moab in leading Israel into Baal-Peor worship (Num 25).",
+      "key_interactions": [
+        {"event": "Joseph sold", "reference": "Gen.37.28", "summary": "Midianite traders involved in selling Joseph to Egypt"},
+        {"event": "Moses flees to Midian", "reference": "Exo.2.15-21", "summary": "Moses defends Jethro's daughters; marries Zipporah"},
+        {"event": "Jethro advises Moses", "reference": "Exo.18.1-27", "summary": "Jethro counsels Moses on sharing leadership—practical wisdom"},
+        {"event": "Balaam's counsel", "reference": "Num.25.1-18", "summary": "Midianites join Moab in seducing Israel through women and idolatry"},
+        {"event": "War against Midian", "reference": "Num.31.1-12", "summary": "Israel defeats Midian; Balaam killed in battle"},
+        {"event": "Midianite oppression", "reference": "Jdg.6.1-6", "summary": "Midianites oppress Israel seven years—Israelites hide in caves"},
+        {"event": "Gideon's victory", "reference": "Jdg.7.1-25", "summary": "God reduces army to 300; Midianites defeat themselves in confusion"}
+      ],
+      "key_figures": [
+        {"name": "Jethro/Reuel", "reference": "Exo.2.18", "note": "Moses' father-in-law; priest of Midian; gave wise counsel"},
+        {"name": "Zipporah", "reference": "Exo.2.21", "note": "Moses' Midianite wife; circumcised their son"},
+        {"name": "Oreb and Zeeb", "reference": "Jdg.7.25", "note": "Midianite princes killed by Gideon's men"},
+        {"name": "Zebah and Zalmunna", "reference": "Jdg.8.5", "note": "Midianite kings killed by Gideon"}
+      ],
+      "references": ["Gen.25.2", "Gen.37.28", "Exo.2.15-21", "Exo.18.1-27", "Num.25.6-18", "Num.31.1-12", "Jdg.6.1-6", "Jdg.7.1-25", "Isa.9.4"]
+    },
+    {
+      "id": "amalekites",
+      "name": "Amalekites",
+      "category": "neighbors",
+      "region": "Negev desert and Sinai Peninsula",
+      "period": "c. 1500-400 BC",
+      "description": "Descended from Amalek, grandson of Esau (Gen 36:12). Nomadic raiders. First nation to attack Israel after the Exodus. Permanent enemies of Israel with a divine decree of destruction.",
+      "biblical_role": "The ultimate enemy of Israel. God commanded their complete destruction (Deu 25:19). Their story spans from Exodus to Esther.",
+      "worldview": {
+        "warfare": "Opportunistic raiders who attacked the weak—'attacked you when you were tired and worn out' (Deu 25:18).",
+        "enmity": "Persistent hatred of Israel across centuries, never making peace."
+      },
+      "social_structure": {
+        "political": "Tribal with kings. 'Agag' may have been a title (like 'Pharaoh') rather than a personal name.",
+        "lifestyle": "Semi-nomadic raiders living in the Negev wilderness."
+      },
+      "customs": {
+        "warfare": "Raiding and plunder. Attacked Israel's weak and vulnerable. Later allied with other enemies of Israel.",
+        "cowardice": "The Bible emphasizes their cowardly attacks—striking from behind at those too weak to defend themselves."
+      },
+      "values": {
+        "primary": "Tribal survival through raiding, hatred of Israel."
+      },
+      "religion": "Unknown. No specific god mentioned. Likely worshipped multiple gods like surrounding peoples.",
+      "key_interactions": [
+        {"event": "First attack on Israel", "reference": "Exo.17.8-16", "summary": "Amalek attacks at Rephidim; Joshua defeats them while Moses' hands are raised"},
+        {"event": "Cowardly attack", "reference": "Deu.25.17-19", "summary": "Attacked stragglers; Israel commanded to wipe out their memory"},
+        {"event": "Saul's incomplete obedience", "reference": "1Sa.15.1-35", "summary": "Saul spares Agag and livestock; rejected as king for disobedience"},
+        {"event": "David attacks Amalekites", "reference": "1Sa.27.8", "summary": "David raids Amalekite territory while living among Philistines"},
+        {"event": "Ziklag destroyed", "reference": "1Sa.30.1-20", "summary": "Amalekites burn Ziklag, take captives; David pursues and recovers all"},
+        {"event": "Simeonites destroy remnant", "reference": "1Ch.4.42-43", "summary": "500 Simeonites destroy remaining Amalekites in Hezekiah's time"},
+        {"event": "Haman's plot", "reference": "Est.3.1", "summary": "Haman the Agagite (descendant of Agag) plots genocide of Jews"}
+      ],
+      "key_figures": [
+        {"name": "Amalek", "reference": "Gen.36.12", "note": "Grandson of Esau; ancestor of the Amalekites"},
+        {"name": "Agag", "reference": "1Sa.15.8", "note": "King spared by Saul; executed by Samuel"},
+        {"name": "Haman the Agagite", "reference": "Est.3.1", "note": "Descendant of Agag who plotted to destroy all Jews in Persia"}
+      ],
+      "references": ["Gen.36.12", "Exo.17.8-16", "Num.14.45", "Deu.25.17-19", "Jdg.6.3", "1Sa.15.1-35", "1Sa.30.1-20", "Est.3.1"]
+    },
+    {
+      "id": "phoenicians",
+      "name": "Phoenicians",
+      "category": "neighbors",
+      "region": "Coastal Lebanon (Tyre, Sidon, Byblos)",
+      "period": "c. 1500-300 BC",
+      "description": "Master sailors and traders. The Bible calls them Sidonians or Tyrians (not 'Phoenicians'—a Greek term). They invented the alphabet that all Western writing comes from. Famous for purple dye, cedar wood, and sailing.",
+      "biblical_role": "Trade partners with David and Solomon (who built the Temple with their materials). Source of Baal worship through Jezebel. Jesus visited Tyre and Sidon.",
+      "worldview": {
+        "identity": "Not one nation but independent city-states sharing language and culture. No evidence they saw themselves as one people.",
+        "maritime": "Masters of the sea. Navigated by stars, especially the North Star. Sailed to Britain, Africa, and possibly beyond.",
+        "trade": "Commerce was central to their identity. Trade networks spanned the Mediterranean and beyond."
+      },
+      "social_structure": {
+        "political": "City-states ruled by kings advised by councils of wealthy merchants.",
+        "women": "Men led society but women had active public roles. Women's names appear in business records; women served in temple roles.",
+        "children": "Boys learned crafts or sailing; girls learned textile production. Reading and writing was common among merchants."
+      },
+      "customs": {
+        "trade": "Purple dye from shellfish was so valuable that 'purple' came to mean royalty. Cedar exports since earliest times. Glass production, especially clear glass from the 7th century BC.",
+        "religion": "Temples with offerings and sacrifices. Gifts thrown into the sea for safe travels. Even distant Carthage sent people every year to Tyre for sacrifices.",
+        "shipbuilding": "Invented the bireme (ship with two rows of oars). Keeled ships for stability. Cedar planks shaped into sturdy hulls."
+      },
+      "values": {
+        "primary": "Trade wealth, sailing skill, fine craftsmanship, religious devotion."
+      },
+      "religion": "Worshipped Baal (storm god), Astarte/Ashtoreth (fertility), and Melqart (Tyre's patron). Jezebel promoted Baal worship in Israel. Child sacrifice practiced at Carthage (their colony).",
+      "key_interactions": [
+        {"event": "Hiram helps David", "reference": "2Sa.5.11", "summary": "King Hiram of Tyre sends cedar and craftsmen for David's palace"},
+        {"event": "Hiram helps Solomon", "reference": "1Ki.5.1-12", "summary": "Hiram provides materials and craftsmen for Temple construction"},
+        {"event": "Jezebel's influence", "reference": "1Ki.16.31", "summary": "Ahab marries Jezebel; she promotes Baal worship and kills prophets"},
+        {"event": "Elijah and widow", "reference": "1Ki.17.8-24", "summary": "Elijah stays with widow of Zarephath in Sidon during drought"},
+        {"event": "Jesus in Tyre and Sidon", "reference": "Mat.15.21-28", "summary": "Jesus heals Syrophoenician woman's daughter; praises her great faith"},
+        {"event": "Judgment on Tyre", "reference": "Eze.26.1-28.19", "summary": "Ezekiel's detailed prophecy against Tyre for pride and slave trading"}
+      ],
+      "key_figures": [
+        {"name": "Hiram of Tyre", "reference": "2Sa.5.11", "note": "Friend and ally of both David and Solomon"},
+        {"name": "Ethbaal", "reference": "1Ki.16.31", "note": "King of Sidonians; father of Jezebel"},
+        {"name": "Jezebel", "reference": "1Ki.16.31", "note": "Queen who promoted Baal worship; killed prophets; archaeological seal with her name found"}
+      ],
+      "references": ["2Sa.5.11", "1Ki.5.1-12", "1Ki.16.31", "1Ki.17.8-24", "Eze.26.1-28.19", "Mat.15.21-28", "Mar.7.24-30"]
+    },
+    {
+      "id": "arameans",
+      "name": "Arameans (Syrians)",
+      "category": "neighbors",
+      "region": "Syria, centered on Damascus",
+      "period": "c. 1200-732 BC",
+      "description": "Related to Israel (Gen 10:22). Damascus was their main city. Aramaic became the common language of the ancient Near East and was spoken by Jesus.",
+      "biblical_role": "Sometimes enemies, sometimes allies of Israel. Naaman's healing showed God's power beyond Israel. Damascus was eventually conquered by Assyria (732 BC).",
+      "worldview": {
+        "kinship": "Related to Israel through Shem. Jacob's family was called 'Aramean' (Deu 26:5—'A wandering Aramean was my father').",
+        "divine_warfare": "Military success was credited to the gods. Ben-Hadad's servants thought Israel's god was 'a god of the hills' who could be beaten in the plains."
+      },
+      "social_structure": {
+        "political": "A kingdom based in Damascus with a powerful military.",
+        "religion": "Priests of Hadad/Rimmon at major temples."
+      },
+      "customs": {
+        "worship": "Worship of Hadad (storm god) and Rimmon. Naaman asked to take Israelite soil home so he could worship Yahweh on it (2Ki 5:17).",
+        "warfare": "Powerful chariot forces. Ben-Hadad gathered 32 allied kings against Samaria."
+      },
+      "values": {
+        "primary": "Military honor, trade wealth, loyalty to national gods."
+      },
+      "religion": "Worshipped Hadad (storm god) and Rimmon (2Ki 5:18). 'Ben-Hadad' means 'son of Hadad'—probably a throne title. Temples at Damascus.",
+      "key_interactions": [
+        {"event": "Jacob in Aram", "reference": "Gen.28.5", "summary": "Jacob goes to Laban in Paddan-Aram; works 20 years"},
+        {"event": "Ben-Hadad attacks Samaria", "reference": "1Ki.20.1-34", "summary": "Ahab defeats Ben-Hadad twice despite being vastly outnumbered"},
+        {"event": "Naaman healed", "reference": "2Ki.5.1-19", "summary": "Syrian commander healed of leprosy by Elisha; declares 'no God in all earth except in Israel'"},
+        {"event": "Siege of Samaria", "reference": "2Ki.6.24-7.20", "summary": "Ben-Hadad besieges Samaria; severe famine; God routs Arameans"},
+        {"event": "Hazael's reign", "reference": "2Ki.8.7-15", "summary": "Hazael murders Ben-Hadad; becomes brutal oppressor of Israel"},
+        {"event": "Damascus falls", "reference": "2Ki.16.9", "summary": "Assyria conquers Damascus; fulfills Amos's prophecy (732 BC)"}
+      ],
+      "key_figures": [
+        {"name": "Ben-Hadad I", "reference": "1Ki.15.18", "note": "Allied with Asa of Judah against Baasha of Israel"},
+        {"name": "Ben-Hadad II", "reference": "1Ki.20.1", "note": "Fought against Ahab; defeated twice"},
+        {"name": "Hazael", "reference": "2Ki.8.15", "note": "Murderer who greatly oppressed Israel; wept when told his future cruelty"},
+        {"name": "Naaman", "reference": "2Ki.5.1", "note": "Commander healed of leprosy; became worshipper of Yahweh"},
+        {"name": "Rezin", "reference": "2Ki.15.37", "note": "Last king of independent Damascus"}
+      ],
+      "references": ["Gen.10.22", "Gen.28.5", "Deu.26.5", "1Ki.15.18-20", "1Ki.20.1-34", "2Ki.5.1-19", "2Ki.8.7-15", "2Ki.16.5-9", "Isa.7.1-9", "Amo.1.3-5"]
+    },
+    {
+      "id": "romans",
+      "name": "Romans",
+      "category": "nt_era",
+      "region": "Roman Empire (Mediterranean world)",
+      "period": "63 BC onward in Palestine",
+      "description": "The world power during New Testament times. Conquered Judea in 63 BC under Pompey. Provided political stability (Pax Romana) and roads that helped the gospel spread.",
+      "biblical_role": "The government during Jesus' ministry. Carried out the crucifixion. Later persecuted Christians but also provided the setting for the church's expansion throughout the empire.",
+      "worldview": {
+        "tradition": "Old ways were best because they had been tested by time. 'New things' were linked to chaos.",
+        "honor_shame": "Honor came from living by Roman values. Shame came from failure. 'A person's life was not as valuable as their honor.' Death with honor was better than life with shame.",
+        "divine_order": "Gods kept order through proper worship. Oaths called on the gods as witnesses—breaking them brought severe punishment. Winning approval from ancestors and being remembered by future generations were powerful motivations."
+      },
+      "social_structure": {
+        "classes": "Patricians (old aristocracy) and plebeians (everyone else). Citizens had rights; non-citizens had fewer protections. Freed slaves became connected to their former masters.",
+        "family": "The father of the household had absolute authority. Family was the basic unit of society. Women managed household worship.",
+        "patronage": "Relationships between powerful patrons and their clients were fundamental. Those in power provided care; those below provided loyalty. This wasn't a legal contract but a moral duty based on trust."
+      },
+      "customs": {
+        "religion": "Many gods for every part of life. Greek gods adopted with Roman names. Household spirits honored daily by women. Emperor worship was required (Jews were exempt).",
+        "values": "Bravery, loyalty to family/state/gods, seriousness (public affection was shameful), faithfulness.",
+        "citizenship": "Roman citizenship brought legal protections. Paul used his citizenship to appeal to Caesar (Acts 25:11)."
+      },
+      "values": {
+        "primary": "Honor, loyalty, tradition, order, military prowess, civic duty."
+      },
+      "religion": "Many gods with Greek influence: Jupiter, Mars, Venus, etc. Emperor worship (required of most subjects). Jews had an exemption from emperor worship. Household gods honored daily.",
+      "key_interactions": [
+        {"event": "Census under Augustus", "reference": "Luk.2.1-5", "summary": "Census brings Joseph and Mary to Bethlehem for Jesus' birth"},
+        {"event": "Trial before Pilate", "reference": "Mat.27.11-26", "summary": "Pilate finds no fault but gives in to crowd; washes hands"},
+        {"event": "Crucifixion", "reference": "Mat.27.27-54", "summary": "Roman soldiers crucify Jesus; centurion says 'truly this was the Son of God'"},
+        {"event": "Centurion's faith", "reference": "Mat.8.5-13", "summary": "Roman centurion's faith amazes Jesus—greater than any in Israel"},
+        {"event": "Cornelius converted", "reference": "Act.10.1-48", "summary": "First Gentile household receives Holy Spirit; Peter learns God shows no favoritism"},
+        {"event": "Paul appeals to Caesar", "reference": "Act.25.10-12", "summary": "Paul uses Roman citizenship to appeal case to Rome"},
+        {"event": "Paul in Rome", "reference": "Act.28.16-31", "summary": "Paul preaches in Rome under house arrest; gospel reaches heart of empire"}
+      ],
+      "key_figures": [
+        {"name": "Augustus Caesar", "reference": "Luk.2.1", "note": "Emperor at Jesus' birth; ordered the census"},
+        {"name": "Tiberius Caesar", "reference": "Luk.3.1", "note": "Emperor during Jesus' ministry"},
+        {"name": "Pontius Pilate", "reference": "Mat.27.2", "note": "Governor who condemned Jesus; archaeological inscription confirms existence"},
+        {"name": "Cornelius", "reference": "Act.10.1", "note": "Centurion; first Gentile convert; 'devout man who feared God'"},
+        {"name": "Felix", "reference": "Act.23.24", "note": "Governor who left Paul in prison for two years"},
+        {"name": "Festus", "reference": "Act.24.27", "note": "Governor before whom Paul appealed to Caesar"}
+      ],
+      "references": ["Luk.2.1-5", "Luk.3.1", "Luk.20.22-25", "Mat.27.2", "Joh.19.10-16", "Act.10.1-48", "Act.25.10-12", "Rom.13.1-7"]
+    },
+    {
+      "id": "greeks",
+      "name": "Greeks (Hellenists)",
+      "category": "nt_era",
+      "region": "Greek-speaking world (Greece, Asia Minor, Egypt)",
+      "period": "333 BC onward (Alexander's conquest)",
+      "description": "Greek culture dominated after Alexander the Great. 'Hellenist' refers to Greek-speaking Jews or those who adopted Greek ways. The New Testament was written in Greek. The Greek Old Testament (Septuagint) helped spread the gospel.",
+      "biblical_role": "Represented the Gentile world. 'Greeks' often contrasts with 'Jews' in the NT. Greek language and culture helped spread the gospel throughout the empire.",
+      "worldview": {
+        "philosophy": "Main schools: Stoics (duty, fate, virtue), Epicureans (pleasure through moderation), Cynics (rejecting social rules). Paul met Stoics and Epicureans at Athens (Acts 17:18).",
+        "religion": "Myths about Zeus, Athena, Apollo, etc. Gods were unpredictable and human-like. Mystery religions offered personal salvation.",
+        "culture": "Valued education, philosophy, athletics, art. Greek became the language of educated people throughout the empire."
+      },
+      "social_structure": {
+        "hellenization": "Alexander spread Greek culture throughout conquered lands. Many Jews adopted Greek language and customs—called Hellenists.",
+        "diaspora": "Jews scattered throughout the Greek-speaking world. Synagogues in every major city became starting points for Paul's mission."
+      },
+      "customs": {
+        "worship": "Temples with sacrifices. Philosophers often doubted traditional religion. Athens had an altar 'To an Unknown God' (Acts 17:23).",
+        "education": "Valued public speaking, philosophy, athletics. Greek athletic culture influenced Jewish youth, causing tensions."
+      },
+      "values": {
+        "primary": "Wisdom, beauty, public speaking, philosophical questioning, athletic excellence."
+      },
+      "religion": "Greek mythology (Zeus, Athena, Apollo, etc.). Mystery religions (secret initiation cults). Philosophy often served as a substitute religion for educated people.",
+      "key_interactions": [
+        {"event": "Greeks seek Jesus", "reference": "Joh.12.20-22", "summary": "Greeks at Passover want to see Jesus; Jesus speaks of his death"},
+        {"event": "Hellenist widows neglected", "reference": "Act.6.1", "summary": "Dispute between Hebrews and Hellenists leads to appointing seven deacons"},
+        {"event": "Paul in Athens", "reference": "Act.17.16-34", "summary": "Paul addresses Areopagus about 'unknown god'; some mock, some believe"},
+        {"event": "Jews and Greeks", "reference": "Rom.1.16", "summary": "Gospel is power of God for Jew first, also for Greek"},
+        {"event": "Neither Jew nor Greek", "reference": "Gal.3.28", "summary": "All one in Christ Jesus—ethnic distinctions transcended"}
+      ],
+      "key_figures": [
+        {"name": "Alexander the Great", "note": "Conquered Persian Empire; spread Greek culture (referenced in Dan 8:21 as male goat)"},
+        {"name": "Dionysius the Areopagite", "reference": "Act.17.34", "note": "Athenian converted by Paul's Mars Hill sermon"},
+        {"name": "Damaris", "reference": "Act.17.34", "note": "Woman converted at Athens"}
+      ],
+      "references": ["Dan.8.21", "Joh.12.20", "Act.6.1", "Act.17.16-34", "Rom.1.16", "1Co.1.22-24", "Gal.3.28", "Col.3.11"]
+    },
+    {
+      "id": "samaritans",
+      "name": "Samaritans",
+      "category": "nt_era",
+      "region": "Samaria (central Palestine between Judea and Galilee)",
+      "period": "722 BC onward",
+      "description": "A mixed population after Assyria conquered the Northern Kingdom. They accept only the first five books of the Bible (Torah). They worship at Mount Gerizim, not Jerusalem. About 900 still exist today in Israel.",
+      "biblical_role": "Despised by Jews but featured positively in Jesus' teaching. Jesus broke social rules by talking with a Samaritan woman and making a Samaritan the hero of a parable.",
+      "worldview": {
+        "scripture": "Accept only the first five books of Moses. Reject the prophets, other writings, and Jewish oral tradition. Their Torah has about 6,000 small differences from the Jewish version.",
+        "holy_place": "Mount Gerizim, not Jerusalem, is the one true place of worship chosen by God. They believe it is the oldest mountain, where Abraham nearly sacrificed Isaac.",
+        "moses": "Moses is considered the last prophet. They await the Taheb (a messiah-like figure) from the tribe of Joseph."
+      },
+      "social_structure": {
+        "priesthood": "Maintain a high priesthood descended from Aaron through Phinehas.",
+        "community": "Very strict about marrying within the community. Conversion is rare and difficult. Marriage between cousins is common due to small population."
+      },
+      "customs": {
+        "passover": "Kill and eat lambs on Passover evening on Mount Gerizim. Different calendar from Jews.",
+        "purity": "Strict rules about ritual cleanliness. Go up Mount Gerizim three times a year: Passover, Shavuot, Sukkot.",
+        "sabbath": "Keep the Sabbath like Jews. Follow kosher food laws."
+      },
+      "values": {
+        "primary": "Torah keeping, Mount Gerizim's holiness, ethnic purity, priestly tradition."
+      },
+      "religion": "Worship Yahweh but only accept Torah. Mount Gerizim is their holy place. Their 10th commandment specifically requires building an altar on Gerizim. Temple there was destroyed by John Hyrcanus (128 BC). A high priest still leads the community today.",
+      "key_interactions": [
+        {"event": "Foreign settlers", "reference": "2Ki.17.24-41", "summary": "Assyria moves foreigners into Samaria; they mix Yahweh worship with their own gods"},
+        {"event": "Opposition to rebuilding", "reference": "Ezr.4.1-5", "summary": "Samaritans offer to help rebuild Temple; rejected; become opponents"},
+        {"event": "Woman at the well", "reference": "Joh.4.1-42", "summary": "Jesus reveals himself as Messiah to Samaritan woman; many believe"},
+        {"event": "Good Samaritan parable", "reference": "Luk.10.25-37", "summary": "Samaritan shows mercy when priest and Levite pass by"},
+        {"event": "Samaritan leper", "reference": "Luk.17.11-19", "summary": "Only one of ten healed lepers returns to thank Jesus—the Samaritan"},
+        {"event": "Samaritan mission", "reference": "Act.8.4-25", "summary": "Philip preaches in Samaria; many believe; apostles come to confirm"}
+      ],
+      "key_figures": [
+        {"name": "Woman at the well", "reference": "Joh.4.7", "note": "Unnamed; longest conversation with Jesus in John's Gospel; tradition names her Photini"},
+        {"name": "Simon the sorcerer", "reference": "Act.8.9", "note": "Magician who believed and was baptized; later rebuked for trying to buy Holy Spirit power"}
+      ],
+      "references": ["2Ki.17.24-41", "Ezr.4.1-5", "Luk.10.25-37", "Luk.17.11-19", "Joh.4.1-42", "Joh.8.48", "Act.1.8", "Act.8.4-25"]
+    },
+    {
+      "id": "ishmaelites",
+      "name": "Ishmaelites",
+      "category": "neighbors",
+      "region": "Arabian Peninsula and Sinai",
+      "period": "c. 1900 BC onward",
+      "description": "Descended from Ishmael, son of Abraham by Hagar. Twelve tribes from Ishmael's twelve sons. Caravan traders. Often mentioned together with Midianites (both descended from Abraham).",
+      "biblical_role": "Related to Israel through Abraham. God promised to make Ishmael a great nation (Gen 17:20). Ancestral connection to Arab peoples.",
+      "worldview": {
+        "promise": "God promised Ishmael would have many descendants, father twelve princes, and become a great nation—fulfilled parallel to the promise to Isaac.",
+        "identity": "'A wild donkey of a man, his hand against everyone and everyone's hand against him' (Gen 16:12)—independent, nomadic, warrior spirit."
+      },
+      "social_structure": {
+        "tribal": "Twelve tribes from twelve sons, like the twelve tribes of Israel.",
+        "nomadic": "Desert-dwelling traders and herders."
+      },
+      "customs": {
+        "circumcision": "Ishmael was circumcised at 13 (Gen 17:25), establishing the covenant sign.",
+        "trade": "Caravan traders moving goods between regions."
+      },
+      "values": {
+        "primary": "Tribal loyalty, trading skill, independence."
+      },
+      "religion": "Originally included in Abraham's household worship (Gen 17:23—Ishmael circumcised). Later descendants developed Arabian religions.",
+      "key_interactions": [
+        {"event": "Ishmael born", "reference": "Gen.16.1-16", "summary": "Hagar bears Ishmael to 86-year-old Abraham"},
+        {"event": "Ishmael blessed", "reference": "Gen.17.20", "summary": "God promises to make Ishmael fruitful; twelve princes from him"},
+        {"event": "Hagar and Ishmael sent away", "reference": "Gen.21.8-21", "summary": "Sarah demands they leave; God provides water in wilderness; Ishmael becomes archer"},
+        {"event": "Ishmael's descendants", "reference": "Gen.25.12-18", "summary": "Twelve sons of Ishmael listed; he dies at 137"},
+        {"event": "Joseph sold", "reference": "Gen.37.25-28", "summary": "Ishmaelite traders buy Joseph from his brothers for twenty pieces of silver"}
+      ],
+      "key_figures": [
+        {"name": "Ishmael", "reference": "Gen.16.11", "note": "Son of Abraham and Hagar; name means 'God hears'"},
+        {"name": "Hagar", "reference": "Gen.16.1", "note": "Egyptian servant; Ishmael's mother; encountered angel twice"}
+      ],
+      "references": ["Gen.16.1-16", "Gen.17.20-26", "Gen.21.8-21", "Gen.25.12-18", "Gen.37.25-28", "Jdg.8.24", "Psa.83.6"]
+    },
+    {
+      "id": "ethiopians",
+      "name": "Ethiopians (Cushites)",
+      "category": "neighbors",
+      "region": "South of Egypt (Nubia, modern Sudan/Ethiopia)",
+      "period": "Ancient times onward",
+      "description": "Descended from Cush, son of Ham (Gen 10:6). Biblical 'Ethiopia' (Hebrew 'Cush') refers to the region south of Egypt. Several Cushites appear in positive biblical roles.",
+      "biblical_role": "A distant nation known to Israel. Ebed-Melech rescued Jeremiah. The Ethiopian eunuch was the first recorded African convert to Christianity.",
+      "worldview": {
+        "distance": "Represented the ends of the earth to ancient Israelites—a distant, exotic land.",
+        "prophecy": "'Cush shall stretch out her hands to God' (Psa 68:31)—included in God's plan of redemption."
+      },
+      "social_structure": {
+        "political": "A powerful kingdom. 'Candace' was the title (not name) of the queen mother who ruled.",
+        "military": "Zerah the Cushite brought 'a million troops and three hundred chariots' (2Ch 14:9) against Judah."
+      },
+      "customs": {
+        "worship": "The Ethiopian eunuch traveled to Jerusalem to worship, suggesting a connection to Judaism. Ethiopian Christianity traces its roots to the eunuch and the Queen of Sheba's connection to Solomon."
+      },
+      "values": {
+        "primary": "Worship, justice (Ebed-Melech's courage), seeking truth."
+      },
+      "religion": "Various. The Ethiopian eunuch had come to Jerusalem to worship (Acts 8:27). Ethiopian tradition connects the Queen of Sheba to Solomon's faith.",
+      "key_interactions": [
+        {"event": "Moses' Cushite wife", "reference": "Num.12.1", "summary": "Miriam and Aaron criticize Moses for his Cushite wife; Miriam struck with leprosy"},
+        {"event": "Zerah's invasion", "reference": "2Ch.14.9-15", "summary": "Asa defeats massive Cushite army; 'the LORD routed the Ethiopians'"},
+        {"event": "Ebed-Melech rescues Jeremiah", "reference": "Jer.38.7-13", "summary": "Cushite official saves Jeremiah from a cistern when no one else would act"},
+        {"event": "Ebed-Melech promised deliverance", "reference": "Jer.39.15-18", "summary": "God promises to deliver Ebed-Melech because he trusted in the Lord"},
+        {"event": "Ethiopian eunuch", "reference": "Act.8.26-40", "summary": "Philip explains Isaiah; eunuch believes and is baptized; goes on his way rejoicing"}
+      ],
+      "key_figures": [
+        {"name": "Ebed-Melech", "reference": "Jer.38.7", "note": "Cushite official who showed courage to rescue Jeremiah; promised deliverance from Jerusalem's fall"},
+        {"name": "Ethiopian eunuch", "reference": "Act.8.27", "note": "Official of Candace; first recorded African convert; reading Isaiah when Philip approached"},
+        {"name": "Queen of Sheba", "reference": "1Ki.10.1", "note": "Traditionally connected with Ethiopia; came to test Solomon with hard questions"}
+      ],
+      "references": ["Gen.10.6", "Num.12.1", "2Ki.19.9", "2Ch.14.9-15", "Psa.68.31", "Isa.18.1", "Jer.38.7-13", "Jer.39.15-18", "Act.8.26-40"]
+    }
+  ]
+}

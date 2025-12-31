@@ -32,7 +32,8 @@ export function AppProvider({ children }) {
     ancientTexts: {},
     timelines: {},
     maps: { categories: [] },
-    parallelPassages: []
+    parallelPassages: [],
+    peoplesCultures: []
   })
 
   // Lookup sets for O(1) entity checking
@@ -150,7 +151,7 @@ export function AppProvider({ children }) {
     // For most types, only allow one instance
     const singleInstanceTypes = ['crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
-      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels']
+      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels', 'peoples']
 
     if (singleInstanceTypes.includes(type)) {
       const existing = columns.find(c => c.type === type)
@@ -221,12 +222,14 @@ export function AppProvider({ children }) {
     }
     setHighlightedStrong(strongNum)
 
-    // Update the first passage column
+    // Update the first passage column, or create one if none exists
     const passageColumn = columns.find(c => c.type === 'passage')
     if (passageColumn) {
-      updateColumn(passageColumn.id, { book, chapter: parseInt(chapter) })
+      updateColumn(passageColumn.id, { book, chapter: parseInt(chapter), highlightVerse: highlight ? verseId : null })
+    } else {
+      addColumn('passage', { book, chapter: parseInt(chapter), highlightVerse: highlight ? verseId : null })
     }
-  }, [columns, updateColumn])
+  }, [columns, updateColumn, addColumn])
 
   // Open Strong's column
   const openStrongs = useCallback((strongNum) => {

@@ -67,6 +67,23 @@ python serve.py
 - Avoid jargon or field-specific shorthand
 - If meaning isn't clear without context, rewrite it
 
+### Plain Language Rule (CRITICAL)
+**No academic jargon.** Anyone should be able to read this app and draw insights without being separated by snobbish language. This is non-negotiable.
+
+**Examples of violations:**
+- ❌ "The divine realm was conceived as a clan headed by El"
+- ❌ "Fertility was envisaged in seven-year cycles"
+- ❌ "Mos maiorum ('way of the ancestors')"
+- ❌ "A process scholars describe as 'acculturation' or 'creolization'"
+
+**Correct approach:**
+- ✅ "The gods were like a family. El was the father figure."
+- ✅ "Life ran in seven-year cycles"
+- ✅ "Old ways were best because they had been tested by time"
+- ✅ "Over time they blended with local culture"
+
+**The test:** If a 14-year-old with no biblical background can't understand it on first read, rewrite it.
+
 ### Reference Format
 
 **Data format uses dots, display uses colons:**
@@ -117,11 +134,11 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 - **Timelines** - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
 - **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
+- **Peoples & Cultures** - 18 biblical peoples with history, key interactions, religion, and scripture references
 
 ### NOT YET IMPLEMENTED
 
 #### Historical Context
-- **Peoples & Cultures** - Israelites, Egyptians, Assyrians, Babylonians, Romans, etc.
 - **Ancient Religions** - Egyptian, Canaanite, Babylonian gods and practices
 - **Daily Life** - Occupations, food, clothing, housing, marriage customs
 - **Archaeology** - Artifacts, excavated sites, manuscript evidence
@@ -200,6 +217,7 @@ All categories implemented:
 - `timelines.json` - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - `maps.json` - 74 biblical maps organized by category (journeys, kingdoms, empires, periods, temple plans)
 - `parallel_passages.json` - 214 parallel passage sets with 2+ accounts (identical, samuel/chronicles, kings/chronicles, synoptic gospels)
+- `peoples_cultures.json` - 18 biblical peoples organized by category (empires, neighbors, canaan, nt_era)
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)
