@@ -102,25 +102,33 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 
 ---
 
-## Future Features Roadmap
+## Feature Status
 
-### Reference Tools
-- **Metric Converter** - COMPLETE (`biblical_measures.json`) - 49 units across 7 categories
-- **Timelines** - COMPLETE (`timelines.json`) - 350+ entries: lifespans, reigns, periods, events, journeys, building projects, prophetic periods
-- **Maps & Geography** - COMPLETE (`maps.json`) - 74 maps across 7 categories: journeys, kingdoms, empires, OT/NT periods, Jerusalem/temple, regional
+### COMPLETE
+- **Passage columns** - Bible text with Strong's word clicking
+- **Cross-references column** - Connections grouped by type
+- **Notes column** - Verse/chapter/general pinning with SQLite backend
+- **Search column** - Full-text search with highlighting
+- **Strong's word study** - Lexicon definitions + all occurrences
+- **Catalogues** - Miracles, Parables, Prayers, Names of God, OT→NT Quotations, Covenants, Calendar & Festivals, Family Trees
+- **Questions** - 1,205 questions across 25+ categories
+- **Glossary** - Doctrinal terms and definitions
+- **Metric Converter** - 49 biblical units across 7 categories
+- **Timelines** - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
+- **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
 
-### Catalogues (Fact-Based Lists)
-- All catalogues complete!
+### NOT YET IMPLEMENTED
 
-### Historical Context
+#### Historical Context
 - **Peoples & Cultures** - Israelites, Egyptians, Assyrians, Babylonians, Romans, etc.
 - **Ancient Religions** - Egyptian, Canaanite, Babylonian gods and practices
 - **Daily Life** - Occupations, food, clothing, housing, marriage customs
 - **Archaeology** - Artifacts, excavated sites, manuscript evidence
 
-### Advanced Study
+#### Advanced Study
 - **Parallel Passages** - Synoptic Gospels, Kings vs Chronicles side-by-side
 - **Definitions** - Let scripture define scripture (show all verses where term appears)
+- **Topical Study** - Bottom-up Strong's co-occurrence clustering (see detailed plan below)
 
 ### Questions Section
 Exhaustive catalogue of questions answered with fact and evidence:
