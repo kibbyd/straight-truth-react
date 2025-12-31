@@ -8,7 +8,8 @@
       "canaan": "People living in Canaan before Israel",
       "religious_groups": "Jewish religious and political parties",
       "nt_era": "New Testament period peoples",
-      "customs": "Cultural practices that explain biblical events"
+      "customs": "Cultural practices that explain biblical events",
+      "subclasses": "Social groups and occupations"
     }
   },
   "peoples": [
@@ -1522,6 +1523,330 @@
         {"event": "Anointing the sick", "reference": "Jam.5.14", "summary": "'Anoint them with oil in the name of the Lord' for healing"}
       ],
       "references": ["Exo.29.7", "Lev.8.12", "1Sa.10.1", "1Sa.16.13", "2Sa.12.20", "Psa.23.5", "Psa.133.2", "Mat.26.6-7", "Mar.14.8", "Luk.7.46", "Joh.12.3", "Act.10.38", "Jam.5.14"]
+    },
+    {
+      "id": "tax_collectors",
+      "name": "Tax Collectors (Publicans)",
+      "category": "subclasses",
+      "region": "Roman-occupied territories",
+      "period": "New Testament era",
+      "description": "Jews who collected taxes for Rome. They bid for contracts, then collected more than required and kept the difference. Grouped with 'sinners' because they worked for the occupiers, handled Gentile money, and often cheated people.",
+      "biblical_role": "Jesus ate with tax collectors, shocking the religious leaders. Matthew was a tax collector before becoming a disciple. Zacchaeus was a chief tax collector who repented.",
+      "worldview": {
+        "roman_system": "Rome auctioned tax collection rights. Collectors paid Rome upfront, then collected from the people—whatever extra they got was profit.",
+        "social_status": "Considered traitors for working with Rome. Their money was considered unclean. Their testimony wasn't accepted in court.",
+        "religious_view": "Lumped with sinners and prostitutes as the worst of society. Pharisees wouldn't eat with them."
+      },
+      "social_structure": {
+        "hierarchy": "Chief tax collectors supervised regions and employed collectors under them. They were wealthy but despised.",
+        "toll_collectors": "Stationed at borders, ports, and roads. Collected customs duties on goods passing through."
+      },
+      "customs": {
+        "collection_points": "Tax booths set up on major roads and at city gates. Matthew sat at his booth when Jesus called him.",
+        "extortion": "No fixed rates meant collectors could demand whatever they wanted. John the Baptist told them to collect only what was required (Luk 3:13)."
+      },
+      "key_interactions": [
+        {"event": "Matthew called", "reference": "Mat.9.9", "summary": "Jesus calls Matthew from his tax booth: 'Follow me.' Matthew gets up and follows."},
+        {"event": "Jesus eats with tax collectors", "reference": "Mat.9.10-11", "summary": "Jesus dines at Matthew's house with tax collectors; Pharisees ask why he eats with sinners"},
+        {"event": "Zacchaeus", "reference": "Luk.19.1-10", "summary": "Chief tax collector climbs tree to see Jesus. Jesus stays at his house. Zacchaeus repays those he cheated."},
+        {"event": "Tax collector's prayer", "reference": "Luk.18.10-14", "summary": "Parable: Tax collector beats his chest saying 'God have mercy on me, a sinner'—goes home justified, not the Pharisee"},
+        {"event": "John's instruction", "reference": "Luk.3.12-13", "summary": "Tax collectors ask John what to do. 'Collect no more than what is appointed.'"}
+      ],
+      "references": ["Mat.5.46", "Mat.9.9-11", "Mat.10.3", "Mat.11.19", "Mat.18.17", "Mat.21.31-32", "Mar.2.14-16", "Luk.3.12-13", "Luk.5.27-30", "Luk.7.29", "Luk.15.1", "Luk.18.10-14", "Luk.19.1-10"]
+    },
+    {
+      "id": "shepherds",
+      "name": "Shepherds",
+      "category": "subclasses",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "Those who tended sheep and goats. Once an honorable occupation (Abraham, Jacob, Moses, David were shepherds), by New Testament times they were looked down on. They couldn't keep Sabbath properly, their work made them ceremonially unclean, and they couldn't testify in court.",
+      "biblical_role": "God is called Shepherd of Israel. David went from shepherd to king. Jesus is the Good Shepherd. Angels announced Jesus' birth to shepherds first—not to the religious leaders in Jerusalem.",
+      "worldview": {
+        "ancient_honor": "The patriarchs were shepherds. Moses tended sheep for 40 years before God called him. David was taken from the sheep to be king.",
+        "later_stigma": "By Jesus' time, rabbis listed shepherds among those who couldn't give testimony. They were suspected of grazing on others' land.",
+        "god_as_shepherd": "The LORD is my shepherd' (Psa 23). Israel is the flock. Leaders who failed were called 'worthless shepherds.'"
+      },
+      "social_structure": {
+        "hired_vs_owner": "Owner shepherds cared for their own flock. Hired shepherds worked for wages and might flee from danger.",
+        "responsibilities": "Leading to pasture and water, protecting from predators, finding lost sheep, carrying lambs, treating wounds."
+      },
+      "customs": {
+        "night_watch": "Sheep folded at night in pens or caves. Shepherds took turns watching. Good shepherds slept at the gate.",
+        "rod_and_staff": "Rod for defense against predators, staff with crook for guiding and rescuing sheep from ravines.",
+        "counting": "Each sheep passed under the rod for counting. Shepherds knew each by name."
+      },
+      "key_interactions": [
+        {"event": "David the shepherd", "reference": "1Sa.17.34-35", "summary": "David tells Saul he killed a lion and bear while protecting sheep—training for Goliath"},
+        {"event": "Shepherds at Jesus' birth", "reference": "Luk.2.8-20", "summary": "Angels announce to shepherds keeping night watch. They go find the baby and spread the news."},
+        {"event": "Good Shepherd discourse", "reference": "Joh.10.1-18", "summary": "Jesus: 'I am the good shepherd. The good shepherd lays down his life for the sheep.'"},
+        {"event": "Lost sheep parable", "reference": "Luk.15.3-7", "summary": "Shepherd leaves 99 to find 1 lost sheep. 'More joy in heaven over one sinner who repents.'"},
+        {"event": "Sheep and goats", "reference": "Mat.25.31-33", "summary": "Son of Man separates nations 'as a shepherd separates sheep from goats'"}
+      ],
+      "references": ["Gen.46.34", "Exo.3.1", "1Sa.16.11", "1Sa.17.34-35", "Psa.23.1-4", "Isa.40.11", "Eze.34.1-31", "Mic.5.4", "Luk.2.8-20", "Luk.15.3-7", "Joh.10.1-18", "Heb.13.20", "1Pe.2.25", "1Pe.5.4"]
+    },
+    {
+      "id": "lepers",
+      "name": "Lepers (Those with Skin Diseases)",
+      "category": "subclasses",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "People with various skin diseases (the Hebrew word covered more than just leprosy). Declared 'unclean' by priests, they lived outside camps and towns, had to warn others by calling 'Unclean!', and couldn't enter the Temple. Healing required priestly inspection and sacrifice.",
+      "biblical_role": "Leprosy pictured sin's effect—it excluded people from God's presence and community. Jesus touched lepers and healed them, showing his power over uncleanness and his compassion for outcasts.",
+      "worldview": {
+        "uncleanness": "Not about hygiene but about being cut off from God's presence. Unclean people couldn't approach the tabernacle or temple.",
+        "contagion": "Anyone who touched a leper became unclean. Lepers lived apart to prevent spreading uncleanness.",
+        "shame": "Being a leper meant social death. Family and community contact severed. Some saw it as divine punishment."
+      },
+      "social_structure": {
+        "exile": "Lepers lived outside city walls, often in colonies. They depended on charity.",
+        "identification": "Torn clothes, loose hair, covered upper lip. Required to call out 'Unclean!' when people approached."
+      },
+      "customs": {
+        "priestly_inspection": "Only priests could declare someone leprous or clean. Detailed inspection process in Leviticus 13-14.",
+        "cleansing_ritual": "After healing, elaborate ritual: two birds (one killed, one released), seven days waiting, shaving, washing, sacrifices.",
+        "isolation_period": "Even after healing, stayed outside camp 7 days, washed clothes, then examined again."
+      },
+      "key_interactions": [
+        {"event": "Miriam struck with leprosy", "reference": "Num.12.10-15", "summary": "Miriam speaks against Moses; struck with leprosy; shut out of camp 7 days then healed"},
+        {"event": "Naaman the leper", "reference": "2Ki.5.1-14", "summary": "Syrian commander healed by dipping in Jordan seven times. 'Now I know there is no God except in Israel.'"},
+        {"event": "Four lepers at Samaria", "reference": "2Ki.7.3-8", "summary": "Starving lepers find Aramean camp abandoned—God had routed the army"},
+        {"event": "Jesus touches a leper", "reference": "Mar.1.40-45", "summary": "Leper: 'If you will, you can make me clean.' Jesus touches him. Immediately clean."},
+        {"event": "Ten lepers healed", "reference": "Luk.17.11-19", "summary": "Jesus heals ten lepers. Only one returns to thank him—a Samaritan."},
+        {"event": "Simon the leper", "reference": "Mat.26.6", "summary": "Jesus dines at house of Simon the leper in Bethany (presumably healed)"}
+      ],
+      "references": ["Lev.13.1-59", "Lev.14.1-32", "Num.5.2-3", "Num.12.10-15", "2Ki.5.1-14", "2Ki.7.3-8", "2Ki.15.5", "2Ch.26.19-21", "Mat.8.2-4", "Mat.10.8", "Mat.11.5", "Mat.26.6", "Mar.1.40-45", "Luk.5.12-14", "Luk.17.11-19"]
+    },
+    {
+      "id": "fishermen",
+      "name": "Fishermen",
+      "category": "subclasses",
+      "region": "Sea of Galilee, Mediterranean coast",
+      "period": "Throughout biblical times",
+      "description": "Those who caught fish for food and trade. On the Sea of Galilee, fishing was a major industry. Fishermen worked at night (fish came to surface), used nets or lines, and sold their catch fresh or salted. Several of Jesus' disciples were Galilean fishermen.",
+      "biblical_role": "Jesus called fishermen as his first disciples, saying 'I will make you fishers of men.' Peter, Andrew, James, and John left their nets to follow him. Jesus performed miracles involving fish and fishing.",
+      "worldview": {
+        "honest_trade": "Unlike tax collectors, fishing was respectable work. Hard labor but not dishonorable.",
+        "partnership": "Fishing required cooperation—boats, nets, and crews. Peter and Andrew worked with James and John.",
+        "economic_importance": "Dried and salted fish was a major Galilean export. Fishing rights could be leased."
+      },
+      "social_structure": {
+        "boat_owners": "Families owned boats. Zebedee had hired servants, suggesting some wealth.",
+        "hired_workers": "Not all fishermen owned boats—some worked as hired hands.",
+        "fish_merchants": "Fish processed and sold through merchants. Magadan/Tarichaea means 'place of salted fish.'"
+      },
+      "customs": {
+        "night_fishing": "Fish came to surface at night. Nets cast in darkness, catch hauled in at dawn.",
+        "net_types": "Cast nets (circular, thrown by hand), drag nets (large, between boats), and trammel nets.",
+        "sorting_catch": "Good fish kept, bad thrown away—Jesus used this image for final judgment (Mat 13:47-50)."
+      },
+      "key_interactions": [
+        {"event": "Peter and Andrew called", "reference": "Mat.4.18-20", "summary": "Jesus sees brothers casting net: 'Follow me and I will make you fishers of men.' They leave nets immediately."},
+        {"event": "James and John called", "reference": "Mat.4.21-22", "summary": "Jesus calls them from boat where they mend nets with father Zebedee. They leave boat and father."},
+        {"event": "Miraculous catch", "reference": "Luk.5.1-11", "summary": "After fishing all night with nothing, Jesus says cast on right side—nets break from fish. Peter: 'Depart from me, a sinful man.'"},
+        {"event": "Fish and loaves", "reference": "Joh.6.9-13", "summary": "Boy's five loaves and two fish feed 5,000. Twelve baskets left over."},
+        {"event": "Post-resurrection catch", "reference": "Joh.21.1-14", "summary": "Disciples fish all night, catch nothing. Jesus on shore tells them where to cast—153 large fish."},
+        {"event": "Coin in fish's mouth", "reference": "Mat.17.27", "summary": "Jesus tells Peter to catch a fish—it will have a coin for the temple tax"}
+      ],
+      "references": ["Mat.4.18-22", "Mat.13.47-50", "Mat.17.27", "Mar.1.16-20", "Luk.5.1-11", "Joh.6.9-13", "Joh.21.1-14"]
+    },
+    {
+      "id": "widows",
+      "name": "Widows and Orphans",
+      "category": "subclasses",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "Women whose husbands had died and children without parents. In a society where men owned property and earned wages, widows and orphans were extremely vulnerable. God commanded special care for them and judged nations that mistreated them.",
+      "biblical_role": "God identifies himself as 'defender of widows' and 'father of orphans.' Care for widows and orphans is repeatedly commanded in the Law. The early church organized widow support. James says true religion includes caring for orphans and widows.",
+      "worldview": {
+        "vulnerability": "Without a husband or father, women and children had no legal protector, no income source, no inheritance rights.",
+        "divine_protection": "God took up their cause. Mistreating them brought his judgment. Blessing them brought his favor.",
+        "community_duty": "Israel was commanded to leave grain in fields for widows to glean, include them in festivals, provide for them from tithes."
+      },
+      "social_structure": {
+        "kinsman_redeemer": "Nearest male relative could marry a widow (levirate marriage) to provide for her and raise up heirs.",
+        "family_responsibility": "Sons should support widowed mothers. Paul says believers must care for widowed relatives.",
+        "community_care": "Gleaning rights, tithe sharing, and inclusion in community meals."
+      },
+      "customs": {
+        "mourning_dress": "Widows wore distinctive clothing. Putting it aside signaled moving on (like Tamar in Gen 38:14).",
+        "remarriage": "Widows could remarry. Younger widows were encouraged to. Older widows served the church.",
+        "gleaning": "Widows had right to follow harvesters and pick up what was left. Ruth gleaned in Boaz's fields."
+      },
+      "key_interactions": [
+        {"event": "Ruth and Naomi", "reference": "Rut.1.1-22", "summary": "Naomi loses husband and sons, left with daughter-in-law Ruth. Returns to Bethlehem destitute."},
+        {"event": "Widow of Zarephath", "reference": "1Ki.17.8-16", "summary": "Starving widow feeds Elijah her last meal. Flour and oil don't run out until rain comes."},
+        {"event": "Widow's oil multiplied", "reference": "2Ki.4.1-7", "summary": "Prophet's widow about to lose sons to slavery for debt. Elisha multiplies oil to pay creditors."},
+        {"event": "Widow's mite", "reference": "Mar.12.41-44", "summary": "Poor widow puts two small coins in treasury. Jesus: 'She gave more than all the others—everything she had.'"},
+        {"event": "Widow of Nain", "reference": "Luk.7.11-17", "summary": "Jesus sees widow's only son being carried out dead. Raises him and gives him back to his mother."},
+        {"event": "Early church deacons", "reference": "Act.6.1-6", "summary": "Dispute over widow care leads to appointment of seven deacons to oversee daily distribution."},
+        {"event": "True religion", "reference": "Jam.1.27", "summary": "'Pure religion is this: to look after orphans and widows in their distress'"}
+      ],
+      "references": ["Exo.22.22-24", "Deu.10.18", "Deu.14.29", "Deu.24.17-21", "Deu.27.19", "Rut.1.1-22", "1Ki.17.8-16", "2Ki.4.1-7", "Psa.68.5", "Psa.146.9", "Isa.1.17", "Jer.7.6", "Mar.12.41-44", "Luk.7.11-17", "Luk.18.1-8", "Act.6.1-6", "1Ti.5.3-16", "Jam.1.27"]
+    },
+    {
+      "id": "slaves_servants",
+      "name": "Slaves and Servants",
+      "category": "subclasses",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "People bound to serve others. Hebrew slaves could be debt-bondsmen (released after 7 years) or foreign captives (permanent). Slavery in Israel was regulated by law—masters couldn't kill slaves, and escaped slaves weren't to be returned. Roman slavery was harsher with no time limits.",
+      "biblical_role": "Many biblical figures were slaves or servants: Joseph in Egypt, Israelites in Egypt, Daniel in Babylon. Jesus 'took the form of a servant.' Paul called himself a slave of Christ. The NT doesn't abolish slavery but regulates the relationship.",
+      "worldview": {
+        "hebrew_bondservant": "Israelites who sold themselves due to debt served 6 years, freed in the 7th. Could choose permanent service.",
+        "foreign_slaves": "Captured in war or purchased. Could become permanent property but still had protections under law.",
+        "roman_slavery": "Slaves had no legal personhood. Could be freed (manumission) and become citizens. Many early Christians were slaves."
+      },
+      "social_structure": {
+        "household_servants": "Trusted slaves ran households (like Joseph for Potiphar). Some held significant responsibility.",
+        "debt_slaves": "Israelites who couldn't pay debts could sell themselves. Released in Year of Jubilee at latest.",
+        "freedmen": "Former slaves could gain wealth and status. Some became patrons of churches."
+      },
+      "customs": {
+        "ear_piercing": "Hebrew slave who chose to stay with master permanently had ear pierced at doorpost (Exo 21:6).",
+        "jubilee_release": "Every 50 years, Hebrew slaves freed, debts cancelled, land returned to original families.",
+        "sanctuary": "Escaped slaves not to be returned to masters—could live freely in Israel (Deu 23:15-16)."
+      },
+      "key_interactions": [
+        {"event": "Joseph sold as slave", "reference": "Gen.37.28", "summary": "Brothers sell Joseph to Midianite traders for 20 pieces of silver. Ends up in Egypt."},
+        {"event": "Israel enslaved in Egypt", "reference": "Exo.1.11-14", "summary": "Egyptians make Israelites' lives bitter with hard labor—bricks, mortar, field work."},
+        {"event": "Year of Jubilee", "reference": "Lev.25.39-42", "summary": "'If your brother becomes poor and sells himself, don't treat him as a slave. In Jubilee he goes free.'"},
+        {"event": "Onesimus", "reference": "Phm.1.10-16", "summary": "Paul sends escaped slave back to Philemon—'no longer as a slave but as a beloved brother.'"},
+        {"event": "Jesus takes servant form", "reference": "Php.2.7", "summary": "Jesus 'emptied himself, taking the form of a servant (doulos)'"},
+        {"event": "Slaves obey masters", "reference": "Eph.6.5-9", "summary": "Paul instructs slaves and masters. Masters told to stop threatening—same Master in heaven."}
+      ],
+      "references": ["Gen.37.28", "Exo.1.11-14", "Exo.21.1-11", "Exo.21.26-27", "Lev.25.39-55", "Deu.15.12-18", "Deu.23.15-16", "Php.2.7", "Eph.6.5-9", "Col.3.22-25", "Col.4.1", "1Ti.6.1-2", "Phm.1.10-16", "1Pe.2.18-20"]
+    },
+    {
+      "id": "sinners_prostitutes",
+      "name": "Sinners and Prostitutes",
+      "category": "subclasses",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "'Sinners' was a category for those who didn't follow the Law—either through occupation (tax collectors, shepherds) or behavior (prostitutes, thieves). Pharisees avoided contact with them to stay ritually pure. Jesus deliberately associated with them.",
+      "biblical_role": "Jesus was criticized for eating with 'sinners' and told parables about God seeking them. He said tax collectors and prostitutes would enter the kingdom before the religious leaders. Rahab the prostitute is in Jesus' genealogy.",
+      "worldview": {
+        "religious_outcasts": "The religious establishment defined 'sinners' as those outside proper Jewish observance. Contact made you unclean.",
+        "economic_desperation": "Many prostitutes were widows or abandoned women with no other means of survival.",
+        "public_shame": "Sinners were publicly known. The woman in Luke 7 was 'a sinner in the city'—everyone knew who she was."
+      },
+      "social_structure": {
+        "excluded": "Sinners couldn't testify in court, couldn't participate in synagogue, weren't invited to meals with the respectable.",
+        "tax_collector_category": "Lumped together: 'tax collectors and sinners' appears as a phrase—the worst of society.",
+        "repentance_path": "Sinners could repent and be restored. John the Baptist attracted many who came confessing sins."
+      },
+      "customs": {
+        "meal_fellowship": "Eating with someone meant acceptance. Jesus eating with sinners scandalized Pharisees.",
+        "ritual_purity": "Righteous Jews avoided sinners to prevent contamination. Jesus reversed this—his purity spread to them.",
+        "public_confession": "Those seeking restoration made public confession and changed their ways."
+      },
+      "key_interactions": [
+        {"event": "Rahab hides spies", "reference": "Jos.2.1-21", "summary": "Rahab the prostitute hides Israelite spies, helps them escape. Saved when Jericho falls."},
+        {"event": "Sinful woman at Jesus' feet", "reference": "Luk.7.36-50", "summary": "Known sinner washes Jesus' feet with tears, dries with hair, pours perfume. Jesus: 'Her many sins are forgiven.'"},
+        {"event": "Jesus eats with sinners", "reference": "Mat.9.10-13", "summary": "'Why does your teacher eat with tax collectors and sinners?' Jesus: 'I came not for the healthy but the sick.'"},
+        {"event": "Prostitutes enter first", "reference": "Mat.21.31-32", "summary": "Jesus to chief priests: 'Tax collectors and prostitutes are entering the kingdom ahead of you.'"},
+        {"event": "Lost sheep, coin, son", "reference": "Luk.15.1-32", "summary": "Pharisees grumble about Jesus welcoming sinners. He tells three parables about God seeking the lost."},
+        {"event": "Woman caught in adultery", "reference": "Joh.8.3-11", "summary": "Teachers bring woman caught in adultery. Jesus: 'Let him without sin cast the first stone.' All leave. 'Go and sin no more.'"}
+      ],
+      "references": ["Jos.2.1-21", "Jos.6.25", "Mat.9.10-13", "Mat.11.19", "Mat.21.31-32", "Mar.2.15-17", "Luk.5.30-32", "Luk.7.36-50", "Luk.15.1-32", "Luk.18.13", "Luk.19.7", "Joh.8.3-11", "Heb.11.31", "Jam.2.25"]
+    },
+    {
+      "id": "proselytes",
+      "name": "Proselytes (Converts to Judaism)",
+      "category": "subclasses",
+      "region": "Jewish diaspora and Israel",
+      "period": "Second Temple period onward",
+      "description": "Gentiles who fully converted to Judaism. Men were circumcised, both men and women immersed in a mikveh, and they offered sacrifice. After conversion, they were considered Jews—part of the covenant community with all obligations.",
+      "biblical_role": "Some proselytes appear in Acts (like Nicolas of Antioch). The Ethiopian eunuch and Cornelius were on the path to conversion. Debate over whether Gentile Christians needed to become proselytes was settled at the Jerusalem Council.",
+      "worldview": {
+        "full_commitment": "Proselytes cut all ties with former gods and people. They joined Israel completely.",
+        "legal_status": "Treated as native-born Israelites in many respects. Could marry Jews (with some restrictions).",
+        "religious_motivation": "Attracted by monotheism, moral code, and community. Some found paganism empty."
+      },
+      "social_structure": {
+        "conversion_process": "Study period, circumcision for men, mikveh immersion, sacrifice at Temple. Rabbis examined motives.",
+        "new_identity": "Given a Hebrew name. Father now 'Abraham'—became children of Abraham by adoption.",
+        "community_acceptance": "Some rabbis said converts not to be reminded of former life. Others treated them as second-class."
+      },
+      "customs": {
+        "mikveh": "Ritual immersion symbolized death to old life, birth into Israel. Witnessed by rabbis.",
+        "circumcision": "Adult circumcision was the main barrier. Required for full covenant membership.",
+        "sacrifice": "Brought offering to Temple as sign of joining God's people (before 70 AD)."
+      },
+      "key_interactions": [
+        {"event": "Ruth's conversion", "reference": "Rut.1.16", "summary": "Ruth to Naomi: 'Your people shall be my people, and your God my God.' Becomes ancestor of David."},
+        {"event": "Pentecost proselytes", "reference": "Act.2.10-11", "summary": "Among those hearing the apostles in their own languages: 'Jews and proselytes.'"},
+        {"event": "Nicolas of Antioch", "reference": "Act.6.5", "summary": "One of the seven deacons—'a proselyte of Antioch.' Gentile convert serving the church."},
+        {"event": "Pharisees make proselytes", "reference": "Mat.23.15", "summary": "Jesus: 'You travel over sea and land to make a single proselyte, then make him twice as much a child of hell.'"},
+        {"event": "Jerusalem Council", "reference": "Act.15.1-29", "summary": "Debate: must Gentile believers become proselytes? Decision: no circumcision required—just basic requirements."}
+      ],
+      "references": ["Rut.1.16", "Est.8.17", "Mat.23.15", "Act.2.10-11", "Act.6.5", "Act.13.43", "Act.15.1-29"]
+    },
+    {
+      "id": "godfearers",
+      "name": "God-Fearers",
+      "category": "subclasses",
+      "region": "Jewish diaspora and Israel",
+      "period": "Second Temple period onward",
+      "description": "Gentiles attracted to Judaism who worshipped the God of Israel and followed some Jewish practices but didn't fully convert. They attended synagogue, kept some commandments, but weren't circumcised. A significant group in the New Testament.",
+      "biblical_role": "Many early Gentile Christians were God-fearers—already familiar with Scripture and Jewish ethics. Cornelius was a God-fearer. Paul often found them in synagogues, receptive to his message about Jesus.",
+      "worldview": {
+        "partial_adherence": "Worshipped Israel's God, rejected idolatry, kept moral commands. Stopped short of full conversion.",
+        "synagogue_attachment": "Welcomed in synagogues as 'those who fear God.' Sat in a designated area. Could contribute financially.",
+        "circumcision_barrier": "Adult circumcision was painful and dangerous. Also meant complete social break from Gentile world."
+      },
+      "social_structure": {
+        "respected_position": "Often wealthy patrons who supported synagogues. Centurion in Luke 7 built a synagogue.",
+        "liminal_status": "Neither fully Jewish nor fully Gentile. Couldn't participate in all Jewish rituals.",
+        "ready_converts": "When Christianity offered full inclusion without circumcision, many God-fearers responded."
+      },
+      "customs": {
+        "sabbath_observance": "Many kept the Sabbath and attended synagogue services.",
+        "dietary_laws": "Some followed Jewish food laws. Others kept only basic rules.",
+        "charitable_giving": "Often generous supporters of Jewish communities—gave alms, supported the poor."
+      },
+      "key_interactions": [
+        {"event": "Centurion's faith", "reference": "Luk.7.1-10", "summary": "Centurion built the synagogue. Sends for Jesus to heal servant. Jesus: 'I haven't found such faith in Israel.'"},
+        {"event": "Cornelius", "reference": "Act.10.1-48", "summary": "Devout God-fearer, gave alms, prayed constantly. Peter sent to him. Holy Spirit falls—first Gentile converts."},
+        {"event": "Ethiopian eunuch", "reference": "Act.8.26-40", "summary": "Reading Isaiah on his way from Jerusalem. Philip explains—eunuch believes and is baptized."},
+        {"event": "Paul in Antioch Pisidia", "reference": "Act.13.16", "summary": "In synagogue, Paul addresses 'Men of Israel and you who fear God'—two distinct groups present."},
+        {"event": "Lydia", "reference": "Act.16.14", "summary": "'A worshiper of God' from Thyatira, selling purple cloth. The Lord opens her heart to Paul's message."},
+        {"event": "Titius Justus", "reference": "Act.18.7", "summary": "God-fearer whose house next to synagogue became Paul's base in Corinth when Jews rejected him."}
+      ],
+      "references": ["Luk.7.1-10", "Act.8.26-40", "Act.10.1-48", "Act.13.16", "Act.13.26", "Act.13.43", "Act.16.14", "Act.17.4", "Act.17.17", "Act.18.7"]
+    },
+    {
+      "id": "samaritans_subclass",
+      "name": "Samaritans (as Social Outcasts)",
+      "category": "subclasses",
+      "region": "Samaria (between Judea and Galilee)",
+      "period": "Post-exile onward",
+      "description": "Descendants of Israelites who intermarried with foreigners after Assyria conquered the northern kingdom. Jews considered them half-breeds and heretics. They worshipped at Mt. Gerizim, not Jerusalem. Jews traveling between Galilee and Judea often crossed the Jordan to avoid Samaritan territory.",
+      "biblical_role": "Jesus deliberately interacted with Samaritans—the woman at the well, the grateful leper, the Good Samaritan parable. The gospel spread to Samaria in Acts 8. Samaritans represented the ultimate outsider that Jews would never help.",
+      "worldview": {
+        "mutual_hatred": "Jews said Samaritans had no share in the resurrection. Samaritans sometimes attacked Jewish pilgrims.",
+        "religious_difference": "Samaritans accepted only the five books of Moses. Worshipped at Mt. Gerizim, which Jews had destroyed.",
+        "ethnic_contempt": "'Samaritan' was an insult. 'Are we not right that you are a Samaritan and have a demon?' (Joh 8:48)"
+      },
+      "social_structure": {
+        "geographic_separation": "Lived in the region of Samaria. Most Jews avoided the area entirely.",
+        "no_dealings": "Jews wouldn't share utensils, wouldn't accept Samaritan hospitality, wouldn't intermarry.",
+        "parallel_religion": "Had their own temple (destroyed 128 BC), their own priests, their own version of the Torah."
+      },
+      "customs": {
+        "gerizim_worship": "Claimed Mt. Gerizim, not Jerusalem, was the true place of worship (Joh 4:20). Still sacrifice Passover there today.",
+        "torah_only": "Didn't accept the Prophets or Writings—only the Pentateuch. Had their own ancient text.",
+        "passover_sacrifice": "Unique practice: still sacrifice lambs on Mt. Gerizim at Passover."
+      },
+      "key_interactions": [
+        {"event": "Woman at the well", "reference": "Joh.4.1-42", "summary": "Jesus asks Samaritan woman for water—shocking. 'Jews have no dealings with Samaritans.' Many Samaritans believe."},
+        {"event": "Good Samaritan", "reference": "Luk.10.25-37", "summary": "Priest and Levite pass by wounded man. Samaritan helps him. Jesus: 'Which was neighbor?' 'The one who showed mercy.'"},
+        {"event": "Grateful leper", "reference": "Luk.17.11-19", "summary": "Ten lepers healed; only one returns to thank Jesus—and he was a Samaritan."},
+        {"event": "James and John's anger", "reference": "Luk.9.51-56", "summary": "Samaritan village won't receive Jesus. James and John: 'Shall we call fire from heaven?' Jesus rebukes them."},
+        {"event": "Philip in Samaria", "reference": "Act.8.4-25", "summary": "Philip preaches in Samaria; many believe. Peter and John come—Samaritans receive the Holy Spirit."},
+        {"event": "Insulted as Samaritan", "reference": "Joh.8.48", "summary": "Jews to Jesus: 'Are we not right that you are a Samaritan and have a demon?'"}
+      ],
+      "references": ["2Ki.17.24-41", "Ezr.4.1-5", "Neh.4.1-2", "Luk.9.51-56", "Luk.10.25-37", "Luk.17.11-19", "Joh.4.1-42", "Joh.8.48", "Act.1.8", "Act.8.4-25"]
     }
   ]
 }

@@ -160,12 +160,9 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - **Timelines** - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
 - **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
-- **Peoples & Cultures** - 41 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs that explain passages
+- **Peoples & Cultures** - 52 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs, 11 social subclasses (tax collectors, shepherds, lepers, etc.)
 
 ### NOT YET IMPLEMENTED
-
-#### Peoples & Cultures Expansion
-- **Social Subclasses** - Tax collectors, shepherds, lepers, etc. (to be added later as a separate category)
 
 #### Historical Context
 - **Ancient Religions** - Egyptian, Canaanite, Babylonian gods and practices
@@ -246,7 +243,7 @@ All categories implemented:
 - `timelines.json` - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - `maps.json` - 74 biblical maps organized by category (journeys, kingdoms, empires, periods, temple plans)
 - `parallel_passages.json` - 214 parallel passage sets with 2+ accounts (identical, samuel/chronicles, kings/chronicles, synoptic gospels)
-- `peoples_cultures.json` - 18 biblical peoples organized by category (empires, neighbors, canaan, nt_era)
+- `peoples_cultures.json` - 52 entries: peoples, religious groups, customs, and social subclasses organized by category
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)

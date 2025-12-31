@@ -12,7 +12,7 @@ const typeLabels = {
 }
 
 function CrossRefsColumn({ columnId, data }) {
-  const { data: appData, goToVerse } = useApp()
+  const { data: appData, comparePassages } = useApp()
 
   const verseId = data?.verseId
 
@@ -80,7 +80,7 @@ function CrossRefsColumn({ columnId, data }) {
               <div
                 key={index}
                 className="crossref-col-item"
-                onClick={() => goToVerse(normalizeVerseId(ref.target))}
+                onClick={() => comparePassages(verseId, normalizeVerseId(ref.target))}
               >
                 <div className="crossref-col-verse">
                   {formatVerseRef(ref.target)}

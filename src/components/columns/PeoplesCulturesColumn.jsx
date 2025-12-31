@@ -9,10 +9,11 @@ const categoryLabels = {
   canaan: 'Canaanite Nations',
   religious_groups: 'Religious & Political Groups',
   nt_era: 'New Testament Era',
-  customs: 'Customs & Practices'
+  customs: 'Customs & Practices',
+  subclasses: 'Social Groups & Occupations'
 }
 
-const categoryOrder = ['israelites', 'empires', 'canaan', 'neighbors', 'religious_groups', 'nt_era', 'customs']
+const categoryOrder = ['israelites', 'empires', 'canaan', 'neighbors', 'religious_groups', 'nt_era', 'customs', 'subclasses']
 
 // Convert snake_case to Title Case (e.g., "divine_mandate" -> "Divine Mandate")
 const formatFieldName = (key) => {
