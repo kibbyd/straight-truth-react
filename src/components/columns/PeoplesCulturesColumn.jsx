@@ -3,13 +3,16 @@ import { useApp } from '../../context/AppContext'
 import { formatVerseRef, formatChapterRef, normalizeVerseId } from '../../data/bibleBooks'
 
 const categoryLabels = {
+  israelites: "God's Covenant People",
   empires: 'Major Empires',
   neighbors: 'Neighboring Nations',
   canaan: 'Canaanite Nations',
-  nt_era: 'New Testament Era'
+  religious_groups: 'Religious & Political Groups',
+  nt_era: 'New Testament Era',
+  customs: 'Customs & Practices'
 }
 
-const categoryOrder = ['empires', 'canaan', 'neighbors', 'nt_era']
+const categoryOrder = ['israelites', 'empires', 'canaan', 'neighbors', 'religious_groups', 'nt_era', 'customs']
 
 // Convert snake_case to Title Case (e.g., "divine_mandate" -> "Divine Mandate")
 const formatFieldName = (key) => {
@@ -106,7 +109,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
   const { data: appData, goToVerse } = useApp()
   const [searchQuery, setSearchQuery] = useState('')
   const [expandedCategories, setExpandedCategories] = useState(
-    Object.fromEntries(categoryOrder.map(c => [c, true]))
+    Object.fromEntries(categoryOrder.map(c => [c, false]))
   )
   const [expandedPeople, setExpandedPeople] = useState({})
 
@@ -223,12 +226,12 @@ function PeoplesCulturesColumn({ columnId, data }) {
                         <div className="people-details" style={{ padding: '12px 15px', background: '#fafafa', borderBottom: '1px solid #ddd', borderLeft: '4px solid #1976d2' }}>
                           <div style={{ marginBottom: '12px' }}>
                             <div style={{ fontWeight: '500', marginBottom: '4px' }}>Description</div>
-                            <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{people.description}</div>
+                            <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{parseTextWithRefs(people.description, handleRefClick)}</div>
                           </div>
 
                           <div style={{ marginBottom: '12px' }}>
                             <div style={{ fontWeight: '500', marginBottom: '4px' }}>Biblical Role</div>
-                            <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{people.biblical_role}</div>
+                            <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{parseTextWithRefs(people.biblical_role, handleRefClick)}</div>
                           </div>
 
                           {people.worldview && Object.keys(people.worldview).length > 0 && (
@@ -236,7 +239,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#5c4033' }}>Worldview & Beliefs</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#fff8f0', padding: '10px', borderRadius: '4px', border: '1px solid #e8d8c8' }}>
                                 {Object.entries(people.worldview).map(([key, value]) => (
-                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {parseTextWithRefs(value, handleRefClick)}</div>
                                 ))}
                               </div>
                             </div>
@@ -247,7 +250,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#2e5a4c' }}>Social Structure</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#f0f8f5', padding: '10px', borderRadius: '4px', border: '1px solid #d0e8d8' }}>
                                 {Object.entries(people.social_structure).map(([key, value]) => (
-                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {parseTextWithRefs(value, handleRefClick)}</div>
                                 ))}
                               </div>
                             </div>
@@ -258,7 +261,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#4a3c6e' }}>Customs & Practices</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#f8f5ff', padding: '10px', borderRadius: '4px', border: '1px solid #e0d8f0' }}>
                                 {Object.entries(people.customs).map(([key, value]) => (
-                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {parseTextWithRefs(value, handleRefClick)}</div>
                                 ))}
                               </div>
                             </div>
@@ -269,7 +272,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#6e4a3c' }}>Core Values</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#fff5f0', padding: '10px', borderRadius: '4px', border: '1px solid #f0d8d0' }}>
                                 {Object.entries(people.values).map(([key, value]) => (
-                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {parseTextWithRefs(value, handleRefClick)}</div>
                                 ))}
                               </div>
                             </div>
@@ -310,7 +313,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                                 >
                                   {formatVerseRef(interaction.reference)}
                                 </span>
-                                <span style={{ color: '#333' }}>{interaction.summary}</span>
+                                <span style={{ color: '#333' }}>{parseTextWithRefs(interaction.summary, handleRefClick)}</span>
                               </div>
                             ))}
                           </div>

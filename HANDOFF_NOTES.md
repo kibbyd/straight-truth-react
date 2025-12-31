@@ -117,6 +117,32 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 - ❌ Inventing random verses just because they contain a keyword
 - ❌ Picking arbitrary start/end verses to represent a chapter range
 
+### Inline Scripture References (CRITICAL)
+
+When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these MUST be parsed into clickable links using the `parseTextWithRefs()` helper function.
+
+**Rule:** ALL text fields that display user-facing content should use `parseTextWithRefs(text, handleRefClick)` instead of just `{text}`.
+
+**Fields that need parsing in PeoplesCulturesColumn:**
+- `people.description`
+- `people.biblical_role`
+- `people.worldview[key]` values
+- `people.social_structure[key]` values
+- `people.customs[key]` values
+- `people.values[key]` values
+- `people.religion`
+- `interaction.summary`
+- `sg.note` (sub_groups)
+- `figure.note` (key_figures)
+
+**Pattern:** The regex matches `(Book Chapter)` or `(Book Chapter:Verse)` formats:
+- ✅ `(Gen 32:28)` → Genesis 32:28
+- ✅ `(Deu 7:7-8)` → Deuteronomy 7:7-8
+- ✅ `(Dan 4)` → Daniel 4
+- ✅ `(2Ki 5:1-14)` → 2 Kings 5:1-14
+
+**When adding new columns or data:** Always check if text fields contain inline references and apply `parseTextWithRefs()` accordingly.
+
 ---
 
 ## Feature Status
@@ -134,9 +160,12 @@ This displays as "Exodus chs. 35-40" — NOT clickable, just informational.
 - **Timelines** - 350+ chronological entries (lifespans, reigns, periods, events, journeys, building projects)
 - **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
 - **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
-- **Peoples & Cultures** - 18 biblical peoples with history, key interactions, religion, and scripture references
+- **Peoples & Cultures** - 41 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs that explain passages
 
 ### NOT YET IMPLEMENTED
+
+#### Peoples & Cultures Expansion
+- **Social Subclasses** - Tax collectors, shepherds, lepers, etc. (to be added later as a separate category)
 
 #### Historical Context
 - **Ancient Religions** - Egyptian, Canaanite, Babylonian gods and practices

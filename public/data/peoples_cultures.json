@@ -2,13 +2,117 @@
   "_meta": {
     "description": "Biblical peoples and cultures",
     "categories": {
+      "israelites": "God's covenant people",
       "empires": "Major ruling powers",
       "neighbors": "Nations bordering Israel",
       "canaan": "People living in Canaan before Israel",
-      "nt_era": "New Testament period peoples"
+      "religious_groups": "Jewish religious and political parties",
+      "nt_era": "New Testament period peoples",
+      "customs": "Cultural practices that explain biblical events"
     }
   },
   "peoples": [
+    {
+      "id": "israelites",
+      "name": "Israelites (Hebrews)",
+      "category": "israelites",
+      "region": "Canaan / Land of Israel",
+      "period": "c. 2000 BC onward",
+      "description": "The descendants of Abraham, Isaac, and Jacob. 'Hebrew' is the oldest term (used by outsiders). 'Israel' became the name after Jacob wrestled with God (Gen 32:28). The twelve tribes came from Jacob's twelve sons.",
+      "biblical_role": "God's chosen people through whom He would bless all nations. Received the Law at Sinai. Given the promised land of Canaan.",
+      "worldview": {
+        "god": "One God (Yahweh) who created everything. No images allowed. He is not part of nature—He made it and rules over it.",
+        "covenant": "God made binding agreements with Abraham, then the whole nation at Sinai. If they kept His commands, they would be blessed. If not, cursed.",
+        "land": "Canaan was promised to Abraham's descendants. Living in the land was tied to keeping the covenant.",
+        "identity": "Chosen not because they were great, but because God loved them and made promises to their ancestors (Deu 7:7-8)."
+      },
+      "social_structure": {
+        "tribes": "Twelve tribes from Jacob's sons. Each tribe had its own land (except Levi, who served at the sanctuary). The tribe of Judah would produce kings (Gen 49:10).",
+        "family": "Extended families (clans) were the basic unit. The oldest male led the household. Inheritance passed through sons.",
+        "leadership": "Patriarchs, then Moses, then judges (military leaders), then kings. Priests handled worship. Prophets spoke God's words."
+      },
+      "customs": {
+        "sabbath": "Rest on the seventh day—a sign of the covenant. No work allowed. Reminded them God rested after creation and freed them from Egypt.",
+        "circumcision": "All males circumcised on the eighth day—the physical sign of Abraham's covenant with God (Gen 17:10-14).",
+        "festivals": "Three pilgrimage festivals: Passover (freedom from Egypt), Weeks/Pentecost (harvest), Tabernacles (wilderness journey). Also Day of Atonement for national sin.",
+        "food_laws": "Clean and unclean animals. No blood. No mixing meat and milk. These rules set Israel apart from other nations.",
+        "sacrifice": "Animals offered at the tabernacle/temple for sin, thanksgiving, and fellowship. Only Levites and priests could serve."
+      },
+      "values": {
+        "primary": "Fear of God, keeping Torah, justice, mercy, caring for orphans and widows, remembering what God has done."
+      },
+      "religion": "Worship of Yahweh alone. Central sanctuary (tabernacle, then temple). Sacrifices offered by priests. Annual festivals. Torah read publicly.",
+      "key_interactions": [
+        {"event": "Abraham called", "reference": "Gen.12.1-3", "summary": "God calls Abraham to leave his country; promises land, nation, blessing to all nations"},
+        {"event": "Covenant with Abraham", "reference": "Gen.15.1-21", "summary": "God makes covenant; promises land from Egypt river to Euphrates"},
+        {"event": "Jacob becomes Israel", "reference": "Gen.32.28", "summary": "After wrestling with God, Jacob's name changed to Israel ('he struggles with God')"},
+        {"event": "Twelve sons/tribes", "reference": "Gen.49.1-28", "summary": "Jacob blesses twelve sons who become the twelve tribes"},
+        {"event": "Exodus from Egypt", "reference": "Exo.12.31-42", "summary": "Israel leaves Egypt after 430 years; about 600,000 men plus families"},
+        {"event": "Covenant at Sinai", "reference": "Exo.19.3-6", "summary": "God offers covenant; Israel to be 'kingdom of priests and holy nation'"},
+        {"event": "Conquest of Canaan", "reference": "Jos.1.1-9", "summary": "Joshua leads Israel into the promised land"},
+        {"event": "Kingdom established", "reference": "1Sa.8.4-22", "summary": "Israel asks for a king like other nations; God grants Saul"},
+        {"event": "Kingdom divided", "reference": "1Ki.12.16-20", "summary": "Ten northern tribes split from Judah after Solomon; become Israel and Judah"},
+        {"event": "Northern exile", "reference": "2Ki.17.6-23", "summary": "Assyria conquers Israel (722 BC); ten tribes scattered"},
+        {"event": "Southern exile", "reference": "2Ki.25.1-21", "summary": "Babylon conquers Judah (586 BC); Temple destroyed; exile to Babylon"}
+      ],
+      "key_figures": [
+        {"name": "Abraham", "reference": "Gen.12.1", "note": "Father of the nation; believed God and it was counted as righteousness"},
+        {"name": "Isaac", "reference": "Gen.21.1-3", "note": "Son of promise; covenant passed through him"},
+        {"name": "Jacob/Israel", "reference": "Gen.32.28", "note": "Wrestled with God; twelve sons became twelve tribes"},
+        {"name": "Moses", "reference": "Exo.3.10", "note": "Led Israel out of Egypt; received the Law; greatest prophet (Deu 34:10)"},
+        {"name": "Joshua", "reference": "Jos.1.1", "note": "Succeeded Moses; led conquest of Canaan"},
+        {"name": "David", "reference": "1Sa.16.13", "note": "Greatest king; 'man after God's own heart'; promised eternal dynasty"},
+        {"name": "Solomon", "reference": "1Ki.1.39", "note": "Built the Temple; wisest man; kingdom's golden age"}
+      ],
+      "references": ["Gen.12.1-3", "Gen.32.28", "Exo.19.3-6", "Deu.7.6-8", "Deu.26.18-19", "Jos.24.14-15", "Psa.135.4", "Isa.41.8-9"]
+    },
+    {
+      "id": "jews",
+      "name": "Jews (Judeans)",
+      "category": "israelites",
+      "region": "Judea and diaspora communities",
+      "period": "c. 586 BC onward (post-exile)",
+      "description": "'Jew' comes from 'Judah.' After the Babylonian exile, survivors were mainly from Judah, so 'Jew' became the common term. In the New Testament, 'Jew' and 'Judean' are the same Greek word.",
+      "biblical_role": "The continuation of Israel after exile. Maintained Torah, rebuilt Temple, awaited Messiah. Jesus, the apostles, and first Christians were all Jews.",
+      "worldview": {
+        "torah": "The Law of Moses was central to everything. How to live, worship, eat, marry—all came from Torah. Scribes copied and interpreted it.",
+        "temple": "The Second Temple in Jerusalem was the center of worship until destroyed in 70 AD. Three times a year adult men were to go there.",
+        "messiah": "Expectation of a coming deliverer. Views varied—some expected a conquering king, others a priestly figure, others both.",
+        "resurrection": "By Jesus' time, most Jews (except Sadducees) believed in resurrection of the dead at the end of the age."
+      },
+      "social_structure": {
+        "synagogue": "Local places of worship and study that developed during exile. Every town had one. Torah was read on Sabbath.",
+        "sanhedrin": "The high council of 71 elders in Jerusalem. Handled religious and legal matters. Led by the high priest.",
+        "diaspora": "Jews scattered throughout the Roman world. Kept their identity through Torah, Sabbath, circumcision, food laws, and synagogue."
+      },
+      "customs": {
+        "sabbath": "Still the central weekly observance. Strict rules about what counted as 'work.' Began Friday sunset, ended Saturday sunset.",
+        "purity": "Ritual washing and cleanliness rules. Immersion pools (mikvaot) used for purification. Touching dead bodies, certain diseases, and Gentiles caused uncleanness.",
+        "prayer": "Fixed prayer times—morning, afternoon, evening. Faced toward Jerusalem. Phylacteries (tefillin) worn during morning prayer.",
+        "fasting": "Day of Atonement required fasting. Pharisees also fasted twice a week (Monday and Thursday)."
+      },
+      "values": {
+        "primary": "Torah observance, Sabbath keeping, purity, separation from Gentiles, honoring God's name, expecting the Messiah."
+      },
+      "religion": "Worship of Yahweh. Second Temple in Jerusalem until 70 AD. Synagogues for local worship and Torah study. Various groups (Pharisees, Sadducees, Essenes) disagreed on interpretation.",
+      "key_interactions": [
+        {"event": "Return from exile", "reference": "Ezr.1.1-4", "summary": "Cyrus allows Jews to return and rebuild Temple (538 BC)"},
+        {"event": "Temple rebuilt", "reference": "Ezr.6.14-15", "summary": "Second Temple completed (516 BC)"},
+        {"event": "Ezra reads Torah", "reference": "Neh.8.1-8", "summary": "Public Torah reading; people weep then celebrate"},
+        {"event": "Maccabean revolt", "reference": "1Ma.2.1-48", "note": "Not in Protestant Bible; revolt against Greek persecution (167-160 BC)"},
+        {"event": "Jesus' ministry", "reference": "Mat.15.24", "summary": "Jesus sent 'to the lost sheep of the house of Israel'"},
+        {"event": "Gospel to Jews first", "reference": "Act.13.46", "summary": "Paul preaches to Jews first in each city; turns to Gentiles when rejected"},
+        {"event": "Temple destroyed", "reference": "Mat.24.1-2", "note": "Jesus predicts destruction; fulfilled in 70 AD by Romans"}
+      ],
+      "key_figures": [
+        {"name": "Ezra", "reference": "Ezr.7.10", "note": "Priest and scribe; led return and Torah reform"},
+        {"name": "Nehemiah", "reference": "Neh.1.1", "note": "Governor who rebuilt Jerusalem's walls"},
+        {"name": "Judas Maccabeus", "note": "Led revolt against Greeks; restored Temple worship (celebrated at Hanukkah)"},
+        {"name": "Herod the Great", "reference": "Mat.2.1", "note": "King when Jesus born; rebuilt Temple magnificently; killed Bethlehem babies"},
+        {"name": "Caiaphas", "reference": "Mat.26.3", "note": "High priest who condemned Jesus; said 'better one man die for the people'"}
+      ],
+      "references": ["Ezr.1.1-4", "Ezr.6.14-15", "Neh.8.1-8", "Est.2.5", "Jer.34.9", "Mat.2.2", "Joh.4.22", "Rom.1.16", "Rom.9.4-5"]
+    },
     {
       "id": "egyptians",
       "name": "Egyptians",
@@ -552,6 +656,354 @@
       "references": ["Gen.10.22", "Gen.28.5", "Deu.26.5", "1Ki.15.18-20", "1Ki.20.1-34", "2Ki.5.1-19", "2Ki.8.7-15", "2Ki.16.5-9", "Isa.7.1-9", "Amo.1.3-5"]
     },
     {
+      "id": "pharisees",
+      "name": "Pharisees",
+      "category": "religious_groups",
+      "region": "Judea and Galilee",
+      "period": "c. 150 BC – 70 AD",
+      "description": "A Jewish religious party whose name probably means 'separated ones.' They believed in strictly following the Torah plus oral traditions passed down from Moses. Most respected religious teachers of their day.",
+      "biblical_role": "Often opposed Jesus over interpretations of law. Jesus criticized their hypocrisy but shared some of their beliefs (resurrection, angels). Some became Christians (Nicodemus, Paul).",
+      "worldview": {
+        "torah": "The written Torah plus oral tradition (teachings passed down from Moses by word of mouth). Both had equal authority.",
+        "afterlife": "Believed in resurrection of the dead, angels, and spirits. This set them apart from Sadducees.",
+        "purity": "Extended Temple purity rules to everyday life. Washed hands before eating. Tithed even garden herbs."
+      },
+      "social_structure": {
+        "membership": "About 6,000 members in Jesus' day. Not priests—mostly laymen: merchants, craftsmen, scribes.",
+        "influence": "Controlled the synagogues. Most popular with common people. After Temple destruction (70 AD), their approach became mainstream Judaism."
+      },
+      "customs": {
+        "oral_law": "Detailed rules interpreting Torah. How far you could walk on Sabbath. What counted as 'work.' These traditions later became the Mishnah and Talmud.",
+        "fasting": "Fasted twice a week (Monday and Thursday). The Pharisee in Jesus' parable boasts of this (Luk 18:12).",
+        "tithing": "Tithed everything, even small herbs like mint and dill (Mat 23:23)."
+      },
+      "values": {
+        "primary": "Torah keeping, ritual purity, separation from sinners, oral tradition, resurrection hope."
+      },
+      "religion": "Devoted to Torah obedience through oral tradition. Synagogue-based. Believed all of life could be holy if lived according to God's law.",
+      "key_interactions": [
+        {"event": "Question about divorce", "reference": "Mat.19.3", "summary": "Pharisees test Jesus on divorce; He points to creation order"},
+        {"event": "Woe to Pharisees", "reference": "Mat.23.1-36", "summary": "Jesus pronounces seven woes; calls them blind guides, whitewashed tombs"},
+        {"event": "Nicodemus visits Jesus", "reference": "Joh.3.1-21", "summary": "Pharisee comes at night; Jesus teaches about being born again"},
+        {"event": "Pharisee and tax collector", "reference": "Luk.18.9-14", "summary": "Parable contrasting self-righteous Pharisee with humble tax collector"},
+        {"event": "Paul identifies as Pharisee", "reference": "Act.23.6", "summary": "Paul calls himself a Pharisee; divides the council over resurrection"},
+        {"event": "Gamaliel's counsel", "reference": "Act.5.34-39", "summary": "Pharisee Gamaliel advises letting apostles go—if from God, can't stop it"}
+      ],
+      "key_figures": [
+        {"name": "Nicodemus", "reference": "Joh.3.1", "note": "Pharisee and council member; came to Jesus at night; helped bury Jesus"},
+        {"name": "Gamaliel", "reference": "Act.5.34", "note": "Respected teacher; Paul's instructor; advised tolerance toward apostles"},
+        {"name": "Paul", "reference": "Php.3.5", "note": "Pharisee who became apostle; 'as to the law, a Pharisee'"},
+        {"name": "Simon the Pharisee", "reference": "Luk.7.36", "note": "Hosted Jesus at dinner when sinful woman anointed His feet"}
+      ],
+      "references": ["Mat.3.7", "Mat.15.1-9", "Mat.23.1-36", "Mar.7.1-13", "Luk.7.36-50", "Luk.18.9-14", "Joh.3.1-21", "Act.5.34-39", "Act.23.6-9", "Php.3.5"]
+    },
+    {
+      "id": "sadducees",
+      "name": "Sadducees",
+      "category": "religious_groups",
+      "region": "Jerusalem (Temple-centered)",
+      "period": "c. 150 BC – 70 AD",
+      "description": "A Jewish religious party made up of wealthy priests and aristocrats. Their name may come from Zadok, Solomon's high priest. They controlled the Temple and cooperated with Rome.",
+      "biblical_role": "Opposed Jesus and the apostles. Denied resurrection, which put them at odds with Jesus' teaching. Disappeared after Temple destruction in 70 AD.",
+      "worldview": {
+        "torah_only": "Accepted only the written Torah (five books of Moses). Rejected oral traditions and later writings.",
+        "no_afterlife": "Did not believe in resurrection, angels, or spirits. This life was all there was.",
+        "temple_focus": "The Temple and its sacrifices were central. Proper worship there was what mattered."
+      },
+      "social_structure": {
+        "aristocracy": "Wealthy, priestly families. High priest usually came from their ranks.",
+        "politics": "Worked with Roman rulers to keep peace. Feared any disturbance that might bring Roman intervention."
+      },
+      "customs": {
+        "strict_reading": "Interpreted Torah literally without oral tradition. Eye for eye meant actual physical punishment.",
+        "temple_control": "Ran the Temple, its sacrifices, and its treasury. This made them wealthy and powerful."
+      },
+      "values": {
+        "primary": "Temple worship, written Torah only, political stability, preserving their status."
+      },
+      "religion": "Temple-based Judaism. Sacrifice was the center of worship. No belief in afterlife meant focusing on blessings in this life.",
+      "key_interactions": [
+        {"event": "Test Jesus on resurrection", "reference": "Mat.22.23-33", "summary": "Ask about woman married to seven brothers; Jesus says they don't know Scripture or God's power"},
+        {"event": "Arrest apostles", "reference": "Act.4.1-3", "summary": "Sadducees 'greatly annoyed' that apostles taught resurrection; arrest them"},
+        {"event": "Second arrest", "reference": "Act.5.17-18", "summary": "High priest and Sadducees filled with jealousy; put apostles in prison"},
+        {"event": "Paul divides council", "reference": "Act.23.6-8", "summary": "Paul mentions resurrection; Pharisees and Sadducees begin arguing"}
+      ],
+      "key_figures": [
+        {"name": "Caiaphas", "reference": "Mat.26.3", "note": "High priest who condemned Jesus; led Sadducee party"},
+        {"name": "Annas", "reference": "Joh.18.13", "note": "Former high priest; Caiaphas's father-in-law; still powerful"}
+      ],
+      "references": ["Mat.3.7", "Mat.16.1-12", "Mat.22.23-33", "Mar.12.18-27", "Luk.20.27-40", "Act.4.1-3", "Act.5.17-18", "Act.23.6-8"]
+    },
+    {
+      "id": "essenes",
+      "name": "Essenes",
+      "category": "religious_groups",
+      "region": "Judea (especially Qumran near Dead Sea)",
+      "period": "c. 150 BC – 70 AD",
+      "description": "A strict Jewish group that withdrew from society to live in purity. Not mentioned in the Bible but described by Josephus and Philo. The Dead Sea Scrolls were likely their library.",
+      "biblical_role": "Not mentioned by name in Scripture. Some scholars see possible connections to John the Baptist's wilderness lifestyle.",
+      "worldview": {
+        "corruption": "Believed the Jerusalem Temple and priesthood were corrupt. Withdrew to await God's purification.",
+        "dualism": "Saw the world as a battle between light and darkness, sons of light versus sons of darkness.",
+        "end_times": "Expected God to intervene soon. Prepared by living in strict purity."
+      },
+      "social_structure": {
+        "community": "Lived in close communities. Shared property. Some were celibate, others married.",
+        "hierarchy": "Strict order of rank. New members went through years of probation before full membership."
+      },
+      "customs": {
+        "purity": "Multiple daily ritual baths. Strict food laws. White garments.",
+        "study": "Devoted to studying and copying Scripture. The Dead Sea Scrolls show their careful work.",
+        "meals": "Communal meals eaten in silence. Only full members could participate."
+      },
+      "values": {
+        "primary": "Purity, community, Scripture study, separation from corrupt society, awaiting God's kingdom."
+      },
+      "religion": "Devoted to Torah but rejected Temple worship as corrupt. Own calendar different from Jerusalem. Believed they were the true Israel.",
+      "key_interactions": [
+        {"event": "Dead Sea Scrolls", "note": "Their library discovered in caves near Qumran (1947). Oldest biblical manuscripts found."},
+        {"event": "Destroyed by Romans", "note": "Community at Qumran destroyed during Jewish revolt (68 AD). Scrolls hidden in caves."}
+      ],
+      "key_figures": [
+        {"name": "Teacher of Righteousness", "note": "Unnamed founder of the community; opposed the 'Wicked Priest' in Jerusalem"}
+      ],
+      "references": []
+    },
+    {
+      "id": "zealots",
+      "name": "Zealots",
+      "category": "religious_groups",
+      "region": "Judea and Galilee",
+      "period": "c. 6 AD – 73 AD",
+      "description": "Jewish revolutionaries who believed armed resistance against Rome was a religious duty. Their name means 'zealous ones.' They sparked the revolt that led to Jerusalem's destruction in 70 AD.",
+      "biblical_role": "Simon the Zealot was one of Jesus' twelve apostles. The movement shows the political tensions of Jesus' time.",
+      "worldview": {
+        "no_king_but_god": "Refused to call Caesar lord or pay taxes to Rome. Only God could rule Israel.",
+        "holy_war": "Violence against Rome and Jewish collaborators was justified—even required—by zeal for God.",
+        "liberation": "Expected God to help them throw off Roman rule and establish His kingdom."
+      },
+      "social_structure": {
+        "guerrilla": "Loosely organized fighters. Operated in hills and countryside. Assassins called 'Sicarii' (dagger-men) killed Romans and collaborators.",
+        "popular_support": "Drew support from poor and those suffering under Roman taxation."
+      },
+      "customs": {
+        "resistance": "Refused to pay Roman taxes. Attacked Roman soldiers and supplies.",
+        "martyrdom": "Chose death over surrender. At Masada, 960 died rather than be captured."
+      },
+      "values": {
+        "primary": "Freedom from Rome, zeal for God's law, willingness to die for the cause."
+      },
+      "religion": "Passionate devotion to God and Torah. Saw submission to Rome as breaking the first commandment ('no other gods').",
+      "key_interactions": [
+        {"event": "Census revolt", "reference": "Act.5.37", "summary": "Judas the Galilean led revolt against Roman census (6 AD); movement continued after his death"},
+        {"event": "Simon the Zealot", "reference": "Luk.6.15", "summary": "One of Jesus' twelve apostles was a Zealot"},
+        {"event": "Barabbas released", "reference": "Mar.15.7", "summary": "Crowd chooses Barabbas (imprisoned for insurrection and murder) over Jesus"},
+        {"event": "Jewish revolt", "note": "Zealots led revolt against Rome (66 AD); Jerusalem and Temple destroyed (70 AD)"},
+        {"event": "Masada", "note": "Last Zealot stronghold fell (73 AD); defenders killed themselves rather than surrender"}
+      ],
+      "key_figures": [
+        {"name": "Simon the Zealot", "reference": "Luk.6.15", "note": "One of the twelve apostles; nothing else recorded about him"},
+        {"name": "Judas the Galilean", "reference": "Act.5.37", "note": "Led revolt against census; his followers scattered after his death"},
+        {"name": "Barabbas", "reference": "Mar.15.7", "note": "Revolutionary released instead of Jesus"}
+      ],
+      "references": ["Mat.10.4", "Mar.3.18", "Mar.15.7", "Luk.6.15", "Act.1.13", "Act.5.37", "Act.21.38"]
+    },
+    {
+      "id": "scribes",
+      "name": "Scribes",
+      "category": "religious_groups",
+      "region": "Throughout Jewish communities",
+      "period": "c. 500 BC onward",
+      "description": "Professional copyists and interpreters of the Law. Also called 'lawyers' or 'teachers of the law.' They preserved Scripture and taught its meaning. Most were Pharisees.",
+      "biblical_role": "Often mentioned with Pharisees opposing Jesus. Jesus criticized their love of honor and burdening people with rules they wouldn't help carry.",
+      "worldview": {
+        "torah_expertise": "Devoted years to memorizing and interpreting Torah. Could recite entire books from memory.",
+        "authority": "Their interpretations carried weight. 'The scribes and Pharisees sit in Moses' seat' (Mat 23:2)."
+      },
+      "social_structure": {
+        "training": "Years of study under a recognized teacher. Became qualified around age 40.",
+        "respect": "Given special seats in synagogues. Addressed as 'Rabbi' (my master). People stood when they passed."
+      },
+      "customs": {
+        "copying": "Meticulously copied Scripture. Counted every letter. Any mistake meant starting over.",
+        "teaching": "Taught in synagogues and Temple courts. Disciples sat at their feet.",
+        "decisions": "Gave rulings on how to apply Torah to daily life."
+      },
+      "values": {
+        "primary": "Preserving Scripture, accurate interpretation, passing on tradition, earning respect through learning."
+      },
+      "religion": "Torah-centered. Their work preserved the biblical text. Most followed Pharisaic traditions.",
+      "key_interactions": [
+        {"event": "Question about commandments", "reference": "Mar.12.28-34", "summary": "Scribe asks which commandment is greatest; Jesus approves his understanding"},
+        {"event": "Woes to scribes", "reference": "Mat.23.13-29", "summary": "Jesus condemns scribes for hypocrisy, loving honor, devouring widows' houses"},
+        {"event": "Scribe wants to follow", "reference": "Mat.8.19-20", "summary": "Scribe says he'll follow anywhere; Jesus warns Son of Man has nowhere to lay head"},
+        {"event": "Condemn Jesus", "reference": "Mar.14.53", "summary": "Scribes gather with high priest to condemn Jesus"}
+      ],
+      "key_figures": [
+        {"name": "Ezra", "reference": "Ezr.7.6", "note": "Priest and scribe 'skilled in the Law of Moses'; model for later scribes"}
+      ],
+      "references": ["Ezr.7.6", "Mat.2.4", "Mat.8.19", "Mat.23.2-7", "Mar.1.22", "Mar.12.28-34", "Mar.14.53", "Luk.20.46-47"]
+    },
+    {
+      "id": "levites",
+      "name": "Levites",
+      "category": "religious_groups",
+      "region": "Throughout Israel (48 Levitical cities)",
+      "period": "c. 1400 BC onward",
+      "description": "The tribe of Levi, set apart for religious service. They received no tribal land—'the LORD is their inheritance.' They served at the tabernacle and Temple, assisting the priests.",
+      "biblical_role": "Given to God in place of Israel's firstborn (Num 3:12). Carried the tabernacle. Taught the Law. Served as Temple musicians, gatekeepers, and assistants.",
+      "worldview": {
+        "set_apart": "Chosen because they rallied to Moses after the golden calf incident (Exo 32:26-28).",
+        "service": "Their role was serving God and His sanctuary—not owning land or building wealth."
+      },
+      "social_structure": {
+        "divisions": "Three clans from Levi's sons: Gershon, Kohath, Merari. Each had specific duties.",
+        "priests": "Only Aaron's descendants (Kohathites) could be priests. Other Levites were assistants.",
+        "cities": "Given 48 cities throughout Israel. Supported by tithes from other tribes."
+      },
+      "customs": {
+        "tabernacle_duties": "Gershonites: curtains and coverings. Kohathites: ark and holy objects. Merarites: frames and poles.",
+        "temple_service": "Gatekeepers, musicians, storekeepers. Helped with sacrifices but couldn't offer them.",
+        "teaching": "Went throughout Israel teaching the Law (2Ch 17:7-9)."
+      },
+      "values": {
+        "primary": "Service to God, maintaining the sanctuary, teaching Torah, receiving no inheritance but the LORD."
+      },
+      "religion": "Dedicated entirely to God's service. Their tribe produced both priests (Aaron's line) and assistants (other Levites).",
+      "key_interactions": [
+        {"event": "Chosen at golden calf", "reference": "Exo.32.26-29", "summary": "Levites rally to Moses; execute idolaters; consecrated for service"},
+        {"event": "Substitute for firstborn", "reference": "Num.3.12-13", "summary": "God takes Levites instead of all Israel's firstborn"},
+        {"event": "No inheritance", "reference": "Deu.18.1-2", "summary": "'The LORD is their inheritance' as He promised"},
+        {"event": "Levitical cities", "reference": "Jos.21.1-42", "summary": "Given 48 cities throughout Israel"},
+        {"event": "Temple singers", "reference": "1Ch.25.1-7", "summary": "David organizes Levites as Temple musicians"},
+        {"event": "Levite in Good Samaritan", "reference": "Luk.10.32", "summary": "Levite sees wounded man and passes by on other side"}
+      ],
+      "key_figures": [
+        {"name": "Moses", "reference": "Exo.2.1", "note": "From tribe of Levi; greatest prophet and lawgiver"},
+        {"name": "Aaron", "reference": "Exo.4.14", "note": "Moses' brother; first high priest; his descendants are priests"},
+        {"name": "Samuel", "reference": "1Sa.1.1", "note": "Levite raised at Shiloh; prophet and judge"},
+        {"name": "Asaph", "reference": "1Ch.6.39", "note": "Levite; Temple musician; wrote several Psalms"}
+      ],
+      "references": ["Exo.32.26-29", "Num.1.47-53", "Num.3.12-13", "Num.18.21-24", "Deu.18.1-8", "Jos.21.1-42", "1Ch.23.1-32", "2Ch.17.7-9", "Luk.10.32"]
+    },
+    {
+      "id": "priests",
+      "name": "Priests (Kohanim)",
+      "category": "religious_groups",
+      "region": "Jerusalem Temple and throughout Israel",
+      "period": "c. 1400 BC – 70 AD",
+      "description": "Descendants of Aaron set apart to offer sacrifices and serve at the altar. Only they could enter the Holy Place. Only the high priest could enter the Most Holy Place—once a year on the Day of Atonement.",
+      "biblical_role": "Mediators between God and Israel. Offered sacrifices. Blessed the people. Taught the Law. The high priest wore special garments and made atonement for the nation.",
+      "worldview": {
+        "holiness": "Had to maintain strict purity. Special rules about who they could marry, touching dead bodies, physical defects.",
+        "mediation": "Stood between a holy God and sinful people. The sacrificial system depended on them."
+      },
+      "social_structure": {
+        "high_priest": "One high priest at a time. Descended from Aaron through Eleazar or Ithamar. Later, the position became political.",
+        "divisions": "David organized priests into 24 divisions. Each served two weeks per year at the Temple (Zechariah was in Abijah's division—Luk 1:5).",
+        "support": "Received portions of sacrifices, firstfruits, and tithes."
+      },
+      "customs": {
+        "daily_offerings": "Morning and evening sacrifices every day. Maintained the lampstand and incense altar.",
+        "festivals": "Led worship at all major festivals. Day of Atonement was the high priest's most solemn duty.",
+        "blessing": "Pronounced the Aaronic blessing: 'The LORD bless you and keep you...' (Num 6:24-26)."
+      },
+      "values": {
+        "primary": "Holiness, proper sacrifice, maintaining God's presence, teaching Torah, blessing the people."
+      },
+      "religion": "Temple-centered worship. Sacrifices for sin, thanksgiving, and fellowship. Their service maintained Israel's relationship with God.",
+      "key_interactions": [
+        {"event": "Aaron consecrated", "reference": "Exo.29.1-37", "summary": "First priests consecrated with blood and oil"},
+        {"event": "Nadab and Abihu", "reference": "Lev.10.1-2", "summary": "Aaron's sons offer unauthorized fire; consumed by fire from God"},
+        {"event": "Day of Atonement", "reference": "Lev.16.1-34", "summary": "High priest enters Most Holy Place once yearly to make atonement"},
+        {"event": "Zechariah's service", "reference": "Luk.1.8-20", "summary": "Priest Zechariah serving in Temple when angel announces John's birth"},
+        {"event": "Priests believe", "reference": "Act.6.7", "summary": "'A great many of the priests became obedient to the faith'"}
+      ],
+      "key_figures": [
+        {"name": "Aaron", "reference": "Exo.28.1", "note": "First high priest; Moses' brother"},
+        {"name": "Phinehas", "reference": "Num.25.7-13", "note": "Aaron's grandson; zealous act stopped plague; promised lasting priesthood"},
+        {"name": "Eli", "reference": "1Sa.1.9", "note": "High priest at Shiloh; raised Samuel; sons were wicked"},
+        {"name": "Zadok", "reference": "2Sa.8.17", "note": "High priest under David and Solomon; faithful line"},
+        {"name": "Zechariah", "reference": "Luk.1.5", "note": "Priest; father of John the Baptist; struck mute for unbelief"},
+        {"name": "Caiaphas", "reference": "Mat.26.3", "note": "High priest who condemned Jesus"}
+      ],
+      "references": ["Exo.28.1-43", "Exo.29.1-37", "Lev.8.1-36", "Lev.10.1-11", "Lev.16.1-34", "Lev.21.1-24", "Num.6.22-27", "1Ch.24.1-19", "Luk.1.5-25", "Heb.5.1-4"]
+    },
+    {
+      "id": "sanhedrin",
+      "name": "Sanhedrin",
+      "category": "religious_groups",
+      "region": "Jerusalem",
+      "period": "c. 200 BC – 70 AD",
+      "description": "The supreme Jewish council of 71 elders. Combined court, legislature, and religious authority. Met in a hall near the Temple. Included both Pharisees and Sadducees.",
+      "biblical_role": "The council that tried Jesus and later the apostles. Could judge most matters but needed Roman approval for executions.",
+      "worldview": {
+        "authority": "Highest religious and legal authority in Jewish life. Decisions were binding on all Jews.",
+        "tradition": "Saw themselves as successors to the 70 elders Moses appointed (Num 11:16)."
+      },
+      "social_structure": {
+        "membership": "71 members: high priest (president), chief priests, elders, and scribes/lawyers.",
+        "factions": "Sadducees dominated through the chief priests. Pharisees influenced through the scribes.",
+        "meeting": "Met in the 'Hall of Hewn Stone' near the Temple. Required minimum of 23 for capital cases."
+      },
+      "customs": {
+        "procedure": "Cases argued before the council. Youngest voted first (so elders wouldn't influence them). Majority ruled.",
+        "capital_cases": "Death penalty required trial on two days. Couldn't execute on festival days. (Jesus' trial violated several rules.)"
+      },
+      "values": {
+        "primary": "Upholding Torah, rendering judgment, maintaining Jewish identity under Roman rule."
+      },
+      "religion": "Guarded Jewish law and practice. Determined calendar, ruled on purity, authorized teachers.",
+      "key_interactions": [
+        {"event": "Jesus tried", "reference": "Mat.26.59-66", "summary": "Sanhedrin seeks testimony against Jesus; high priest tears robes at 'blasphemy'"},
+        {"event": "Peter and John tried", "reference": "Act.4.5-22", "summary": "Sanhedrin orders apostles to stop teaching in Jesus' name; they refuse"},
+        {"event": "Apostles beaten", "reference": "Act.5.40", "summary": "Sanhedrin has apostles flogged; Gamaliel's earlier advice spared their lives"},
+        {"event": "Stephen tried", "reference": "Act.6.12-15", "summary": "Stephen brought before Sanhedrin; his face like an angel"},
+        {"event": "Paul before Sanhedrin", "reference": "Act.23.1-10", "summary": "Paul divides council over resurrection; uproar breaks out"}
+      ],
+      "key_figures": [
+        {"name": "Caiaphas", "reference": "Mat.26.57", "note": "High priest presiding at Jesus' trial"},
+        {"name": "Gamaliel", "reference": "Act.5.34", "note": "Pharisee member; Paul's teacher; counseled patience with apostles"},
+        {"name": "Nicodemus", "reference": "Joh.7.50-51", "note": "Pharisee member; defended giving Jesus a hearing"},
+        {"name": "Joseph of Arimathea", "reference": "Luk.23.50-51", "note": "Council member who 'had not consented' to Jesus' death; buried Jesus"}
+      ],
+      "references": ["Mat.5.22", "Mat.26.59-66", "Mar.14.55", "Mar.15.1", "Luk.22.66", "Joh.11.47-53", "Act.4.5-22", "Act.5.21-41", "Act.6.12-15", "Act.23.1-10"]
+    },
+    {
+      "id": "herodians",
+      "name": "Herodians",
+      "category": "religious_groups",
+      "region": "Judea and Galilee",
+      "period": "c. 37 BC – 44 AD",
+      "description": "Supporters of the Herod family dynasty. Not a religious group like Pharisees but a political party. Unusual allies with Pharisees against Jesus since they normally opposed each other.",
+      "biblical_role": "Joined Pharisees in trying to trap Jesus with questions about Roman taxes.",
+      "worldview": {
+        "politics": "Believed Jewish interests were best served by cooperating with Rome through Herodian kings.",
+        "pragmatism": "Accepted Roman rule as necessary. Better a Jewish king (even half-Jewish like Herod) than direct Roman rule."
+      },
+      "social_structure": {
+        "court_connections": "Associated with Herod's court. Included officials, servants, and those who benefited from Herodian rule."
+      },
+      "customs": {
+        "hellenization": "More accepting of Greek culture than strict Jews. The Herods built theaters, hippodromes, and pagan temples."
+      },
+      "values": {
+        "primary": "Political stability, Herodian dynasty, cooperation with Rome, maintaining their position."
+      },
+      "religion": "Nominally Jewish but prioritized politics over religious purity. Willing to compromise for power.",
+      "key_interactions": [
+        {"event": "Plot to destroy Jesus", "reference": "Mar.3.6", "summary": "Pharisees and Herodians plot together against Jesus after Sabbath healing"},
+        {"event": "Tax question", "reference": "Mar.12.13-17", "summary": "Pharisees and Herodians try to trap Jesus: 'Is it lawful to pay taxes to Caesar?'"},
+        {"event": "Beware their leaven", "reference": "Mar.8.15", "summary": "Jesus warns disciples about leaven of Pharisees and Herod"}
+      ],
+      "key_figures": [
+        {"name": "Herod the Great", "reference": "Mat.2.1", "note": "King who rebuilt Temple; killed Bethlehem babies"},
+        {"name": "Herod Antipas", "reference": "Mat.14.1", "note": "Son; executed John the Baptist; Jesus called him 'that fox'"},
+        {"name": "Herod Agrippa I", "reference": "Act.12.1", "note": "Grandson; killed James; struck down by angel"}
+      ],
+      "references": ["Mat.22.16", "Mar.3.6", "Mar.8.15", "Mar.12.13-17"]
+    },
+    {
       "id": "romans",
       "name": "Romans",
       "category": "nt_era",
@@ -749,6 +1201,327 @@
         {"name": "Queen of Sheba", "reference": "1Ki.10.1", "note": "Traditionally connected with Ethiopia; came to test Solomon with hard questions"}
       ],
       "references": ["Gen.10.6", "Num.12.1", "2Ki.19.9", "2Ch.14.9-15", "Psa.68.31", "Isa.18.1", "Jer.38.7-13", "Jer.39.15-18", "Act.8.26-40"]
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality Laws",
+      "category": "customs",
+      "region": "Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "In the ancient world, travelers had no hotels or restaurants. Hospitality wasn't just polite—it was a sacred duty. A host was bound to protect guests with his life. Refusing hospitality or harming a guest brought shame on the whole family.",
+      "biblical_role": "Explains many puzzling passages: Lot offering his daughters to protect guests, the Levite's concubine in Judges 19, Abraham rushing to serve strangers, and Jesus' teachings on welcoming others.",
+      "worldview": {
+        "sacred_duty": "Hospitality was not optional. Turning away a traveler could mean their death in the wilderness. This duty came before almost everything else.",
+        "protection": "Once someone entered your home and ate your food, you were bound to protect them—even at great cost. Breaking this bond was deeply shameful.",
+        "reciprocity": "Today's host might be tomorrow's guest. Travelers depended on this mutual understanding for survival."
+      },
+      "customs": {
+        "greeting": "The host would bow, wash the guest's feet (dusty from travel), provide water, and offer the best food available—even if the family went without.",
+        "protection": "Guests were under the host's protection as long as they stayed. Even enemies were safe once they ate together.",
+        "duration": "A guest could stay up to three days without explaining their business. After that, they should offer to help or move on."
+      },
+      "key_interactions": [
+        {"event": "Abraham hosts angels", "reference": "Gen.18.1-8", "summary": "Abraham rushes to prepare a feast for three strangers; they turn out to be divine messengers"},
+        {"event": "Lot protects guests", "reference": "Gen.19.1-11", "summary": "Lot offers his daughters rather than let guests be harmed—shows how seriously hospitality was taken"},
+        {"event": "Levite's concubine", "reference": "Jdg.19.22-30", "summary": "Similar situation to Sodom; host offers daughter to protect guest; tragedy follows"},
+        {"event": "Widow feeds Elijah", "reference": "1Ki.17.8-16", "summary": "Widow uses last food to feed prophet; God multiplies flour and oil"},
+        {"event": "Shunammite woman", "reference": "2Ki.4.8-17", "summary": "Woman builds guest room for Elisha; rewarded with a son"},
+        {"event": "Martha and Mary", "reference": "Luk.10.38-42", "summary": "Sisters host Jesus; Martha distracted by preparations, Mary chooses 'better part'"},
+        {"event": "Entertaining angels", "reference": "Heb.13.2", "summary": "'Do not forget to show hospitality, for some have entertained angels without knowing'"}
+      ],
+      "references": ["Gen.18.1-8", "Gen.19.1-11", "Jdg.19.22-30", "1Ki.17.8-16", "2Ki.4.8-17", "Luk.10.38-42", "Luk.14.12-14", "Rom.12.13", "Heb.13.2", "1Pe.4.9"]
+    },
+    {
+      "id": "levirate_marriage",
+      "name": "Levirate Marriage",
+      "category": "customs",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "When a man died without a son, his brother was duty-bound to marry the widow and have a son in the dead brother's name. The first son would legally be the dead man's heir. The name comes from Latin 'levir' meaning 'husband's brother.'",
+      "biblical_role": "Explains the Tamar and Judah story, Ruth and Boaz, and the Sadducees' question to Jesus about the woman married to seven brothers.",
+      "worldview": {
+        "name_continuation": "A man's 'name' was his legacy. Dying without an heir meant your name was 'blotted out'—a fate worse than death.",
+        "land_preservation": "Land stayed in the family. The heir-son would inherit the dead brother's portion, keeping tribal lands intact.",
+        "widow_protection": "Without a husband or son, a widow had no provider. This law ensured she would have a family."
+      },
+      "customs": {
+        "duty": "The nearest brother-in-law was first obligated. If he refused, the next nearest male relative took responsibility.",
+        "refusal_ceremony": "A man could refuse, but publicly. The widow would remove his sandal and spit in his face. His family would be called 'the house of the unsandaled' (Deu 25:9-10).",
+        "first_son": "The first son born would legally be the dead man's child, carrying his name and inheriting his property."
+      },
+      "key_interactions": [
+        {"event": "Tamar and Judah", "reference": "Gen.38.1-30", "summary": "Judah's son Er dies; Onan refuses duty and dies; Judah delays; Tamar tricks him into fulfilling the obligation"},
+        {"event": "Ruth and Boaz", "reference": "Rut.4.1-12", "summary": "Closer relative refuses (removes sandal); Boaz redeems Ruth; ancestor of David"},
+        {"event": "Law given", "reference": "Deu.25.5-10", "summary": "Moses establishes the law formally; includes public shaming for refusal"},
+        {"event": "Sadducees' question", "reference": "Mat.22.23-33", "summary": "Sadducees ask whose wife a woman would be if she married seven brothers; Jesus says there's no marriage in resurrection"}
+      ],
+      "references": ["Gen.38.1-30", "Deu.25.5-10", "Rut.4.1-12", "Mat.22.23-33", "Mar.12.18-27", "Luk.20.27-40"]
+    },
+    {
+      "id": "betrothal",
+      "name": "Betrothal & Marriage",
+      "category": "customs",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "Jewish marriage had two stages: betrothal (kiddushin) and the wedding (nissuin). Betrothal was legally binding—as serious as marriage—but the couple didn't live together yet. Breaking betrothal required divorce.",
+      "biblical_role": "Explains why Joseph considered 'divorcing' Mary when she was pregnant, even though they weren't yet living together.",
+      "worldview": {
+        "covenant": "Marriage was a covenant, not just a contract. It involved families, property, and God as witness.",
+        "family_arrangement": "Parents typically arranged marriages. The groom's family paid a 'bride price' to the bride's family—not buying her, but compensating for losing a family member."
+      },
+      "customs": {
+        "betrothal": "A legally binding agreement, usually lasting about a year. The bride was called 'wife' even though she still lived with her parents. Breaking betrothal required formal divorce.",
+        "bride_price": "The groom's family paid mohar to the bride's family. This showed the bride's value and provided security if the husband died or divorced her.",
+        "wedding": "The groom came to take his bride to his father's house. A week-long feast followed. The marriage was consummated in a special chamber."
+      },
+      "key_interactions": [
+        {"event": "Joseph and Mary", "reference": "Mat.1.18-25", "summary": "Mary pregnant during betrothal; Joseph plans quiet divorce; angel intervenes"},
+        {"event": "Jacob works for Rachel", "reference": "Gen.29.15-30", "summary": "Seven years labor as bride price; tricked into marrying Leah first"},
+        {"event": "Samson's wedding", "reference": "Jdg.14.1-20", "summary": "Seven-day feast; riddle contest; bride given to another when Samson leaves"},
+        {"event": "Wedding at Cana", "reference": "Joh.2.1-11", "summary": "Jesus turns water to wine at wedding feast; customs of celebration shown"},
+        {"event": "Ten virgins", "reference": "Mat.25.1-13", "summary": "Parable shows groom coming at night to take bride; waiting attendants"}
+      ],
+      "references": ["Gen.29.15-30", "Exo.22.16-17", "Deu.22.23-29", "Jdg.14.1-20", "Mat.1.18-25", "Mat.25.1-13", "Joh.2.1-11"]
+    },
+    {
+      "id": "kinsman_redeemer",
+      "name": "Kinsman-Redeemer (Goel)",
+      "category": "customs",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "The 'goel' was a close relative responsible for protecting family members and property. He could buy back land sold due to poverty, free relatives from slavery, avenge murder, and marry a widow to continue the family line.",
+      "biblical_role": "Central to the book of Ruth. Boaz acts as kinsman-redeemer. The concept also appears in God 'redeeming' Israel from Egypt.",
+      "worldview": {
+        "family_responsibility": "Extended family was responsible for each other. Letting a relative stay in slavery or lose land brought shame on the whole clan.",
+        "land_permanence": "Land was God's gift to each family. Selling it permanently was forbidden. The goel could buy it back."
+      },
+      "customs": {
+        "redeeming_land": "If someone sold family land due to poverty, the goel could buy it back. At Jubilee (every 50 years), all land returned to original families anyway.",
+        "redeeming_slaves": "If someone sold themselves into slavery to pay debts, the goel could pay the price to free them.",
+        "blood_avenger": "If someone was murdered, the goel became the 'avenger of blood' responsible for killing the murderer.",
+        "priority": "Closest male relative was first obligated. If he refused, the next closest took over (as in Ruth)."
+      },
+      "key_interactions": [
+        {"event": "Boaz redeems Ruth", "reference": "Rut.4.1-12", "summary": "Closer relative refuses; Boaz buys Naomi's land and marries Ruth"},
+        {"event": "Jeremiah buys field", "reference": "Jer.32.6-15", "summary": "Prophet exercises redemption rights on cousin's field—sign of hope during siege"},
+        {"event": "God as Redeemer", "reference": "Exo.6.6", "summary": "God promises to 'redeem' Israel from Egypt with outstretched arm"},
+        {"event": "Job's Redeemer", "reference": "Job.19.25", "summary": "'I know that my Redeemer lives'—God as ultimate goel"}
+      ],
+      "references": ["Lev.25.23-28", "Lev.25.47-55", "Num.35.19-21", "Rut.2.20", "Rut.3.9-13", "Rut.4.1-12", "Job.19.25", "Isa.41.14", "Isa.43.14", "Jer.32.6-15"]
+    },
+    {
+      "id": "burial_mourning",
+      "name": "Burial & Mourning",
+      "category": "customs",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "The dead had to be buried quickly (usually same day) due to climate. Bodies were washed, wrapped in cloth with spices, and placed in tombs or caves. Mourning lasted seven days (shiva) with specific rituals.",
+      "biblical_role": "Explains the urgency around Jesus' burial before Sabbath, the women bringing spices, Lazarus being in the tomb four days, and mourning practices throughout Scripture.",
+      "worldview": {
+        "dignity": "Proper burial was essential for honoring the dead. Leaving a body unburied was the ultimate disgrace.",
+        "community": "The whole community participated in mourning. Comforters sat with the family. Professional mourners wailed.",
+        "impurity": "Contact with dead bodies caused ritual impurity lasting seven days. This had practical health benefits."
+      },
+      "customs": {
+        "preparation": "Body washed, anointed with oil and spices, wrapped in linen strips. Eyes closed. Burial within 24 hours.",
+        "tomb": "Wealthy families had rock-cut tombs. Bodies placed on shelves; after decomposition, bones gathered into ossuaries.",
+        "mourning_period": "Seven days (shiva) of intense mourning. Thirty days (shloshim) of lesser mourning. One year for parents.",
+        "mourning_practices": "Tearing clothes, sitting on ground, ashes on head, not bathing, professional mourners wailing."
+      },
+      "key_interactions": [
+        {"event": "Abraham buries Sarah", "reference": "Gen.23.1-20", "summary": "Abraham buys cave of Machpelah for burial; becomes family tomb"},
+        {"event": "Joseph's embalming", "reference": "Gen.50.2-3", "summary": "Joseph has Jacob embalmed Egyptian-style—40 days; unusual for Hebrews"},
+        {"event": "David mourns Absalom", "reference": "2Sa.18.33", "summary": "'O my son Absalom!'—intense grief even for rebellious son"},
+        {"event": "Woman anoints Jesus", "reference": "Mat.26.12", "summary": "Jesus says she anointed him for burial—foreshadowing his death"},
+        {"event": "Jesus' burial", "reference": "Joh.19.38-42", "summary": "Joseph and Nicodemus bury Jesus quickly before Sabbath; 75 pounds of spices"},
+        {"event": "Lazarus four days", "reference": "Joh.11.17-44", "summary": "'He already stinks'—decomposition well underway; makes miracle greater"},
+        {"event": "Women bring spices", "reference": "Luk.24.1", "summary": "Women come to finish burial preparation—find tomb empty"}
+      ],
+      "references": ["Gen.23.1-20", "Gen.50.2-14", "2Sa.18.33", "Job.2.12-13", "Mat.26.6-12", "Mar.5.38-39", "Luk.24.1", "Joh.11.17-44", "Joh.19.38-42", "Act.9.37"]
+    },
+    {
+      "id": "clean_unclean",
+      "name": "Clean & Unclean (Purity Laws)",
+      "category": "customs",
+      "region": "Israel",
+      "period": "Sinai onward",
+      "description": "Being 'unclean' meant you couldn't participate in worship or enter sacred spaces. It wasn't about sin—it was a ritual state caused by contact with death, disease, bodily fluids, or certain animals. Cleansing required waiting and often washing.",
+      "biblical_role": "Explains why lepers were outcasts, why touching dead bodies mattered, why Jesus touching the unclean was shocking, and food laws throughout Scripture.",
+      "worldview": {
+        "holiness": "God is holy (set apart). His people and spaces must be holy too. Uncleanness was the opposite of holiness.",
+        "life_and_death": "Most uncleanness connected to death or loss of life (corpses, disease, blood loss). God was the God of life.",
+        "boundaries": "Purity laws created visible boundaries between Israel and other nations, and between sacred and common."
+      },
+      "customs": {
+        "sources": "Uncleanness came from: dead bodies, skin diseases ('leprosy'), bodily discharges (blood, semen), certain animals, childbirth.",
+        "contagion": "Uncleanness could spread. Touching something unclean made you unclean. This affected beds, chairs, dishes.",
+        "cleansing": "Wait a set time (often 7 days). Wash body and clothes. Sometimes offer sacrifice. Priest pronounces clean.",
+        "isolation": "Severely unclean people (lepers) lived outside the camp and had to warn others by calling 'Unclean!'"
+      },
+      "key_interactions": [
+        {"event": "Laws given", "reference": "Lev.11-15", "summary": "Detailed laws about clean/unclean animals, diseases, discharges, childbirth"},
+        {"event": "Naaman's leprosy", "reference": "2Ki.5.1-14", "summary": "Syrian commander healed by washing in Jordan seven times"},
+        {"event": "Jesus touches leper", "reference": "Mat.8.1-4", "summary": "Jesus touches leper—shocking reversal; instead of becoming unclean, Jesus makes him clean"},
+        {"event": "Woman with bleeding", "reference": "Mar.5.25-34", "summary": "12 years of bleeding meant 12 years of isolation; Jesus heals and calls her 'daughter'"},
+        {"event": "Jesus declares foods clean", "reference": "Mar.7.14-23", "summary": "It's what comes out of a person that defiles, not what goes in"},
+        {"event": "Peter's vision", "reference": "Act.10.9-16", "summary": "Sheet of unclean animals; 'What God has made clean, do not call unclean'—opens door to Gentiles"}
+      ],
+      "references": ["Lev.11.1-47", "Lev.12.1-8", "Lev.13.1-59", "Lev.15.1-33", "Num.19.11-22", "2Ki.5.1-14", "Mat.8.1-4", "Mar.5.25-34", "Mar.7.14-23", "Act.10.9-16"]
+    },
+    {
+      "id": "firstborn_rights",
+      "name": "Firstborn Rights (Birthright)",
+      "category": "customs",
+      "region": "Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "The firstborn son held special status. He received a double portion of inheritance (twice what other sons got), led the family after the father died, and carried on the family name. This birthright could be lost or transferred.",
+      "biblical_role": "Explains Jacob buying Esau's birthright, why Reuben lost his status, and the significance of Israel being called God's 'firstborn.'",
+      "worldview": {
+        "primacy": "The firstborn represented the family's strength and was the first fruit of the father's vigor (Gen 49:3).",
+        "responsibility": "With privilege came responsibility. The firstborn cared for parents in old age and led the extended family."
+      },
+      "customs": {
+        "double_portion": "Firstborn inherited twice the share of other sons. If three sons, estate divided in four: firstborn got two parts, others one each.",
+        "redemption": "Israel's firstborn belonged to God after the Exodus. They had to be 'redeemed' (bought back) with payment.",
+        "transfer": "Birthright could be lost through sin (Reuben) or sold (Esau). Father could sometimes choose a younger son (Solomon over Adonijah)."
+      },
+      "key_interactions": [
+        {"event": "Esau sells birthright", "reference": "Gen.25.29-34", "summary": "Esau trades birthright for stew—'despised his birthright'"},
+        {"event": "Jacob gets blessing", "reference": "Gen.27.1-40", "summary": "Isaac's blessing meant for firstborn goes to Jacob through deception"},
+        {"event": "Reuben loses birthright", "reference": "Gen.49.3-4", "summary": "Reuben lay with father's concubine; birthright given to Joseph's sons (1Ch 5:1)"},
+        {"event": "Egypt's firstborn die", "reference": "Exo.12.29", "summary": "Tenth plague kills all Egyptian firstborn; Passover protects Israel's"},
+        {"event": "Firstborn redeemed", "reference": "Exo.13.13-15", "summary": "All Israel's firstborn belong to God; must be redeemed with payment"},
+        {"event": "Israel as firstborn", "reference": "Exo.4.22", "summary": "God calls Israel 'my firstborn son'—special status among nations"}
+      ],
+      "references": ["Gen.25.29-34", "Gen.27.1-40", "Gen.48.13-20", "Gen.49.3-4", "Exo.4.22", "Exo.12.29", "Exo.13.13-15", "Deu.21.15-17", "1Ch.5.1-2", "Col.1.15"]
+    },
+    {
+      "id": "gleaning",
+      "name": "Gleaning Rights",
+      "category": "customs",
+      "region": "Israel",
+      "period": "Sinai onward",
+      "description": "Landowners were required to leave the edges of fields unharvested and not pick up dropped grain. This 'leftover' belonged to the poor, widows, orphans, and foreigners. It was law, not charity—the poor had a right to it.",
+      "biblical_role": "The setting for Ruth meeting Boaz. Gleaning shows God's provision for the vulnerable built into Israel's social structure.",
+      "worldview": {
+        "gods_ownership": "The land ultimately belonged to God. Israelites were tenants. God required they share with those who had no land.",
+        "dignity": "Gleaning let poor people work for food rather than beg. They maintained dignity while receiving provision."
+      },
+      "customs": {
+        "field_edges": "Don't harvest to the very edge of your field. Leave the corners for the poor.",
+        "dropped_grain": "Don't go back for dropped or forgotten sheaves. Leave them.",
+        "vineyards_orchards": "Same rules for grapes and olives. Don't strip every branch or pick up fallen fruit."
+      },
+      "key_interactions": [
+        {"event": "Law given", "reference": "Lev.19.9-10", "summary": "Leave corners of field and fallen grapes for poor and foreigners"},
+        {"event": "Repeated", "reference": "Deu.24.19-21", "summary": "Forgotten sheaf belongs to widow, orphan, foreigner—'so God may bless you'"},
+        {"event": "Ruth gleans", "reference": "Rut.2.1-23", "summary": "Ruth gleans in Boaz's field; he shows extra kindness; leads to marriage"},
+        {"event": "Disciples pick grain", "reference": "Mat.12.1", "summary": "Disciples pick grain on Sabbath—likely from field edges designated for travelers"}
+      ],
+      "references": ["Lev.19.9-10", "Lev.23.22", "Deu.24.19-21", "Rut.2.1-23", "Mat.12.1"]
+    },
+    {
+      "id": "city_of_refuge",
+      "name": "City of Refuge",
+      "category": "customs",
+      "region": "Israel (6 designated cities)",
+      "period": "Conquest onward",
+      "description": "Six cities where someone who killed accidentally could flee for safety. The 'blood avenger' (victim's family) had the right to kill a murderer. But accidental killers could escape to these cities and live safely until the high priest died.",
+      "biblical_role": "Shows how Israel balanced justice with mercy. The killer was protected but not free—a middle ground between execution and no consequence.",
+      "worldview": {
+        "blood_justice": "Blood required blood. Murder polluted the land. But intent mattered—accident was different from murder.",
+        "clan_responsibility": "Families were responsible to avenge their dead. This prevented endless feuds by providing a legal framework."
+      },
+      "customs": {
+        "six_cities": "Three east of Jordan, three west. Spaced so anyone could reach one within a day's journey.",
+        "trial": "The killer had to stand trial. If it was murder (intentional), handed over to the blood avenger. If accidental, stayed in the city.",
+        "confinement": "Accidental killers lived in the city until the high priest died. Then they could go home safely.",
+        "roads": "Roads to these cities were well-maintained with clear signs. Nothing should slow down someone fleeing for their life."
+      },
+      "key_interactions": [
+        {"event": "Cities established", "reference": "Num.35.9-28", "summary": "God commands six cities; explains difference between murder and accident"},
+        {"event": "Three east cities", "reference": "Deu.4.41-43", "summary": "Moses designates Bezer, Ramoth, and Golan east of Jordan"},
+        {"event": "Three west cities", "reference": "Jos.20.1-9", "summary": "Joshua designates Kedesh, Shechem, and Hebron west of Jordan"},
+        {"event": "Until high priest dies", "reference": "Num.35.25", "summary": "Killer remains until high priest's death—then can go home with no vengeance"}
+      ],
+      "references": ["Exo.21.12-14", "Num.35.9-34", "Deu.4.41-43", "Deu.19.1-13", "Jos.20.1-9"]
+    },
+    {
+      "id": "sandal_ceremony",
+      "name": "Sandal Ceremony",
+      "category": "customs",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "Removing and giving a sandal was a legal act that transferred rights or finalized agreements. It served as a physical witness to a transaction in a culture where few could read or write.",
+      "biblical_role": "Appears in Ruth when the closer relative refuses to redeem, and in the law about refusing levirate marriage. Also connected to ideas of possession and authority.",
+      "worldview": {
+        "symbolic_transfer": "Walking on land with your sandal showed ownership. Giving your sandal transferred that right to another.",
+        "public_witness": "These ceremonies happened at the city gate before witnesses. Everyone knew who had rights to what."
+      },
+      "customs": {
+        "redemption_transfer": "When refusing the right to redeem property, a man removed his sandal and gave it to the other party.",
+        "levirate_refusal": "If a man refused to marry his brother's widow, she removed his sandal and spit in his face—public shaming.",
+        "servant_status": "Carrying or untying another's sandals was slave work. John the Baptist said he wasn't worthy to do this for Jesus."
+      },
+      "key_interactions": [
+        {"event": "Boaz receives rights", "reference": "Rut.4.7-8", "summary": "Closer relative removes sandal, giving Boaz the right to redeem Ruth"},
+        {"event": "Levirate refusal", "reference": "Deu.25.9-10", "summary": "Widow removes sandal, spits; his house called 'house of the unsandaled'"},
+        {"event": "Holy ground", "reference": "Exo.3.5", "summary": "'Remove your sandals—you're on holy ground.' Bare feet showed humility before God."},
+        {"event": "John the Baptist", "reference": "Mat.3.11", "summary": "'I am not worthy to carry his sandals'—less than a slave compared to Jesus"}
+      ],
+      "references": ["Exo.3.5", "Deu.25.9-10", "Rut.4.7-8", "Mat.3.11", "Joh.1.27", "Act.13.25"]
+    },
+    {
+      "id": "foot_washing",
+      "name": "Foot Washing",
+      "category": "customs",
+      "region": "Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "In a world of dusty roads and sandals, feet got dirty. Washing a guest's feet was basic hospitality—but it was slave's work. No free person washed another's feet. Jesus doing this for his disciples shocked them.",
+      "biblical_role": "Explains why Peter resisted when Jesus washed his feet, and why the sinful woman washing Jesus' feet with tears was so significant.",
+      "worldview": {
+        "hospitality": "Providing water for foot washing was minimum hospitality. Not offering it was an insult.",
+        "status": "This was the lowest household task. Slaves did it, not free family members."
+      },
+      "customs": {
+        "arrival": "Guests washed their feet upon entering a home—either themselves or attended by a slave.",
+        "reclining": "People reclined on couches to eat, feet extended. Clean feet mattered for the dining room."
+      },
+      "key_interactions": [
+        {"event": "Abraham's hospitality", "reference": "Gen.18.4", "summary": "Abraham offers water to wash the visitors' feet—proper hospitality"},
+        {"event": "Pharisee's failure", "reference": "Luk.7.44", "summary": "Jesus notes Simon didn't offer water for his feet—the sinful woman made up for it"},
+        {"event": "Jesus washes disciples' feet", "reference": "Joh.13.1-17", "summary": "Jesus takes slave's role; Peter objects; Jesus says 'you also should wash one another's feet'"},
+        {"event": "Widow's service", "reference": "1Ti.5.10", "summary": "Godly widow known for 'washing the saints' feet'—humble service"}
+      ],
+      "references": ["Gen.18.4", "Gen.19.2", "Gen.24.32", "Jdg.19.21", "1Sa.25.41", "Luk.7.44", "Joh.13.1-17", "1Ti.5.10"]
+    },
+    {
+      "id": "anointing",
+      "name": "Anointing with Oil",
+      "category": "customs",
+      "region": "Israel and Ancient Near East",
+      "period": "Throughout biblical times",
+      "description": "Pouring olive oil on someone's head set them apart for a special role. Kings, priests, and prophets were anointed. 'Messiah' (Hebrew) and 'Christ' (Greek) both mean 'Anointed One.'",
+      "biblical_role": "Explains the title 'Christ,' the significance of Mary anointing Jesus, why kings were anointed, and anointing the sick with oil.",
+      "worldview": {
+        "setting_apart": "Anointing marked someone as chosen by God for a special task. The Spirit of God came upon the anointed.",
+        "honor": "Oil was a sign of abundance and blessing. Anointing someone's head was honoring them."
+      },
+      "customs": {
+        "kings": "Prophets anointed kings, signifying God's choice. Samuel anointed Saul, then David. Oil poured from a horn.",
+        "priests": "Aaron and his sons anointed for priestly service. Oil mixed with blood sprinkled on them.",
+        "hospitality": "Anointing a guest's head was special honor. Not doing it could be seen as a slight.",
+        "healing": "Anointing the sick with oil accompanied prayer for healing (Jam 5:14)."
+      },
+      "key_interactions": [
+        {"event": "Samuel anoints Saul", "reference": "1Sa.10.1", "summary": "Samuel pours oil on Saul's head; Spirit rushes on him; he prophesies"},
+        {"event": "David anointed", "reference": "1Sa.16.13", "summary": "Samuel anoints David among his brothers; Spirit of the LORD upon him from that day"},
+        {"event": "Woman anoints Jesus' head", "reference": "Mat.26.6-7", "summary": "Woman pours expensive perfume on Jesus' head at Simon's house"},
+        {"event": "Mary anoints Jesus' feet", "reference": "Joh.12.3", "summary": "Mary anoints Jesus' feet with nard, wipes with hair—house filled with fragrance"},
+        {"event": "Jesus is the Christ", "reference": "Act.10.38", "summary": "'God anointed Jesus of Nazareth with the Holy Spirit and power'"},
+        {"event": "Anointing the sick", "reference": "Jam.5.14", "summary": "'Anoint them with oil in the name of the Lord' for healing"}
+      ],
+      "references": ["Exo.29.7", "Lev.8.12", "1Sa.10.1", "1Sa.16.13", "2Sa.12.20", "Psa.23.5", "Psa.133.2", "Mat.26.6-7", "Mar.14.8", "Luk.7.46", "Joh.12.3", "Act.10.38", "Jam.5.14"]
     }
   ]
 }
