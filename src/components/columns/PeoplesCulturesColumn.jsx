@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef, normalizeVerseId } from '../../data/bibleBooks'
+import { formatVerseRef, formatChapterRef, normalizeVerseId } from '../../data/bibleBooks'
 
 const categoryLabels = {
   empires: 'Major Empires',
@@ -10,6 +10,97 @@ const categoryLabels = {
 }
 
 const categoryOrder = ['empires', 'canaan', 'neighbors', 'nt_era']
+
+// Convert snake_case to Title Case (e.g., "divine_mandate" -> "Divine Mandate")
+const formatFieldName = (key) => {
+  return key
+    .split('_')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+// Map common abbreviations to standard book codes
+const bookAbbrevMap = {
+  'Gen': 'Gen', 'Exo': 'Exo', 'Lev': 'Lev', 'Num': 'Num', 'Deu': 'Deu',
+  'Jos': 'Jos', 'Jdg': 'Jdg', 'Rut': 'Rut', '1Sa': '1Sa', '2Sa': '2Sa',
+  '1Ki': '1Ki', '2Ki': '2Ki', '1Ch': '1Ch', '2Ch': '2Ch', 'Ezr': 'Ezr',
+  'Neh': 'Neh', 'Est': 'Est', 'Job': 'Job', 'Psa': 'Psa', 'Pro': 'Pro',
+  'Ecc': 'Ecc', 'Sol': 'Sol', 'Isa': 'Isa', 'Jer': 'Jer', 'Lam': 'Lam',
+  'Eze': 'Eze', 'Dan': 'Dan', 'Hos': 'Hos', 'Joe': 'Joe', 'Amo': 'Amo',
+  'Oba': 'Oba', 'Jon': 'Jon', 'Mic': 'Mic', 'Nah': 'Nah', 'Hab': 'Hab',
+  'Zep': 'Zep', 'Hag': 'Hag', 'Zec': 'Zec', 'Mal': 'Mal',
+  'Mat': 'Mat', 'Mar': 'Mar', 'Luk': 'Luk', 'Joh': 'Joh', 'Act': 'Act',
+  'Rom': 'Rom', '1Co': '1Co', '2Co': '2Co', 'Gal': 'Gal', 'Eph': 'Eph',
+  'Php': 'Php', 'Col': 'Col', '1Th': '1Th', '2Th': '2Th', '1Ti': '1Ti',
+  '2Ti': '2Ti', 'Tit': 'Tit', 'Phm': 'Phm', 'Heb': 'Heb', 'Jam': 'Jam',
+  '1Pe': '1Pe', '2Pe': '2Pe', '1Jo': '1Jo', '2Jo': '2Jo', '3Jo': '3Jo',
+  'Jud': 'Jud', 'Rev': 'Rev',
+  // Long form mappings
+  'Genesis': 'Gen', 'Exodus': 'Exo', 'Leviticus': 'Lev', 'Numbers': 'Num',
+  'Deuteronomy': 'Deu', 'Joshua': 'Jos', 'Judges': 'Jdg', 'Ruth': 'Rut',
+  'Samuel': 'Sa', 'Kings': 'Ki', 'Chronicles': 'Ch', 'Ezra': 'Ezr',
+  'Nehemiah': 'Neh', 'Esther': 'Est', 'Psalms': 'Psa', 'Psalm': 'Psa',
+  'Proverbs': 'Pro', 'Ecclesiastes': 'Ecc', 'Isaiah': 'Isa', 'Jeremiah': 'Jer',
+  'Lamentations': 'Lam', 'Ezekiel': 'Eze', 'Daniel': 'Dan', 'Hosea': 'Hos',
+  'Joel': 'Joe', 'Amos': 'Amo', 'Obadiah': 'Oba', 'Jonah': 'Jon', 'Micah': 'Mic',
+  'Nahum': 'Nah', 'Habakkuk': 'Hab', 'Zephaniah': 'Zep', 'Haggai': 'Hag',
+  'Zechariah': 'Zec', 'Malachi': 'Mal', 'Matthew': 'Mat', 'Mark': 'Mar',
+  'Luke': 'Luk', 'John': 'Joh', 'Acts': 'Act', 'Romans': 'Rom',
+  'Corinthians': 'Co', 'Galatians': 'Gal', 'Ephesians': 'Eph', 'Philippians': 'Php',
+  'Colossians': 'Col', 'Thessalonians': 'Th', 'Timothy': 'Ti', 'Titus': 'Tit',
+  'Philemon': 'Phm', 'Hebrews': 'Heb', 'James': 'Jam', 'Peter': 'Pe',
+  'Jude': 'Jud', 'Revelation': 'Rev'
+}
+
+// Parse text and convert inline references like "(Dan 4)" to clickable links
+const parseTextWithRefs = (text, onRefClick) => {
+  if (!text) return null
+
+  // Match patterns like (Gen 23), (2Ki 19:37), (Dan 4), (Acts 17:18)
+  const refPattern = /\((\d?)([A-Za-z]+)\s+(\d+)(?::(\d+(?:-\d+)?))?\)/g
+
+  const parts = []
+  let lastIndex = 0
+  let match
+
+  while ((match = refPattern.exec(text)) !== null) {
+    // Add text before the match
+    if (match.index > lastIndex) {
+      parts.push(text.substring(lastIndex, match.index))
+    }
+
+    const [fullMatch, bookNum, bookName, chapter, verse] = match
+    const bookCode = bookNum ? `${bookNum}${bookAbbrevMap[bookName] || bookName}` : (bookAbbrevMap[bookName] || bookName)
+
+    // Build verse ID - if no verse specified, use verse 1 for navigation
+    const verseId = verse ? `${bookCode}.${chapter}.${verse}` : `${bookCode}.${chapter}.1`
+
+    // Display: use chapter format if no verse, verse format if verse exists
+    const displayText = verse
+      ? formatVerseRef(`${bookCode}.${chapter}.${verse}`)
+      : formatChapterRef(bookCode, chapter)
+
+    parts.push(
+      <span
+        key={match.index}
+        className="catalogue-ref-link"
+        onClick={(e) => onRefClick(verseId, e)}
+        style={{ color: '#0066cc', cursor: 'pointer' }}
+      >
+        ({displayText})
+      </span>
+    )
+
+    lastIndex = match.index + fullMatch.length
+  }
+
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.substring(lastIndex))
+  }
+
+  return parts.length > 0 ? parts : text
+}
 
 function PeoplesCulturesColumn({ columnId, data }) {
   const { data: appData, goToVerse } = useApp()
@@ -111,12 +202,13 @@ function PeoplesCulturesColumn({ columnId, data }) {
                         onClick={() => togglePeople(people.id)}
                         style={{
                           padding: '12px 15px',
-                          borderBottom: '1px solid #eee',
+                          borderBottom: '1px solid #ddd',
                           cursor: 'pointer',
-                          background: expandedPeople[people.id] ? '#f9f9f9' : 'white'
+                          background: expandedPeople[people.id] ? '#e3f2fd' : 'white',
+                          borderLeft: expandedPeople[people.id] ? '4px solid #1976d2' : '4px solid transparent'
                         }}
                       >
-                        <div style={{ fontWeight: '600', marginBottom: '4px' }}>
+                        <div style={{ fontWeight: '600', marginBottom: '4px', color: expandedPeople[people.id] ? '#1565c0' : '#333' }}>
                           {people.name}
                           <span style={{ fontWeight: 'normal', color: '#666', marginLeft: '8px', fontSize: '0.85em' }}>
                             {expandedPeople[people.id] ? '▼' : '▶'}
@@ -128,7 +220,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                       </div>
 
                       {expandedPeople[people.id] && (
-                        <div className="people-details" style={{ padding: '12px 15px', background: '#fafafa', borderBottom: '1px solid #eee' }}>
+                        <div className="people-details" style={{ padding: '12px 15px', background: '#fafafa', borderBottom: '1px solid #ddd', borderLeft: '4px solid #1976d2' }}>
                           <div style={{ marginBottom: '12px' }}>
                             <div style={{ fontWeight: '500', marginBottom: '4px' }}>Description</div>
                             <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{people.description}</div>
@@ -139,178 +231,46 @@ function PeoplesCulturesColumn({ columnId, data }) {
                             <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{people.biblical_role}</div>
                           </div>
 
-                          {people.worldview && (
+                          {people.worldview && Object.keys(people.worldview).length > 0 && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#5c4033' }}>Worldview & Beliefs</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#fff8f0', padding: '10px', borderRadius: '4px', border: '1px solid #e8d8c8' }}>
-                                {people.worldview.cosmos && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Cosmos:</strong> {people.worldview.cosmos}</div>
-                                )}
-                                {people.worldview.humanity && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Humanity:</strong> {people.worldview.humanity}</div>
-                                )}
-                                {people.worldview.afterlife && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Afterlife:</strong> {people.worldview.afterlife}</div>
-                                )}
-                                {people.worldview.divine_order && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Divine Order:</strong> {people.worldview.divine_order}</div>
-                                )}
-                                {people.worldview.fertility_cycle && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Fertility Cycle:</strong> {people.worldview.fertility_cycle}</div>
-                                )}
-                                {people.worldview.nature && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Nature:</strong> {people.worldview.nature}</div>
-                                )}
-                                {people.worldview.law && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Law:</strong> {people.worldview.law}</div>
-                                )}
-                                {people.worldview.fate && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Fate:</strong> {people.worldview.fate}</div>
-                                )}
-                                {people.worldview.tribal_identity && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Tribal Identity:</strong> {people.worldview.tribal_identity}</div>
-                                )}
-                                {people.worldview.warfare && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Warfare:</strong> {people.worldview.warfare}</div>
-                                )}
-                                {people.worldview.greek_influence && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Greek Influence:</strong> {people.worldview.greek_influence}</div>
-                                )}
-                                {people.worldview.political && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Political:</strong> {people.worldview.political}</div>
-                                )}
-                                {people.worldview.purity && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Purity:</strong> {people.worldview.purity}</div>
-                                )}
-                                {people.worldview.practical && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Practical:</strong> {people.worldview.practical}</div>
-                                )}
-                                {people.worldview.religious && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Religious:</strong> {people.worldview.religious}</div>
-                                )}
+                                {Object.entries(people.worldview).map(([key, value]) => (
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                ))}
                               </div>
                             </div>
                           )}
 
-                          {people.social_structure && (
+                          {people.social_structure && Object.keys(people.social_structure).length > 0 && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#2e5a4c' }}>Social Structure</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#f0f8f5', padding: '10px', borderRadius: '4px', border: '1px solid #d0e8d8' }}>
-                                {people.social_structure.hierarchy && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Hierarchy:</strong> {people.social_structure.hierarchy}</div>
-                                )}
-                                {people.social_structure.family && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Family:</strong> {people.social_structure.family}</div>
-                                )}
-                                {people.social_structure.slavery && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Slavery:</strong> {people.social_structure.slavery}</div>
-                                )}
-                                {people.social_structure.political && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Political:</strong> {people.social_structure.political}</div>
-                                )}
-                                {people.social_structure.religious && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Religious:</strong> {people.social_structure.religious}</div>
-                                )}
-                                {people.social_structure.military && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Military:</strong> {people.social_structure.military}</div>
-                                )}
-                                {people.social_structure.classes && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Classes:</strong> {people.social_structure.classes}</div>
-                                )}
-                                {people.social_structure.tribal && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Tribal:</strong> {people.social_structure.tribal}</div>
-                                )}
-                                {people.social_structure.economy && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Economy:</strong> {people.social_structure.economy}</div>
-                                )}
+                                {Object.entries(people.social_structure).map(([key, value]) => (
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                ))}
                               </div>
                             </div>
                           )}
 
-                          {people.customs && (
+                          {people.customs && Object.keys(people.customs).length > 0 && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#4a3c6e' }}>Customs & Practices</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#f8f5ff', padding: '10px', borderRadius: '4px', border: '1px solid #e0d8f0' }}>
-                                {people.customs.worship && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Worship:</strong> {people.customs.worship}</div>
-                                )}
-                                {people.customs.burial && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Burial:</strong> {people.customs.burial}</div>
-                                )}
-                                {people.customs.marriage && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Marriage:</strong> {people.customs.marriage}</div>
-                                )}
-                                {people.customs.sacrifice && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Sacrifice:</strong> {people.customs.sacrifice}</div>
-                                )}
-                                {people.customs.fertility_rites && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Fertility Rites:</strong> {people.customs.fertility_rites}</div>
-                                )}
-                                {people.customs.festivals && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Festivals:</strong> {people.customs.festivals}</div>
-                                )}
-                                {people.customs.divination && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Divination:</strong> {people.customs.divination}</div>
-                                )}
-                                {people.customs.warfare && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Warfare:</strong> {people.customs.warfare}</div>
-                                )}
-                                {people.customs.trade && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Trade:</strong> {people.customs.trade}</div>
-                                )}
-                                {people.customs.hospitality && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Hospitality:</strong> {people.customs.hospitality}</div>
-                                )}
-                                {people.customs.seafaring && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Seafaring:</strong> {people.customs.seafaring}</div>
-                                )}
-                                {people.customs.crafts && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Crafts:</strong> {people.customs.crafts}</div>
-                                )}
-                                {people.customs.diet && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Diet:</strong> {people.customs.diet}</div>
-                                )}
-                                {people.customs.nomadic && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Nomadic Life:</strong> {people.customs.nomadic}</div>
-                                )}
-                                {people.customs.raiding && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Raiding:</strong> {people.customs.raiding}</div>
-                                )}
-                                {people.customs.circumcision && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Circumcision:</strong> {people.customs.circumcision}</div>
-                                )}
-                                {people.customs.temple && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Temple:</strong> {people.customs.temple}</div>
-                                )}
-                                {people.customs.law && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Law:</strong> {people.customs.law}</div>
-                                )}
-                                {people.customs.taxation && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Taxation:</strong> {people.customs.taxation}</div>
-                                )}
+                                {Object.entries(people.customs).map(([key, value]) => (
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                ))}
                               </div>
                             </div>
                           )}
 
-                          {people.values && (
+                          {people.values && Object.keys(people.values).length > 0 && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '6px', color: '#6e4a3c' }}>Core Values</div>
                               <div style={{ fontSize: '0.85em', lineHeight: '1.6', background: '#fff5f0', padding: '10px', borderRadius: '4px', border: '1px solid #f0d8d0' }}>
-                                {people.values.primary && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Primary Values:</strong> {people.values.primary}</div>
-                                )}
-                                {people.values.moral_code && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Moral Code:</strong> {people.values.moral_code}</div>
-                                )}
-                                {people.values.honor && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Honor:</strong> {people.values.honor}</div>
-                                )}
-                                {people.values.tribal && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Tribal:</strong> {people.values.tribal}</div>
-                                )}
-                                {people.values.military && (
-                                  <div style={{ marginBottom: '8px' }}><strong>Military:</strong> {people.values.military}</div>
-                                )}
+                                {Object.entries(people.values).map(([key, value]) => (
+                                  <div key={key} style={{ marginBottom: '8px' }}><strong>{formatFieldName(key)}:</strong> {value}</div>
+                                ))}
                               </div>
                             </div>
                           )}
@@ -321,7 +281,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                               {people.sub_groups.map((sg, i) => (
                                 <div key={i} style={{ fontSize: '0.85em', marginBottom: '4px', paddingLeft: '8px', borderLeft: '2px solid #ddd' }}>
                                   <strong>{sg.name}</strong> - {sg.location}
-                                  {sg.note && <div style={{ color: '#666', fontStyle: 'italic' }}>{sg.note}</div>}
+                                  {sg.note && <div style={{ color: '#666', fontStyle: 'italic' }}>{parseTextWithRefs(sg.note, handleRefClick)}</div>}
                                 </div>
                               ))}
                             </div>
@@ -330,7 +290,7 @@ function PeoplesCulturesColumn({ columnId, data }) {
                           {people.religion && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '4px' }}>Religion</div>
-                              <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{people.religion}</div>
+                              <div style={{ fontSize: '0.9em', lineHeight: '1.5' }}>{parseTextWithRefs(people.religion, handleRefClick)}</div>
                             </div>
                           )}
 
@@ -358,31 +318,25 @@ function PeoplesCulturesColumn({ columnId, data }) {
                           {people.key_figures && people.key_figures.length > 0 && (
                             <div style={{ marginBottom: '12px' }}>
                               <div style={{ fontWeight: '500', marginBottom: '4px' }}>Key Figures</div>
-                              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                                {people.key_figures.map((figure, i) => (
-                                  <span
-                                    key={i}
-                                    style={{
-                                      fontSize: '0.85em',
-                                      padding: '2px 8px',
-                                      background: '#e8f4f8',
-                                      borderRadius: '3px'
-                                    }}
-                                    title={figure.note || ''}
-                                  >
-                                    {figure.name}
-                                    {figure.reference && (
-                                      <span
-                                        className="catalogue-ref-link"
-                                        onClick={(e) => handleRefClick(figure.reference, e)}
-                                        style={{ marginLeft: '4px', color: '#0066cc', cursor: 'pointer' }}
-                                      >
-                                        ({formatVerseRef(figure.reference)})
-                                      </span>
-                                    )}
+                              {people.key_figures.map((figure, i) => (
+                                <div key={i} style={{ fontSize: '0.85em', marginBottom: '6px', display: 'flex', gap: '8px' }}>
+                                  {figure.reference ? (
+                                    <span
+                                      className="catalogue-ref-link"
+                                      onClick={(e) => handleRefClick(figure.reference, e)}
+                                      style={{ cursor: 'pointer', color: '#0066cc', whiteSpace: 'nowrap', flexShrink: 0 }}
+                                    >
+                                      {formatVerseRef(figure.reference)}
+                                    </span>
+                                  ) : (
+                                    <span style={{ color: '#999', whiteSpace: 'nowrap', flexShrink: 0 }}>—</span>
+                                  )}
+                                  <span>
+                                    <strong>{figure.name}</strong>
+                                    {figure.note && <span style={{ color: '#555' }}> — {parseTextWithRefs(figure.note, handleRefClick)}</span>}
                                   </span>
-                                ))}
-                              </div>
+                                </div>
+                              ))}
                             </div>
                           )}
 
