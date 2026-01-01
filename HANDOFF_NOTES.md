@@ -1,18 +1,23 @@
 # Bible Reader - Handoff Notes
 
-## Latest Session Summary (Dec 31, 2024)
+## Latest Session Summary (Jan 1, 2025)
 
 **Completed:**
-- Added 11 Social Subclasses to Peoples & Cultures (tax collectors, shepherds, lepers, fishermen, widows/orphans, slaves/servants, sinners/prostitutes, proselytes, God-fearers, Samaritans as outcasts)
-- Cross-references now open side-by-side passage comparison (like parallel passages) instead of navigating away
-- Total Peoples & Cultures entries: 52
+- Added Ancient Religions column with 13 religions organized by category:
+  - Mesopotamian: Sumerian, Babylonian, Assyrian
+  - Egyptian: Egyptian Religion
+  - Canaanite: Canaanite/Baal Worship, Phoenician
+  - Neighbors: Philistine, Moabite, Ammonite, Edomite
+  - Greco-Roman: Greek, Roman
+  - Persian: Zoroastrianism
+- Each religion includes: origins (mythology + historical), pantheon with gods/symbols/scripture refs, practices, worldview, biblical interactions, archaeological evidence, key references
+- All scripture references are clickable and navigate to the passage
 
 **Remaining Tasks:**
-1. Ancient Religions - Egyptian, Canaanite, Babylonian gods and practices
-2. Daily Life - Occupations, food, clothing, housing, marriage customs
-3. Archaeology - Artifacts, excavated sites, manuscript evidence
-4. Definitions - Let scripture define scripture
-5. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
+1. Daily Life - Occupations, food, clothing, housing, marriage customs
+2. Archaeology - Artifacts, excavated sites, manuscript evidence
+3. Definitions - Let scripture define scripture
+4. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
 
 ---
 
@@ -177,11 +182,11 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - **Maps & Geography** - 74 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans)
 - **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
 - **Peoples & Cultures** - 52 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs, 11 social subclasses (tax collectors, shepherds, lepers, etc.)
+- **Ancient Religions** - 13 religions: Mesopotamian (Sumerian, Babylonian, Assyrian), Egyptian, Canaanite (Baal, Phoenician), Neighbors (Philistine, Moabite, Ammonite, Edomite), Greco-Roman (Greek, Roman), Persian (Zoroastrianism)
 
 ### NOT YET IMPLEMENTED
 
 #### Historical Context
-- **Ancient Religions** - Egyptian, Canaanite, Babylonian gods and practices
 - **Daily Life** - Occupations, food, clothing, housing, marriage customs
 - **Archaeology** - Artifacts, excavated sites, manuscript evidence
 
@@ -260,6 +265,7 @@ All categories implemented:
 - `maps.json` - 74 biblical maps organized by category (journeys, kingdoms, empires, periods, temple plans)
 - `parallel_passages.json` - 214 parallel passage sets with 2+ accounts (identical, samuel/chronicles, kings/chronicles, synoptic gospels)
 - `peoples_cultures.json` - 52 entries: peoples, religious groups, customs, and social subclasses organized by category
+- `ancient_religions.json` - 13 ancient religions with pantheons, practices, worldviews, and biblical interactions
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)
