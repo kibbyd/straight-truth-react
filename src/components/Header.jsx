@@ -153,6 +153,7 @@ function Header() {
           <option value="parallels">⇆ Parallel Passages</option>
           <option value="peoples">👥 Peoples & Cultures</option>
           <option value="religions">🏛️ Ancient Religions</option>
+          <option value="dailylife">🏠 Daily Life</option>
         </select>
         <button
           className="clear-btn"

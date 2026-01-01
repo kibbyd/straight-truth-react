@@ -34,7 +34,8 @@ export function AppProvider({ children }) {
     maps: { categories: [] },
     parallelPassages: [],
     peoplesCultures: [],
-    ancientReligions: []
+    ancientReligions: [],
+    dailyLife: []
   })
 
   // Lookup sets for O(1) entity checking
@@ -153,7 +154,7 @@ export function AppProvider({ children }) {
     // Note: comparePassages/compareMultiplePassages bypass this by using setColumns directly
     const singleInstanceTypes = ['passage', 'search', 'crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
-      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels', 'peoples', 'religions']
+      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'parallels', 'peoples', 'religions', 'dailylife']
 
     if (singleInstanceTypes.includes(type)) {
       const existing = columns.find(c => c.type === type)

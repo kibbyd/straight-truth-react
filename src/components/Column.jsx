@@ -20,6 +20,7 @@ import MapsColumn from './columns/MapsColumn'
 import ParallelPassagesColumn from './columns/ParallelPassagesColumn'
 import PeoplesCulturesColumn from './columns/PeoplesCulturesColumn'
 import AncientReligionsColumn from './columns/AncientReligionsColumn'
+import DailyLifeColumn from './columns/DailyLifeColumn'
 
 // Column title mapping
 const columnTitles = {
@@ -43,7 +44,8 @@ const columnTitles = {
   maps: 'Maps & Geography',
   parallels: 'Parallel Passages',
   peoples: 'Peoples & Cultures',
-  religions: 'Ancient Religions'
+  religions: 'Ancient Religions',
+  dailylife: 'Daily Life'
 }
 
 function Column({
@@ -117,6 +119,8 @@ function Column({
         return <PeoplesCulturesColumn columnId={column.id} data={column.data} />
       case 'religions':
         return <AncientReligionsColumn columnId={column.id} data={column.data} />
+      case 'dailylife':
+        return <DailyLifeColumn columnId={column.id} data={column.data} />
       default:
         return <div className="window-content">Unknown column type: {column.type}</div>
     }

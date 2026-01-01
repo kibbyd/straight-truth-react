@@ -37,7 +37,8 @@ export async function loadAllData() {
     maps,
     parallelPassages,
     peoplesCultures,
-    ancientReligions
+    ancientReligions,
+    dailyLife
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -63,7 +64,8 @@ export async function loadAllData() {
     fetchJSON('maps.json'),
     fetchJSON('parallel_passages.json'),
     fetchJSON('peoples_cultures.json'),
-    fetchJSON('ancient_religions.json')
+    fetchJSON('ancient_religions.json'),
+    fetchJSON('daily_life.json')
   ])
 
   // Process cross-references from connections
@@ -104,6 +106,7 @@ export async function loadAllData() {
     maps,
     parallelPassages: parallelPassages.parallel_sets || [],
     peoplesCultures: peoplesCultures.peoples || [],
-    ancientReligions: ancientReligions.religions || []
+    ancientReligions: ancientReligions.religions || [],
+    dailyLife: dailyLife.items || []
   }
 }
