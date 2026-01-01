@@ -132,9 +132,9 @@ function ArchaeologyColumn({ columnId, data }) {
 
   return (
     <div className="catalogue-column-content">
-      <div className="catalogue-header archaeology-header" style={{ background: 'linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%)' }}>
-        <div className="catalogue-title">Archaeology</div>
-        <div className="catalogue-subtitle">{totalCount} discoveries</div>
+      <div className="catalogue-header archaeology-header" style={{ background: 'linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%)', color: 'white' }}>
+        <div className="catalogue-title" style={{ color: 'white' }}>Archaeology</div>
+        <div className="catalogue-subtitle" style={{ color: 'rgba(255,255,255,0.9)' }}>{totalCount} discoveries</div>
       </div>
 
       <div style={{ padding: '10px 15px', borderBottom: '1px solid #eee' }}>
