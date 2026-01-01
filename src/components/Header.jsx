@@ -154,6 +154,7 @@ function Header() {
           <option value="peoples">👥 Peoples & Cultures</option>
           <option value="religions">🏛️ Ancient Religions</option>
           <option value="dailylife">🏠 Daily Life</option>
+          <option value="archaeology">🏺 Archaeology</option>
         </select>
         <button
           className="clear-btn"

@@ -3,22 +3,18 @@
 ## Latest Session Summary (Jan 1, 2025)
 
 **Completed:**
-- Added Daily Life column with 32 topics across 8 categories:
-  - Occupations & Trades (10): carpenter, shepherd, fisherman, tentmaker, farmer, potter, smith, scribe, tax collector, physician
-  - Food & Drink (5): bread, wine, olive oil, fish, meals & feasts
-  - Clothing & Dress (4): tunic, cloak, sandals, headcoverings
-  - Homes & Buildings (2): Israelite house, village layout
-  - Family & Marriage (3): marriage customs, children & family, inheritance
-  - Trade & Commerce (2): markets & bazaars, weights & money
-  - Agriculture & Farming (3): plowing & sowing, harvest & threshing, vineyards
-  - Crafts & Manufacturing (3): weaving, pottery making, metalwork
-- Each topic includes: description, period, details, biblical examples, archaeological evidence, key references
+- Added Archaeology column with 44 discoveries across 4 categories:
+  - Excavated Sites (15): Jericho, Megiddo, Hazor, Jerusalem, Samaria, Capernaum, Bethsaida, Lachish, Gezer, Dan, Nineveh, Babylon, Ur, Shiloh, Qumran
+  - Artifacts (11): Tel Dan Stele, Siloam Inscription, Cyrus Cylinder, Black Obelisk, Taylor Prism, Mesha Stele, Ketef Hinnom Scrolls, Pilate Stone, Caiaphas Ossuary, Pool of Siloam, Hezekiah Seal
+  - Ancient Manuscripts (10): Dead Sea Scrolls, Codex Sinaiticus, Codex Vaticanus, P52 Rylands, Nash Papyrus, Chester Beatty, Bodmer Papyri, Septuagint, Masoretic Text, Samaritan Pentateuch
+  - Inscriptions (8): Merneptah Stele, Lachish Letters, Arad Ostraca, Samaria Ostraca, Gezer Calendar, YHWH inscriptions, Ekron Inscription, Balaam Inscription
+- Each entry includes: discovery date, description, significance, key finds, biblical connection, scholarly notes, current location, key references
+- Added Daily Life column with 32 topics (see previous session)
 - Added Ancient Religions column with 13 religions (see previous session)
 
 **Remaining Tasks:**
-1. Archaeology - Artifacts, excavated sites, manuscript evidence
-2. Definitions - Let scripture define scripture
-3. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
+1. Definitions - Let scripture define scripture
+2. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
 
 ---
 
@@ -185,11 +181,9 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - **Peoples & Cultures** - 52 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs, 11 social subclasses (tax collectors, shepherds, lepers, etc.)
 - **Ancient Religions** - 13 religions: Mesopotamian (Sumerian, Babylonian, Assyrian), Egyptian, Canaanite (Baal, Phoenician), Neighbors (Philistine, Moabite, Ammonite, Edomite), Greco-Roman (Greek, Roman), Persian (Zoroastrianism)
 - **Daily Life** - 32 topics: occupations (10), food (5), clothing (4), housing (2), family (3), commerce (2), agriculture (3), crafts (3)
+- **Archaeology** - 44 discoveries: excavated sites (15), artifacts (11), manuscripts (10), inscriptions (8)
 
 ### NOT YET IMPLEMENTED
-
-#### Historical Context
-- **Archaeology** - Artifacts, excavated sites, manuscript evidence
 
 #### Advanced Study
 - **Definitions** - Let scripture define scripture (show all verses where term appears)
@@ -268,6 +262,7 @@ All categories implemented:
 - `peoples_cultures.json` - 52 entries: peoples, religious groups, customs, and social subclasses organized by category
 - `ancient_religions.json` - 13 ancient religions with pantheons, practices, worldviews, and biblical interactions
 - `daily_life.json` - 32 daily life topics across 8 categories (occupations, food, clothing, housing, family, commerce, agriculture, crafts)
+- `archaeology.json` - 44 archaeological discoveries across 4 categories (sites, artifacts, manuscripts, inscriptions)
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)
