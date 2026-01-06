@@ -3,7 +3,7 @@
     "id": "justification",
     "term": "Justification",
     "simple_definition": "Being declared 'not guilty' before God—like a judge pronouncing a verdict of innocent.",
-    "expanded": "In legal terms, justification means being declared righteous. Scripture teaches that through faith in Christ, a person's sins are no longer counted against them. It is a status change, not a behavior change.",
+    "expanded": "In legal terms, justification means being declared righteous. The Greek dikaioo is a courtroom term for a favorable verdict. It describes a status change, not a behavior change.",
     "scripture_references": [
       {
         "text": "Paul wrote: 'Therefore, since we have been justified by faith, we have peace with God through our Lord Jesus Christ.'",
@@ -57,7 +57,7 @@
     "id": "grace",
     "term": "Grace",
     "simple_definition": "Unearned favor—receiving good things you didn't deserve and couldn't earn.",
-    "expanded": "Grace is God giving freely what cannot be earned. It stands in contrast to wages (what you work for) or debt (what you're owed). Scripture emphasizes that salvation comes through grace, not human effort.",
+    "expanded": "Grace is God giving freely what cannot be earned. The Greek charis stands in contrast to wages (what you work for) or debt (what you're owed).",
     "scripture_references": [
       {
         "text": "Paul wrote: 'For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works.'",
@@ -296,7 +296,7 @@
     "id": "iniquity",
     "term": "Iniquity",
     "simple_definition": "Crookedness—a bent or twisted nature, moral perversion.",
-    "expanded": "Iniquity emphasizes the twisted or crooked nature of sin. It points to the corruption within, not just outward acts. It is often associated with guilt and moral distortion.",
+    "expanded": "The Hebrew avon refers to something twisted or crooked. It is distinguished from other words for sin (chata = miss the mark, pesha = rebellion).",
     "scripture_references": [
       {
         "text": "Isaiah wrote: 'The LORD has laid on him the iniquity of us all.'",
@@ -458,7 +458,7 @@
     "id": "baptism",
     "term": "Baptism",
     "simple_definition": "Immersion in water—an outward sign of an inward change, identifying with Christ.",
-    "expanded": "Baptism involves being immersed in (or having water applied). It symbolizes death to the old life and resurrection to new life. Different Christian traditions practice it differently (immersion, pouring, sprinkling; infant or believer).",
+    "expanded": "The Greek baptizo means to immerse or dip. Christian traditions practice it differently (immersion, pouring, sprinkling; infant or believer).",
     "scripture_references": [
       {
         "text": "Jesus commanded: 'Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit.'",
@@ -1052,7 +1052,7 @@
     "id": "word-of-god",
     "term": "Word of God",
     "simple_definition": "God's communication—referring to Scripture, to Jesus himself, or to God's spoken message.",
-    "expanded": "Scripture uses 'word of God' in three ways: the written Scriptures, the spoken message of God, and Jesus Christ himself (as the Word made flesh). All three are ways God reveals himself.",
+    "expanded": "The phrase 'word of God' is used in three ways: the written Scriptures, the spoken message of God, and Jesus Christ himself (John 1:1,14 calls him 'the Word').",
     "scripture_references": [
       {
         "text": "John wrote: 'In the beginning was the Word, and the Word was with God, and the Word was God... And the Word became flesh.'",
@@ -1079,7 +1079,7 @@
     "id": "amen",
     "term": "Amen",
     "simple_definition": "So be it—a word of affirmation meaning 'truly' or 'I agree.'",
-    "expanded": "Amen comes from a Hebrew word meaning firm, faithful, or true. It is used to affirm what has been said, to agree with a prayer, or to emphasize truth. Jesus used 'Amen, amen' (truly, truly) to introduce important statements.",
+    "expanded": "Amen comes from a Hebrew word meaning firm, faithful, or true. It is used to affirm what has been said or to agree with a prayer. Jesus used 'Amen, amen' (truly, truly) to introduce statements.",
     "scripture_references": [
       {
         "text": "Jesus said: 'Amen, amen, I say to you, whoever believes has eternal life.'",
