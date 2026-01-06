@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef, formatChapterRef, formatChapterRange, normalizeVerseId, normalizeBookAbbr, bookByAbbr } from '../../data/bibleBooks'
+import { formatVerseRef, formatChapterRef, formatChapterRange, normalizeVerseId, normalizeBookAbbr, bookByAbbr, parseHumanVerseRef } from '../../data/bibleBooks'
 
 function QuestionsColumn({ columnId, data }) {
   const { data: appData, goToVerse, openStrongs, openAncientText } = useApp()
@@ -193,9 +193,35 @@ function QuestionsColumn({ columnId, data }) {
                                           >
                                             {source.label || source.id}
                                           </span>
-                                        ) : (
-                                          <span>{source.label || source.text}</span>
-                                        )}
+                                        ) : (() => {
+                                          // Try dotted format first (e.g., "Gen.1.1")
+                                          if (source.text && /^[123]?[A-Z][a-z]{1,2}\.\d+/.test(source.text)) {
+                                            const parsed = parseRef(source.text)
+                                            return (
+                                              <span
+                                                className="catalogue-ref-link"
+                                                onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId, null, !parsed.isChapterRange); }}
+                                              >
+                                                {parsed.display}
+                                              </span>
+                                            )
+                                          }
+                                          // Try human-readable format (e.g., "Jude 1:9")
+                                          const humanParsed = parseHumanVerseRef(source.text)
+                                          if (humanParsed) {
+                                            const parsed = parseRef(humanParsed)
+                                            return (
+                                              <span
+                                                className="catalogue-ref-link"
+                                                onClick={(e) => { e.stopPropagation(); goToVerse(parsed.verseId, null, !parsed.isChapterRange); }}
+                                              >
+                                                {parsed.display}
+                                              </span>
+                                            )
+                                          }
+                                          // Fallback to plain text
+                                          return <span>{source.label || source.text}</span>
+                                        })()}
                                       </span>
                                     ))}
                                   </div>

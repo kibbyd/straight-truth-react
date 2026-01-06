@@ -76,6 +76,48 @@ export const bookByAbbr = Object.fromEntries(
   bibleBooks.map(book => [book.abbr, book])
 )
 
+// Reverse lookup: name -> abbr (case-insensitive)
+const bookByName = Object.fromEntries(
+  bibleBooks.map(book => [book.name.toLowerCase(), book.abbr])
+)
+// Add common aliases
+const nameAliases = {
+  'psalm': 'Psa',
+  'song of songs': 'Sol',
+  'canticles': 'Sol',
+}
+
+// Parse human-readable verse ref to dotted format: "Jude 1:9" -> "Jud.1.9"
+// Returns null if not a valid verse reference
+export function parseHumanVerseRef(text) {
+  if (!text) return null
+
+  // Match patterns like "Jude 1:9", "1 Corinthians 15:3-7", "Genesis 6:4", "Psalm 22", "Acts 2"
+  const match = text.match(/^([123]?\s?[A-Za-z]+(?:\s+of\s+[A-Za-z]+)?)\s+(\d+)(?::(\d+))?(?:-(\d+))?/)
+  if (!match) return null
+
+  const [, bookName, chapter, verse, endVerse] = match
+  const normalizedName = bookName.toLowerCase().replace(/\s+/g, ' ').trim()
+
+  // Try to find the abbreviation
+  let abbr = bookByName[normalizedName] || nameAliases[normalizedName]
+
+  // Try without "s" for plurals (e.g., "Psalms" -> "Psalm")
+  if (!abbr && normalizedName.endsWith('s')) {
+    abbr = bookByName[normalizedName.slice(0, -1)] || nameAliases[normalizedName.slice(0, -1)]
+  }
+
+  if (!abbr) return null
+
+  if (verse) {
+    // Full verse reference
+    return `${abbr}.${chapter}.${verse}`
+  } else {
+    // Chapter-only reference
+    return `${abbr}.${chapter}`
+  }
+}
+
 // Alias map for alternate abbreviations (strongs_data uses different abbrs)
 const abbrAliases = {
   'Jhn': 'Joh',   // John gospel
