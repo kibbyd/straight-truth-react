@@ -72,9 +72,9 @@ function NamesOfGodColumn({ columnId, data }) {
                     "{name.meaning}"
                   </div>
                 )}
-                {name.usage && (
-                  <div style={{ fontSize: '14px', color: '#666', marginBottom: '8px' }}>
-                    {name.usage}
+                {name.context && (
+                  <div style={{ fontSize: '13px', color: '#666', fontStyle: 'italic', marginBottom: '8px' }}>
+                    {name.context}
                   </div>
                 )}
                 <div className="catalogue-refs">
