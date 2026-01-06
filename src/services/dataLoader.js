@@ -39,7 +39,8 @@ export async function loadAllData() {
     peoplesCultures,
     ancientReligions,
     dailyLife,
-    archaeology
+    archaeology,
+    definitions
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -67,7 +68,8 @@ export async function loadAllData() {
     fetchJSON('peoples_cultures.json'),
     fetchJSON('ancient_religions.json'),
     fetchJSON('daily_life.json'),
-    fetchJSON('archaeology.json')
+    fetchJSON('archaeology.json'),
+    fetchJSON('definitions.json')
   ])
 
   // Process cross-references from connections
@@ -110,6 +112,7 @@ export async function loadAllData() {
     peoplesCultures: peoplesCultures.peoples || [],
     ancientReligions: ancientReligions.religions || [],
     dailyLife: dailyLife.items || [],
-    archaeology: archaeology.items || []
+    archaeology: archaeology.items || [],
+    definitions: definitions.definitions || []
   }
 }

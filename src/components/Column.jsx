@@ -22,6 +22,7 @@ import PeoplesCulturesColumn from './columns/PeoplesCulturesColumn'
 import AncientReligionsColumn from './columns/AncientReligionsColumn'
 import DailyLifeColumn from './columns/DailyLifeColumn'
 import ArchaeologyColumn from './columns/ArchaeologyColumn'
+import DefinitionsColumn from './columns/DefinitionsColumn'
 
 // Column title mapping
 const columnTitles = {
@@ -47,7 +48,8 @@ const columnTitles = {
   peoples: 'Peoples & Cultures',
   religions: 'Ancient Religions',
   dailylife: 'Daily Life',
-  archaeology: 'Archaeology'
+  archaeology: 'Archaeology',
+  definitions: 'Definitions'
 }
 
 function Column({
@@ -125,6 +127,8 @@ function Column({
         return <DailyLifeColumn columnId={column.id} data={column.data} />
       case 'archaeology':
         return <ArchaeologyColumn columnId={column.id} data={column.data} />
+      case 'definitions':
+        return <DefinitionsColumn columnId={column.id} data={column.data} />
       default:
         return <div className="window-content">Unknown column type: {column.type}</div>
     }

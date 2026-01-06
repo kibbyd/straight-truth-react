@@ -1088,6 +1088,93 @@ body {
     margin-bottom: 4px;
 }
 
+/* ========== DEFINITIONS ========== */
+.definition-item {
+    border-bottom: 1px solid #eee;
+}
+
+.definition-header {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s;
+}
+
+.definition-header:hover {
+    background: #f5f5f0;
+}
+
+.definition-term {
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+}
+
+.definition-strongs {
+    font-size: var(--font-sm);
+    color: #1565c0;
+    background: #e3f2fd;
+    padding: 2px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.definition-strongs:hover {
+    background: #bbdefb;
+}
+
+.definition-content {
+    padding: 10px 15px 15px 30px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.definition-original {
+    font-size: var(--font-md);
+    color: #1565c0;
+    font-weight: 500;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background: #e8f5e9;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.definition-verses {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.definition-verse-item {
+    padding: 10px 12px;
+    background: #fff;
+    border-left: 3px solid #4caf50;
+    border-radius: 0 4px 4px 0;
+}
+
+.definition-verse-text {
+    font-size: var(--font-md);
+    color: #444;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.definition-verse-ref {
+    font-size: var(--font-sm);
+    color: #1565c0;
+    cursor: pointer;
+    text-align: right;
+}
+
+.definition-verse-ref:hover {
+    text-decoration: underline;
+}
+
 /* ========== CONVERTER ========== */
 .converter-input-section {
     padding: 15px;
