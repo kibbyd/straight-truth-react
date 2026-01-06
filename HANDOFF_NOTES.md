@@ -221,6 +221,21 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - ~~**Topical Study** - Bottom-up Strong's co-occurrence clustering~~ ✓ DONE (23 clusters)
 - **Manuscript Evidence** - Which manuscripts contain which verses, textual variants, raw data
 - **Books Metadata** - For each of the 66 books: What the text claims about authorship (or doesn't). Who attributed it and when. Why they attributed it (the evidence/reasoning they cited). Date ranges, audience, setting, genre. Trace the origin of beliefs - people don't believe things for no reason. Show where ideas started, who started them, and why.
+- **People Index** - Comprehensive alphabetical list of all ~3,000+ named individuals in the Bible. For each: name (English + Hebrew/Greek), meaning, who they were, key facts with refs, relationships, all verses where mentioned, extra-biblical sources (Josephus, archaeology, etc.). Currently fragmented across family_trees (169), kings (108), prophets (41). Consolidate and expand.
+- **Entity Catalogs** - Comprehensive lists for: Animals (with literal/symbolic appearances), Cities, Countries/Regions, Towns/Villages, Seas, Rivers, Springs/Wells, Mountains. Currently have places (119), waters (32), mountains (30) - expand and reorganize with Hebrew/Greek names, meanings, all references.
+- **Inline Measurements** - Tag all measurement occurrences in Bible text. User toggle: Original / Imperial / Metric. Real-time swap in text. E.g., "300 cubits" → "450 feet" or "137m". Cover length, weight, volume, currency, distance, time. Already have biblical_measures.json with conversions.
+- **Speech Attribution** - Tag every direct quote with speaker. Filter by speaker: show everything God says, everything Jesus says, everything Satan says. ~10,000+ quoted speeches in scripture.
+- **Prophecy-Fulfillment Links** - Link OT prophecies to NT claims of fulfillment. Not asserting fulfillment occurred - just showing where NT text claims to fulfill OT. Let reader evaluate the connection.
+- **Hebrew/Greek Toggle** - Show original language text alongside English. Already have Strong's linked per word - render actual Hebrew/Greek. Helps students see word order, particles, structure.
+- **Literary Structures** - Mark chiasms (ABBA patterns), acrostics (Psalm 119 = 22 sections by Hebrew letter), parallelisms in poetry. These exist in the text - just making them visible.
+- **Questions in Scripture** - Catalog every question asked. Who asked, to whom, context, whether answered (and where). ~3,000+ questions in the Bible.
+- **Commands/Imperatives** - Every command given in scripture. Who gave it, to whom, context. Categorize by giver (God, Jesus, apostles, etc.).
+- **Promises** - Every promise made. By whom, to whom, conditional or unconditional, fulfillment references if claimed in text.
+- **Numbers Catalog** - Every number mentioned. What it counts, context, refs. "40 days", "12 tribes", "7 churches", "666", etc.
+- **Genealogy Visualization** - Interactive family tree viewer. Already have family_trees.json (169 persons) - render as navigable tree.
+- **Chronological Reading Order** - Reorder passages by when events happened. Timeline view of scripture. Foundation exists in timelines.json.
+- **Hebrew Calendar Integration** - Show which events happened on which Hebrew dates. Passover, Pentecost, feast days mapped to narrative.
+- **Discourse Markers** - Who is speaking to whom in each passage. Audience identification throughout scripture.
 
 #### Refactoring
 - **Remove Maps** - Maps are interpretive (someone's visual representation). Replace with structured geographic data: journey sequences, place relationships, distances stated in scripture, regional groupings. Display the data, not artistic renderings.
