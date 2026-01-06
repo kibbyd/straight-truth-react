@@ -2377,7 +2377,8 @@
             "strongs": "Strong's G3727"
           },
           {
-            "text": "Mishnah, Nedarim"
+            "id": "mishnah-nedarim",
+            "label": "Mishnah, Nedarim"
           }
         ]
       }
@@ -3310,7 +3311,8 @@
             "strongs": "Strong's G907"
           },
           {
-            "text": "Mishnah, Mikvaot"
+            "id": "mishnah-mikvaot",
+            "label": "Mishnah, Mikvaot"
           }
         ]
       },
@@ -4768,7 +4770,8 @@
             "text": "Deu.14"
           },
           {
-            "text": "Mishnah, Chullin"
+            "id": "mishnah-chullin",
+            "label": "Mishnah, Chullin"
           }
         ]
       },
@@ -4847,7 +4850,8 @@
             "label": "Pliny, Natural History 14.6"
           },
           {
-            "text": "Mishnah, Berakhot"
+            "id": "mishnah-berakhot-wine",
+            "label": "Mishnah, Berakhot"
           }
         ]
       }
@@ -5445,10 +5449,12 @@
         "text": "The concept of 'just war' was developed by Augustine and Aquinas, drawing on biblical and classical sources.",
         "sources": [
           {
-            "text": "Augustine, City of God"
+            "id": "augustine-city-of-god-19",
+            "label": "Augustine, City of God"
           },
           {
-            "text": "Aquinas, Summa Theologica"
+            "id": "aquinas-summa-theologica-just-war",
+            "label": "Aquinas, Summa Theologica"
           }
         ]
       }
@@ -13543,7 +13549,8 @@
         "text": "The Septuagint (LXX) is named for the tradition of seventy (or seventy-two) translators.",
         "sources": [
           {
-            "text": "Letter of Aristeas"
+            "id": "letter-of-aristeas",
+            "label": "Letter of Aristeas"
           }
         ]
       }
@@ -14611,7 +14618,8 @@
         "text": "1 Enoch 6-7 (Second Temple Jewish text) interprets these as fallen angels called 'Watchers.'",
         "sources": [
           {
-            "text": "1 Enoch 6:1-7:6"
+            "id": "1-enoch-6-7",
+            "label": "1 Enoch 6:1-7:6"
           }
         ]
       }
@@ -15242,7 +15250,8 @@
         "text": "1 Enoch describes imprisoned angels (Watchers) who sinned before the flood.",
         "sources": [
           {
-            "text": "1 Enoch 10:4-6, 18:14-19:2"
+            "id": "1-enoch-10.4-6",
+            "label": "1 Enoch 10:4-6, 18:14-19:2"
           }
         ]
       }
@@ -15835,7 +15844,8 @@
         "text": "The Assyrian king Sennacherib's campaign against Judah is documented in Assyrian records (the Taylor Prism).",
         "sources": [
           {
-            "text": "Taylor Prism (Sennacherib's Prism)"
+            "id": "taylor-prism",
+            "label": "Taylor Prism (Sennacherib's Prism)"
           }
         ]
       }
@@ -27711,10 +27721,12 @@
         "text": "Flood narratives appear in many ancient Near Eastern texts, including the Epic of Gilgamesh (Utnapishtim) and the Atrahasis Epic.",
         "sources": [
           {
-            "text": "Epic of Gilgamesh, Tablet XI"
+            "id": "epic-of-gilgamesh-flood",
+            "label": "Epic of Gilgamesh, Tablet XI"
           },
           {
-            "text": "Atrahasis Epic"
+            "id": "atrahasis-epic",
+            "label": "Atrahasis Epic"
           }
         ]
       }
@@ -29401,7 +29413,8 @@
         "text": "The Deir Alla inscription (c. 840 BC) mentions 'Balaam son of Beor' as a seer.",
         "sources": [
           {
-            "text": "Deir Alla Inscription, Jordan"
+            "id": "deir-alla-inscription",
+            "label": "Deir Alla Inscription, Jordan"
           }
         ]
       }
@@ -30513,7 +30526,8 @@
         "text": "The Tel Dan Inscription (9th century BC) mentions 'the house of David.'",
         "sources": [
           {
-            "text": "Tel Dan Inscription, Israel Museum"
+            "id": "tel-dan-inscription",
+            "label": "Tel Dan Inscription, Israel Museum"
           }
         ]
       }
@@ -31128,7 +31142,8 @@
         "text": "The Moabite Stone mentions Omri (Ahab's father) and Israel.",
         "sources": [
           {
-            "text": "Moabite Stone (Mesha Stele), Louvre"
+            "id": "moabite-stone",
+            "label": "Moabite Stone (Mesha Stele), Louvre"
           }
         ]
       }
@@ -31393,7 +31408,8 @@
         "text": "The Black Obelisk of Shalmaneser III depicts 'Jehu son of Omri' paying tribute.",
         "sources": [
           {
-            "text": "Black Obelisk, British Museum"
+            "id": "black-obelisk",
+            "label": "Black Obelisk, British Museum"
           }
         ]
       }
@@ -31464,7 +31480,8 @@
         "text": "The Moabite Stone mentions 'Omri king of Israel' who oppressed Moab.",
         "sources": [
           {
-            "text": "Moabite Stone (Mesha Stele)"
+            "id": "moabite-stone",
+            "label": "Moabite Stone (Mesha Stele)"
           }
         ]
       },
@@ -31943,7 +31960,8 @@
         "text": "A burial inscription reading 'Here were brought the bones of Uzziah, king of Judah' was found in Jerusalem.",
         "sources": [
           {
-            "text": "Uzziah burial inscription, Israel Museum"
+            "id": "uzziah-burial-inscription",
+            "label": "Uzziah burial inscription, Israel Museum"
           }
         ]
       }
@@ -32052,7 +32070,8 @@
         "text": "The Taylor Prism records Sennacherib's siege of Jerusalem.",
         "sources": [
           {
-            "text": "Taylor Prism (Sennacherib Prism), British Museum"
+            "id": "taylor-prism",
+            "label": "Taylor Prism (Sennacherib Prism), British Museum"
           }
         ]
       },
@@ -32060,7 +32079,8 @@
         "text": "Hezekiah's Tunnel (Siloam Tunnel) was built to supply water during sieges.",
         "sources": [
           {
-            "text": "Siloam Inscription, Istanbul Archaeology Museum"
+            "id": "siloam-inscription",
+            "label": "Siloam Inscription, Istanbul Archaeology Museum"
           }
         ]
       }
@@ -32981,7 +33001,8 @@
         "text": "The Cyrus Cylinder records his policy of returning exiles and restoring temples.",
         "sources": [
           {
-            "text": "Cyrus Cylinder, British Museum"
+            "id": "cyrus-cylinder",
+            "label": "Cyrus Cylinder, British Museum"
           }
         ]
       }
@@ -33567,7 +33588,8 @@
         "text": "Josephus mentions John's baptism and execution by Herod.",
         "sources": [
           {
-            "text": "Josephus, Antiquities 18.5.2"
+            "id": "josephus-antiquities-18.5.2",
+            "label": "Josephus, Antiquities 18.5.2"
           }
         ]
       }
@@ -33666,7 +33688,8 @@
         "text": "Early tradition records Peter was crucified upside down in Rome under Nero.",
         "sources": [
           {
-            "text": "Eusebius, Church History 2.25"
+            "id": "eusebius-church-history-2.25",
+            "label": "Eusebius, Church History 2.25"
           }
         ]
       }
@@ -33766,7 +33789,8 @@
         "text": "Early tradition records Paul was beheaded in Rome under Nero.",
         "sources": [
           {
-            "text": "Eusebius, Church History 2.25"
+            "id": "eusebius-church-history-2.25",
+            "label": "Eusebius, Church History 2.25"
           }
         ]
       }
@@ -33977,7 +34001,8 @@
         "text": "Early tradition says John lived to old age in Ephesus.",
         "sources": [
           {
-            "text": "Irenaeus, Against Heresies 2.22.5"
+            "id": "irenaeus-against-heresies-2.22.5",
+            "label": "Irenaeus, Against Heresies 2.22.5"
           }
         ]
       }
@@ -34804,7 +34829,8 @@
         "text": "Josephus records James was stoned to death in 62 AD.",
         "sources": [
           {
-            "text": "Josephus, Antiquities 20.9.1"
+            "id": "josephus-antiquities-20.9.1",
+            "label": "Josephus, Antiquities 20.9.1"
           }
         ]
       }
@@ -35032,7 +35058,8 @@
         "text": "Pilate governed Judea from 26-36 AD.",
         "sources": [
           {
-            "text": "Josephus, Antiquities 18; Tacitus, Annals 15.44"
+            "id": "tacitus-annals-christus",
+            "label": "Josephus, Antiquities 18; Tacitus, Annals 15.44"
           }
         ]
       },
@@ -35040,7 +35067,8 @@
         "text": "The Pilate Stone, found at Caesarea, confirms his title as prefect.",
         "sources": [
           {
-            "text": "Pilate Stone, Israel Museum"
+            "id": "pilate-stone",
+            "label": "Pilate Stone, Israel Museum"
           }
         ]
       }
@@ -35107,7 +35135,8 @@
         "text": "An ossuary inscribed 'Joseph son of Caiaphas' was discovered in Jerusalem.",
         "sources": [
           {
-            "text": "Caiaphas ossuary, Israel Museum"
+            "id": "caiaphas-ossuary",
+            "label": "Caiaphas ossuary, Israel Museum"
           }
         ]
       }
@@ -36256,7 +36285,8 @@
         "text": "Early tradition credits Mark with writing the Gospel based on Peter's preaching.",
         "sources": [
           {
-            "text": "Papias, via Eusebius, Church History 3.39"
+            "id": "eusebius-church-history-3.39",
+            "label": "Papias, via Eusebius, Church History 3.39"
           }
         ]
       }
@@ -37933,7 +37963,8 @@
         "text": "The Gallio Inscription confirms the date of Paul's visit.",
         "sources": [
           {
-            "text": "Gallio Inscription, Delphi"
+            "id": "gallio-inscription",
+            "label": "Gallio Inscription, Delphi"
           }
         ]
       }
@@ -38000,7 +38031,8 @@
         "text": "Paul was likely martyred in Rome under Nero.",
         "sources": [
           {
-            "text": "1 Clement 5; Eusebius, Church History 2.25"
+            "id": "eusebius-church-history-2.25",
+            "label": "1 Clement 5; Eusebius, Church History 2.25"
           }
         ]
       }
@@ -39327,7 +39359,8 @@
         "text": "Flood narratives exist in many ancient cultures (Gilgamesh, Atrahasis).",
         "sources": [
           {
-            "text": "Epic of Gilgamesh, Tablet XI"
+            "id": "epic-of-gilgamesh-flood",
+            "label": "Epic of Gilgamesh, Tablet XI"
           }
         ]
       }
@@ -40119,7 +40152,8 @@
         "text": "Tacitus confirms Jesus was executed under Pontius Pilate.",
         "sources": [
           {
-            "text": "Tacitus, Annals 15.44"
+            "id": "tacitus-annals-christus",
+            "label": "Tacitus, Annals 15.44"
           }
         ]
       }

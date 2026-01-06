@@ -399,6 +399,238 @@
       "date": "Revised Standard Version",
       "text": "And when he was at his last breath, he said, 'You dismiss us from this present life, but the King of the universe will raise us up to an everlasting renewal of life, because we have died for his laws.'",
       "context": "Intertestamental expression of resurrection hope"
+    },
+    "taylor-prism": {
+      "author": "Sennacherib",
+      "work": "Taylor Prism (Sennacherib's Prism)",
+      "reference": "Column III, lines 18-49",
+      "date": "691 BC (British Museum)",
+      "text": "As for Hezekiah the Jew, who did not submit to my yoke, 46 of his strong, walled cities, as well as the small cities in their neighborhood, which were without number—by leveling with battering-rams and by bringing up siege-engines, by attacking and storming on foot, by mines, tunnels and breaches, I besieged and took. 200,150 people, great and small, male and female, horses, mules, asses, camels, cattle and sheep without number, I brought away from them and counted as spoil. Himself, like a caged bird, I shut up in Jerusalem, his royal city.",
+      "context": "Assyrian record confirming siege of Jerusalem during Hezekiah's reign (2 Kings 18-19). Notable that it does not claim to have captured Jerusalem."
+    },
+    "cyrus-cylinder": {
+      "author": "Cyrus the Great",
+      "work": "Cyrus Cylinder",
+      "reference": "Lines 22-34",
+      "date": "539 BC (British Museum)",
+      "text": "I am Cyrus, king of the world, great king, mighty king, king of Babylon, king of Sumer and Akkad, king of the four quarters... I returned the images of the gods, who had resided there, to their places and let them dwell in eternal abodes. I gathered all their inhabitants and returned to them their dwellings. And the gods of Sumer and Akkad, whom Nabonidus, to the anger of the lord of the gods, had brought into Babylon, at the command of Marduk, the great lord, I caused them to take up their dwelling in residences that make the heart glad.",
+      "context": "Persian decree allowing exiled peoples to return home and rebuild their temples. Confirms the policy described in Ezra 1:1-4."
+    },
+    "tel-dan-inscription": {
+      "author": "Hazael of Aram-Damascus",
+      "work": "Tel Dan Stele",
+      "reference": "Fragment A, lines 8-9",
+      "date": "c. 841 BC (Israel Museum)",
+      "text": "I killed Joram son of Ahab king of Israel, and I killed Ahaziahu son of Joram king of the House of David.",
+      "context": "First archaeological reference to the 'House of David' outside the Bible. Confirms the Davidic dynasty was known to neighboring kingdoms."
+    },
+    "moabite-stone": {
+      "author": "Mesha, King of Moab",
+      "work": "Mesha Stele (Moabite Stone)",
+      "reference": "Lines 1-21",
+      "date": "c. 840 BC (Louvre Museum)",
+      "text": "I am Mesha, son of Chemosh-yat, king of Moab, the Dibonite. My father reigned over Moab thirty years, and I reigned after my father. Omri, king of Israel, humbled Moab many days, for Chemosh was angry at his land. And his son followed him and he also said, 'I will humble Moab.' In my time he spoke thus, but I have triumphed over him and over his house, while Israel has perished forever... And I took from there the vessels of Yahweh, dragging them before Chemosh.",
+      "context": "Moabite king's account of rebellion against Israel (2 Kings 3). Mentions Omri, Israel, and YHWH by name."
+    },
+    "deir-alla-inscription": {
+      "author": "Unknown",
+      "work": "Deir Alla Inscription",
+      "reference": "Combination I, lines 1-6",
+      "date": "c. 840-760 BC (Jordan Archaeological Museum)",
+      "text": "The account of Balaam son of Beor, who was a seer of the gods. The gods came to him at night, and he saw a vision according to El's utterance. They said to Balaam son of Beor: 'Thus will be done, with naught surviving...' And Balaam arose on the morrow... and he wept bitterly.",
+      "context": "Extra-biblical reference to Balaam son of Beor (Numbers 22-24) as a prophet who received divine visions."
+    },
+    "gallio-inscription": {
+      "author": "Emperor Claudius",
+      "work": "Gallio Inscription (Delphi Inscription)",
+      "reference": "SIG 801",
+      "date": "52 AD (Delphi Museum)",
+      "text": "Lucius Junius Gallio, my friend and proconsul of Achaia... as Gallio my friend and proconsul reported to me...",
+      "context": "Dates Gallio's proconsulship to 51-52 AD, allowing precise dating of Paul's appearance before him (Acts 18:12-17)."
+    },
+    "siloam-inscription": {
+      "author": "Workers of Hezekiah",
+      "work": "Siloam Tunnel Inscription",
+      "reference": "Complete text",
+      "date": "c. 701 BC (Istanbul Archaeology Museum)",
+      "text": "...the tunneling through. And this is the account of the tunneling: While [the workmen raised] the pick each toward his fellow and while there [remained] three cubits to be tunneled [through, there was heard] the voice of a man calling to his fellow, for there was a split in the rock on the right hand and on [the left hand]. And on the day of the tunneling through the workmen struck, each in the direction of his fellow, pick against pick. And the water started flowing from the source to the pool, twelve hundred cubits. And the height of the rock above the head of the workmen was a hundred cubits.",
+      "context": "Commemorates completion of Hezekiah's tunnel (2 Kings 20:20; 2 Chronicles 32:30). Oldest known Hebrew inscription of its length."
+    },
+    "pilate-stone": {
+      "author": "Pontius Pilate",
+      "work": "Pilate Stone (Caesarea Inscription)",
+      "reference": "Complete text",
+      "date": "26-36 AD (Israel Museum)",
+      "text": "[DIS AVGVSTIS TIBERIÉVM] ...PONTIVS PILATVS ...PRAEFECTVS IVDA[EA]E ...[D]E[DIT]",
+      "context": "Only archaeological evidence naming Pontius Pilate. Identifies him as 'Prefect of Judea,' confirming his historical role (Matthew 27; Luke 3:1)."
+    },
+    "caiaphas-ossuary": {
+      "author": "Unknown",
+      "work": "Caiaphas Ossuary",
+      "reference": "Inscription on side",
+      "date": "1st century AD (Israel Museum)",
+      "text": "Yehosef bar Qafa (Joseph son of Caiaphas)",
+      "context": "Burial box likely belonging to the high priest Caiaphas who presided at Jesus's trial (Matthew 26:57; John 18:13-14)."
+    },
+    "black-obelisk": {
+      "author": "Shalmaneser III",
+      "work": "Black Obelisk of Shalmaneser III",
+      "reference": "Panel showing Jehu",
+      "date": "841 BC (British Museum)",
+      "text": "The tribute of Jehu, son of Omri: I received from him silver, gold, a golden bowl, a golden vase with pointed bottom, golden tumblers, golden buckets, tin, a staff for a king, and wooden objects.",
+      "context": "Only ancient image of an Israelite king. Shows Jehu (or his ambassador) bowing before Shalmaneser III (2 Kings 9-10)."
+    },
+    "uzziah-burial-inscription": {
+      "author": "Unknown",
+      "work": "Uzziah Burial Plaque",
+      "reference": "Complete text",
+      "date": "c. 1st century BC - 1st century AD (Israel Museum)",
+      "text": "Hither were brought the bones of Uzziah, King of Judah. Do not open!",
+      "context": "Secondary burial marker for King Uzziah (Azariah), who reigned c. 783-742 BC (2 Kings 15:1-7; 2 Chronicles 26)."
+    },
+    "epic-of-gilgamesh-flood": {
+      "author": "Ancient Mesopotamia",
+      "work": "Epic of Gilgamesh",
+      "reference": "Tablet XI, lines 1-196",
+      "date": "c. 2100 BC (British Museum)",
+      "text": "Utnapishtim said to him, to Gilgamesh: 'I will reveal to you, Gilgamesh, a secret thing, a secret of the gods I will tell you. Shuruppak—a city you yourself know, situated on the banks of the Euphrates—that city was ancient when the gods within it decided to send the Flood... Build a boat... Aboard the ship take the seed of all living things.' I loaded into it whatever I had of gold-bearing ore, I loaded into it whatever I had of living beings, my whole family and kin, all the beasts and animals of the field...",
+      "context": "Ancient Mesopotamian flood narrative with parallels to Genesis 6-9. Predates the biblical account in written form."
+    },
+    "atrahasis-epic": {
+      "author": "Ancient Mesopotamia",
+      "work": "Atrahasis Epic",
+      "reference": "Tablet III",
+      "date": "c. 1700 BC (British Museum)",
+      "text": "The gods commanded total destruction. Enlil did it, he committed the evil deed against the people. Atrahasis opened his mouth and addressed his lord: 'Teach me the meaning of the dream that I may know its outcome.' Enki opened his mouth and addressed his servant: 'You say: What am I to seek? Note well this message which I will speak to you: Wall, hear me! Reed-house, make sure you note all my words! Demolish the house, build a boat!'",
+      "context": "Another Mesopotamian flood account. The hero Atrahasis is instructed to build a boat to survive divine judgment."
+    },
+    "tacitus-annals-christus": {
+      "author": "Tacitus",
+      "work": "Annals",
+      "reference": "Book 15, Chapter 44",
+      "date": "c. 116 AD",
+      "text": "Nero fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace. Christus, from whom the name had its origin, suffered the extreme penalty during the reign of Tiberius at the hands of one of our procurators, Pontius Pilatus, and a most mischievous superstition, thus checked for the moment, again broke out not only in Judaea, the first source of the evil, but even in Rome.",
+      "context": "Roman historian's account confirming Christ's execution under Pontius Pilate during Tiberius's reign."
+    },
+    "josephus-antiquities-18.5.2": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 18, Chapter 5, Section 2",
+      "date": "William Whiston (1737)",
+      "text": "Now some of the Jews thought that the destruction of Herod's army came from God, and that very justly, as a punishment of what he did against John, that was called the Baptist: for Herod slew him, who was a good man, and commanded the Jews to exercise virtue, both as to righteousness towards one another, and piety towards God, and so to come to baptism; for that the washing would be acceptable to him, if they made use of it, not in order to the putting away of some sins, but for the purification of the body; supposing still that the soul was thoroughly purified beforehand by righteousness.",
+      "context": "Josephus's account of John the Baptist's ministry and execution by Herod Antipas (Matthew 14:1-12; Mark 6:14-29)."
+    },
+    "josephus-antiquities-20.9.1": {
+      "author": "Josephus",
+      "work": "Josephus, Antiquities of the Jews",
+      "reference": "Book 20, Chapter 9, Section 1",
+      "date": "William Whiston (1737)",
+      "text": "And now Caesar, upon hearing the death of Festus, sent Albinus into Judea, as procurator. But the king deprived Joseph of the high priesthood, and bestowed the succession to that dignity on the son of Ananus, who was also himself called Ananus... He assembled the sanhedrin of judges, and brought before them the brother of Jesus, who was called Christ, whose name was James, and some others; and when he had formed an accusation against them as breakers of the law, he delivered them to be stoned.",
+      "context": "Josephus's account of the execution of James 'the brother of Jesus, who was called Christ' (c. 62 AD)."
+    },
+    "eusebius-church-history-2.25": {
+      "author": "Eusebius",
+      "work": "Eusebius, Church History",
+      "reference": "Book 2, Chapter 25",
+      "date": "NPNF translation",
+      "text": "It is recorded that Paul was beheaded in Rome itself, and that Peter likewise was crucified, during the reign of Nero. This account of Peter and Paul is substantiated by the fact that their names are preserved in the cemeteries of that place even to the present day. It is likewise confirmed by Caius, a member of the Church, who arose under Zephyrinus, bishop of Rome. He, in a published disputation with Proclus, the leader of the Phrygian heresy, speaks as follows concerning the places where the sacred corpses of the aforesaid apostles are laid: 'But I can show the trophies of the apostles. For if you will go to the Vatican or to the Ostian way, you will find the trophies of those who laid the foundations of this church.'",
+      "context": "Early church tradition about the martyrdom of Peter and Paul in Rome under Nero."
+    },
+    "eusebius-church-history-3.39": {
+      "author": "Eusebius",
+      "work": "Eusebius, Church History",
+      "reference": "Book 3, Chapter 39",
+      "date": "NPNF translation",
+      "text": "And the presbyter said this: Mark having become the interpreter of Peter, wrote down accurately whatsoever he remembered. It was not, however, in exact order that he related the sayings or deeds of Christ. For he neither heard the Lord nor accompanied Him. But afterwards, as I said, he accompanied Peter, who accommodated his instructions to the necessities of his hearers, but with no intention of giving a regular narrative of the Lord's sayings. Wherefore Mark made no mistake in thus writing some things as he remembered them. For of one thing he took especial care, not to omit anything he had heard, and not to put anything fictitious into the statements.",
+      "context": "Papias's testimony (preserved by Eusebius) about Mark writing Peter's memoirs."
+    },
+    "irenaeus-against-heresies-2.22.5": {
+      "author": "Irenaeus",
+      "work": "Irenaeus, Against Heresies",
+      "reference": "Book 2, Chapter 22, Section 5",
+      "date": "ANF translation",
+      "text": "But, besides this, those very Jews who then disputed with the Lord Jesus Christ have most clearly indicated the same thing. For when the Lord said to them, 'Your father Abraham rejoiced to see My day; and he saw it, and was glad,' they answered Him, 'Thou art not yet fifty years old, and hast Thou seen Abraham?' Now, such language is fittingly applied to one who has already passed the age of forty, without having as yet reached his fiftieth year, yet is not far from this latter period.",
+      "context": "Irenaeus argues Jesus was older than typically assumed, based on John 8:57."
+    },
+    "irenaeus-against-heresies-5.30.3": {
+      "author": "Irenaeus",
+      "work": "Irenaeus, Against Heresies",
+      "reference": "Book 5, Chapter 30, Section 3",
+      "date": "ANF translation",
+      "text": "It is therefore more certain, and less hazardous, to await the fulfillment of the prophecy, than to be making surmises, and casting about for any names that may present themselves, inasmuch as many names can be found possessing the number mentioned; and the same question will, after all, remain unsolved... We will not, however, incur the risk of pronouncing positively as to the name of Antichrist; for if it were necessary that his name should be distinctly revealed in this present time, it would have been announced by him who beheld the apocalyptic vision.",
+      "context": "Irenaeus cautions against speculating about the identity of the beast with 666."
+    },
+    "augustine-city-of-god-19": {
+      "author": "Augustine",
+      "work": "Augustine, City of God",
+      "reference": "Book 19, Chapter 7",
+      "date": "Marcus Dods (NPNF)",
+      "text": "But the wise man, they admit, will wage just wars. As if he would not all the more, if he remembers that he is a man, bewail the necessity of just wars, if they were not just he would not wage them, and therefore would have no wars at all. For it is the wrongdoing of the opposing party which compels the wise man to wage just wars; and this wrong-doing, even though it gave rise to no war, would still be matter of grief to man because it is man's wrongdoing.",
+      "context": "Augustine's foundational teaching on just war theory - wars are necessary evils caused by wrongdoing."
+    },
+    "aquinas-summa-theologica-just-war": {
+      "author": "Thomas Aquinas",
+      "work": "Summa Theologica",
+      "reference": "II-II, Question 40, Article 1",
+      "date": "Fathers of the English Dominican Province",
+      "text": "In order for a war to be just, three things are necessary. First, the authority of the sovereign by whose command the war is to be waged... Secondly, a just cause is required, namely that those who are attacked, should be attacked because they deserve it on account of some fault... Thirdly, it is necessary that the belligerents should have a rightful intention, so that they intend the advancement of good, or the avoidance of evil.",
+      "context": "Aquinas's three conditions for just war: legitimate authority, just cause, right intention."
+    },
+    "1-enoch-6-7": {
+      "author": "1 Enoch",
+      "work": "1 Enoch (Book of Enoch)",
+      "reference": "Chapters 6-7",
+      "date": "R.H. Charles (1917)",
+      "text": "And it came to pass when the children of men had multiplied that in those days were born unto them beautiful and comely daughters. And the angels, the children of the heaven, saw and lusted after them, and said to one another: 'Come, let us choose us wives from among the children of men and beget us children.' And Semjâzâ, who was their leader, said unto them: 'I fear ye will not indeed agree to do this deed, and I alone shall have to pay the penalty of a great sin.'... And all the others together with them took unto themselves wives, and each chose for himself one, and they began to go in unto them and to defile themselves with them... And they became pregnant, and they bare great giants, whose height was three thousand ells.",
+      "context": "1 Enoch's detailed account of the Watchers (fallen angels) who fathered the Nephilim (Genesis 6:1-4)."
+    },
+    "1-enoch-10.4-6": {
+      "author": "1 Enoch",
+      "work": "1 Enoch (Book of Enoch)",
+      "reference": "Chapter 10, Verses 4-6",
+      "date": "R.H. Charles (1917)",
+      "text": "And again the Lord said to Raphael: 'Bind Azâzêl hand and foot, and cast him into the darkness: and make an opening in the desert, which is in Dûdâêl, and cast him therein. And place upon him rough and jagged rocks, and cover him with darkness, and let him abide there for ever, and cover his face that he may not see light. And on the day of the great judgement he shall be cast into the fire.'",
+      "context": "Background for the 'spirits in prison' (1 Peter 3:19-20; 2 Peter 2:4; Jude 1:6). Fallen angels bound until judgment."
+    },
+    "letter-of-aristeas": {
+      "author": "Pseudo-Aristeas",
+      "work": "Letter of Aristeas",
+      "reference": "Sections 301-311",
+      "date": "R.H. Charles",
+      "text": "Three days later Demetrius took the men and passing along the sea-wall, seven stadia long, to the island, crossed the bridge and made for the northern districts of Pharos. There he assembled them in a house, which had been built upon the sea-shore, of great beauty and in a secluded situation, and invited them to carry out the work of translation, since everything that they needed for the purpose was placed at their disposal. So they set to work comparing their several results and making them agree, and whatever they agreed upon was suitably copied out under the direction of Demetrius... They completed their task in seventy-two days.",
+      "context": "Account of the translation of the Hebrew Scriptures into Greek (the Septuagint/LXX) under Ptolemy II."
+    },
+    "mishnah-nedarim": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Nedarim 3:2",
+      "date": "Herbert Danby",
+      "text": "If a man made a vow and said, 'Konam if I benefit from you,' or 'Konam if I benefit from you if I give to you,' or 'Konam if I give to you if I benefit from you,' he is forbidden both to give and to receive.",
+      "context": "Mishnaic teaching on the binding nature of vows. Jesus criticized such oath-making in Matthew 5:33-37."
+    },
+    "mishnah-mikvaot": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Mikvaot 1:1-8",
+      "date": "Herbert Danby",
+      "text": "There are six grades among pools of water, each superior to the other. The water of pools—if a man that had a flux, or a leper, or one that had connection with a menstruant drank thereof and then poured it into dough-water, it remains clean. If rain-water and drawn water were combined in a courtyard or in a cavity or on the steps of a cave, and the greater part was valid, the whole is valid; if the greater part was invalid, the whole is invalid.",
+      "context": "Jewish ritual immersion requirements. Background for understanding baptism practices in the New Testament."
+    },
+    "mishnah-chullin": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Chullin 1:1-2",
+      "date": "Herbert Danby",
+      "text": "All may slaughter, and their slaughtering is valid, except a deaf-mute, an imbecile, or a minor, lest they spoil their slaughtering; but if any of these slaughtered while others were watching them, their slaughtering is valid. What is slaughtered by a gentile is carrion and conveys uncleanness by carrying.",
+      "context": "Jewish kosher slaughter laws. Relevant to understanding food laws discussed in Acts 15 and 1 Corinthians 8-10."
+    },
+    "mishnah-berakhot-wine": {
+      "author": "Mishnah",
+      "work": "Mishnah",
+      "reference": "Berakhot 6:1",
+      "date": "Herbert Danby",
+      "text": "What blessings do they say over fruits? Over fruit of the tree he says, 'Blessed art thou, O Lord our God, King of the universe, who createst the fruit of the tree,' except over wine, for over wine he says, 'who createst the fruit of the vine.'",
+      "context": "The Jewish blessing over wine. Background for Jesus's words at the Last Supper (Matthew 26:27-29)."
     }
   }
 }
