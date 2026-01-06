@@ -8,7 +8,7 @@
       "name": "Elohim",
       "language": "Hebrew",
       "meaning": "God (plural of majesty)",
-      "strongs": "H430",
+      "strongs": "H0430",
       "references": ["Gen.1.1"],
       "usage": "Used over 2,500 times; emphasizes God's power and might"
     },
@@ -24,7 +24,7 @@
       "name": "Adonai",
       "language": "Hebrew",
       "meaning": "Lord, Master",
-      "strongs": "H136",
+      "strongs": "H0136",
       "references": ["Gen.15.2"],
       "usage": "Emphasizes God's authority and lordship"
     },
@@ -168,7 +168,7 @@
       "name": "Abba",
       "language": "Aramaic",
       "meaning": "Father (intimate)",
-      "strongs": "G5",
+      "strongs": "G0005",
       "references": ["Mar.14.36", "Rom.8.15", "Gal.4.6"],
       "usage": "Intimate term for father; used by Jesus and believers"
     },
@@ -184,7 +184,7 @@
       "name": "Alpha and Omega",
       "language": "Greek",
       "meaning": "The First and the Last",
-      "strongs": "G1",
+      "strongs": "G0001",
       "references": ["Rev.1.8", "Rev.22.13"],
       "usage": "God as beginning and end of all things"
     },
