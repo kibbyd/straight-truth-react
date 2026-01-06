@@ -95,6 +95,7 @@ python serve.py
 - Academic rigor, accessible language
 - **Unbiased presentation** - Show what the text says, even when it challenges common assumptions
 - No theological agenda - present evidence as it exists in the text and history
+- **Trace origins** - Don't just present conclusions. Show where beliefs started, who started them, and why. People don't believe things for no reason - show the reasoning chain. Let the reader see the evidence scholars and theologians used and decide for themselves: "Would I have made that connection?"
 
 ### Language Rules
 - ✅ "The text says..."
@@ -219,6 +220,7 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - ~~**Definitions** - Let scripture define scripture~~ ✓ DONE (67 terms)
 - ~~**Topical Study** - Bottom-up Strong's co-occurrence clustering~~ ✓ DONE (23 clusters)
 - **Manuscript Evidence** - Which manuscripts contain which verses, textual variants, raw data
+- **Books Metadata** - For each of the 66 books: What the text claims about authorship (or doesn't). Who attributed it and when. Why they attributed it (the evidence/reasoning they cited). Date ranges, audience, setting, genre. Trace the origin of beliefs - people don't believe things for no reason. Show where ideas started, who started them, and why.
 
 #### Refactoring
 - **Remove Maps** - Maps are interpretive (someone's visual representation). Replace with structured geographic data: journey sequences, place relationships, distances stated in scripture, regional groupings. Display the data, not artistic renderings.
