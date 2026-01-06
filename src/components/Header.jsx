@@ -156,6 +156,7 @@ function Header() {
           <option value="dailylife">🏠 Daily Life</option>
           <option value="archaeology">🏺 Archaeology</option>
           <option value="definitions">📖 Definitions</option>
+          <option value="topical">🔍 Topical Study</option>
         </select>
         <button
           className="clear-btn"

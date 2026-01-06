@@ -1175,6 +1175,150 @@ body {
     text-decoration: underline;
 }
 
+/* ========== TOPICAL STUDY ========== */
+.topical-section {
+    border-bottom: 1px solid #eee;
+}
+
+.topical-section-header {
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: var(--font-sm);
+    color: #666;
+    background: #f5f5f5;
+    border-bottom: 1px solid #eee;
+}
+
+.topical-toggle {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.topical-toggle:hover {
+    background: #eeeeee;
+}
+
+.topical-cluster {
+    border-bottom: 1px solid #eee;
+}
+
+.topical-cluster-header {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.15s;
+}
+
+.topical-cluster-header:hover {
+    background: #f5f5f0;
+}
+
+.topical-cluster-name {
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+}
+
+.topical-cluster-count {
+    font-size: var(--font-xs);
+    color: #888;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.topical-cluster-content {
+    padding: 10px 15px 15px 30px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+}
+
+.topical-cluster-desc {
+    font-size: var(--font-sm);
+    color: #666;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.topical-section-title {
+    font-size: var(--font-sm);
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.topical-terms-section {
+    margin-bottom: 15px;
+}
+
+.topical-terms-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.topical-term-chip {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    min-width: 100px;
+}
+
+.topical-term-chip:hover {
+    background: #f3e5f5;
+    border-color: #ce93d8;
+}
+
+.topical-term-original {
+    font-size: var(--font-md);
+    font-weight: 500;
+    color: #7b1fa2;
+}
+
+.topical-term-gloss {
+    font-size: var(--font-sm);
+    color: #333;
+}
+
+.topical-term-strong {
+    font-size: var(--font-xs);
+    color: #888;
+    margin-top: 2px;
+}
+
+.topical-verses-section {
+    margin-top: 12px;
+}
+
+.topical-verses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.topical-verse-link {
+    font-size: var(--font-sm);
+    color: #1565c0;
+    background: #e3f2fd;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.topical-verse-link:hover {
+    background: #bbdefb;
+}
+
 /* ========== CONVERTER ========== */
 .converter-input-section {
     padding: 15px;

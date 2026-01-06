@@ -1,6 +1,33 @@
 # Bible Reader - Handoff Notes
 
-## Latest Session Summary (Jan 1, 2025)
+## Latest Session Summary (Jan 5, 2025)
+
+**Completed:**
+- Added Definitions column with 67 scripture-defined terms
+  - Categories: Salvation (19), God's Nature (12), Character (9), I AM Statements (7), This Is... (7), Sin & Salvation (5), Wisdom (5), Commands (3)
+  - Each term grounded in Strong's number with original language
+  - Clickable Strong's numbers → opens Strong's column
+  - Clickable verse refs → navigates to verse
+
+- Added Topical Study column with 23 discovered clusters
+  - 20 curated theological clusters (Grace/Faith/Salvation, Love/Mercy/Compassion, Sin/Iniquity, etc.)
+  - 3 algorithmically discovered clusters from co-occurrence analysis
+  - Each cluster shows Strong's terms + shared verses
+  - Clickable terms → opens Strong's column
+  - Script at `scripts/analyze_topics.py` for regenerating clusters
+
+- **Added Strong's Corrections Layer** (critical data quality fix)
+  - Discovered upstream STEPBible TTESV data has word-level alignment errors
+  - Example: H1697 (davar=word) incorrectly mapped to English "of" in Gen 12:17
+  - Created `public/data/strongs_corrections.json` with 1,878 tag removals across 1,362 verses
+  - Corrections applied on load via `applyStrongsCorrections()` in dataLoader.js
+  - Principle: "If it cannot be confirmed, validated, or evidenced - remove it"
+  - Content Strong's checked: H1697, H3068, H0430, H0776, H1004, H3117, H5971, H4428, H1121, H0802, H0376, H3027, H5869, H3820, H8034, H1870, H6440, H7200, H8085, H5414
+  - Function words flagged: of, the, a, an, in, on, to, for, and, or, but, with, by, from, at, as, is, was, be, are, were, it, he, she, they, his, her, its, their, this, that, these, those
+
+---
+
+## Previous Session Summary (Jan 1, 2025)
 
 **Completed:**
 - Added Archaeology column with 44 discoveries across 4 categories:
@@ -13,8 +40,8 @@
 - Added Ancient Religions column with 13 religions (see previous session)
 
 **Remaining Tasks:**
-1. Definitions - Let scripture define scripture
-2. Topical Study - Strong's co-occurrence clustering (detailed plan in this file)
+1. ~~Definitions - Let scripture define scripture~~ ✓ DONE
+2. ~~Topical Study - Strong's co-occurrence clustering~~ ✓ DONE
 
 ---
 
@@ -182,12 +209,15 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - **Ancient Religions** - 13 religions: Mesopotamian (Sumerian, Babylonian, Assyrian), Egyptian, Canaanite (Baal, Phoenician), Neighbors (Philistine, Moabite, Ammonite, Edomite), Greco-Roman (Greek, Roman), Persian (Zoroastrianism)
 - **Daily Life** - 32 topics: occupations (10), food (5), clothing (4), housing (2), family (3), commerce (2), agriculture (3), crafts (3)
 - **Archaeology** - 44 discoveries: excavated sites (15), artifacts (11), manuscripts (10), inscriptions (8)
+- **Definitions** - 67 scripture-defined terms grounded in Strong's numbers (Salvation, God's Nature, Character, I AM Statements, This Is..., Sin & Salvation, Wisdom, Commands)
+- **Topical Study** - 23 clusters discovered through Strong's co-occurrence analysis (20 curated theological + 3 algorithmically discovered)
+- **Strong's Corrections Layer** - 1,878 upstream data quality fixes removing unevidenced word-level alignments
 
 ### NOT YET IMPLEMENTED
 
 #### Advanced Study
-- **Definitions** - Let scripture define scripture (show all verses where term appears)
-- **Topical Study** - Bottom-up Strong's co-occurrence clustering (see detailed plan below)
+- ~~**Definitions** - Let scripture define scripture~~ ✓ DONE (67 terms)
+- ~~**Topical Study** - Bottom-up Strong's co-occurrence clustering~~ ✓ DONE (23 clusters)
 
 ### Questions Section
 Exhaustive catalogue of questions answered with fact and evidence:
@@ -264,6 +294,9 @@ All categories implemented:
 - `daily_life.json` - 32 daily life topics across 8 categories (occupations, food, clothing, housing, family, commerce, agriculture, crafts)
 - `archaeology.json` - 44 archaeological discoveries across 4 categories (sites, artifacts, manuscripts, inscriptions)
 - `question_master_list.md` - Master list of 1,055 questions across 25 categories (pending implementation)
+- `definitions.json` - 67 scripture-defined terms grounded in Strong's numbers
+- `topical_clusters.json` - 23 topic clusters discovered through Strong's co-occurrence analysis
+- `strongs_corrections.json` - 1,878 corrections to upstream STEPBible word-level tagging errors
 
 Bible Reader — Questions & Evidence Model (Agent Handoff)
 Core Rule

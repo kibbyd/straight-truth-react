@@ -10,6 +10,41 @@ async function fetchJSON(filename) {
   return response.json()
 }
 
+// Apply corrections to Strong's word-level tagging
+function applyStrongsCorrections(strongs, corrections) {
+  if (!corrections?.corrections || !strongs?.verses) return strongs
+
+  const correctedStrongs = { ...strongs, verses: { ...strongs.verses } }
+
+  for (const [verseId, correction] of Object.entries(corrections.corrections)) {
+    if (!correctedStrongs.verses[verseId]) continue
+
+    let verseTags = [...correctedStrongs.verses[verseId]]
+
+    // Remove incorrect tags
+    if (correction.remove) {
+      for (const removal of correction.remove) {
+        verseTags = verseTags.filter(
+          tag => !(tag.pos === removal.pos && tag.strong === removal.strong)
+        )
+      }
+    }
+
+    // Add correct tags
+    if (correction.add) {
+      for (const addition of correction.add) {
+        verseTags.push({ pos: addition.pos, strong: addition.strong })
+      }
+      // Sort by position
+      verseTags.sort((a, b) => a.pos - b.pos)
+    }
+
+    correctedStrongs.verses[verseId] = verseTags
+  }
+
+  return correctedStrongs
+}
+
 export async function loadAllData() {
   // Load all files in parallel
   const [
@@ -40,7 +75,9 @@ export async function loadAllData() {
     ancientReligions,
     dailyLife,
     archaeology,
-    definitions
+    definitions,
+    topicalClusters,
+    strongsCorrections
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -69,15 +106,20 @@ export async function loadAllData() {
     fetchJSON('ancient_religions.json'),
     fetchJSON('daily_life.json'),
     fetchJSON('archaeology.json'),
-    fetchJSON('definitions.json')
+    fetchJSON('definitions.json'),
+    fetchJSON('topical_clusters.json'),
+    fetchJSON('strongs_corrections.json')
   ])
 
   // Process cross-references from connections
   const crossRefs = connections.connections || {}
 
+  // Apply Strong's corrections
+  const correctedStrongs = applyStrongsCorrections(strongs, strongsCorrections)
+
   return {
     verses,
-    strongs,
+    strongs: correctedStrongs,
     crossRefs,
     quotations: quotations.quotations || [],
     kings: kings.kings || [],
@@ -113,6 +155,7 @@ export async function loadAllData() {
     ancientReligions: ancientReligions.religions || [],
     dailyLife: dailyLife.items || [],
     archaeology: archaeology.items || [],
-    definitions: definitions.definitions || []
+    definitions: definitions.definitions || [],
+    topicalClusters: topicalClusters.clusters || []
   }
 }
