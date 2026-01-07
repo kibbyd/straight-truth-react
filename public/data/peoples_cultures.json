@@ -1847,6 +1847,105 @@
         {"event": "Insulted as Samaritan", "reference": "Joh.8.48", "summary": "Jews to Jesus: 'Are we not right that you are a Samaritan and have a demon?'"}
       ],
       "references": ["2Ki.17.24-41", "Ezr.4.1-5", "Neh.4.1-2", "Luk.9.51-56", "Luk.10.25-37", "Luk.17.11-19", "Joh.4.1-42", "Joh.8.48", "Act.1.8", "Act.8.4-25"]
+    },
+    {
+      "id": "sojourners",
+      "name": "Sojourners and Foreigners",
+      "category": "subclasses",
+      "region": "Israel",
+      "period": "Throughout biblical times",
+      "description": "Non-Israelites living in Israel. The Hebrew word 'ger' (H1616) appears throughout the Law. They had a distinct legal status—protected by law. Israel was commanded to treat them well because 'you were sojourners in Egypt' (Exo 22:21).",
+      "biblical_role": "A major category in Israelite law. Sojourners could participate in Passover if circumcised, benefit from gleaning laws, receive fair wages, and find refuge in cities of refuge. Mistreating them brought God's curse.",
+      "worldview": {
+        "remembered_experience": "Israel's own experience as foreigners in Egypt shaped their laws. 'You know the heart of a sojourner, for you were sojourners' (Exo 23:9).",
+        "legal_protection": "Same law applied to sojourner and native-born (Lev 24:22). Courts must judge fairly regardless of origin.",
+        "religious_inclusion": "Sojourners could offer sacrifices, keep Sabbath, observe festivals, and join the covenant community through circumcision."
+      },
+      "social_structure": {
+        "legal_status": "Had specific rights under Torah law: same law applied to native and sojourner (Lev 24:22), could join Israel through circumcision (Exo 12:48).",
+        "economic_position": "Could be hired workers—the Law commands paying their wages the same day (Deu 24:14). Could glean in fields alongside widows and orphans.",
+        "path_to_inclusion": "Male sojourners could be circumcised and fully join Israel, participating in Passover and becoming 'like a native' (Exo 12:48-49)."
+      },
+      "customs": {
+        "sabbath_rest": "Sojourners rested on Sabbath along with Israelites and their animals (Exo 20:10).",
+        "gleaning_rights": "Could gather grain left at edges of fields and fallen fruit from orchards (Lev 19:10, 23:22).",
+        "tithe_provision": "Every third year, the tithe was shared with Levites, sojourners, orphans, and widows (Deu 14:28-29)."
+      },
+      "key_interactions": [
+        {"event": "Abraham as sojourner", "reference": "Gen.23.4", "summary": "Abraham to Hittites: 'I am a sojourner and foreigner among you.' Buys burial cave for Sarah."},
+        {"event": "Israel in Egypt", "reference": "Exo.22.21", "summary": "'You shall not wrong a sojourner or oppress him, for you were sojourners in the land of Egypt.'"},
+        {"event": "One law for all", "reference": "Lev.24.22", "summary": "'You shall have the same rule for the sojourner and for the native, for I am the LORD your God.'"},
+        {"event": "Love the sojourner", "reference": "Deu.10.18-19", "summary": "God 'loves the sojourner, giving him food and clothing. Love the sojourner therefore, for you were sojourners.'"},
+        {"event": "Ruth the Moabite", "reference": "Rut.2.10", "summary": "Ruth: 'Why have I found favor, since I am a foreigner?' Boaz: 'All you have done for your mother-in-law has been told me.'"},
+        {"event": "Sojourners build Temple", "reference": "2Ch.2.17-18", "summary": "Solomon counts 153,600 sojourners in Israel. They carry loads and cut stone for the Temple."},
+        {"event": "No longer strangers", "reference": "Eph.2.19", "summary": "Paul to Gentile believers: 'You are no longer strangers and sojourners, but fellow citizens with the saints.'"}
+      ],
+      "references": ["Gen.23.4", "Exo.12.48-49", "Exo.20.10", "Exo.22.21", "Exo.23.9", "Lev.19.10", "Lev.19.33-34", "Lev.24.22", "Deu.10.18-19", "Deu.14.28-29", "Deu.24.14", "Deu.24.17", "Deu.27.19", "Rut.2.10", "2Ch.2.17-18", "Psa.146.9", "Jer.7.6", "Eze.22.7", "Zec.7.10", "Mal.3.5", "Eph.2.19", "Heb.11.13", "1Pe.2.11"]
+    },
+    {
+      "id": "eunuchs",
+      "name": "Eunuchs",
+      "category": "subclasses",
+      "region": "Ancient Near East, Israel, and Roman Empire",
+      "period": "Throughout biblical times",
+      "description": "Men who were castrated, often to serve in royal courts guarding harems or holding administrative positions. Jesus identified three types: born that way, made eunuchs by others, and those who chose celibacy for the kingdom. Initially excluded from Israel's assembly, Isaiah promised them a future place.",
+      "biblical_role": "Eunuchs served in foreign courts—the Hebrew word 'saris' appears frequently for royal officials. The Law excluded them from the assembly, but Isaiah prophesied their inclusion. The Ethiopian eunuch was an early convert in Acts.",
+      "worldview": {
+        "court_function": "Kings trusted eunuchs because they couldn't start rival dynasties. They guarded women's quarters and often rose to high positions.",
+        "exclusion_and_promise": "Deuteronomy 23:1 excluded them from the assembly. But Isaiah 56:3-5 promised eunuchs who keep God's covenant 'a name better than sons and daughters.'",
+        "three_types": "Jesus identified eunuchs born that way, made eunuchs by others, and those who 'made themselves eunuchs for the kingdom of heaven' (Mat 19:12)."
+      },
+      "social_structure": {
+        "royal_servants": "Served kings as officials, guardians, and administrators. The Hebrew 'saris' can mean 'eunuch' or 'court official'—context determines which.",
+        "high_positions": "Could reach powerful positions—the Ethiopian eunuch was treasurer of the queen.",
+        "social_stigma": "Unable to have children, they couldn't continue their family line—a serious matter in ancient culture."
+      },
+      "customs": {
+        "court_roles": "Guarded harems, served as chamberlains, held administrative posts. Trusted with access to royal women.",
+        "religious_exclusion": "Under Mosaic law, could not 'enter the assembly of the LORD' (Deu 23:1).",
+        "prophetic_reversal": "Isaiah promised faithful eunuchs 'a monument and a name' in God's house—better than children."
+      },
+      "key_interactions": [
+        {"event": "Exclusion from assembly", "reference": "Deu.23.1", "summary": "'No one whose testicles are crushed or whose male organ is cut off shall enter the assembly of the LORD.'"},
+        {"event": "Promise to eunuchs", "reference": "Isa.56.3-5", "summary": "'To the eunuchs who keep my covenant, I will give a monument and a name better than sons and daughters.'"},
+        {"event": "Eunuchs throw Jezebel", "reference": "2Ki.9.32-33", "summary": "Jehu calls to eunuchs in window: 'Throw her down.' They throw Jezebel out; she dies."},
+        {"event": "Ebed-melech rescues Jeremiah", "reference": "Jer.38.7-13", "summary": "Ebed-melech the Ethiopian eunuch tells the king Jeremiah will die in the cistern. King orders him to pull Jeremiah out."},
+        {"event": "Jesus on eunuchs", "reference": "Mat.19.12", "summary": "'There are eunuchs born so, made eunuchs by men, and eunuchs for the kingdom of heaven. Let the one who can accept this accept it.'"},
+        {"event": "Ethiopian eunuch baptized", "reference": "Act.8.26-39", "summary": "Ethiopian eunuch, treasurer of the queen, reading Isaiah on the road. Philip explains; eunuch believes and is baptized."}
+      ],
+      "references": ["Deu.23.1", "2Ki.9.32-33", "2Ki.20.18", "Est.2.3", "Est.2.14-15", "Est.4.5", "Isa.56.3-5", "Jer.29.2", "Jer.38.7-13", "Mat.19.12", "Act.8.26-39"]
+    },
+    {
+      "id": "beggars",
+      "name": "Beggars",
+      "category": "subclasses",
+      "region": "Israel and Roman Empire",
+      "period": "Throughout biblical times",
+      "description": "People who asked others for money or food. Scripture records beggars who were blind, lame, or sick, stationed at temple gates and roadsides.",
+      "biblical_role": "Beggars appear in key moments: blind Bartimaeus called out to Jesus despite being told to be quiet. The beggar Lazarus contrasted with the rich man. The lame beggar at the Beautiful Gate was healed by Peter and John.",
+      "worldview": {
+        "locations": "Scripture records beggars at temple gates (Act 3:2) and roadsides (Mar 10:46, Luk 18:35).",
+        "persistence": "Bartimaeus 'cried out all the more' when told to be quiet (Mar 10:48). The lame man 'asked for alms' from Peter and John (Act 3:3).",
+        "expectation": "When Peter looked at the lame man, 'he fixed his attention on them, expecting to receive something' (Act 3:5)."
+      },
+      "social_structure": {
+        "status": "Dependent on what others gave. Lazarus 'desired to be fed with what fell from the rich man's table' (Luk 16:21).",
+        "disability_connection": "Scripture records beggars as blind (Mar 10:46, Joh 9:8), lame (Act 3:2), or sick (Luk 16:20).",
+        "almsgiving": "The Law commanded generosity to the poor (Deu 15:7-11). 'Blessed is the one who considers the poor' (Psa 41:1)."
+      },
+      "customs": {
+        "strategic_positioning": "The lame man was 'laid daily at the gate of the temple' to ask alms (Act 3:2).",
+        "calling_out": "Beggars called out to passersby. Bartimaeus shouted 'Jesus, Son of David, have mercy on me!' (Mar 10:47).",
+        "alms_expectation": "Beggars looked up expecting something. 'Silver and gold I do not have, but what I do have I give you' (Act 3:6)."
+      },
+      "key_interactions": [
+        {"event": "Blind Bartimaeus", "reference": "Mar.10.46-52", "summary": "Blind beggar by the roadside cries out to Jesus. Crowd tells him to be quiet. Jesus heals him; 'your faith has made you well.'"},
+        {"event": "Rich man and Lazarus", "reference": "Luk.16.19-31", "summary": "Beggar Lazarus lay at rich man's gate, covered with sores, longing for scraps. Dogs licked his sores. Both die—fortunes reversed."},
+        {"event": "Man born blind", "reference": "Joh.9.1-8", "summary": "Disciples ask whose sin caused his blindness. Jesus: 'Neither—that God's works might be displayed.' Heals him. Neighbors say 'Is this not the one who sat and begged?'"},
+        {"event": "Lame beggar healed", "reference": "Act.3.1-10", "summary": "Lame from birth, carried daily to Beautiful Gate to beg. Peter: 'I have no silver or gold, but in Jesus' name, walk.' He leaps up, walks, enters temple praising God."},
+        {"event": "Blind beggar at Jericho", "reference": "Luk.18.35-43", "summary": "Blind man begging by road hears crowd, asks what's happening. Told 'Jesus of Nazareth is passing by.' Cries out; healed."}
+      ],
+      "references": ["1Sa.2.8", "Psa.109.10", "Mar.10.46-52", "Luk.16.19-31", "Luk.18.35-43", "Joh.9.1-8", "Act.3.1-10"]
     }
   ]
 }

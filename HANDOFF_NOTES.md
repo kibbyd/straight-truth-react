@@ -206,7 +206,7 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 - **Timelines** - ~223 chronological entries (lifespans, reigns, periods, events, journeys, building projects) ⚠️ incomplete
 - **Maps & Geography** - 68 maps with zoom/pan modal viewer (journeys, kingdoms, empires, temple plans) ⚠️ incomplete
 - **Parallel Passages** - 214 parallel passage sets with 2+ accounts (Identical, Samuel/Chronicles, Kings/Chronicles, Synoptic Gospels)
-- **Peoples & Cultures** - 51 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs, 11 social subclasses (tax collectors, shepherds, lepers, etc.) ⚠️ 1 missing
+- **Peoples & Cultures** - 54 entries: Israelites, Jews, 18 foreign peoples, 9 religious/political groups, 12 customs, 13 social subclasses (tax collectors, shepherds, lepers, sojourners, eunuchs, beggars, etc.)
 - **Ancient Religions** - 13 religions: Mesopotamian (Sumerian, Babylonian, Assyrian), Egyptian, Canaanite (Baal, Phoenician), Neighbors (Philistine, Moabite, Ammonite, Edomite), Greco-Roman (Greek, Roman), Persian (Zoroastrianism)
 - **Daily Life** - 32 topics: occupations (10), food (5), clothing (4), housing (2), family (3), commerce (2), agriculture (3), crafts (3)
 - **Archaeology** - 44 discoveries: excavated sites (15), artifacts (11), manuscripts (10), inscriptions (8)
@@ -243,8 +243,6 @@ When text contains inline references like `(Gen 32:28)` or `(Deu 7:7-8)`, these 
 #### Incomplete Data (from Jan 5 audit)
 - **Timelines** - Currently ~223 entries, HANDOFF claimed 350+ (~127 short)
 - **OT→NT Quotations** - Currently 236, scholarly consensus ~300-400 direct quotes
-- **Festivals** - Currently 12, HANDOFF claimed 14 (2 missing)
-- **Peoples/Cultures** - Currently 51, HANDOFF claimed 52 (1 missing)
 
 ### Questions Section
 Exhaustive catalogue of questions answered with fact and evidence:
@@ -310,13 +308,13 @@ All categories implemented:
 - `names_of_god.json` - 24 Hebrew/Greek names with Strong's links
 - `ot_nt_quotations.json` - 236 OT passages quoted in NT
 - `covenants.json` - 11 biblical covenants with terms and references
-- `festivals.json` - 12 sacred times with Hebrew calendar ⚠️ 2 missing (claimed 14)
+- `festivals.json` - 14 sacred times with Hebrew calendar (12 Torah-mandated + 2 post-exilic)
 - `family_trees.json` - 150+ persons from Adam to Jesus with genealogical connections
 - `biblical_measures.json` - 49 biblical units with modern equivalents (length, volume, weight, currency, time, area)
 - `timelines.json` - ~223 chronological entries (lifespans, reigns, periods, events, journeys, building projects) ⚠️ incomplete
 - `maps.json` - 68 biblical maps organized by category (journeys, kingdoms, empires, periods, temple plans) ⚠️ 6 missing
 - `parallel_passages.json` - 214 parallel passage sets with 2+ accounts (identical, samuel/chronicles, kings/chronicles, synoptic gospels)
-- `peoples_cultures.json` - 51 entries: peoples, religious groups, customs, and social subclasses organized by category ⚠️ 1 missing
+- `peoples_cultures.json` - 54 entries: peoples, religious groups, customs, and social subclasses organized by category
 - `ancient_religions.json` - 13 ancient religions with pantheons, practices, worldviews, and biblical interactions
 - `daily_life.json` - 32 daily life topics across 8 categories (occupations, food, clothing, housing, family, commerce, agriculture, crafts)
 - `archaeology.json` - 44 archaeological discoveries across 4 categories (sites, artifacts, manuscripts, inscriptions)
