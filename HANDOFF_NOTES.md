@@ -195,6 +195,34 @@ Word (rhema) - G4487 - spoken word/utterance
 #### Data Quality
 - **Timelines** - Currently ~223 entries, should be 350+
 - **OT→NT Quotations** - Currently 236, scholarly consensus ~300-400
+- **KJV Strong's Validation** - Use KJV Strong's data to validate/correct Berean alignment errors
+
+### KJV Strong's Reference Data (Acquired Jan 11, 2025)
+
+**Source:** https://github.com/kaiserlik/kjv
+**Location:** `data_sources/kjv/`
+
+**Purpose:** KJV is the original Strong's reference text. Use as ground truth to validate our Berean-based alignment and identify upstream Berean errors.
+
+**Data format:**
+```
+"Gen|1|2": {
+  "en": "And the earth[H776] was[H1961] without form,[H8414] and void;[H922]..."
+}
+```
+- Strong's inline with words: `word[H####]`
+- Multiple Strong's per word: `created[H1254][H853]`
+- Italicized words (translator additions): `<em>was</em>`
+
+**Files:**
+- 66 book JSON files (Gen.json, Mat.json, etc.)
+- `lexicon.json` - Strong's Hebrew/Greek definitions
+
+**Validation approach:**
+1. Parse KJV inline Strong's to extract word→Strong's mappings
+2. Compare against our ESV alignment for same verses
+3. Flag mismatches where Berean source differs from KJV Strong's
+4. Manual review of flagged verses to determine correct alignment
 
 #### Advanced Study Features
 - **Manuscript Evidence** - Which manuscripts contain which verses, textual variants
@@ -222,6 +250,13 @@ Word (rhema) - G4487 - spoken word/utterance
 | `definitions.json` | 67 scripture-defined terms |
 | `topical_clusters.json` | OLD - deprecated, do not use |
 | Other data files | See Feature Status above |
+
+### External Data Sources
+
+| Location | Description |
+|----------|-------------|
+| `data_sources/berean/bsb_tables.xlsx` | Berean Standard Bible interlinear (source for alignment) |
+| `data_sources/kjv/*.json` | KJV with inline Strong's (gold standard for validation) |
 
 ---
 

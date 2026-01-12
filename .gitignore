@@ -38,3 +38,5 @@ nul
 # Temporary map staging folders
 possibles/
 zips/
+tmpclaude-*
+data_sources/
