@@ -77,6 +77,7 @@ export async function loadAllData() {
     archaeology,
     definitions,
     topicalClusters,
+    topicalIndex,
     strongsCorrections
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
@@ -108,6 +109,7 @@ export async function loadAllData() {
     fetchJSON('archaeology.json'),
     fetchJSON('definitions.json'),
     fetchJSON('topical_clusters.json'),
+    fetchJSON('topical_index.json'),
     fetchJSON('strongs_corrections.json')
   ])
 
@@ -156,6 +158,7 @@ export async function loadAllData() {
     dailyLife: dailyLife.items || [],
     archaeology: archaeology.items || [],
     definitions: definitions.definitions || [],
-    topicalClusters: topicalClusters.clusters || []
+    topicalClusters: topicalClusters.clusters || [],
+    topicalIndex: topicalIndex.topics || []
   }
 }

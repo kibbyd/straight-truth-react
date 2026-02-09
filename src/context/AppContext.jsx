@@ -38,7 +38,8 @@ export function AppProvider({ children }) {
     dailyLife: [],
     archaeology: [],
     definitions: [],
-    topicalClusters: []
+    topicalClusters: [],
+    topicalIndex: []
   })
 
   // Lookup sets for O(1) entity checking
