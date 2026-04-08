@@ -1,0 +1,323 @@
+{
+  "summary": {
+    "original_mappings": 297759,
+    "validated_mappings": 223930,
+    "recovered_mappings": 38424,
+    "final_mappings": 262354,
+    "still_dropped": 35405,
+    "recovery_rate_of_drops": 52.0,
+    "final_vs_original_pct": 88.1,
+    "verses_before": 30640,
+    "verses_after": 30696,
+    "verses_gained": 56
+  },
+  "recovery_reasons": {
+    "strong_cross_verse_plus_evidence": 29009,
+    "high_cross_verse": 4810,
+    "gloss_match_with_support": 4605
+  },
+  "top_unrecovered_strongs": [
+    {
+      "strong": "H3808",
+      "gloss": "not",
+      "count": 3754
+    },
+    {
+      "strong": "H5921",
+      "gloss": "upon",
+      "count": 3679
+    },
+    {
+      "strong": "H0413",
+      "gloss": "to(wards)",
+      "count": 3450
+    },
+    {
+      "strong": "H0834",
+      "gloss": "which",
+      "count": 1681
+    },
+    {
+      "strong": "G1510",
+      "gloss": "to be",
+      "count": 1654
+    },
+    {
+      "strong": "H1961",
+      "gloss": "to be",
+      "count": 1578
+    },
+    {
+      "strong": "H0853",
+      "gloss": "[obj.]",
+      "count": 1295
+    },
+    {
+      "strong": "G3588",
+      "gloss": "the/this/who",
+      "count": 1279
+    },
+    {
+      "strong": "H3605",
+      "gloss": "all",
+      "count": 860
+    },
+    {
+      "strong": "G1473",
+      "gloss": "i/we",
+      "count": 703
+    },
+    {
+      "strong": "H1931",
+      "gloss": "he/she/it",
+      "count": 693
+    },
+    {
+      "strong": "H0408",
+      "gloss": "not",
+      "count": 585
+    },
+    {
+      "strong": "H3588",
+      "gloss": "for",
+      "count": 567
+    },
+    {
+      "strong": "H5704",
+      "gloss": "till",
+      "count": 542
+    },
+    {
+      "strong": "H0369",
+      "gloss": "nothing",
+      "count": 501
+    },
+    {
+      "strong": "H8033",
+      "gloss": "there",
+      "count": 475
+    },
+    {
+      "strong": "H4480",
+      "gloss": "from",
+      "count": 403
+    },
+    {
+      "strong": "G4771",
+      "gloss": "you",
+      "count": 376
+    },
+    {
+      "strong": "H1571",
+      "gloss": "also",
+      "count": 357
+    },
+    {
+      "strong": "H5973",
+      "gloss": "with",
+      "count": 337
+    },
+    {
+      "strong": "H2088",
+      "gloss": "this",
+      "count": 309
+    },
+    {
+      "strong": "H3651",
+      "gloss": "right",
+      "count": 307
+    },
+    {
+      "strong": "H0518",
+      "gloss": "if",
+      "count": 306
+    },
+    {
+      "strong": "H0859",
+      "gloss": "you(m.s.)",
+      "count": 286
+    },
+    {
+      "strong": "G3778",
+      "gloss": "this/he/she/it",
+      "count": 258
+    },
+    {
+      "strong": "H8478",
+      "gloss": "underneath: under",
+      "count": 239
+    },
+    {
+      "strong": "H0854",
+      "gloss": "with",
+      "count": 213
+    },
+    {
+      "strong": "G3708",
+      "gloss": "to see: see",
+      "count": 211
+    },
+    {
+      "strong": "H4616",
+      "gloss": "because",
+      "count": 201
+    },
+    {
+      "strong": "H3541",
+      "gloss": "thus",
+      "count": 197
+    }
+  ],
+  "top_recovered_strongs": [
+    {
+      "strong": "G3588",
+      "gloss": "the/this/who",
+      "count": 7189
+    },
+    {
+      "strong": "H3605",
+      "gloss": "all",
+      "count": 3294
+    },
+    {
+      "strong": "H3588",
+      "gloss": "for",
+      "count": 2467
+    },
+    {
+      "strong": "G4771",
+      "gloss": "you",
+      "count": 1866
+    },
+    {
+      "strong": "G1473",
+      "gloss": "i/we",
+      "count": 1023
+    },
+    {
+      "strong": "H0834",
+      "gloss": "which",
+      "count": 841
+    },
+    {
+      "strong": "H0859",
+      "gloss": "you(m.s.)",
+      "count": 684
+    },
+    {
+      "strong": "H0589",
+      "gloss": "i",
+      "count": 618
+    },
+    {
+      "strong": "H4100",
+      "gloss": "what?",
+      "count": 538
+    },
+    {
+      "strong": "H1931",
+      "gloss": "he/she/it",
+      "count": 534
+    },
+    {
+      "strong": "H1980",
+      "gloss": "to go: went",
+      "count": 534
+    },
+    {
+      "strong": "H2088",
+      "gloss": "this",
+      "count": 500
+    },
+    {
+      "strong": "H5973",
+      "gloss": "with",
+      "count": 448
+    },
+    {
+      "strong": "H0518",
+      "gloss": "if",
+      "count": 398
+    },
+    {
+      "strong": "H3068",
+      "gloss": "lord",
+      "count": 381
+    },
+    {
+      "strong": "G3778",
+      "gloss": "this/he/she/it",
+      "count": 367
+    },
+    {
+      "strong": "H4480",
+      "gloss": "from",
+      "count": 364
+    },
+    {
+      "strong": "H0428",
+      "gloss": "these",
+      "count": 352
+    },
+    {
+      "strong": "H1961",
+      "gloss": "to be",
+      "count": 350
+    },
+    {
+      "strong": "H0854",
+      "gloss": "with",
+      "count": 330
+    },
+    {
+      "strong": "H2063",
+      "gloss": "this",
+      "count": 310
+    },
+    {
+      "strong": "H0595",
+      "gloss": "i",
+      "count": 267
+    },
+    {
+      "strong": "H5704",
+      "gloss": "till",
+      "count": 265
+    },
+    {
+      "strong": "H2009",
+      "gloss": "behold",
+      "count": 249
+    },
+    {
+      "strong": "H4310",
+      "gloss": "who?",
+      "count": 244
+    },
+    {
+      "strong": "H0776",
+      "gloss": "land: country/planet",
+      "count": 232
+    },
+    {
+      "strong": "H0176",
+      "gloss": "or",
+      "count": 225
+    },
+    {
+      "strong": "H0413",
+      "gloss": "to(wards)",
+      "count": 219
+    },
+    {
+      "strong": "G0846",
+      "gloss": "it/s/he",
+      "count": 206
+    },
+    {
+      "strong": "H6258",
+      "gloss": "now",
+      "count": 205
+    }
+  ]
+}
