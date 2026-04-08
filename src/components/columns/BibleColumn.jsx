@@ -91,15 +91,63 @@ function BibleColumn({ columnId, data }) {
     return upper
   }
 
+  // Match Strong's entries to ESV words by gloss, not Berean position
+  const buildGlossMap = useCallback((verseId) => {
+    const strongsData = getStrongsForVerse(verseId)
+    if (!strongsData.length) return {}
+
+    const lexicon = appData.strongs.lexicon
+    // Map: wordIndex -> strongsEntry
+    const map = {}
+    // Track which Strong's entries have been claimed
+    const claimed = new Set()
+
+    // Get ESV words
+    const text = appData.verses.find(v =>
+      `${v.book}.${v.chapter}.${v.verse}` === verseId
+    )?.text || ''
+    const esvWords = text.split(/\s+/)
+
+    // For each Strong's entry, find the ESV word that matches its gloss
+    for (const entry of strongsData) {
+      const sn = entry.strong.toUpperCase()
+      const lex = lexicon?.[sn]
+      if (!lex) continue
+
+      const gloss = lex.gloss?.toLowerCase() || ''
+      // Split multi-word glosses (e.g., "to walk" -> ["to", "walk"])
+      const glossWords = gloss.split(/\s+/).filter(Boolean)
+
+      let matched = false
+      for (const gw of glossWords) {
+        // Find first unclaimed ESV word matching this gloss word
+        for (let wi = 0; wi < esvWords.length; wi++) {
+          if (map[wi]) continue // already claimed
+          const clean = esvWords[wi].replace(/[.,;:!?'"]/g, '').toLowerCase()
+          if (clean === gw || clean === gw + 's' || clean === gw + 'ed' ||
+              clean === gw + 'ing' || clean === gw + 'es' ||
+              (gw.endsWith('e') && clean === gw + 'd') ||
+              (gw.endsWith('y') && clean === gw.slice(0, -1) + 'ies')) {
+            map[wi] = entry
+            matched = true
+            break
+          }
+        }
+        if (matched) break
+      }
+    }
+
+    return map
+  }, [getStrongsForVerse, appData.strongs.lexicon, appData.verses])
+
   // Render verse text — two modes:
-  // Normal: inline text with clickable Strong's words
+  // Normal: inline text with clickable Strong's words (gloss-matched)
   // Interlinear: grid of word columns, English on top, transliteration below
   const renderVerse = useCallback((text, verseId) => {
-    const strongsData = getStrongsForVerse(verseId)
-    const words = text.split(/(\s+)/)
     const lexicon = appData.strongs.lexicon
+    const glossMap = buildGlossMap(verseId)
+    const words = text.split(/(\s+)/)
 
-    // Build word cells
     const cells = []
     let wordIndex = 0
 
@@ -107,8 +155,7 @@ function BibleColumn({ columnId, data }) {
       const word = words[i]
       if (/^\s+$/.test(word)) continue
 
-      const strongsMatch = strongsData.find(s => s.pos === wordIndex)
-      wordIndex++
+      const strongsMatch = glossMap[wordIndex] || null
       const cleanWord = word.replace(/[.,;:!?'"]/g, '')
 
       let entityIcons = ''
@@ -118,7 +165,6 @@ function BibleColumn({ columnId, data }) {
       if (lookups.waterNames.has(cleanWord)) entityIcons += '💧'
       if (lookups.mountainNames.has(cleanWord)) entityIcons += '⛰️'
 
-      // Look up transliteration if showing original
       let translit = null
       if (showOriginal && strongsMatch) {
         const sn = strongsMatch.strong.toUpperCase()
@@ -130,7 +176,6 @@ function BibleColumn({ columnId, data }) {
         normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
 
       if (showOriginal) {
-        // Interlinear mode: each word is a column cell
         cells.push(
           <span
             key={i}
@@ -152,7 +197,6 @@ function BibleColumn({ columnId, data }) {
           </span>
         )
       } else {
-        // Normal mode: inline text
         if (strongsMatch) {
           cells.push(
             <span
@@ -179,16 +223,17 @@ function BibleColumn({ columnId, data }) {
         } else {
           cells.push(word)
         }
-        // Add space between words in normal mode
         if (i < words.length - 1) cells.push(' ')
       }
+
+      wordIndex++
     }
 
     if (showOriginal) {
       return <span className="interlinear-row">{cells}</span>
     }
     return cells
-  }, [getStrongsForVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
+  }, [buildGlossMap, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
 
   // Handle verse click
   const handleVerseClick = useCallback((verseId) => {
