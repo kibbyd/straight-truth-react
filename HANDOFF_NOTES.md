@@ -76,6 +76,7 @@ Provide masters-level biblical scholarship in layman's terms. Completely fact an
 - **Daily Life** - 32 topics across 8 categories
 - **Archaeology** - 44 discoveries across 4 categories
 - **Definitions** - 67 scripture-defined terms grounded in Strong's numbers
+- **Hebrew/Greek Interlinear Toggle** - Shows transliterated root forms under English words. Gloss-matched (not Berean position-based) — correct or absent, never wrong. Toggle button (א) in passage header.
 
 ### Removed/Deprecated
 - **Topical Study (old implementation)** - Replaced by curated Topical Index (see Features Complete)
@@ -84,9 +85,10 @@ Provide masters-level biblical scholarship in layman's terms. Completely fact an
 
 ## To Do
 
-### Data Quality — Complete
+### Data Quality — Complete (Apr 2026)
 - **Timelines** - Expanded to 380 entries (was ~223). All verse references validated against ESV dataset.
 - **OT→NT Quotations** - Rebuilt from UBS4 apparatus (Felix Just, S.J.). 225 OT sources / 301 NT references. Replaced previous mixed-source data with single authoritative scholarly source. Allusions excluded — explicit quotations only.
+- **Strong's alignment** - Berean position mapping dropped for word display. Now uses gloss-based matching (lexicon gloss matched directly against ESV words). Berean data still used for verse-level Strong's association, but word-level placement is gloss-driven.
 
 #### Advanced Study Features
 - **Manuscript Evidence** - Which manuscripts contain which verses, textual variants
@@ -95,11 +97,17 @@ Provide masters-level biblical scholarship in layman's terms. Completely fact an
 - **Entity Catalogs** - Animals, Cities, Regions, Waters, Mountains with all references
 - **Speech Attribution** - Tag every direct quote with speaker
 - **Prophecy-Fulfillment Links** - OT prophecies → NT fulfillment claims
-- **Hebrew/Greek Toggle** - Show original language alongside English
+- **Hebrew/Greek Toggle** - ✅ Done (interlinear with gloss matching). Future: improve coverage with better inflection handling
 - **Literary Structures** - Chiasms, acrostics, parallelisms
 
 #### Refactoring
 - **Remove Maps** - Replace with structured geographic data (journeys, distances from scripture)
+
+#### Journey Visualization (future — layers on Places catalog)
+- **Journey data** - Build dataset of biblical journeys: who traveled, waypoints in order, verse references per leg (e.g., Paul: Antioch → Iconium → Lystra, Acts 13-14)
+- **Map renderer** - Plot journey waypoints on a real map using place coordinates from catalog
+- **Route drawing** - Connect waypoints to show travel routes
+- Requires: places catalog (foundation), journey dataset (new), map tile source (internet-dependent)
 
 ---
 

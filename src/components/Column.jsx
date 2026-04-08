@@ -17,6 +17,7 @@ import GlossaryColumn from './columns/GlossaryColumn'
 import ConverterColumn from './columns/ConverterColumn'
 import TimelinesColumn from './columns/TimelinesColumn'
 import MapsColumn from './columns/MapsColumn'
+import PlacesColumn from './columns/PlacesColumn'
 import ParallelPassagesColumn from './columns/ParallelPassagesColumn'
 import PeoplesCulturesColumn from './columns/PeoplesCulturesColumn'
 import AncientReligionsColumn from './columns/AncientReligionsColumn'
@@ -45,6 +46,7 @@ const columnTitles = {
   converter: 'Measures & Weights',
   timelines: 'Biblical Timelines',
   maps: 'Maps & Geography',
+  places: 'Places',
   parallels: 'Parallel Passages',
   peoples: 'Peoples & Cultures',
   religions: 'Ancient Religions',
@@ -119,6 +121,8 @@ function Column({
         return <TimelinesColumn columnId={column.id} data={column.data} />
       case 'maps':
         return <MapsColumn columnId={column.id} data={column.data} />
+      case 'places':
+        return <PlacesColumn columnId={column.id} data={column.data} />
       case 'parallels':
         return <ParallelPassagesColumn columnId={column.id} data={column.data} />
       case 'peoples':
