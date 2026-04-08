@@ -1,4 +1,4 @@
-import { useMemo, useCallback, useEffect, useRef } from 'react'
+import { useMemo, useCallback, useEffect, useRef, useState } from 'react'
 import { useApp } from '../../context/AppContext'
 import { formatChapterRef } from '../../data/bibleBooks'
 
@@ -18,6 +18,7 @@ function BibleColumn({ columnId, data }) {
   const chapter = data?.chapter || 1
   const columnHighlightVerse = data?.highlightVerse || null
   const verseRefs = useRef({})
+  const [showOriginal, setShowOriginal] = useState(false)
 
   // Determine which verse to highlight - prefer column-specific, fall back to global
   const activeHighlightVerse = columnHighlightVerse || selectedVerse
@@ -90,32 +91,26 @@ function BibleColumn({ columnId, data }) {
     return upper
   }
 
-  // Highlight entities in text
-  const highlightText = useCallback((text, verseId) => {
+  // Render verse text — two modes:
+  // Normal: inline text with clickable Strong's words
+  // Interlinear: grid of word columns, English on top, transliteration below
+  const renderVerse = useCallback((text, verseId) => {
     const strongsData = getStrongsForVerse(verseId)
     const words = text.split(/(\s+)/)
-    const result = []
+    const lexicon = appData.strongs.lexicon
 
+    // Build word cells
+    const cells = []
     let wordIndex = 0
+
     for (let i = 0; i < words.length; i++) {
       const word = words[i]
+      if (/^\s+$/.test(word)) continue
 
-      // Skip whitespace
-      if (/^\s+$/.test(word)) {
-        result.push(word)
-        continue
-      }
-
-      // Increment BEFORE checking - Strong's positions are 1-indexed
-      wordIndex++
-
-      // Check for Strong's number at this position
       const strongsMatch = strongsData.find(s => s.pos === wordIndex)
-
-      // Clean word for entity matching
+      wordIndex++
       const cleanWord = word.replace(/[.,;:!?'"]/g, '')
 
-      // Check for entity matches
       let entityIcons = ''
       if (lookups.kingNames.has(cleanWord)) entityIcons += '👑'
       if (lookups.prophetNames.has(cleanWord)) entityIcons += '📜'
@@ -123,38 +118,77 @@ function BibleColumn({ columnId, data }) {
       if (lookups.waterNames.has(cleanWord)) entityIcons += '💧'
       if (lookups.mountainNames.has(cleanWord)) entityIcons += '⛰️'
 
-      if (strongsMatch) {
-        // Check if this Strong's number matches the highlighted one (normalize for format differences)
-        const isHighlighted = highlightedStrong && normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
-        result.push(
+      // Look up transliteration if showing original
+      let translit = null
+      if (showOriginal && strongsMatch) {
+        const sn = strongsMatch.strong.toUpperCase()
+        const lex = lexicon?.[sn]
+        if (lex?.translit) translit = lex.translit
+      }
+
+      const isHighlighted = strongsMatch && highlightedStrong &&
+        normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
+
+      if (showOriginal) {
+        // Interlinear mode: each word is a column cell
+        cells.push(
           <span
-            key={`${i}-strong`}
-            className={`hl strongs${isHighlighted ? ' selected' : ''}`}
-            onClick={(e) => {
-              e.stopPropagation()
-              setHighlightedStrong(null) // Clear highlight when clicking a new word
-              openStrongs(strongsMatch.strong)
-            }}
-            title={`Strong's ${strongsMatch.strong}`}
+            key={i}
+            className={`interlinear-cell${strongsMatch ? ' has-strongs' : ''}`}
           >
-            {word}
-            {entityIcons && <span className="role-icons">{entityIcons}</span>}
-          </span>
-        )
-      } else if (entityIcons) {
-        result.push(
-          <span key={i}>
-            {word}
-            <span className="role-icons">{entityIcons}</span>
+            <span
+              className={strongsMatch ? `hl strongs${isHighlighted ? ' selected' : ''}` : undefined}
+              onClick={strongsMatch ? (e) => {
+                e.stopPropagation()
+                setHighlightedStrong(null)
+                openStrongs(strongsMatch.strong)
+              } : undefined}
+              title={strongsMatch ? `Strong's ${strongsMatch.strong}` : undefined}
+            >
+              {word}
+              {entityIcons && <span className="role-icons">{entityIcons}</span>}
+            </span>
+            <span className="interlinear-translit">{translit || '\u00A0'}</span>
           </span>
         )
       } else {
-        result.push(word)
+        // Normal mode: inline text
+        if (strongsMatch) {
+          cells.push(
+            <span
+              key={`${i}-strong`}
+              className={`hl strongs${isHighlighted ? ' selected' : ''}`}
+              onClick={(e) => {
+                e.stopPropagation()
+                setHighlightedStrong(null)
+                openStrongs(strongsMatch.strong)
+              }}
+              title={`Strong's ${strongsMatch.strong}`}
+            >
+              {word}
+              {entityIcons && <span className="role-icons">{entityIcons}</span>}
+            </span>
+          )
+        } else if (entityIcons) {
+          cells.push(
+            <span key={i}>
+              {word}
+              <span className="role-icons">{entityIcons}</span>
+            </span>
+          )
+        } else {
+          cells.push(word)
+        }
+        // Add space between words in normal mode
+        if (i < words.length - 1) cells.push(' ')
       }
     }
 
-    return result
-  }, [getStrongsForVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong])
+    if (showOriginal) {
+      return <span className="interlinear-row">{cells}</span>
+    }
+    return cells
+  }, [getStrongsForVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
 
   // Handle verse click
   const handleVerseClick = useCallback((verseId) => {
@@ -169,7 +203,16 @@ function BibleColumn({ columnId, data }) {
 
   return (
     <div className="window-content">
-      <h2 className="passage-header">{formatChapterRef(book, chapter)}</h2>
+      <div className="passage-header-row">
+        <h2 className="passage-header">{formatChapterRef(book, chapter)}</h2>
+        <button
+          className={`original-toggle${showOriginal ? ' active' : ''}`}
+          onClick={() => setShowOriginal(!showOriginal)}
+          title={showOriginal ? 'Hide original language' : 'Show original language'}
+        >
+          &#1488;
+        </button>
+      </div>
 
       {verses.map(verse => {
         const verseId = `${verse.book}.${verse.chapter}.${verse.verse}`
@@ -193,7 +236,7 @@ function BibleColumn({ columnId, data }) {
               </span>
             )}
             <span className="verse-num">{verse.verse}</span>
-            {highlightText(verse.text, verseId)}
+            {renderVerse(verse.text, verseId)}
           </div>
         )
       })}

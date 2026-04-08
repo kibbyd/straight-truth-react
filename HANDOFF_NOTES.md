@@ -46,19 +46,17 @@ Provide masters-level biblical scholarship in layman's terms. Completely fact an
 
 ## Completed
 
-### Strong's-to-ESV Alignment (Jan 11, 2025)
-**Replaced broken STEPBible alignment with accurate Berean-based mapping.**
+### Strong's-to-ESV Alignment
+**Multi-stage pipeline: Berean interlinear → KJV validation → KJV recovery.**
 
-- STEPBible TTESV data had every word off by positions (unusable)
-- Built new alignment using Berean Standard Bible interlinear data
-- **78.5% of words accurately aligned** (296,460 / 377,869)
-- **21.5% intentionally unmatched** (no ESV equivalent - honest gaps, not errors)
-- Theological distinctions preserved:
-  - Spirit vs spirit (Holy Spirit vs human spirit)
-  - LORD vs Lord (YHWH vs Adonai)
-  - GOD vs God
-- Scripts: `scripts/align_pass1.py`, `scripts/align_pass2.py`
-- Data: `public/data/strongs_data.json` (replaced), `public/data/strongs_esv_alignment.json`
+1. **Berean alignment (Jan 2025):** Built ESV word→Strong's mapping from Berean Standard Bible interlinear. 297,759 mappings (78.5% match rate). Scripts: `scripts/align_pass1.py`, `scripts/align_pass2.py`
+2. **KJV validation (Jan 2025):** Dropped mappings where KJV doesn't have that Strong's in that verse. 223,930 confirmed (75.2%). Script: `scripts/validate_strongs_with_kjv.py`
+3. **KJV alignment (Apr 2026):** Built standalone KJV word→Strong's alignment — 327,899 mappings across 31,199 verses. Script: `scripts/build_kjv_alignment.py`. Data: `public/data/strongs_kjv_alignment.json`
+4. **KJV recovery (Apr 2026):** Recovered 38,424 dropped ESV mappings using cross-verse confirmation + gloss matching. Final: **262,354 mappings (88.1%)**. 35,405 remain dropped (no evidence). Script: `scripts/recover_esv_mappings.py`. Data: `public/data/strongs_esv_alignment_recovered.json`
+
+- Theological distinctions preserved: Spirit/spirit, LORD/Lord, GOD/God
+- **Algorithmic ceiling reached** — further gains require manual curation or better source data
+- Live data: `public/data/strongs_data.json` (lexicon + recovered alignment)
 
 ### Features Complete
 - **Passage columns** - Bible text with Strong's word clicking
@@ -80,149 +78,15 @@ Provide masters-level biblical scholarship in layman's terms. Completely fact an
 - **Definitions** - 67 scripture-defined terms grounded in Strong's numbers
 
 ### Removed/Deprecated
-- **Topical Study (old implementation)** - Algorithmic clustering approach was flawed. Grouped all H7307/G4151 together, mixing Holy Spirit with human spirit. Needs complete redesign (see To Do).
+- **Topical Study (old implementation)** - Replaced by curated Topical Index (see Features Complete)
 
 ---
 
 ## To Do
 
-### HIGH PRIORITY: Topical Study Redesign
-
-**Problem with old implementation:**
-The algorithmic clustering grouped Strong's numbers together, but same Strong's number can have completely different meanings:
-- H7307 (ruach) = Holy Spirit, human spirit, wind, breath
-- G4151 (pneuma) = Holy Spirit, unclean spirit, human spirit
-- G26 (agape) vs G5368 (phileo) = both "love" in English, different in Greek
-
-Showing all H7307 verses together mixes "the Spirit of God" with "the spirit of Pul king of Assyria" - misleading.
-
-**New Vision: English Topical Index**
-
-An alphabetized list of English concepts that links to verses, with original language distinctions made clear.
-
-**Structure:**
-```
-Love (agape) - G26 - unconditional love
-  → John 3:16, Romans 5:8, 1 Cor 13:4-8, ...
-
-Love (phileo) - G5368 - brotherly/friendship love
-  → John 11:3, John 21:15-17, ...
-
-Love (chesed) - H2617 - steadfast love/lovingkindness
-  → Psalm 136 (26x), Exodus 34:6, ...
-
-Spirit (Holy Spirit) - H7307/G4151 where ESV capitalizes "Spirit"
-  → Genesis 1:2, Matthew 3:16, Acts 2:4, ...
-
-spirit (human) - H7307/G4151 where ESV has lowercase "spirit"
-  → Genesis 41:8, 1 Chronicles 5:26, ...
-
-Word (logos) - G3056 - word as concept/message
-  → John 1:1, John 1:14, ...
-
-Word (rhema) - G4487 - spoken word/utterance
-  → Matthew 4:4, Romans 10:17, ...
-```
-
-**Key principles:**
-1. **English-first** - Users browse by English term, not Strong's numbers
-2. **Original language distinctions** - Different Hebrew/Greek words shown separately
-3. **Sense distinctions** - Same Strong's number split by ESV capitalization where meaningful
-4. **Curated, not algorithmic** - Human-selected important terms, not auto-generated clusters
-5. **Verse links** - Click any entry to see all verses (uses existing Strong's column infrastructure)
-
-**Data structure:**
-```json
-{
-  "topics": [
-    {
-      "english": "Love",
-      "sense": "agape",
-      "description": "unconditional love",
-      "strongs": ["G26"],
-      "filter": null
-    },
-    {
-      "english": "Spirit",
-      "sense": "Holy Spirit",
-      "description": "Spirit of God",
-      "strongs": ["H7307", "G4151"],
-      "filter": "capitalize"  // Only verses where ESV has capital "Spirit"
-    },
-    {
-      "english": "spirit",
-      "sense": "human",
-      "description": "human spirit",
-      "strongs": ["H7307", "G4151"],
-      "filter": "lowercase"  // Only verses where ESV has lowercase "spirit"
-    }
-  ]
-}
-```
-
-**Implementation steps:**
-1. Create curated `topical_index.json` with ~50-100 important terms
-2. Update TopicalStudyColumn to display alphabetized list
-3. Add filter logic to distinguish senses by ESV capitalization
-4. Link to existing Strong's infrastructure for verse display
-
-**Priority terms to include:**
-- Love (agape, phileo, chesed, ahavah)
-- Spirit/spirit (Holy Spirit vs human)
-- Word (logos, rhema, dabar)
-- Lord/LORD (adonai, YHWH)
-- Faith (pistis, emunah)
-- Grace (charis, chen)
-- Sin (hamartia, chata, pesha, avon)
-- Righteousness (dikaiosyne, tsedaqah)
-- Salvation (soteria, yeshuah)
-- Truth (aletheia, emet)
-- Peace (eirene, shalom)
-- Glory (doxa, kavod)
-- Holy (hagios, qadosh)
-- Fear (phobos, yirah) - fear of God vs terror
-- Covenant (diatheke, berith)
-- Mercy (eleos, racham)
-- Soul (psyche, nephesh)
-- Heart (kardia, lev)
-- Flesh (sarx, basar)
-- And many more...
-
----
-
-### Other To Do Items
-
-#### Data Quality
-- **Timelines** - Currently ~223 entries, should be 350+
-- **OT→NT Quotations** - Currently 236, scholarly consensus ~300-400
-- **KJV Strong's Validation** - Use KJV Strong's data to validate/correct Berean alignment errors
-
-### KJV Strong's Reference Data (Acquired Jan 11, 2025)
-
-**Source:** https://github.com/kaiserlik/kjv
-**Location:** `data_sources/kjv/`
-
-**Purpose:** KJV is the original Strong's reference text. Use as ground truth to validate our Berean-based alignment and identify upstream Berean errors.
-
-**Data format:**
-```
-"Gen|1|2": {
-  "en": "And the earth[H776] was[H1961] without form,[H8414] and void;[H922]..."
-}
-```
-- Strong's inline with words: `word[H####]`
-- Multiple Strong's per word: `created[H1254][H853]`
-- Italicized words (translator additions): `<em>was</em>`
-
-**Files:**
-- 66 book JSON files (Gen.json, Mat.json, etc.)
-- `lexicon.json` - Strong's Hebrew/Greek definitions
-
-**Validation approach:**
-1. Parse KJV inline Strong's to extract word→Strong's mappings
-2. Compare against our ESV alignment for same verses
-3. Flag mismatches where Berean source differs from KJV Strong's
-4. Manual review of flagged verses to determine correct alignment
+### Data Quality — Complete
+- **Timelines** - Expanded to 380 entries (was ~223). All verse references validated against ESV dataset.
+- **OT→NT Quotations** - Rebuilt from UBS4 apparatus (Felix Just, S.J.). 225 OT sources / 301 NT references. Replaced previous mixed-source data with single authoritative scholarly source. Allusions excluded — explicit quotations only.
 
 #### Advanced Study Features
 - **Manuscript Evidence** - Which manuscripts contain which verses, textual variants
@@ -244,10 +108,14 @@ Word (rhema) - G4487 - spoken word/utterance
 | File | Description |
 |------|-------------|
 | `bible_verses.json` | All ESV verses |
-| `strongs_data.json` | Strong's lexicon + verse alignment (Berean-based, Jan 2025) |
-| `strongs_esv_alignment.json` | Raw alignment data |
+| `strongs_data.json` | Strong's lexicon + recovered ESV alignment (262,354 mappings, 88.1%) |
+| `strongs_esv_alignment.json` | Raw Berean alignment (original, pre-validation) |
+| `strongs_esv_alignment_validated.json` | KJV-validated alignment (223,930 mappings, 75.2%) |
+| `strongs_esv_alignment_recovered.json` | Validated + recovered alignment (262,354 mappings, 88.1%) |
+| `strongs_kjv_alignment.json` | Standalone KJV word→Strong's alignment (327,899 mappings) |
 | `verified_connections.json` | Cross-references (~1270) |
 | `definitions.json` | 67 scripture-defined terms |
+| `topical_index.json` | Curated English topical index with sense disambiguation |
 | `topical_clusters.json` | OLD - deprecated, do not use |
 | Other data files | See Feature Status above |
 
