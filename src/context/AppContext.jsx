@@ -79,7 +79,11 @@ export function AppProvider({ children }) {
         // Build lookup sets
         const kingNames = new Set(loadedData.kings.map(k => k.name))
         const prophetNames = new Set(loadedData.prophets.map(p => p.name))
-        const placeNames = new Set(loadedData.places.map(p => p.name))
+        const placeNames = new Set()
+        for (const p of loadedData.places) {
+          placeNames.add(p.name)
+          if (p.altNames) p.altNames.forEach(a => placeNames.add(a))
+        }
         const waterNames = new Set(loadedData.waters.map(w => w.name))
         const mountainNames = new Set(loadedData.mountains.map(m => m.name))
 
