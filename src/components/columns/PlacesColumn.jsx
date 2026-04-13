@@ -98,7 +98,7 @@ function PlacesColumn({ columnId, data }) {
                   {place.coords && (
                     <div style={{ fontSize: '0.85em', marginBottom: 10 }}>
                       <a
-                        href={`https://www.google.com/maps/@${place.coords.lat},${place.coords.lng},14z`}
+                        href={`https://www.google.com/maps?q=${place.coords.lat},${place.coords.lng}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
