@@ -1,0 +1,1226 @@
+{
+  "_meta": {
+    "description": "Curated English topical index mapping concepts to original language words via Strong's numbers",
+    "method": "Manual curation with original language distinctions",
+    "principle": "English concept → sense distinction → Strong's number → verified verses",
+    "note": "Each entry maps to specific Strong's numbers. Verses are looked up dynamically from validated alignment data."
+  },
+  "topics": [
+    {
+      "english": "Angel",
+      "sense": "messenger",
+      "strongs": ["G0032"],
+      "original": "ἄγγελος",
+      "translit": "aggelos",
+      "description": "A messenger or angel — used for both heavenly beings and human messengers"
+    },
+    {
+      "english": "Angel",
+      "sense": "messenger (OT)",
+      "strongs": ["H4397"],
+      "original": "מַלְאָךְ",
+      "translit": "malak",
+      "description": "A messenger or angel — used for both the Angel of the LORD and human messengers"
+    },
+    {
+      "english": "Apostle",
+      "sense": "sent one",
+      "strongs": ["G0652"],
+      "original": "ἀπόστολος",
+      "translit": "apostolos",
+      "description": "One sent on a mission with authority from the sender"
+    },
+    {
+      "english": "Assembly",
+      "sense": "congregation (OT)",
+      "strongs": ["H6951"],
+      "original": "קָהָל",
+      "translit": "qahal",
+      "description": "A gathering or assembly of people, often Israel assembled before God"
+    },
+    {
+      "english": "Assembly",
+      "sense": "church (NT)",
+      "strongs": ["G1577"],
+      "original": "ἐκκλησία",
+      "translit": "ekklēsia",
+      "description": "A called-out assembly — translated 'church' in most English Bibles"
+    },
+    {
+      "english": "Baptism",
+      "sense": "immersion",
+      "strongs": ["G0908", "G0907"],
+      "original": "βάπτισμα / βαπτίζω",
+      "translit": "baptisma / baptizō",
+      "description": "Immersion or washing — the noun and verb forms"
+    },
+    {
+      "english": "Blessing",
+      "sense": "OT",
+      "strongs": ["H1293"],
+      "original": "בְּרָכָה",
+      "translit": "berakah",
+      "description": "A blessing, gift, or benefit bestowed"
+    },
+    {
+      "english": "Blessing",
+      "sense": "NT",
+      "strongs": ["G2129"],
+      "original": "εὐλογία",
+      "translit": "eulogia",
+      "description": "A blessing — literally 'good word' or praise"
+    },
+    {
+      "english": "Blood",
+      "sense": "OT",
+      "strongs": ["H1818"],
+      "original": "דָּם",
+      "translit": "dam",
+      "description": "Blood — used for lifeblood, bloodshed, and sacrificial blood"
+    },
+    {
+      "english": "Blood",
+      "sense": "NT",
+      "strongs": ["G0129"],
+      "original": "αἷμα",
+      "translit": "haima",
+      "description": "Blood — used for sacrificial blood, the blood of Christ, and bloodshed"
+    },
+    {
+      "english": "Bread",
+      "sense": "OT",
+      "strongs": ["H3899"],
+      "original": "לֶחֶם",
+      "translit": "lechem",
+      "description": "Bread or food in general — basic sustenance"
+    },
+    {
+      "english": "Bread",
+      "sense": "NT",
+      "strongs": ["G0740"],
+      "original": "ἄρτος",
+      "translit": "artos",
+      "description": "Bread — a loaf, used literally and in the Lord's Supper"
+    },
+    {
+      "english": "Covenant",
+      "sense": "OT",
+      "strongs": ["H1285"],
+      "original": "בְּרִית",
+      "translit": "berith",
+      "description": "A binding agreement or pact — used for God's covenants with Noah, Abraham, Moses, David"
+    },
+    {
+      "english": "Covenant",
+      "sense": "NT",
+      "strongs": ["G1242"],
+      "original": "διαθήκη",
+      "translit": "diathēkē",
+      "description": "A covenant or testament — used for both the old and new covenants"
+    },
+    {
+      "english": "Cross",
+      "sense": "execution stake",
+      "strongs": ["G4716"],
+      "original": "σταυρός",
+      "translit": "stauros",
+      "description": "An upright stake used for execution — the instrument of crucifixion"
+    },
+    {
+      "english": "Curse",
+      "sense": "OT",
+      "strongs": ["H7045", "H0779"],
+      "original": "קְלָלָה / אָרַר",
+      "translit": "qelalah / arar",
+      "description": "A curse — the noun (qelalah) and verb (arar) forms"
+    },
+    {
+      "english": "Curse",
+      "sense": "NT",
+      "strongs": ["G2671"],
+      "original": "κατάρα",
+      "translit": "katara",
+      "description": "A curse — an imprecation or doom pronounced"
+    },
+    {
+      "english": "Darkness",
+      "sense": "OT",
+      "strongs": ["H2822"],
+      "original": "חֹשֶׁךְ",
+      "translit": "choshek",
+      "description": "Darkness — literal and figurative absence of light"
+    },
+    {
+      "english": "Darkness",
+      "sense": "NT",
+      "strongs": ["G4655"],
+      "original": "σκότος",
+      "translit": "skotos",
+      "description": "Darkness — literal and figurative, often contrasted with light"
+    },
+    {
+      "english": "Death",
+      "sense": "OT",
+      "strongs": ["H4194"],
+      "original": "מָוֶת",
+      "translit": "maveth",
+      "description": "Death — physical death, the state of being dead"
+    },
+    {
+      "english": "Death",
+      "sense": "NT",
+      "strongs": ["G2288"],
+      "original": "θάνατος",
+      "translit": "thanatos",
+      "description": "Death — physical or spiritual death"
+    },
+    {
+      "english": "Demon",
+      "sense": "evil spirit",
+      "strongs": ["G1140", "G1142"],
+      "original": "δαιμόνιον / δαίμων",
+      "translit": "daimonion / daimōn",
+      "description": "A demon or evil spirit"
+    },
+    {
+      "english": "Disciple",
+      "sense": "learner",
+      "strongs": ["G3101"],
+      "original": "μαθητής",
+      "translit": "mathētēs",
+      "description": "A learner or student — one who follows a teacher's instruction"
+    },
+    {
+      "english": "Eternal",
+      "sense": "everlasting (OT)",
+      "strongs": ["H5769"],
+      "original": "עוֹלָם",
+      "translit": "olam",
+      "description": "A long duration — past or future, often translated 'forever' or 'everlasting'"
+    },
+    {
+      "english": "Eternal",
+      "sense": "everlasting (NT)",
+      "strongs": ["G0166"],
+      "original": "αἰώνιος",
+      "translit": "aiōnios",
+      "description": "Pertaining to an age — translated 'eternal' or 'everlasting'"
+    },
+    {
+      "english": "Faith",
+      "sense": "trust/belief",
+      "strongs": ["G4102"],
+      "original": "πίστις",
+      "translit": "pistis",
+      "description": "Faith, trust, or persuasion — confidence in what is not seen"
+    },
+    {
+      "english": "Faith",
+      "sense": "faithfulness (OT)",
+      "strongs": ["H0530"],
+      "original": "אֱמוּנָה",
+      "translit": "emunah",
+      "description": "Firmness, steadfastness, faithfulness — reliability and trustworthiness"
+    },
+    {
+      "english": "Fear",
+      "sense": "reverence (OT)",
+      "strongs": ["H3374"],
+      "original": "יִרְאָה",
+      "translit": "yirah",
+      "description": "Fear or reverence — used for both terror and awe before God"
+    },
+    {
+      "english": "Fear",
+      "sense": "fear (NT)",
+      "strongs": ["G5401"],
+      "original": "φόβος",
+      "translit": "phobos",
+      "description": "Fear, dread, or reverence — used for both panic and respect"
+    },
+    {
+      "english": "Flesh",
+      "sense": "OT",
+      "strongs": ["H1320"],
+      "original": "בָּשָׂר",
+      "translit": "basar",
+      "description": "Flesh — the physical body, meat, or humanity in general"
+    },
+    {
+      "english": "Flesh",
+      "sense": "NT",
+      "strongs": ["G4561"],
+      "original": "σάρξ",
+      "translit": "sarx",
+      "description": "Flesh — the physical body, or human nature apart from God's influence"
+    },
+    {
+      "english": "Forgiveness",
+      "sense": "OT",
+      "strongs": ["H5545"],
+      "original": "סָלַח",
+      "translit": "salach",
+      "description": "To forgive or pardon — used exclusively of God forgiving sin"
+    },
+    {
+      "english": "Forgiveness",
+      "sense": "NT",
+      "strongs": ["G0859"],
+      "original": "ἄφεσις",
+      "translit": "aphesis",
+      "description": "Release or forgiveness — a letting go of what is owed"
+    },
+    {
+      "english": "Glory",
+      "sense": "weight/honor (OT)",
+      "strongs": ["H3519"],
+      "original": "כָּבוֹד",
+      "translit": "kavod",
+      "description": "Weight, heaviness, honor — the visible manifestation of God's presence"
+    },
+    {
+      "english": "Glory",
+      "sense": "splendor (NT)",
+      "strongs": ["G1391"],
+      "original": "δόξα",
+      "translit": "doxa",
+      "description": "Glory, splendor, brightness — honor and praise"
+    },
+    {
+      "english": "God",
+      "sense": "Elohim",
+      "strongs": ["H0430"],
+      "original": "אֱלֹהִים",
+      "translit": "elohim",
+      "description": "God or gods — the most common Hebrew word for God, plural in form"
+    },
+    {
+      "english": "God",
+      "sense": "El",
+      "strongs": ["H0410"],
+      "original": "אֵל",
+      "translit": "el",
+      "description": "God or mighty one — emphasizes strength and power"
+    },
+    {
+      "english": "God",
+      "sense": "theos",
+      "strongs": ["G2316"],
+      "original": "θεός",
+      "translit": "theos",
+      "description": "God — the standard Greek word for deity"
+    },
+    {
+      "english": "Gospel",
+      "sense": "good news",
+      "strongs": ["G2098"],
+      "original": "εὐαγγέλιον",
+      "translit": "euaggelion",
+      "description": "Good news or glad tidings — a proclamation of something beneficial"
+    },
+    {
+      "english": "Grace",
+      "sense": "favor (OT)",
+      "strongs": ["H2580"],
+      "original": "חֵן",
+      "translit": "chen",
+      "description": "Grace, favor, or charm — finding acceptance in someone's eyes"
+    },
+    {
+      "english": "Grace",
+      "sense": "favor (NT)",
+      "strongs": ["G5485"],
+      "original": "χάρις",
+      "translit": "charis",
+      "description": "Grace, favor, or kindness — unmerited goodwill"
+    },
+    {
+      "english": "Healing",
+      "sense": "to heal (OT)",
+      "strongs": ["H7495"],
+      "original": "רָפָא",
+      "translit": "rapha",
+      "description": "To heal or cure — physical or spiritual restoration"
+    },
+    {
+      "english": "Healing",
+      "sense": "to heal (NT)",
+      "strongs": ["G2323", "G2390"],
+      "original": "θεραπεύω / ἰάομαι",
+      "translit": "therapeuō / iaomai",
+      "description": "To heal or cure — therapeuō (treat/serve) and iaomai (make whole)"
+    },
+    {
+      "english": "Heart",
+      "sense": "OT",
+      "strongs": ["H3820", "H3824"],
+      "original": "לֵב / לֵבָב",
+      "translit": "lev / levav",
+      "description": "The heart — the center of thought, will, and emotion in Hebrew understanding"
+    },
+    {
+      "english": "Heart",
+      "sense": "NT",
+      "strongs": ["G2588"],
+      "original": "καρδία",
+      "translit": "kardia",
+      "description": "The heart — the center of inner life, thoughts, desires, and will"
+    },
+    {
+      "english": "Heaven",
+      "sense": "OT",
+      "strongs": ["H8064"],
+      "original": "שָׁמַיִם",
+      "translit": "shamayim",
+      "description": "The heavens or sky — the physical sky and God's dwelling place"
+    },
+    {
+      "english": "Heaven",
+      "sense": "NT",
+      "strongs": ["G3772"],
+      "original": "οὐρανός",
+      "translit": "ouranos",
+      "description": "Heaven or sky — the visible sky and the abode of God"
+    },
+    {
+      "english": "Hell",
+      "sense": "Sheol",
+      "strongs": ["H7585"],
+      "original": "שְׁאוֹל",
+      "translit": "sheol",
+      "description": "The grave, the underworld — the place of the dead in OT thought"
+    },
+    {
+      "english": "Hell",
+      "sense": "Hades",
+      "strongs": ["G0086"],
+      "original": "ᾅδης",
+      "translit": "hadēs",
+      "description": "The realm of the dead — the Greek equivalent of Sheol"
+    },
+    {
+      "english": "Hell",
+      "sense": "Gehenna",
+      "strongs": ["G1067"],
+      "original": "γέεννα",
+      "translit": "geenna",
+      "description": "Gehenna — the Valley of Hinnom, used by Jesus for final judgment"
+    },
+    {
+      "english": "Holy",
+      "sense": "set apart (OT)",
+      "strongs": ["H6918"],
+      "original": "קָדוֹשׁ",
+      "translit": "qadosh",
+      "description": "Holy, sacred, set apart — separated from the common for God's purpose"
+    },
+    {
+      "english": "Holy",
+      "sense": "set apart (NT)",
+      "strongs": ["G0040"],
+      "original": "ἅγιος",
+      "translit": "hagios",
+      "description": "Holy, sacred, set apart — dedicated to God"
+    },
+    {
+      "english": "Hope",
+      "sense": "OT",
+      "strongs": ["H8615"],
+      "original": "תִּקְוָה",
+      "translit": "tiqvah",
+      "description": "Hope or expectation — something waited for with anticipation"
+    },
+    {
+      "english": "Hope",
+      "sense": "NT",
+      "strongs": ["G1680"],
+      "original": "ἐλπίς",
+      "translit": "elpis",
+      "description": "Hope — confident expectation of what is to come"
+    },
+    {
+      "english": "Humility",
+      "sense": "OT",
+      "strongs": ["H6038"],
+      "original": "עֲנָוָה",
+      "translit": "anavah",
+      "description": "Humility or meekness — lowliness of mind"
+    },
+    {
+      "english": "Humility",
+      "sense": "NT",
+      "strongs": ["G5012"],
+      "original": "ταπεινοφροσύνη",
+      "translit": "tapeinophrosunē",
+      "description": "Humility — lowliness of mind, the opposite of self-exaltation"
+    },
+    {
+      "english": "Idol",
+      "sense": "OT",
+      "strongs": ["H6091"],
+      "original": "עָצָב",
+      "translit": "atsab",
+      "description": "An idol or image — a carved object of worship"
+    },
+    {
+      "english": "Idol",
+      "sense": "NT",
+      "strongs": ["G1497"],
+      "original": "εἴδωλον",
+      "translit": "eidōlon",
+      "description": "An idol — an image or false god"
+    },
+    {
+      "english": "Joy",
+      "sense": "OT",
+      "strongs": ["H8057"],
+      "original": "שִׂמְחָה",
+      "translit": "simchah",
+      "description": "Joy, gladness, or mirth — often associated with celebration"
+    },
+    {
+      "english": "Joy",
+      "sense": "NT",
+      "strongs": ["G5479"],
+      "original": "χαρά",
+      "translit": "chara",
+      "description": "Joy or gladness — delight, often from God's work"
+    },
+    {
+      "english": "Judge",
+      "sense": "to judge (OT)",
+      "strongs": ["H8199"],
+      "original": "שָׁפַט",
+      "translit": "shaphat",
+      "description": "To judge, govern, or decide — includes both legal judgment and leadership"
+    },
+    {
+      "english": "Judgment",
+      "sense": "justice (OT)",
+      "strongs": ["H4941"],
+      "original": "מִשְׁפָּט",
+      "translit": "mishpat",
+      "description": "Judgment, justice, or ordinance — a legal decision or right"
+    },
+    {
+      "english": "Judgment",
+      "sense": "NT",
+      "strongs": ["G2920"],
+      "original": "κρίσις",
+      "translit": "krisis",
+      "description": "Judgment or decision — the act of separating right from wrong"
+    },
+    {
+      "english": "King",
+      "sense": "OT",
+      "strongs": ["H4428"],
+      "original": "מֶלֶךְ",
+      "translit": "melek",
+      "description": "A king or ruler — one who reigns"
+    },
+    {
+      "english": "King",
+      "sense": "NT",
+      "strongs": ["G0935"],
+      "original": "βασιλεύς",
+      "translit": "basileus",
+      "description": "A king — a sovereign ruler"
+    },
+    {
+      "english": "Kingdom",
+      "sense": "OT",
+      "strongs": ["H4467"],
+      "original": "מַמְלָכָה",
+      "translit": "mamlakah",
+      "description": "A kingdom, reign, or dominion"
+    },
+    {
+      "english": "Kingdom",
+      "sense": "NT",
+      "strongs": ["G0932"],
+      "original": "βασιλεία",
+      "translit": "basileia",
+      "description": "A kingdom or reign — the domain and rule of a king"
+    },
+    {
+      "english": "Knowledge",
+      "sense": "OT",
+      "strongs": ["H1847"],
+      "original": "דַּעַת",
+      "translit": "daath",
+      "description": "Knowledge, understanding, or perception — knowing through experience"
+    },
+    {
+      "english": "Knowledge",
+      "sense": "NT",
+      "strongs": ["G1108"],
+      "original": "γνῶσις",
+      "translit": "gnōsis",
+      "description": "Knowledge — understanding gained through experience or learning"
+    },
+    {
+      "english": "Life",
+      "sense": "living (OT)",
+      "strongs": ["H2416"],
+      "original": "חַי",
+      "translit": "chay",
+      "description": "Life, living, alive — used for all forms of life"
+    },
+    {
+      "english": "Life",
+      "sense": "spiritual life",
+      "strongs": ["G2222"],
+      "original": "ζωή",
+      "translit": "zōē",
+      "description": "Life — especially the vitality of life, eternal life"
+    },
+    {
+      "english": "Light",
+      "sense": "OT",
+      "strongs": ["H0216"],
+      "original": "אוֹר",
+      "translit": "or",
+      "description": "Light — physical light and the symbol of God's presence"
+    },
+    {
+      "english": "Light",
+      "sense": "NT",
+      "strongs": ["G5457"],
+      "original": "φῶς",
+      "translit": "phōs",
+      "description": "Light — used for physical light, revelation, and moral purity"
+    },
+    {
+      "english": "LORD",
+      "sense": "YHWH",
+      "strongs": ["H3068"],
+      "original": "יְהוָה",
+      "translit": "YHWH",
+      "description": "The personal covenant name of God — rendered as LORD (all capitals) in most English Bibles"
+    },
+    {
+      "english": "Lord",
+      "sense": "Adonai",
+      "strongs": ["H0136"],
+      "original": "אֲדֹנָי",
+      "translit": "adonai",
+      "description": "Lord, master, sovereign — a title of respect and authority"
+    },
+    {
+      "english": "Lord",
+      "sense": "kurios",
+      "strongs": ["G2962"],
+      "original": "κύριος",
+      "translit": "kurios",
+      "description": "Lord or master — used for God, Jesus, and human authority figures"
+    },
+    {
+      "english": "Love",
+      "sense": "unconditional",
+      "strongs": ["G0026", "G0025"],
+      "original": "ἀγάπη / ἀγαπάω",
+      "translit": "agapē / agapaō",
+      "description": "Selfless, sacrificial love — choosing the good of another regardless of feeling"
+    },
+    {
+      "english": "Love",
+      "sense": "friendship",
+      "strongs": ["G5368"],
+      "original": "φιλέω",
+      "translit": "phileō",
+      "description": "Brotherly love, friendship, warm affection — love based on personal bond"
+    },
+    {
+      "english": "Love",
+      "sense": "steadfast love",
+      "strongs": ["H2617"],
+      "original": "חֶסֶד",
+      "translit": "chesed",
+      "description": "Steadfast love, lovingkindness, loyal love — covenant faithfulness"
+    },
+    {
+      "english": "Love",
+      "sense": "OT general",
+      "strongs": ["H0157", "H0160"],
+      "original": "אָהַב / אַהֲבָה",
+      "translit": "ahab / ahavah",
+      "description": "To love (verb) and love (noun) — the general Hebrew word for all types of love"
+    },
+    {
+      "english": "Mercy",
+      "sense": "compassion (OT)",
+      "strongs": ["H7355", "H7356"],
+      "original": "רָחַם / רַחֲמִים",
+      "translit": "racham / rachamim",
+      "description": "To have compassion — deep mercy rooted in the word for 'womb'"
+    },
+    {
+      "english": "Mercy",
+      "sense": "compassion (NT)",
+      "strongs": ["G1656"],
+      "original": "ἔλεος",
+      "translit": "eleos",
+      "description": "Mercy or compassion — pity that leads to action"
+    },
+    {
+      "english": "Money",
+      "sense": "silver (OT)",
+      "strongs": ["H3701"],
+      "original": "כֶּסֶף",
+      "translit": "keseph",
+      "description": "Silver or money — the primary currency metal in the ancient Near East"
+    },
+    {
+      "english": "Money",
+      "sense": "silver (NT)",
+      "strongs": ["G0694"],
+      "original": "ἀργύριον",
+      "translit": "argurion",
+      "description": "Silver or money — coins or pieces of silver"
+    },
+    {
+      "english": "Money",
+      "sense": "gold (OT)",
+      "strongs": ["H2091"],
+      "original": "זָהָב",
+      "translit": "zahav",
+      "description": "Gold — precious metal used for wealth, temple furnishings, and idols"
+    },
+    {
+      "english": "Money",
+      "sense": "gold (NT)",
+      "strongs": ["G5553"],
+      "original": "χρυσίον",
+      "translit": "chrusion",
+      "description": "Gold — precious metal, wealth"
+    },
+    {
+      "english": "Money",
+      "sense": "mammon",
+      "strongs": ["G3126"],
+      "original": "μαμωνᾶς",
+      "translit": "mamōnas",
+      "description": "Wealth or riches personified — material possessions as a competing loyalty"
+    },
+    {
+      "english": "Patience",
+      "sense": "longsuffering",
+      "strongs": ["G3115"],
+      "original": "μακροθυμία",
+      "translit": "makrothumia",
+      "description": "Patience, longsuffering — enduring provocation without retaliation"
+    },
+    {
+      "english": "Patience",
+      "sense": "endurance",
+      "strongs": ["G5281"],
+      "original": "ὑπομονή",
+      "translit": "hupomonē",
+      "description": "Steadfast endurance — remaining under pressure without quitting"
+    },
+    {
+      "english": "Peace",
+      "sense": "wholeness (OT)",
+      "strongs": ["H7965"],
+      "original": "שָׁלוֹם",
+      "translit": "shalom",
+      "description": "Peace, wholeness, welfare, completeness — far more than absence of conflict"
+    },
+    {
+      "english": "Peace",
+      "sense": "NT",
+      "strongs": ["G1515"],
+      "original": "εἰρήνη",
+      "translit": "eirēnē",
+      "description": "Peace — harmony, tranquility, absence of conflict"
+    },
+    {
+      "english": "Power",
+      "sense": "ability",
+      "strongs": ["G1411"],
+      "original": "δύναμις",
+      "translit": "dunamis",
+      "description": "Power, ability, or might — inherent capability to act"
+    },
+    {
+      "english": "Power",
+      "sense": "authority",
+      "strongs": ["G1849"],
+      "original": "ἐξουσία",
+      "translit": "exousia",
+      "description": "Authority or delegated power — the right to act"
+    },
+    {
+      "english": "Power",
+      "sense": "strength (OT)",
+      "strongs": ["H3581"],
+      "original": "כֹּחַ",
+      "translit": "koach",
+      "description": "Strength, power, or ability — physical or moral force"
+    },
+    {
+      "english": "Power",
+      "sense": "might (OT)",
+      "strongs": ["H1369"],
+      "original": "גְּבוּרָה",
+      "translit": "gevurah",
+      "description": "Might, strength, or valor — often of warriors or of God's mighty acts"
+    },
+    {
+      "english": "Prayer",
+      "sense": "OT",
+      "strongs": ["H8605", "H6419"],
+      "original": "תְּפִלָּה / פָּלַל",
+      "translit": "tephillah / palal",
+      "description": "Prayer (noun) and to pray (verb) — intercession or supplication"
+    },
+    {
+      "english": "Prayer",
+      "sense": "NT general",
+      "strongs": ["G4335"],
+      "original": "προσευχή",
+      "translit": "proseuchē",
+      "description": "Prayer — speaking to God, worship and petition"
+    },
+    {
+      "english": "Prayer",
+      "sense": "petition",
+      "strongs": ["G1162"],
+      "original": "δέησις",
+      "translit": "deēsis",
+      "description": "A petition or specific request — earnest supplication for a need"
+    },
+    {
+      "english": "Priest",
+      "sense": "OT",
+      "strongs": ["H3548"],
+      "original": "כֹּהֵן",
+      "translit": "kohen",
+      "description": "A priest — one who serves as mediator between God and people"
+    },
+    {
+      "english": "Priest",
+      "sense": "NT",
+      "strongs": ["G2409"],
+      "original": "ἱερεύς",
+      "translit": "hiereus",
+      "description": "A priest — one who offers sacrifices and mediates"
+    },
+    {
+      "english": "Pride",
+      "sense": "OT",
+      "strongs": ["H1346"],
+      "original": "גַּאֲוָה",
+      "translit": "gaavah",
+      "description": "Pride, arrogance, or majesty — exaltation of self"
+    },
+    {
+      "english": "Pride",
+      "sense": "NT",
+      "strongs": ["G5243"],
+      "original": "ὑπερηφανία",
+      "translit": "huperēphania",
+      "description": "Pride or arrogance — an inflated sense of self"
+    },
+    {
+      "english": "Prophet",
+      "sense": "OT",
+      "strongs": ["H5030"],
+      "original": "נָבִיא",
+      "translit": "navi",
+      "description": "A prophet — one who speaks on God's behalf"
+    },
+    {
+      "english": "Prophet",
+      "sense": "NT",
+      "strongs": ["G4396"],
+      "original": "προφήτης",
+      "translit": "prophētēs",
+      "description": "A prophet — one who speaks forth a message from God"
+    },
+    {
+      "english": "Repentance",
+      "sense": "change of mind",
+      "strongs": ["G3341"],
+      "original": "μετάνοια",
+      "translit": "metanoia",
+      "description": "A change of mind — thinking differently after reconsideration"
+    },
+    {
+      "english": "Repentance",
+      "sense": "to return (OT)",
+      "strongs": ["H7725"],
+      "original": "שׁוּב",
+      "translit": "shuv",
+      "description": "To turn back or return — the primary OT word for repentance, a physical turning"
+    },
+    {
+      "english": "Repentance",
+      "sense": "to relent (OT)",
+      "strongs": ["H5162"],
+      "original": "נָחַם",
+      "translit": "nacham",
+      "description": "To be sorry, to relent, to comfort — used of both human and divine regret"
+    },
+    {
+      "english": "Resurrection",
+      "sense": "rising up",
+      "strongs": ["G0386"],
+      "original": "ἀνάστασις",
+      "translit": "anastasis",
+      "description": "A rising up, resurrection — standing up again from death"
+    },
+    {
+      "english": "Righteousness",
+      "sense": "OT",
+      "strongs": ["H6666"],
+      "original": "צְדָקָה",
+      "translit": "tsedaqah",
+      "description": "Righteousness or justice — conformity to God's standard of right"
+    },
+    {
+      "english": "Righteousness",
+      "sense": "NT",
+      "strongs": ["G1343"],
+      "original": "δικαιοσύνη",
+      "translit": "dikaiosunē",
+      "description": "Righteousness — the quality of being right or just before God"
+    },
+    {
+      "english": "Sabbath",
+      "sense": "rest",
+      "strongs": ["H7676"],
+      "original": "שַׁבָּת",
+      "translit": "shabbat",
+      "description": "The Sabbath — cessation from work, the seventh day rest"
+    },
+    {
+      "english": "Sacrifice",
+      "sense": "OT",
+      "strongs": ["H2077"],
+      "original": "זֶבַח",
+      "translit": "zevach",
+      "description": "A sacrifice or offering — an animal slaughtered for worship"
+    },
+    {
+      "english": "Sacrifice",
+      "sense": "NT",
+      "strongs": ["G2378"],
+      "original": "θυσία",
+      "translit": "thusia",
+      "description": "A sacrifice or offering — something given up in worship"
+    },
+    {
+      "english": "Salvation",
+      "sense": "deliverance (OT)",
+      "strongs": ["H3444"],
+      "original": "יְשׁוּעָה",
+      "translit": "yeshuah",
+      "description": "Salvation, deliverance, rescue — God's act of saving from danger or oppression"
+    },
+    {
+      "english": "Salvation",
+      "sense": "NT",
+      "strongs": ["G4991"],
+      "original": "σωτηρία",
+      "translit": "sōtēria",
+      "description": "Salvation, deliverance, preservation — rescue from danger or destruction"
+    },
+    {
+      "english": "Satan",
+      "sense": "adversary (OT)",
+      "strongs": ["H7854"],
+      "original": "שָׂטָן",
+      "translit": "satan",
+      "description": "An adversary or accuser — used for both human opponents and the supernatural adversary"
+    },
+    {
+      "english": "Satan",
+      "sense": "NT",
+      "strongs": ["G4567"],
+      "original": "Σατανᾶς",
+      "translit": "satanas",
+      "description": "Satan — the adversary, the accuser"
+    },
+    {
+      "english": "Satan",
+      "sense": "devil",
+      "strongs": ["G1228"],
+      "original": "διάβολος",
+      "translit": "diabolos",
+      "description": "The devil — literally 'slanderer' or 'one who throws across'"
+    },
+    {
+      "english": "Servant",
+      "sense": "OT",
+      "strongs": ["H5650"],
+      "original": "עֶבֶד",
+      "translit": "eved",
+      "description": "A servant, slave, or worker — one who serves a master"
+    },
+    {
+      "english": "Servant",
+      "sense": "NT",
+      "strongs": ["G1401"],
+      "original": "δοῦλος",
+      "translit": "doulos",
+      "description": "A slave or bondservant — one bound to serve"
+    },
+    {
+      "english": "Shepherd",
+      "sense": "OT",
+      "strongs": ["H7462"],
+      "original": "רָעָה",
+      "translit": "raah",
+      "description": "To shepherd, tend, or feed — to care for and lead a flock"
+    },
+    {
+      "english": "Shepherd",
+      "sense": "NT",
+      "strongs": ["G4166"],
+      "original": "ποιμήν",
+      "translit": "poimēn",
+      "description": "A shepherd — one who tends and protects a flock"
+    },
+    {
+      "english": "Sign",
+      "sense": "OT",
+      "strongs": ["H0226"],
+      "original": "אוֹת",
+      "translit": "oth",
+      "description": "A sign, mark, or token — evidence pointing to something"
+    },
+    {
+      "english": "Sign",
+      "sense": "NT",
+      "strongs": ["G4592"],
+      "original": "σημεῖον",
+      "translit": "sēmeion",
+      "description": "A sign or miracle — an act that points to a deeper meaning"
+    },
+    {
+      "english": "Sin",
+      "sense": "missing the mark (OT)",
+      "strongs": ["H2403"],
+      "original": "חַטָּאת",
+      "translit": "chattath",
+      "description": "Sin or sin offering — missing God's standard"
+    },
+    {
+      "english": "Sin",
+      "sense": "transgression",
+      "strongs": ["H6588"],
+      "original": "פֶּשַׁע",
+      "translit": "pesha",
+      "description": "Transgression or rebellion — a willful crossing of boundaries"
+    },
+    {
+      "english": "Sin",
+      "sense": "iniquity",
+      "strongs": ["H5771"],
+      "original": "עָוֺן",
+      "translit": "avon",
+      "description": "Iniquity or guilt — crookedness, the twisted nature of wrongdoing"
+    },
+    {
+      "english": "Sin",
+      "sense": "missing the mark (NT)",
+      "strongs": ["G0266"],
+      "original": "ἁμαρτία",
+      "translit": "hamartia",
+      "description": "Sin — literally missing the mark, failing to hit the target"
+    },
+    {
+      "english": "Soul",
+      "sense": "OT",
+      "strongs": ["H5315"],
+      "original": "נֶפֶשׁ",
+      "translit": "nephesh",
+      "description": "Soul, life, being, self — the whole living person, not a disembodied spirit"
+    },
+    {
+      "english": "Soul",
+      "sense": "NT",
+      "strongs": ["G5590"],
+      "original": "ψυχή",
+      "translit": "psuchē",
+      "description": "Soul, life, or self — the inner life of a person"
+    },
+    {
+      "english": "Spirit",
+      "sense": "OT",
+      "strongs": ["H7307"],
+      "original": "רוּחַ",
+      "translit": "ruach",
+      "description": "Spirit, wind, or breath — used for God's Spirit, human spirit, and wind"
+    },
+    {
+      "english": "Spirit",
+      "sense": "NT",
+      "strongs": ["G4151"],
+      "original": "πνεῦμα",
+      "translit": "pneuma",
+      "description": "Spirit, wind, or breath — used for the Holy Spirit, human spirit, and evil spirits"
+    },
+    {
+      "english": "Temple",
+      "sense": "sanctuary",
+      "strongs": ["G3485"],
+      "original": "ναός",
+      "translit": "naos",
+      "description": "The inner sanctuary or shrine — the sacred space where God dwells"
+    },
+    {
+      "english": "Temple",
+      "sense": "complex",
+      "strongs": ["G2411"],
+      "original": "ἱερόν",
+      "translit": "hieron",
+      "description": "The temple complex — the entire sacred precinct including courts"
+    },
+    {
+      "english": "Temple",
+      "sense": "OT",
+      "strongs": ["H1964"],
+      "original": "הֵיכָל",
+      "translit": "hekal",
+      "description": "A temple or palace — a large and imposing building"
+    },
+    {
+      "english": "Truth",
+      "sense": "OT",
+      "strongs": ["H0571"],
+      "original": "אֱמֶת",
+      "translit": "emeth",
+      "description": "Truth, firmness, faithfulness — what is reliable, stable, and can be depended on"
+    },
+    {
+      "english": "Truth",
+      "sense": "NT",
+      "strongs": ["G0225"],
+      "original": "ἀλήθεια",
+      "translit": "alētheia",
+      "description": "Truth — what is unconcealed, reality as opposed to appearance"
+    },
+    {
+      "english": "Water",
+      "sense": "OT",
+      "strongs": ["H4325"],
+      "original": "מַיִם",
+      "translit": "mayim",
+      "description": "Water or waters — used for literal water, floods, and symbolic cleansing"
+    },
+    {
+      "english": "Water",
+      "sense": "NT",
+      "strongs": ["G5204"],
+      "original": "ὕδωρ",
+      "translit": "hudōr",
+      "description": "Water — literal and symbolic, including living water"
+    },
+    {
+      "english": "Wine",
+      "sense": "OT",
+      "strongs": ["H3196"],
+      "original": "יַיִן",
+      "translit": "yayin",
+      "description": "Wine — fermented grape juice, used in celebration and offering"
+    },
+    {
+      "english": "Wine",
+      "sense": "NT",
+      "strongs": ["G3631"],
+      "original": "οἶνος",
+      "translit": "oinos",
+      "description": "Wine — used at meals, feasts, and the Lord's Supper"
+    },
+    {
+      "english": "Wisdom",
+      "sense": "OT",
+      "strongs": ["H2451"],
+      "original": "חָכְמָה",
+      "translit": "chokmah",
+      "description": "Wisdom — skill for living, the ability to navigate life well"
+    },
+    {
+      "english": "Wisdom",
+      "sense": "NT",
+      "strongs": ["G4678"],
+      "original": "σοφία",
+      "translit": "sophia",
+      "description": "Wisdom — insight, sound judgment, understanding of what is true"
+    },
+    {
+      "english": "Word",
+      "sense": "concept/message",
+      "strongs": ["G3056"],
+      "original": "λόγος",
+      "translit": "logos",
+      "description": "Word as concept, message, or reason — the expression of thought"
+    },
+    {
+      "english": "Word",
+      "sense": "spoken utterance",
+      "strongs": ["G4487"],
+      "original": "ῥῆμα",
+      "translit": "rhēma",
+      "description": "A spoken word or saying — a specific utterance at a specific time"
+    },
+    {
+      "english": "Word",
+      "sense": "OT",
+      "strongs": ["H1697"],
+      "original": "דָּבָר",
+      "translit": "davar",
+      "description": "A word, matter, or thing — in Hebrew, a word is also a deed, an event"
+    },
+    {
+      "english": "Worship",
+      "sense": "bow down (OT)",
+      "strongs": ["H7812"],
+      "original": "שָׁחָה",
+      "translit": "shachah",
+      "description": "To bow down, prostrate oneself — physical act of reverence"
+    },
+    {
+      "english": "Worship",
+      "sense": "bow down (NT)",
+      "strongs": ["G4352"],
+      "original": "προσκυνέω",
+      "translit": "proskuneō",
+      "description": "To worship or bow down — to prostrate in reverence"
+    },
+    {
+      "english": "Worship",
+      "sense": "serve",
+      "strongs": ["G3000"],
+      "original": "λατρεύω",
+      "translit": "latreuō",
+      "description": "To serve or minister — worship expressed through devoted service"
+    },
+    {
+      "english": "Wrath",
+      "sense": "OT",
+      "strongs": ["H0639"],
+      "original": "אַף",
+      "translit": "aph",
+      "description": "Anger or wrath — literally 'nostril,' from the heavy breathing of anger"
+    },
+    {
+      "english": "Wrath",
+      "sense": "fury (OT)",
+      "strongs": ["H2534"],
+      "original": "חֵמָה",
+      "translit": "chemah",
+      "description": "Fury, heat, or poison — intense burning anger"
+    },
+    {
+      "english": "Wrath",
+      "sense": "NT",
+      "strongs": ["G3709"],
+      "original": "ὀργή",
+      "translit": "orgē",
+      "description": "Wrath or anger — a settled indignation, not a sudden outburst"
+    }
+  ]
+}

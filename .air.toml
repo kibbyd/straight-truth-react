@@ -1,0 +1,17 @@
+root = "."
+tmp_dir = "tmp"
+
+[build]
+  cmd = "go build -o ./tmp/straight-truth.exe ."
+  bin = "./tmp/straight-truth.exe"
+  delay = 1000
+  exclude_dir = ["tmp", "python-runtime", "node_modules", ".git", "old"]
+  exclude_regex = ["_test\\.go$"]
+  include_ext = ["go", "json", "js"]
+  kill_delay = 500
+
+[screen]
+  clear_on_rebuild = true
+
+[log]
+  time = true

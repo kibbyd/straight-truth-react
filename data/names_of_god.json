@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "description": "Names and titles of God in the Bible",
+    "note": "Includes Hebrew (OT) and Greek (NT) names with meanings. Click Strong's number for occurrences."
+  },
+  "names": [
+    {
+      "name": "Elohim",
+      "language": "Hebrew",
+      "meaning": "God (plural of majesty)",
+      "strongs": "H0430",
+      "references": ["Gen.1.1"]
+    },
+    {
+      "name": "YHWH (Yahweh)",
+      "language": "Hebrew",
+      "meaning": "The LORD, I AM",
+      "strongs": "H3068",
+      "references": ["Exo.3.14-15"]
+    },
+    {
+      "name": "Adonai",
+      "language": "Hebrew",
+      "meaning": "Lord, Master",
+      "strongs": "H0136",
+      "references": ["Gen.15.2"]
+    },
+    {
+      "name": "El Shaddai",
+      "language": "Hebrew",
+      "meaning": "God Almighty",
+      "strongs": "H7706",
+      "references": ["Gen.17.1"]
+    },
+    {
+      "name": "El Elyon",
+      "language": "Hebrew",
+      "meaning": "Most High God",
+      "strongs": "H5945",
+      "references": ["Gen.14.18-20"]
+    },
+    {
+      "name": "El Olam",
+      "language": "Hebrew",
+      "meaning": "Everlasting God",
+      "strongs": "H5769",
+      "references": ["Gen.21.33"]
+    },
+    {
+      "name": "El Roi",
+      "language": "Hebrew",
+      "meaning": "God Who Sees",
+      "strongs": "H7210",
+      "references": ["Gen.16.13"],
+      "context": "Named by Hagar (Gen 16:13)"
+    },
+    {
+      "name": "YHWH Yireh",
+      "language": "Hebrew",
+      "meaning": "The LORD Will Provide",
+      "strongs": "H3070",
+      "references": ["Gen.22.14"],
+      "context": "Place named by Abraham (Gen 22:14)"
+    },
+    {
+      "name": "YHWH Rapha",
+      "language": "Hebrew",
+      "meaning": "The LORD Who Heals",
+      "strongs": "H7495",
+      "references": ["Exo.15.26"]
+    },
+    {
+      "name": "YHWH Nissi",
+      "language": "Hebrew",
+      "meaning": "The LORD Is My Banner",
+      "strongs": "H5251",
+      "references": ["Exo.17.15"],
+      "context": "Altar named by Moses (Exo 17:15)"
+    },
+    {
+      "name": "YHWH Shalom",
+      "language": "Hebrew",
+      "meaning": "The LORD Is Peace",
+      "strongs": "H7965",
+      "references": ["Jdg.6.24"],
+      "context": "Altar named by Gideon (Jdg 6:24)"
+    },
+    {
+      "name": "YHWH Sabaoth",
+      "language": "Hebrew",
+      "meaning": "The LORD of Hosts",
+      "strongs": "H6635",
+      "references": ["1Sa.1.3"]
+    },
+    {
+      "name": "YHWH Rohi",
+      "language": "Hebrew",
+      "meaning": "The LORD Is My Shepherd",
+      "strongs": "H7462",
+      "references": ["Psa.23.1"]
+    },
+    {
+      "name": "YHWH Tsidkenu",
+      "language": "Hebrew",
+      "meaning": "The LORD Our Righteousness",
+      "strongs": "H6664",
+      "references": ["Jer.23.6"]
+    },
+    {
+      "name": "YHWH Shammah",
+      "language": "Hebrew",
+      "meaning": "The LORD Is There",
+      "strongs": "H8033",
+      "references": ["Eze.48.35"]
+    },
+    {
+      "name": "Qanna",
+      "language": "Hebrew",
+      "meaning": "Jealous",
+      "strongs": "H7067",
+      "references": ["Exo.34.14"]
+    },
+    {
+      "name": "Attiq Yomin",
+      "language": "Aramaic",
+      "meaning": "Ancient of Days",
+      "strongs": "H6268",
+      "references": ["Dan.7.9"]
+    },
+    {
+      "name": "Theos",
+      "language": "Greek",
+      "meaning": "God",
+      "strongs": "G2316",
+      "references": ["Joh.1.1"]
+    },
+    {
+      "name": "Kyrios",
+      "language": "Greek",
+      "meaning": "Lord",
+      "strongs": "G2962",
+      "references": ["Mat.22.44"]
+    },
+    {
+      "name": "Pater",
+      "language": "Greek",
+      "meaning": "Father",
+      "strongs": "G3962",
+      "references": ["Mat.6.9"]
+    },
+    {
+      "name": "Abba",
+      "language": "Aramaic",
+      "meaning": "Father (intimate)",
+      "strongs": "G0005",
+      "references": ["Mar.14.36", "Rom.8.15", "Gal.4.6"]
+    },
+    {
+      "name": "Pantokrator",
+      "language": "Greek",
+      "meaning": "Almighty, Ruler of All",
+      "strongs": "G3841",
+      "references": ["Rev.1.8"]
+    },
+    {
+      "name": "Alpha and Omega",
+      "language": "Greek",
+      "meaning": "The First and the Last",
+      "strongs": "G0001",
+      "references": ["Rev.1.8", "Rev.22.13"]
+    },
+    {
+      "name": "I AM",
+      "language": "Greek",
+      "meaning": "Ego Eimi",
+      "strongs": "G1510",
+      "references": ["Joh.8.58"]
+    }
+  ]
+}

@@ -1,0 +1,3138 @@
+{
+  "_meta": {
+    "description": "Biblical chronological data - durations, reigns, lifespans, and periods as recorded in scripture",
+    "note": "All durations sourced from explicit biblical statements. Dates are scholarly estimates where provided.",
+    "categories": [
+      "lifespans",
+      "reigns",
+      "periods",
+      "events",
+      "journeys",
+      "building_projects",
+      "prophetic_periods"
+    ]
+  },
+  "lifespans": {
+    "_note": "Patriarchal ages from Genesis 5 and 11",
+    "pre_flood": [
+      {
+        "name": "Adam",
+        "years": 930,
+        "age_at_son": 130,
+        "son": "Seth",
+        "references": [
+          "Gen.5.3-5"
+        ]
+      },
+      {
+        "name": "Seth",
+        "years": 912,
+        "age_at_son": 105,
+        "son": "Enosh",
+        "references": [
+          "Gen.5.6-8"
+        ]
+      },
+      {
+        "name": "Enosh",
+        "years": 905,
+        "age_at_son": 90,
+        "son": "Kenan",
+        "references": [
+          "Gen.5.9-11"
+        ]
+      },
+      {
+        "name": "Kenan",
+        "years": 910,
+        "age_at_son": 70,
+        "son": "Mahalalel",
+        "references": [
+          "Gen.5.12-14"
+        ]
+      },
+      {
+        "name": "Mahalalel",
+        "years": 895,
+        "age_at_son": 65,
+        "son": "Jared",
+        "references": [
+          "Gen.5.15-17"
+        ]
+      },
+      {
+        "name": "Jared",
+        "years": 962,
+        "age_at_son": 162,
+        "son": "Enoch",
+        "references": [
+          "Gen.5.18-20"
+        ]
+      },
+      {
+        "name": "Enoch",
+        "years": 365,
+        "age_at_son": 65,
+        "son": "Methuselah",
+        "references": [
+          "Gen.5.21-24"
+        ],
+        "notes": "Did not die - God took him"
+      },
+      {
+        "name": "Methuselah",
+        "years": 969,
+        "age_at_son": 187,
+        "son": "Lamech",
+        "references": [
+          "Gen.5.25-27"
+        ],
+        "notes": "Longest recorded lifespan"
+      },
+      {
+        "name": "Lamech",
+        "years": 777,
+        "age_at_son": 182,
+        "son": "Noah",
+        "references": [
+          "Gen.5.28-31"
+        ]
+      },
+      {
+        "name": "Noah",
+        "years": 950,
+        "age_at_son": 500,
+        "son": "Shem, Ham, Japheth",
+        "references": [
+          "Gen.5.32",
+          "Gen.9.28-29"
+        ]
+      }
+    ],
+    "post_flood": [
+      {
+        "name": "Shem",
+        "years": 600,
+        "age_at_son": 100,
+        "son": "Arphaxad",
+        "references": [
+          "Gen.11.10-11"
+        ],
+        "notes": "Born 2 years after flood"
+      },
+      {
+        "name": "Arphaxad",
+        "years": 438,
+        "age_at_son": 35,
+        "son": "Shelah",
+        "references": [
+          "Gen.11.12-13"
+        ]
+      },
+      {
+        "name": "Shelah",
+        "years": 433,
+        "age_at_son": 30,
+        "son": "Eber",
+        "references": [
+          "Gen.11.14-15"
+        ]
+      },
+      {
+        "name": "Eber",
+        "years": 464,
+        "age_at_son": 34,
+        "son": "Peleg",
+        "references": [
+          "Gen.11.16-17"
+        ]
+      },
+      {
+        "name": "Peleg",
+        "years": 239,
+        "age_at_son": 30,
+        "son": "Reu",
+        "references": [
+          "Gen.11.18-19"
+        ],
+        "notes": "In his days the earth was divided"
+      },
+      {
+        "name": "Reu",
+        "years": 239,
+        "age_at_son": 32,
+        "son": "Serug",
+        "references": [
+          "Gen.11.20-21"
+        ]
+      },
+      {
+        "name": "Serug",
+        "years": 230,
+        "age_at_son": 30,
+        "son": "Nahor",
+        "references": [
+          "Gen.11.22-23"
+        ]
+      },
+      {
+        "name": "Nahor",
+        "years": 148,
+        "age_at_son": 29,
+        "son": "Terah",
+        "references": [
+          "Gen.11.24-25"
+        ]
+      },
+      {
+        "name": "Terah",
+        "years": 205,
+        "age_at_son": 70,
+        "son": "Abram, Nahor, Haran",
+        "references": [
+          "Gen.11.26",
+          "Gen.11.32"
+        ]
+      }
+    ],
+    "patriarchs": [
+      {
+        "name": "Abraham",
+        "years": 175,
+        "references": [
+          "Gen.25.7"
+        ]
+      },
+      {
+        "name": "Sarah",
+        "years": 127,
+        "references": [
+          "Gen.23.1"
+        ]
+      },
+      {
+        "name": "Ishmael",
+        "years": 137,
+        "references": [
+          "Gen.25.17"
+        ]
+      },
+      {
+        "name": "Isaac",
+        "years": 180,
+        "references": [
+          "Gen.35.28"
+        ]
+      },
+      {
+        "name": "Jacob",
+        "years": 147,
+        "references": [
+          "Gen.47.28"
+        ]
+      },
+      {
+        "name": "Joseph",
+        "years": 110,
+        "references": [
+          "Gen.50.22"
+        ]
+      },
+      {
+        "name": "Levi",
+        "years": 137,
+        "references": [
+          "Exo.6.16"
+        ]
+      },
+      {
+        "name": "Kohath",
+        "years": 133,
+        "references": [
+          "Exo.6.18"
+        ]
+      },
+      {
+        "name": "Amram",
+        "years": 137,
+        "references": [
+          "Exo.6.20"
+        ]
+      },
+      {
+        "name": "Moses",
+        "years": 120,
+        "references": [
+          "Deu.34.7"
+        ]
+      },
+      {
+        "name": "Aaron",
+        "years": 123,
+        "references": [
+          "Num.33.39"
+        ]
+      },
+      {
+        "name": "Joshua",
+        "years": 110,
+        "references": [
+          "Jos.24.29"
+        ]
+      }
+    ],
+    "notable_ages": [
+      {
+        "name": "Jehoiada the priest",
+        "years": 130,
+        "references": [
+          "2Ch.24.15"
+        ],
+        "notes": "Oldest recorded age outside Genesis"
+      },
+      {
+        "name": "Job (after restoration)",
+        "years_added": 140,
+        "references": [
+          "Job.42.16"
+        ],
+        "notes": "Lived 140 years after his trials"
+      },
+      {
+        "name": "Eli",
+        "years": 98,
+        "references": [
+          "1Sa.4.15"
+        ]
+      }
+    ]
+  },
+  "reigns": {
+    "united_kingdom": [
+      {
+        "name": "Saul",
+        "years": 40,
+        "references": [
+          "Act.13.21"
+        ],
+        "notes": "Reign length from NT; 1 Sam 13:1 text unclear"
+      },
+      {
+        "name": "David",
+        "years": 40,
+        "years_hebron": 7.5,
+        "years_jerusalem": 33,
+        "references": [
+          "2Sa.5.4-5",
+          "1Ki.2.11"
+        ]
+      },
+      {
+        "name": "Solomon",
+        "years": 40,
+        "references": [
+          "1Ki.11.42"
+        ]
+      }
+    ],
+    "israel_northern": [
+      {
+        "name": "Jeroboam I",
+        "years": 22,
+        "references": [
+          "1Ki.14.20"
+        ]
+      },
+      {
+        "name": "Nadab",
+        "years": 2,
+        "references": [
+          "1Ki.15.25"
+        ]
+      },
+      {
+        "name": "Baasha",
+        "years": 24,
+        "references": [
+          "1Ki.15.33"
+        ]
+      },
+      {
+        "name": "Elah",
+        "years": 2,
+        "references": [
+          "1Ki.16.8"
+        ]
+      },
+      {
+        "name": "Zimri",
+        "years": 0,
+        "days": 7,
+        "references": [
+          "1Ki.16.15"
+        ]
+      },
+      {
+        "name": "Omri",
+        "years": 12,
+        "references": [
+          "1Ki.16.23"
+        ]
+      },
+      {
+        "name": "Ahab",
+        "years": 22,
+        "references": [
+          "1Ki.16.29"
+        ]
+      },
+      {
+        "name": "Ahaziah",
+        "years": 2,
+        "references": [
+          "1Ki.22.51"
+        ]
+      },
+      {
+        "name": "Joram",
+        "years": 12,
+        "references": [
+          "2Ki.3.1"
+        ]
+      },
+      {
+        "name": "Jehu",
+        "years": 28,
+        "references": [
+          "2Ki.10.36"
+        ]
+      },
+      {
+        "name": "Jehoahaz",
+        "years": 17,
+        "references": [
+          "2Ki.13.1"
+        ]
+      },
+      {
+        "name": "Jehoash",
+        "years": 16,
+        "references": [
+          "2Ki.13.10"
+        ]
+      },
+      {
+        "name": "Jeroboam II",
+        "years": 41,
+        "references": [
+          "2Ki.14.23"
+        ]
+      },
+      {
+        "name": "Zechariah",
+        "years": 0,
+        "months": 6,
+        "references": [
+          "2Ki.15.8"
+        ]
+      },
+      {
+        "name": "Shallum",
+        "years": 0,
+        "months": 1,
+        "references": [
+          "2Ki.15.13"
+        ]
+      },
+      {
+        "name": "Menahem",
+        "years": 10,
+        "references": [
+          "2Ki.15.17"
+        ]
+      },
+      {
+        "name": "Pekahiah",
+        "years": 2,
+        "references": [
+          "2Ki.15.23"
+        ]
+      },
+      {
+        "name": "Pekah",
+        "years": 20,
+        "references": [
+          "2Ki.15.27"
+        ]
+      },
+      {
+        "name": "Hoshea",
+        "years": 9,
+        "references": [
+          "2Ki.17.1"
+        ],
+        "notes": "Last king; Assyrian conquest 722 BC"
+      }
+    ],
+    "judah_southern": [
+      {
+        "name": "Rehoboam",
+        "years": 17,
+        "references": [
+          "1Ki.14.21"
+        ]
+      },
+      {
+        "name": "Abijam",
+        "years": 3,
+        "references": [
+          "1Ki.15.2"
+        ]
+      },
+      {
+        "name": "Asa",
+        "years": 41,
+        "references": [
+          "1Ki.15.10"
+        ]
+      },
+      {
+        "name": "Jehoshaphat",
+        "years": 25,
+        "references": [
+          "1Ki.22.42"
+        ]
+      },
+      {
+        "name": "Jehoram",
+        "years": 8,
+        "references": [
+          "2Ki.8.17"
+        ]
+      },
+      {
+        "name": "Ahaziah",
+        "years": 1,
+        "references": [
+          "2Ki.8.26"
+        ]
+      },
+      {
+        "name": "Athaliah",
+        "years": 6,
+        "references": [
+          "2Ki.11.3"
+        ],
+        "notes": "Queen, not king"
+      },
+      {
+        "name": "Joash",
+        "years": 40,
+        "references": [
+          "2Ki.12.1"
+        ]
+      },
+      {
+        "name": "Amaziah",
+        "years": 29,
+        "references": [
+          "2Ki.14.2"
+        ]
+      },
+      {
+        "name": "Azariah (Uzziah)",
+        "years": 52,
+        "references": [
+          "2Ki.15.2"
+        ]
+      },
+      {
+        "name": "Jotham",
+        "years": 16,
+        "references": [
+          "2Ki.15.33"
+        ]
+      },
+      {
+        "name": "Ahaz",
+        "years": 16,
+        "references": [
+          "2Ki.16.2"
+        ]
+      },
+      {
+        "name": "Hezekiah",
+        "years": 29,
+        "references": [
+          "2Ki.18.2"
+        ]
+      },
+      {
+        "name": "Manasseh",
+        "years": 55,
+        "references": [
+          "2Ki.21.1"
+        ],
+        "notes": "Longest reign in Judah"
+      },
+      {
+        "name": "Amon",
+        "years": 2,
+        "references": [
+          "2Ki.21.19"
+        ]
+      },
+      {
+        "name": "Josiah",
+        "years": 31,
+        "references": [
+          "2Ki.22.1"
+        ]
+      },
+      {
+        "name": "Jehoahaz",
+        "years": 0,
+        "months": 3,
+        "references": [
+          "2Ki.23.31"
+        ]
+      },
+      {
+        "name": "Jehoiakim",
+        "years": 11,
+        "references": [
+          "2Ki.23.36"
+        ]
+      },
+      {
+        "name": "Jehoiachin",
+        "years": 0,
+        "months": 3,
+        "references": [
+          "2Ki.24.8"
+        ]
+      },
+      {
+        "name": "Zedekiah",
+        "years": 11,
+        "references": [
+          "2Ki.24.18"
+        ],
+        "notes": "Last king; Babylonian destruction 586 BC"
+      }
+    ],
+    "foreign_empires": {
+      "egypt": [
+        {
+          "name": "Pharaoh (Joseph's time)",
+          "notes": "Unnamed in Genesis",
+          "references": [
+            "Gen.41.46"
+          ]
+        },
+        {
+          "name": "Pharaoh (Exodus)",
+          "notes": "Unnamed in Exodus",
+          "references": [
+            "Exo.1.8"
+          ]
+        },
+        {
+          "name": "Shishak (Shoshenq I)",
+          "date_estimate": "945-924 BC",
+          "references": [
+            "1Ki.14.25-26"
+          ]
+        },
+        {
+          "name": "So",
+          "references": [
+            "2Ki.17.4"
+          ]
+        },
+        {
+          "name": "Tirhakah",
+          "references": [
+            "2Ki.19.9"
+          ]
+        },
+        {
+          "name": "Neco II",
+          "date_estimate": "610-595 BC",
+          "references": [
+            "2Ki.23.29"
+          ]
+        },
+        {
+          "name": "Hophra",
+          "date_estimate": "589-570 BC",
+          "references": [
+            "Jer.44.30"
+          ]
+        }
+      ],
+      "assyria": [
+        {
+          "name": "Tiglath-Pileser III (Pul)",
+          "date_estimate": "745-727 BC",
+          "references": [
+            "2Ki.15.19",
+            "2Ki.15.29"
+          ]
+        },
+        {
+          "name": "Shalmaneser V",
+          "date_estimate": "727-722 BC",
+          "references": [
+            "2Ki.17.3"
+          ]
+        },
+        {
+          "name": "Sargon II",
+          "date_estimate": "722-705 BC",
+          "references": [
+            "Isa.20.1"
+          ]
+        },
+        {
+          "name": "Sennacherib",
+          "date_estimate": "705-681 BC",
+          "references": [
+            "2Ki.18.13"
+          ]
+        },
+        {
+          "name": "Esarhaddon",
+          "date_estimate": "681-669 BC",
+          "references": [
+            "2Ki.19.37"
+          ]
+        }
+      ],
+      "babylon": [
+        {
+          "name": "Nebuchadnezzar II",
+          "years": 43,
+          "date_estimate": "605-562 BC",
+          "references": [
+            "2Ki.24.1",
+            "Dan.1.1"
+          ]
+        },
+        {
+          "name": "Evil-Merodach",
+          "date_estimate": "562-560 BC",
+          "references": [
+            "2Ki.25.27"
+          ]
+        },
+        {
+          "name": "Belshazzar",
+          "notes": "Co-regent with Nabonidus",
+          "references": [
+            "Dan.5.1"
+          ]
+        }
+      ],
+      "persia": [
+        {
+          "name": "Cyrus",
+          "date_estimate": "559-530 BC",
+          "references": [
+            "2Ch.36.22-23",
+            "Ezr.1.1"
+          ]
+        },
+        {
+          "name": "Darius I",
+          "date_estimate": "522-486 BC",
+          "references": [
+            "Ezr.4.5",
+            "Hag.1.1"
+          ]
+        },
+        {
+          "name": "Ahasuerus (Xerxes I)",
+          "date_estimate": "486-465 BC",
+          "references": [
+            "Est.1.1"
+          ]
+        },
+        {
+          "name": "Artaxerxes I",
+          "date_estimate": "465-424 BC",
+          "references": [
+            "Ezr.7.1",
+            "Neh.2.1"
+          ]
+        }
+      ],
+      "greece": [
+        {
+          "name": "Alexander the Great",
+          "date_estimate": "336-323 BC",
+          "notes": "Intertestamental; referenced in Daniel's vision",
+          "references": [
+            "Dan.8.21",
+            "Dan.11.3"
+          ]
+        }
+      ],
+      "rome": [
+        {
+          "name": "Augustus Caesar",
+          "date_estimate": "27 BC - 14 AD",
+          "references": [
+            "Luk.2.1"
+          ]
+        },
+        {
+          "name": "Tiberius Caesar",
+          "date_estimate": "14-37 AD",
+          "references": [
+            "Luk.3.1"
+          ]
+        },
+        {
+          "name": "Claudius",
+          "date_estimate": "41-54 AD",
+          "references": [
+            "Act.11.28",
+            "Act.18.2"
+          ]
+        },
+        {
+          "name": "Nero",
+          "date_estimate": "54-68 AD",
+          "notes": "Paul appealed to him",
+          "references": [
+            "Act.25.11"
+          ]
+        }
+      ],
+      "herodian": [
+        {
+          "name": "Herod the Great",
+          "date_estimate": "37-4 BC",
+          "references": [
+            "Mat.2.1"
+          ]
+        },
+        {
+          "name": "Archelaus",
+          "date_estimate": "4 BC - 6 AD",
+          "territory": "Judea, Samaria, Idumea",
+          "references": [
+            "Mat.2.22"
+          ]
+        },
+        {
+          "name": "Herod Antipas",
+          "date_estimate": "4 BC - 39 AD",
+          "territory": "Galilee, Perea",
+          "references": [
+            "Mat.14.1",
+            "Luk.23.7"
+          ]
+        },
+        {
+          "name": "Philip",
+          "date_estimate": "4 BC - 34 AD",
+          "territory": "Northeast territories",
+          "references": [
+            "Luk.3.1"
+          ]
+        },
+        {
+          "name": "Herod Agrippa I",
+          "date_estimate": "41-44 AD",
+          "references": [
+            "Act.12.1"
+          ]
+        },
+        {
+          "name": "Herod Agrippa II",
+          "date_estimate": "50-100 AD",
+          "references": [
+            "Act.25.13"
+          ]
+        }
+      ]
+    }
+  },
+  "periods": [
+    {
+      "name": "Creation to Flood",
+      "duration_years": 1656,
+      "calculation": "Sum of ages from Adam to Noah at flood (Adam 130 + Seth 105 + Enosh 90 + Kenan 70 + Mahalalel 65 + Jared 162 + Enoch 65 + Methuselah 187 + Lamech 182 + Noah 600)",
+      "references": [
+        "Gen.5.1-32",
+        "Gen.7.6"
+      ]
+    },
+    {
+      "name": "The Flood",
+      "duration_days": 371,
+      "details": {
+        "rain": {
+          "days": 40,
+          "references": [
+            "Gen.7.12"
+          ]
+        },
+        "waters_prevailed": {
+          "days": 150,
+          "references": [
+            "Gen.7.24"
+          ]
+        },
+        "total_in_ark": {
+          "days": 371,
+          "calculation": "From Gen.7.11 (2/17) to Gen.8.14 (2/27 next year)",
+          "references": [
+            "Gen.7.11",
+            "Gen.8.14"
+          ]
+        }
+      },
+      "references": [
+        "Gen.7.11",
+        "Gen.8.14"
+      ]
+    },
+    {
+      "name": "Flood to Abraham's Call",
+      "duration_years": 427,
+      "calculation": "Sum of ages from Shem to Terah plus Abraham's age at call (75)",
+      "references": [
+        "Gen.11.10-26",
+        "Gen.12.4"
+      ]
+    },
+    {
+      "name": "Patriarchal Period",
+      "duration_years": 215,
+      "calculation": "From Abraham's call (75) to Jacob entering Egypt (130): Abraham 100 years to Isaac, Isaac 60 to Jacob, Jacob 130 entering Egypt = 100-75 + 60 + 130 = 215",
+      "references": [
+        "Gen.12.4",
+        "Gen.21.5",
+        "Gen.25.26",
+        "Gen.47.9"
+      ]
+    },
+    {
+      "name": "Egyptian Sojourn",
+      "duration_years": 430,
+      "references": [
+        "Exo.12.40-41"
+      ],
+      "notes": "Exodus 12:40 states 430 years; Galatians 3:17 counts from promise to law"
+    },
+    {
+      "name": "Wilderness Wandering",
+      "duration_years": 40,
+      "references": [
+        "Num.14.33-34",
+        "Num.32.13",
+        "Deu.2.7",
+        "Jos.5.6",
+        "Act.7.36"
+      ]
+    },
+    {
+      "name": "Conquest of Canaan",
+      "duration_years": 7,
+      "calculation": "Joshua's age calculations: entered at ~79, died at 110, approximately 7 years of conquest",
+      "references": [
+        "Jos.14.7-10"
+      ],
+      "notes": "Caleb was 40 at spying, 85 at division of land after conquest"
+    },
+    {
+      "name": "Period of Judges",
+      "duration_years": 450,
+      "references": [
+        "Act.13.20"
+      ],
+      "notes": "Acts 13:20 gives approximately 450 years; individual judge periods total differently due to overlaps"
+    },
+    {
+      "name": "United Kingdom",
+      "duration_years": 120,
+      "calculation": "Saul 40 + David 40 + Solomon 40",
+      "references": [
+        "Act.13.21",
+        "1Ki.2.11",
+        "1Ki.11.42"
+      ]
+    },
+    {
+      "name": "Divided Kingdom",
+      "duration_years": 209,
+      "calculation": "From division (930 BC) to fall of Israel (722 BC)",
+      "date_estimate": "930-722 BC",
+      "references": [
+        "1Ki.12.16-20",
+        "2Ki.17.6"
+      ]
+    },
+    {
+      "name": "Judah Alone",
+      "duration_years": 136,
+      "calculation": "From fall of Israel (722 BC) to fall of Jerusalem (586 BC)",
+      "date_estimate": "722-586 BC",
+      "references": [
+        "2Ki.17.6",
+        "2Ki.25.1-21"
+      ]
+    },
+    {
+      "name": "Babylonian Exile",
+      "duration_years": 70,
+      "references": [
+        "Jer.25.11-12",
+        "Jer.29.10",
+        "Dan.9.2",
+        "2Ch.36.21"
+      ],
+      "date_estimate": "586-516 BC",
+      "notes": "Jeremiah prophesied 70 years; ended with temple completion"
+    },
+    {
+      "name": "Persian Period",
+      "duration_years": 207,
+      "date_estimate": "539-332 BC",
+      "references": [
+        "2Ch.36.20-23",
+        "Ezr.1.1"
+      ],
+      "notes": "From Cyrus's decree to Alexander's conquest"
+    },
+    {
+      "name": "Intertestamental Period",
+      "duration_years": 400,
+      "date_estimate": "432-5 BC",
+      "notes": "From Malachi to birth of Christ; no biblical record"
+    },
+    {
+      "name": "Jesus's Ministry",
+      "duration_years": 3,
+      "references": [
+        "Joh.2.13",
+        "Joh.6.4",
+        "Joh.11.55"
+      ],
+      "notes": "Based on three Passovers mentioned in John's Gospel"
+    }
+  ],
+  "events": {
+    "old_testament": [
+      {
+        "name": "Abraham's Stay in Haran",
+        "duration_years": null,
+        "ended_at_age": 75,
+        "references": [
+          "Gen.11.31",
+          "Gen.12.4"
+        ],
+        "notes": "Left at Terah's death when Abraham was 75"
+      },
+      {
+        "name": "Famine (Joseph's time)",
+        "duration_years": 7,
+        "preceded_by": "7 years of plenty",
+        "references": [
+          "Gen.41.29-30"
+        ]
+      },
+      {
+        "name": "Moses in Midian",
+        "duration_years": 40,
+        "references": [
+          "Act.7.30"
+        ],
+        "notes": "Fled Egypt at 40, called at burning bush at 80"
+      },
+      {
+        "name": "Plagues on Egypt",
+        "duration_months": null,
+        "chapter_range": "Exo.7-12",
+        "notes": "Duration not specified; rapid succession implied"
+      },
+      {
+        "name": "Mount Sinai Encampment",
+        "duration_days": null,
+        "duration_estimate": "~11 months",
+        "references": [
+          "Exo.19.1",
+          "Num.10.11"
+        ],
+        "notes": "Arrived 3rd month after leaving Egypt, departed 2/20 of year 2"
+      },
+      {
+        "name": "Moses on Mount Sinai (First)",
+        "duration_days": 40,
+        "references": [
+          "Exo.24.18"
+        ]
+      },
+      {
+        "name": "Moses on Mount Sinai (Second)",
+        "duration_days": 40,
+        "references": [
+          "Exo.34.28"
+        ]
+      },
+      {
+        "name": "Spies in Canaan",
+        "duration_days": 40,
+        "references": [
+          "Num.13.25"
+        ]
+      },
+      {
+        "name": "Balaam's Journey",
+        "chapter_range": "Num.22-24",
+        "notes": "Duration not specified"
+      },
+      {
+        "name": "Siege of Jericho",
+        "duration_days": 7,
+        "references": [
+          "Jos.6.3-4"
+        ]
+      },
+      {
+        "name": "Oppression by Cushan-Rishathaim",
+        "duration_years": 8,
+        "deliverer": "Othniel",
+        "references": [
+          "Jdg.3.8"
+        ]
+      },
+      {
+        "name": "Peace under Othniel",
+        "duration_years": 40,
+        "references": [
+          "Jdg.3.11"
+        ]
+      },
+      {
+        "name": "Oppression by Moab",
+        "duration_years": 18,
+        "deliverer": "Ehud",
+        "references": [
+          "Jdg.3.14"
+        ]
+      },
+      {
+        "name": "Peace under Ehud",
+        "duration_years": 80,
+        "references": [
+          "Jdg.3.30"
+        ]
+      },
+      {
+        "name": "Oppression by Canaan (Jabin)",
+        "duration_years": 20,
+        "deliverer": "Deborah/Barak",
+        "references": [
+          "Jdg.4.3"
+        ]
+      },
+      {
+        "name": "Peace under Deborah",
+        "duration_years": 40,
+        "references": [
+          "Jdg.5.31"
+        ]
+      },
+      {
+        "name": "Oppression by Midian",
+        "duration_years": 7,
+        "deliverer": "Gideon",
+        "references": [
+          "Jdg.6.1"
+        ]
+      },
+      {
+        "name": "Peace under Gideon",
+        "duration_years": 40,
+        "references": [
+          "Jdg.8.28"
+        ]
+      },
+      {
+        "name": "Abimelech's Rule",
+        "duration_years": 3,
+        "references": [
+          "Jdg.9.22"
+        ]
+      },
+      {
+        "name": "Tola as Judge",
+        "duration_years": 23,
+        "references": [
+          "Jdg.10.2"
+        ]
+      },
+      {
+        "name": "Jair as Judge",
+        "duration_years": 22,
+        "references": [
+          "Jdg.10.3"
+        ]
+      },
+      {
+        "name": "Oppression by Philistines and Ammon",
+        "duration_years": 18,
+        "deliverer": "Jephthah",
+        "references": [
+          "Jdg.10.8"
+        ]
+      },
+      {
+        "name": "Jephthah as Judge",
+        "duration_years": 6,
+        "references": [
+          "Jdg.12.7"
+        ]
+      },
+      {
+        "name": "Ibzan as Judge",
+        "duration_years": 7,
+        "references": [
+          "Jdg.12.9"
+        ]
+      },
+      {
+        "name": "Elon as Judge",
+        "duration_years": 10,
+        "references": [
+          "Jdg.12.11"
+        ]
+      },
+      {
+        "name": "Abdon as Judge",
+        "duration_years": 8,
+        "references": [
+          "Jdg.12.14"
+        ]
+      },
+      {
+        "name": "Oppression by Philistines",
+        "duration_years": 40,
+        "deliverer": "Samson",
+        "references": [
+          "Jdg.13.1"
+        ]
+      },
+      {
+        "name": "Samson as Judge",
+        "duration_years": 20,
+        "references": [
+          "Jdg.15.20",
+          "Jdg.16.31"
+        ]
+      },
+      {
+        "name": "Eli as Judge/Priest",
+        "duration_years": 40,
+        "references": [
+          "1Sa.4.18"
+        ]
+      },
+      {
+        "name": "Ark at Kiriath-jearim",
+        "duration_years": 20,
+        "references": [
+          "1Sa.7.2"
+        ]
+      },
+      {
+        "name": "David in Hebron",
+        "duration_years": 7.5,
+        "references": [
+          "2Sa.5.5"
+        ]
+      },
+      {
+        "name": "Absalom in Geshur",
+        "duration_years": 3,
+        "references": [
+          "2Sa.13.38"
+        ]
+      },
+      {
+        "name": "Absalom in Jerusalem (before revolt)",
+        "duration_years": 2,
+        "references": [
+          "2Sa.14.28"
+        ]
+      },
+      {
+        "name": "Absalom's Conspiracy Preparation",
+        "duration_years": 4,
+        "references": [
+          "2Sa.15.7"
+        ],
+        "notes": "Some manuscripts read 40 years"
+      },
+      {
+        "name": "Famine in David's Reign",
+        "duration_years": 3,
+        "references": [
+          "2Sa.21.1"
+        ]
+      },
+      {
+        "name": "Solomon's Temple Construction",
+        "duration_years": 7,
+        "references": [
+          "1Ki.6.38"
+        ]
+      },
+      {
+        "name": "Solomon's Palace Construction",
+        "duration_years": 13,
+        "references": [
+          "1Ki.7.1"
+        ]
+      },
+      {
+        "name": "Elijah's Journey to Horeb",
+        "duration_days": 40,
+        "references": [
+          "1Ki.19.8"
+        ]
+      },
+      {
+        "name": "Siege of Samaria (Ben-hadad)",
+        "references": [
+          "1Ki.20.1"
+        ],
+        "notes": "Duration not specified"
+      },
+      {
+        "name": "Ahab's Peace with Syria",
+        "duration_years": 3,
+        "references": [
+          "1Ki.22.1"
+        ]
+      },
+      {
+        "name": "Siege of Samaria (Famine)",
+        "references": [
+          "2Ki.6.24-25"
+        ],
+        "notes": "Duration not specified"
+      },
+      {
+        "name": "Siege of Samaria (Assyrian)",
+        "duration_years": 3,
+        "references": [
+          "2Ki.17.5"
+        ]
+      },
+      {
+        "name": "Sennacherib's Campaign",
+        "date_estimate": "701 BC",
+        "references": [
+          "2Ki.18.13-19.37"
+        ]
+      },
+      {
+        "name": "Hezekiah's Extended Life",
+        "duration_years": 15,
+        "references": [
+          "2Ki.20.6"
+        ]
+      },
+      {
+        "name": "Manasseh in Babylon",
+        "references": [
+          "2Ch.33.11-13"
+        ],
+        "notes": "Duration not specified; returned and restored"
+      },
+      {
+        "name": "Siege of Jerusalem (Babylonian)",
+        "duration_years": 2,
+        "references": [
+          "2Ki.25.1-3"
+        ],
+        "date_estimate": "588-586 BC"
+      },
+      {
+        "name": "Ezekiel's Symbolic Lying",
+        "duration_days": 430,
+        "left_side": 390,
+        "right_side": 40,
+        "references": [
+          "Eze.4.4-6"
+        ],
+        "notes": "390 days for Israel's sin, 40 for Judah's"
+      },
+      {
+        "name": "Second Temple Construction",
+        "duration_years": 4,
+        "date_estimate": "520-516 BC",
+        "references": [
+          "Ezr.6.15",
+          "Hag.1.1"
+        ],
+        "notes": "Resumed under Darius, completed in his 6th year"
+      },
+      {
+        "name": "Esther's Preparation Period",
+        "duration_months": 12,
+        "references": [
+          "Est.2.12"
+        ]
+      },
+      {
+        "name": "Nehemiah's First Term",
+        "duration_years": 12,
+        "references": [
+          "Neh.5.14"
+        ],
+        "date_estimate": "445-433 BC"
+      },
+      {
+        "name": "Daniel's Prayer and Fasting",
+        "duration_days": 21,
+        "references": [
+          "Dan.10.2-3"
+        ]
+      },
+      {
+        "name": "Jonah's Warning to Nineveh",
+        "duration_days": 40,
+        "references": [
+          "Jon.3.4"
+        ]
+      },
+      {
+        "name": "Jonah in the Fish",
+        "duration_days": 3,
+        "references": [
+          "Jon.1.17",
+          "Mat.12.40"
+        ]
+      },
+      {
+        "name": "Jacob's Service for Rachel",
+        "duration_years": 7,
+        "references": [
+          "Gen.29.20"
+        ],
+        "notes": "Served Laban 7 years for Rachel, received Leah instead"
+      },
+      {
+        "name": "Jacob's Service for Rachel (Second)",
+        "duration_years": 7,
+        "references": [
+          "Gen.29.27-30"
+        ],
+        "notes": "Served 7 more years after receiving Rachel"
+      },
+      {
+        "name": "Jacob's Service for Flocks",
+        "duration_years": 6,
+        "references": [
+          "Gen.31.41"
+        ],
+        "notes": "6 years tending Laban's flocks after 14 years for wives"
+      },
+      {
+        "name": "Joseph in Prison",
+        "duration_years": 2,
+        "references": [
+          "Gen.41.1"
+        ],
+        "notes": "Minimum 2 years; cupbearer forgot him for 2 full years after interpretation"
+      },
+      {
+        "name": "Seven Years of Plenty (Egypt)",
+        "duration_years": 7,
+        "references": [
+          "Gen.41.29",
+          "Gen.41.47-49"
+        ]
+      },
+      {
+        "name": "Embalming of Jacob",
+        "duration_days": 40,
+        "references": [
+          "Gen.50.3"
+        ]
+      },
+      {
+        "name": "Mourning for Jacob",
+        "duration_days": 70,
+        "references": [
+          "Gen.50.3"
+        ]
+      },
+      {
+        "name": "Moses Hidden by Mother",
+        "duration_months": 3,
+        "references": [
+          "Exo.2.2",
+          "Act.7.20",
+          "Heb.11.23"
+        ]
+      },
+      {
+        "name": "Moses in Pharaoh's Court",
+        "duration_years": 40,
+        "references": [
+          "Act.7.23"
+        ],
+        "notes": "From adoption to flight at age 40"
+      },
+      {
+        "name": "Tabernacle Erected",
+        "date_note": "First day of first month, second year",
+        "references": [
+          "Exo.40.17"
+        ],
+        "notes": "Exactly one year after leaving Egypt"
+      },
+      {
+        "name": "Miriam's Exclusion from Camp",
+        "duration_days": 7,
+        "references": [
+          "Num.12.15"
+        ],
+        "notes": "Shut outside the camp for leprosy after speaking against Moses"
+      },
+      {
+        "name": "Israel at Kadesh-barnea",
+        "references": [
+          "Num.13.26",
+          "Deu.1.46"
+        ],
+        "notes": "Remained many days; spies sent from here"
+      },
+      {
+        "name": "Korah's Rebellion",
+        "references": [
+          "Num.16.1-35"
+        ],
+        "notes": "Duration not specified; earth swallowed rebels"
+      },
+      {
+        "name": "Israel Circling Mount Seir",
+        "duration_years": 38,
+        "references": [
+          "Deu.2.1",
+          "Deu.2.14"
+        ],
+        "notes": "From Kadesh-barnea until crossing the brook Zered"
+      },
+      {
+        "name": "Jordan River Crossing",
+        "references": [
+          "Jos.3.14-17",
+          "Jos.4.19"
+        ],
+        "notes": "Crossed on 10th day of first month; waters stopped at Adam"
+      },
+      {
+        "name": "Circumcision at Gilgal",
+        "references": [
+          "Jos.5.2-9"
+        ],
+        "notes": "Second generation circumcised before Passover"
+      },
+      {
+        "name": "Sun Standing Still at Gibeon",
+        "duration_days": 1,
+        "references": [
+          "Jos.10.12-14"
+        ],
+        "notes": "Sun stopped about a whole day"
+      },
+      {
+        "name": "Shamgar as Judge",
+        "references": [
+          "Jdg.3.31"
+        ],
+        "notes": "Duration not specified; killed 600 Philistines"
+      },
+      {
+        "name": "Gideon's Fleece Test",
+        "duration_days": 2,
+        "references": [
+          "Jdg.6.36-40"
+        ]
+      },
+      {
+        "name": "Goliath's Challenge",
+        "duration_days": 40,
+        "references": [
+          "1Sa.17.16"
+        ],
+        "notes": "Defied Israel morning and evening for 40 days"
+      },
+      {
+        "name": "David's Flight from Saul",
+        "duration_years": 10,
+        "references": [
+          "1Sa.19.10",
+          "1Sa.27.7",
+          "2Sa.2.11"
+        ],
+        "notes": "Approximate; David was ~20 at Goliath, king at 30"
+      },
+      {
+        "name": "David in Philistine Territory",
+        "duration_months": 16,
+        "references": [
+          "1Sa.27.7"
+        ],
+        "notes": "A year and four months with Achish of Gath"
+      },
+      {
+        "name": "David's Census Plague",
+        "duration_days": 3,
+        "references": [
+          "2Sa.24.13-15"
+        ],
+        "notes": "70,000 died; stopped at threshing floor of Araunah"
+      },
+      {
+        "name": "Drought in Elijah's Time",
+        "duration_years": 3.5,
+        "references": [
+          "1Ki.17.1",
+          "1Ki.18.1",
+          "Luk.4.25",
+          "Jam.5.17"
+        ],
+        "notes": "Three years and six months with no rain"
+      },
+      {
+        "name": "Elijah at Brook Cherith",
+        "references": [
+          "1Ki.17.2-7"
+        ],
+        "notes": "Duration not specified; until brook dried up"
+      },
+      {
+        "name": "Elijah at Zarephath",
+        "references": [
+          "1Ki.17.8-24"
+        ],
+        "notes": "Duration not specified; widow's oil and flour did not run out"
+      },
+      {
+        "name": "Siege of Jerusalem (First Babylonian)",
+        "date_estimate": "597 BC",
+        "references": [
+          "2Ki.24.10-12"
+        ],
+        "notes": "Jehoiachin surrendered; first deportation"
+      },
+      {
+        "name": "Gedaliah's Governorship",
+        "references": [
+          "2Ki.25.22-26",
+          "Jer.40.5-41.3"
+        ],
+        "notes": "Duration not specified; assassinated by Ishmael"
+      },
+      {
+        "name": "Ezra's Journey from Babylon",
+        "duration_months": 4,
+        "references": [
+          "Ezr.7.9"
+        ],
+        "notes": "Left Babylon on 1st of 1st month, arrived on 1st of 5th month"
+      },
+      {
+        "name": "Ezra's Mourning over Intermarriage",
+        "references": [
+          "Ezr.9.1-10.17"
+        ],
+        "notes": "Resolution took from 9th month to 1st month (3 months)"
+      },
+      {
+        "name": "Esther's Three-Day Fast",
+        "duration_days": 3,
+        "references": [
+          "Est.4.16"
+        ]
+      },
+      {
+        "name": "Esther's Two Banquets",
+        "duration_days": 2,
+        "references": [
+          "Est.5.4-8",
+          "Est.7.1-6"
+        ]
+      },
+      {
+        "name": "Purim Celebration Established",
+        "duration_days": 2,
+        "references": [
+          "Est.9.21-22"
+        ],
+        "notes": "14th and 15th of Adar"
+      },
+      {
+        "name": "Nebuchadnezzar's Madness",
+        "duration_periods": 7,
+        "references": [
+          "Dan.4.32-33"
+        ],
+        "notes": "Seven periods of time (likely years); lived like an animal"
+      },
+      {
+        "name": "Daniel in the Lions' Den",
+        "duration_days": 1,
+        "references": [
+          "Dan.6.16-23"
+        ],
+        "notes": "From evening to dawn"
+      },
+      {
+        "name": "Shadrach, Meshach, Abednego in Furnace",
+        "references": [
+          "Dan.3.19-27"
+        ],
+        "notes": "Brief; emerged unharmed with no smell of fire"
+      },
+      {
+        "name": "Ezekiel's Silence",
+        "references": [
+          "Eze.3.26",
+          "Eze.24.27",
+          "Eze.33.22"
+        ],
+        "notes": "Could only speak when God opened his mouth; ended at fall of Jerusalem"
+      },
+      {
+        "name": "Hosea's Marriage to Gomer",
+        "references": [
+          "Hos.1.2-3",
+          "Hos.3.1-2"
+        ],
+        "notes": "Duration not specified; prophetic symbol of God and Israel"
+      },
+      {
+        "name": "Isaiah Walking Naked",
+        "duration_years": 3,
+        "references": [
+          "Isa.20.3"
+        ],
+        "notes": "Three years as a sign against Egypt and Cush"
+      }
+    ],
+    "new_testament": [
+      {
+        "name": "Jesus's Temptation in Wilderness",
+        "duration_days": 40,
+        "references": [
+          "Mat.4.2",
+          "Mar.1.13",
+          "Luk.4.2"
+        ]
+      },
+      {
+        "name": "Between Resurrection and Ascension",
+        "duration_days": 40,
+        "references": [
+          "Act.1.3"
+        ]
+      },
+      {
+        "name": "Pentecost after Resurrection",
+        "duration_days": 50,
+        "references": [
+          "Act.2.1"
+        ],
+        "notes": "Pentecost means 50th day"
+      },
+      {
+        "name": "Paul in Arabia",
+        "duration_years": 3,
+        "references": [
+          "Gal.1.17-18"
+        ],
+        "notes": "Includes time in Damascus"
+      },
+      {
+        "name": "Famine Relief Visit to Jerusalem",
+        "date_estimate": "46-47 AD",
+        "references": [
+          "Act.11.28-30"
+        ]
+      },
+      {
+        "name": "Paul and Barnabas in Antioch",
+        "duration_years": 1,
+        "references": [
+          "Act.11.26"
+        ]
+      },
+      {
+        "name": "Paul in Corinth",
+        "duration_months": 18,
+        "references": [
+          "Act.18.11"
+        ]
+      },
+      {
+        "name": "Paul in Ephesus",
+        "duration_years": 3,
+        "references": [
+          "Act.19.10",
+          "Act.20.31"
+        ],
+        "notes": "2 years in hall of Tyrannus + additional time"
+      },
+      {
+        "name": "Paul's Imprisonment in Caesarea",
+        "duration_years": 2,
+        "references": [
+          "Act.24.27"
+        ]
+      },
+      {
+        "name": "Paul's First Roman Imprisonment",
+        "duration_years": 2,
+        "references": [
+          "Act.28.30"
+        ]
+      },
+      {
+        "name": "Mary's Visit to Elizabeth",
+        "duration_months": 3,
+        "references": [
+          "Luk.1.56"
+        ]
+      },
+      {
+        "name": "Flight to Egypt",
+        "references": [
+          "Mat.2.13-15"
+        ],
+        "notes": "Duration not specified; until death of Herod"
+      },
+      {
+        "name": "Jesus at Sychar (Samaria)",
+        "duration_days": 2,
+        "references": [
+          "Joh.4.40"
+        ]
+      },
+      {
+        "name": "Transfiguration",
+        "references": [
+          "Mat.17.1",
+          "Mar.9.2",
+          "Luk.9.28"
+        ],
+        "notes": "Six days (Matthew/Mark) or about eight days (Luke) after Peter's confession"
+      },
+      {
+        "name": "Lazarus in the Tomb",
+        "duration_days": 4,
+        "references": [
+          "Joh.11.17"
+        ]
+      },
+      {
+        "name": "Last Supper to Arrest",
+        "references": [
+          "Mat.26.17-56"
+        ],
+        "notes": "Same night; Passover evening to garden of Gethsemane"
+      },
+      {
+        "name": "Crucifixion Duration",
+        "duration_hours": 6,
+        "references": [
+          "Mar.15.25",
+          "Mar.15.33-37"
+        ],
+        "notes": "Third hour (9 AM) to ninth hour (3 PM)"
+      },
+      {
+        "name": "Darkness during Crucifixion",
+        "duration_hours": 3,
+        "references": [
+          "Mar.15.33",
+          "Mat.27.45",
+          "Luk.23.44"
+        ],
+        "notes": "Sixth hour to ninth hour (noon to 3 PM)"
+      },
+      {
+        "name": "Jesus in the Tomb",
+        "duration_days": 3,
+        "references": [
+          "Mat.12.40",
+          "Mat.27.63",
+          "Mar.8.31"
+        ],
+        "notes": "Friday evening to Sunday morning"
+      },
+      {
+        "name": "Paul's Blindness after Conversion",
+        "duration_days": 3,
+        "references": [
+          "Act.9.9"
+        ]
+      },
+      {
+        "name": "Peter at Cornelius's House",
+        "references": [
+          "Act.10.24-48"
+        ],
+        "notes": "Stayed some days (Act.10.48)"
+      },
+      {
+        "name": "Peter's Imprisonment and Release",
+        "references": [
+          "Act.12.3-11"
+        ],
+        "notes": "During Passover week; released by angel at night"
+      },
+      {
+        "name": "Paul at Troas (Third Journey)",
+        "duration_days": 7,
+        "references": [
+          "Act.20.6"
+        ]
+      },
+      {
+        "name": "Paul in Tyre",
+        "duration_days": 7,
+        "references": [
+          "Act.21.4"
+        ]
+      },
+      {
+        "name": "Paul in Ptolemais",
+        "duration_days": 1,
+        "references": [
+          "Act.21.7"
+        ]
+      },
+      {
+        "name": "Paul in Malta",
+        "duration_months": 3,
+        "references": [
+          "Act.28.11"
+        ]
+      },
+      {
+        "name": "Paul in Puteoli",
+        "duration_days": 7,
+        "references": [
+          "Act.28.14"
+        ]
+      },
+      {
+        "name": "Paul in Thessalonica",
+        "duration_weeks": 3,
+        "references": [
+          "Act.17.2"
+        ],
+        "notes": "Three Sabbaths reasoning in the synagogue"
+      },
+      {
+        "name": "Paul before Gallio",
+        "references": [
+          "Act.18.12-17"
+        ],
+        "date_estimate": "51-52 AD",
+        "notes": "Gallio inscription provides key chronological anchor"
+      },
+      {
+        "name": "Waiting for the Spirit at Pentecost",
+        "duration_days": 10,
+        "references": [
+          "Act.1.3",
+          "Act.2.1"
+        ],
+        "notes": "Ascension at 40 days, Pentecost at 50 days after resurrection"
+      }
+    ]
+  },
+  "journeys": {
+    "abraham": [
+      {
+        "name": "Ur to Haran",
+        "from": "Ur of the Chaldeans",
+        "to": "Haran",
+        "references": [
+          "Gen.11.31"
+        ]
+      },
+      {
+        "name": "Haran to Canaan",
+        "from": "Haran",
+        "to": "Shechem, Canaan",
+        "references": [
+          "Gen.12.4-6"
+        ]
+      },
+      {
+        "name": "Canaan to Egypt (Famine)",
+        "references": [
+          "Gen.12.10"
+        ]
+      },
+      {
+        "name": "Egypt to Negev to Bethel",
+        "references": [
+          "Gen.13.1-3"
+        ]
+      }
+    ],
+    "jacob": [
+      {
+        "name": "Beersheba to Haran",
+        "from": "Beersheba",
+        "to": "Paddan-aram",
+        "references": [
+          "Gen.28.10"
+        ]
+      },
+      {
+        "name": "Haran to Canaan (Return)",
+        "duration_years": 20,
+        "references": [
+          "Gen.31.38-41"
+        ]
+      },
+      {
+        "name": "Canaan to Egypt",
+        "from": "Canaan",
+        "to": "Goshen, Egypt",
+        "references": [
+          "Gen.46.1-7"
+        ]
+      }
+    ],
+    "exodus": [
+      {
+        "name": "Rameses to Succoth",
+        "references": [
+          "Exo.12.37"
+        ]
+      },
+      {
+        "name": "Succoth to Etham",
+        "references": [
+          "Exo.13.20"
+        ]
+      },
+      {
+        "name": "Red Sea Crossing",
+        "references": [
+          "Exo.14.21-22"
+        ]
+      },
+      {
+        "name": "Wilderness of Shur (3 days)",
+        "duration_days": 3,
+        "references": [
+          "Exo.15.22"
+        ]
+      },
+      {
+        "name": "Marah to Elim",
+        "references": [
+          "Exo.15.23-27"
+        ]
+      },
+      {
+        "name": "Wilderness of Sin",
+        "references": [
+          "Exo.16.1"
+        ]
+      },
+      {
+        "name": "Rephidim",
+        "references": [
+          "Exo.17.1"
+        ]
+      },
+      {
+        "name": "Mount Sinai",
+        "duration_months": 11,
+        "references": [
+          "Exo.19.1",
+          "Num.10.11"
+        ]
+      },
+      {
+        "name": "Sinai to Kadesh",
+        "duration_days": 11,
+        "references": [
+          "Deu.1.2"
+        ]
+      },
+      {
+        "name": "Wilderness Wandering",
+        "duration_years": 38,
+        "references": [
+          "Deu.2.14"
+        ],
+        "notes": "From Kadesh-barnea until crossing Zered"
+      },
+      {
+        "name": "Plains of Moab to Jordan",
+        "references": [
+          "Num.22.1",
+          "Jos.3.1"
+        ]
+      }
+    ],
+    "paul_missionary": [
+      {
+        "name": "First Missionary Journey",
+        "duration_years": 2,
+        "date_estimate": "47-49 AD",
+        "route": "Antioch → Seleucia → Cyprus (Salamis, Paphos) → Perga → Pisidian Antioch → Iconium → Lystra → Derbe → Return",
+        "references": [
+          "Act.13.1-14.28"
+        ]
+      },
+      {
+        "name": "Second Missionary Journey",
+        "duration_years": 3,
+        "date_estimate": "49-52 AD",
+        "route": "Antioch → Syria/Cilicia → Derbe → Lystra → Phrygia/Galatia → Troas → Philippi → Thessalonica → Berea → Athens → Corinth (18 months) → Ephesus → Caesarea → Antioch",
+        "references": [
+          "Act.15.36-18.22"
+        ]
+      },
+      {
+        "name": "Third Missionary Journey",
+        "duration_years": 4,
+        "date_estimate": "53-57 AD",
+        "route": "Antioch → Galatia/Phrygia → Ephesus (3 years) → Macedonia → Greece → Macedonia → Troas → Miletus → Tyre → Caesarea → Jerusalem",
+        "references": [
+          "Act.18.23-21.17"
+        ]
+      },
+      {
+        "name": "Journey to Rome",
+        "date_estimate": "59-60 AD",
+        "route": "Caesarea → Sidon → Myra → Fair Havens → Malta (shipwreck) → Syracuse → Rhegium → Puteoli → Rome",
+        "references": [
+          "Act.27.1-28.16"
+        ]
+      }
+    ],
+    "elijah": [
+      {
+        "name": "To Brook Cherith",
+        "from": "Before Ahab",
+        "to": "Brook Cherith, east of Jordan",
+        "references": [
+          "1Ki.17.2-3"
+        ]
+      },
+      {
+        "name": "Cherith to Zarephath",
+        "from": "Brook Cherith",
+        "to": "Zarephath (Sidon)",
+        "references": [
+          "1Ki.17.8-10"
+        ]
+      },
+      {
+        "name": "Zarephath to Mount Carmel",
+        "from": "Zarephath",
+        "to": "Mount Carmel",
+        "references": [
+          "1Ki.18.19-20"
+        ]
+      },
+      {
+        "name": "Mount Carmel to Jezreel",
+        "from": "Mount Carmel",
+        "to": "Jezreel",
+        "references": [
+          "1Ki.18.46"
+        ],
+        "notes": "Ran ahead of Ahab's chariot"
+      },
+      {
+        "name": "Jezreel to Beersheba to Horeb",
+        "from": "Jezreel",
+        "to": "Horeb (Mount Sinai)",
+        "duration_days": 40,
+        "references": [
+          "1Ki.19.3-8"
+        ],
+        "notes": "40 days and 40 nights on the strength of angelic food"
+      }
+    ],
+    "ruth": [
+      {
+        "name": "Bethlehem to Moab",
+        "from": "Bethlehem",
+        "to": "Moab",
+        "references": [
+          "Rut.1.1-2"
+        ],
+        "notes": "Elimelech's family fled famine"
+      },
+      {
+        "name": "Moab to Bethlehem (Return)",
+        "from": "Moab",
+        "to": "Bethlehem",
+        "references": [
+          "Rut.1.19"
+        ],
+        "notes": "Naomi and Ruth; arrived at beginning of barley harvest"
+      }
+    ],
+    "david": [
+      {
+        "name": "Bethlehem to Valley of Elah",
+        "from": "Bethlehem",
+        "to": "Valley of Elah",
+        "references": [
+          "1Sa.17.20"
+        ],
+        "notes": "Sent by Jesse to bring food to brothers"
+      },
+      {
+        "name": "Flight to Nob (Ahimelech)",
+        "from": "Gibeah",
+        "to": "Nob",
+        "references": [
+          "1Sa.21.1"
+        ]
+      },
+      {
+        "name": "Nob to Gath (Achish)",
+        "from": "Nob",
+        "to": "Gath",
+        "references": [
+          "1Sa.21.10"
+        ]
+      },
+      {
+        "name": "Gath to Cave of Adullam",
+        "from": "Gath",
+        "to": "Cave of Adullam",
+        "references": [
+          "1Sa.22.1"
+        ]
+      },
+      {
+        "name": "Flight to Moab (Parents)",
+        "from": "Adullam",
+        "to": "Moab",
+        "references": [
+          "1Sa.22.3-4"
+        ],
+        "notes": "Brought parents to safety with king of Moab"
+      },
+      {
+        "name": "Wilderness of Ziph/Maon/En-gedi",
+        "references": [
+          "1Sa.23.14-24.1"
+        ],
+        "notes": "Moved between strongholds while Saul pursued"
+      }
+    ],
+    "jesus": [
+      {
+        "name": "Bethlehem to Egypt",
+        "from": "Bethlehem",
+        "to": "Egypt",
+        "references": [
+          "Mat.2.13-14"
+        ],
+        "notes": "Joseph warned in dream; fled Herod"
+      },
+      {
+        "name": "Egypt to Nazareth",
+        "from": "Egypt",
+        "to": "Nazareth",
+        "references": [
+          "Mat.2.19-23"
+        ],
+        "notes": "After Herod's death"
+      },
+      {
+        "name": "Nazareth to Jerusalem (Age 12)",
+        "from": "Nazareth",
+        "to": "Jerusalem",
+        "references": [
+          "Luk.2.41-42"
+        ],
+        "notes": "Passover pilgrimage; found in temple after 3 days"
+      },
+      {
+        "name": "Nazareth to Jordan (Baptism)",
+        "from": "Nazareth",
+        "to": "Jordan River",
+        "references": [
+          "Mat.3.13",
+          "Mar.1.9"
+        ]
+      },
+      {
+        "name": "Jordan to Wilderness (Temptation)",
+        "from": "Jordan River",
+        "to": "Wilderness",
+        "references": [
+          "Mat.4.1",
+          "Mar.1.12"
+        ]
+      },
+      {
+        "name": "Galilee to Tyre and Sidon",
+        "from": "Galilee",
+        "to": "Tyre and Sidon",
+        "references": [
+          "Mat.15.21",
+          "Mar.7.24"
+        ]
+      },
+      {
+        "name": "Final Journey to Jerusalem",
+        "from": "Galilee",
+        "to": "Jerusalem",
+        "references": [
+          "Luk.9.51",
+          "Luk.13.22",
+          "Luk.17.11"
+        ],
+        "notes": "Set his face toward Jerusalem; Luke's travel narrative"
+      }
+    ],
+    "ezra_nehemiah": [
+      {
+        "name": "First Return under Zerubbabel",
+        "from": "Babylon",
+        "to": "Jerusalem",
+        "date_estimate": "538 BC",
+        "references": [
+          "Ezr.1.1-2.1"
+        ],
+        "notes": "42,360 returnees plus servants (Ezr.2.64-65)"
+      },
+      {
+        "name": "Second Return under Ezra",
+        "from": "Babylon",
+        "to": "Jerusalem",
+        "duration_months": 4,
+        "date_estimate": "458 BC",
+        "references": [
+          "Ezr.7.9",
+          "Ezr.8.31"
+        ]
+      },
+      {
+        "name": "Nehemiah's Journey to Jerusalem",
+        "from": "Susa",
+        "to": "Jerusalem",
+        "date_estimate": "445 BC",
+        "references": [
+          "Neh.2.1-11"
+        ]
+      }
+    ]
+  },
+  "building_projects": [
+    {
+      "name": "Noah's Ark",
+      "duration_years": null,
+      "references": [
+        "Gen.6.14-22"
+      ],
+      "dimensions": {
+        "length_cubits": 300,
+        "width_cubits": 50,
+        "height_cubits": 30
+      },
+      "notes": "Duration not specified"
+    },
+    {
+      "name": "Tower of Babel",
+      "references": [
+        "Gen.11.1-9"
+      ],
+      "notes": "Interrupted by God; duration unknown"
+    },
+    {
+      "name": "Tabernacle",
+      "duration_months": null,
+      "chapter_range": "Exo.35-40",
+      "notes": "Completed within first year after Exodus"
+    },
+    {
+      "name": "Solomon's Temple",
+      "duration_years": 7,
+      "references": [
+        "1Ki.6.1",
+        "1Ki.6.38"
+      ],
+      "notes": "Started in 4th year of Solomon, finished in 11th year"
+    },
+    {
+      "name": "Solomon's Palace Complex",
+      "duration_years": 13,
+      "references": [
+        "1Ki.7.1"
+      ]
+    },
+    {
+      "name": "Second Temple (Zerubbabel)",
+      "duration_years": 4,
+      "date_estimate": "520-516 BC",
+      "references": [
+        "Ezr.3.8-13",
+        "Ezr.6.15"
+      ],
+      "notes": "Initial foundation laid earlier; completed in Darius's 6th year"
+    },
+    {
+      "name": "Jerusalem Walls (Nehemiah)",
+      "duration_days": 52,
+      "references": [
+        "Neh.6.15"
+      ]
+    },
+    {
+      "name": "Herod's Temple Expansion",
+      "duration_years": 46,
+      "references": [
+        "Joh.2.20"
+      ],
+      "notes": "Still ongoing during Jesus's ministry"
+    },
+    {
+      "name": "Hezekiah's Tunnel (Siloam)",
+      "references": [
+        "2Ki.20.20",
+        "2Ch.32.30"
+      ],
+      "notes": "533m tunnel cut through bedrock to redirect Gihon Spring into city"
+    },
+    {
+      "name": "Jeroboam's Shrines at Dan and Bethel",
+      "references": [
+        "1Ki.12.28-31"
+      ],
+      "notes": "Golden calves set up as alternative to Jerusalem temple"
+    },
+    {
+      "name": "Ahab's Ivory House",
+      "references": [
+        "1Ki.22.39"
+      ],
+      "notes": "Ivory palace in Samaria"
+    },
+    {
+      "name": "Omri Built Samaria",
+      "references": [
+        "1Ki.16.24"
+      ],
+      "notes": "Bought hill of Samaria for 2 talents of silver; made it capital"
+    }
+  ],
+  "prophetic_periods": [
+    {
+      "name": "Samuel",
+      "active_during": [
+        "Eli's final years",
+        "Saul's reign",
+        "David's early reign"
+      ],
+      "references": [
+        "1Sa.3.20",
+        "1Sa.25.1"
+      ]
+    },
+    {
+      "name": "Nathan",
+      "active_during": [
+        "David's reign",
+        "Solomon's early reign"
+      ],
+      "references": [
+        "2Sa.7.2",
+        "1Ki.1.8"
+      ]
+    },
+    {
+      "name": "Elijah",
+      "active_during": [
+        "Ahab's reign",
+        "Ahaziah's reign"
+      ],
+      "kingdom": "Northern Kingdom",
+      "references": [
+        "1Ki.17.1",
+        "2Ki.2.11"
+      ]
+    },
+    {
+      "name": "Elisha",
+      "active_during": [
+        "Ahaziah",
+        "Joram",
+        "Jehu",
+        "Jehoahaz",
+        "Jehoash"
+      ],
+      "kingdom": "Northern Kingdom",
+      "duration_years": 50,
+      "references": [
+        "1Ki.19.19",
+        "2Ki.13.14-20"
+      ],
+      "notes": "Approximate; active through multiple kings"
+    },
+    {
+      "name": "Isaiah",
+      "active_during": [
+        "Uzziah",
+        "Jotham",
+        "Ahaz",
+        "Hezekiah"
+      ],
+      "kingdom": "Southern Kingdom",
+      "date_estimate": "740-686 BC",
+      "references": [
+        "Isa.1.1"
+      ]
+    },
+    {
+      "name": "Hosea",
+      "active_during": [
+        "Uzziah",
+        "Jotham",
+        "Ahaz",
+        "Hezekiah (Judah)",
+        "Jeroboam II (Israel)"
+      ],
+      "date_estimate": "755-715 BC",
+      "references": [
+        "Hos.1.1"
+      ]
+    },
+    {
+      "name": "Amos",
+      "active_during": [
+        "Uzziah (Judah)",
+        "Jeroboam II (Israel)"
+      ],
+      "date_estimate": "760-750 BC",
+      "references": [
+        "Amo.1.1"
+      ]
+    },
+    {
+      "name": "Micah",
+      "active_during": [
+        "Jotham",
+        "Ahaz",
+        "Hezekiah"
+      ],
+      "date_estimate": "735-700 BC",
+      "references": [
+        "Mic.1.1"
+      ]
+    },
+    {
+      "name": "Jeremiah",
+      "active_during": [
+        "Josiah",
+        "Jehoahaz",
+        "Jehoiakim",
+        "Jehoiachin",
+        "Zedekiah"
+      ],
+      "duration_years": 40,
+      "date_estimate": "627-586 BC",
+      "references": [
+        "Jer.1.2-3",
+        "Jer.25.3"
+      ]
+    },
+    {
+      "name": "Ezekiel",
+      "active_during": [
+        "Babylonian Exile"
+      ],
+      "duration_years": 22,
+      "date_estimate": "593-571 BC",
+      "references": [
+        "Eze.1.1-2",
+        "Eze.29.17"
+      ]
+    },
+    {
+      "name": "Daniel",
+      "active_during": [
+        "Nebuchadnezzar",
+        "Belshazzar",
+        "Darius",
+        "Cyrus"
+      ],
+      "date_estimate": "605-536 BC",
+      "references": [
+        "Dan.1.1",
+        "Dan.10.1"
+      ]
+    },
+    {
+      "name": "Haggai",
+      "active_during": [
+        "Darius I of Persia"
+      ],
+      "date_estimate": "520 BC",
+      "duration_months": 4,
+      "references": [
+        "Hag.1.1",
+        "Hag.2.10"
+      ]
+    },
+    {
+      "name": "Zechariah",
+      "active_during": [
+        "Darius I of Persia"
+      ],
+      "date_estimate": "520-518 BC",
+      "references": [
+        "Zec.1.1",
+        "Zec.7.1"
+      ]
+    },
+    {
+      "name": "Malachi",
+      "active_during": [
+        "Post-exilic period"
+      ],
+      "date_estimate": "450-430 BC",
+      "references": [
+        "Mal.1.1"
+      ],
+      "notes": "Last OT prophet; 400 years silence follows"
+    },
+    {
+      "name": "John the Baptist",
+      "active_during": [
+        "Tiberius Caesar"
+      ],
+      "duration_months": 6,
+      "references": [
+        "Luk.3.1-3",
+        "Mat.14.10"
+      ],
+      "notes": "Ministry began ~6 months before Jesus's"
+    },
+    {
+      "name": "Obadiah",
+      "active_during": [
+        "After fall of Jerusalem"
+      ],
+      "date_estimate": "586-550 BC",
+      "references": [
+        "Oba.1.1"
+      ],
+      "notes": "Prophecy against Edom for betraying Judah"
+    },
+    {
+      "name": "Joel",
+      "active_during": [
+        "Uncertain; possibly Joash of Judah"
+      ],
+      "date_estimate": "835-800 BC (early) or 500-400 BC (late)",
+      "references": [
+        "Joe.1.1"
+      ],
+      "notes": "Date debated; locust plague and Day of the LORD"
+    },
+    {
+      "name": "Nahum",
+      "active_during": [
+        "Between fall of Thebes (663 BC) and fall of Nineveh (612 BC)"
+      ],
+      "date_estimate": "663-612 BC",
+      "references": [
+        "Nah.1.1",
+        "Nah.3.8"
+      ],
+      "notes": "Prophecy against Nineveh"
+    },
+    {
+      "name": "Habakkuk",
+      "active_during": [
+        "Late Josiah or Jehoiakim"
+      ],
+      "date_estimate": "620-605 BC",
+      "references": [
+        "Hab.1.1"
+      ],
+      "notes": "Questioned God about Babylonian judgment"
+    },
+    {
+      "name": "Zephaniah",
+      "active_during": [
+        "Josiah"
+      ],
+      "date_estimate": "640-620 BC",
+      "references": [
+        "Zep.1.1"
+      ],
+      "notes": "Great-great-grandson of Hezekiah"
+    },
+    {
+      "name": "Jonah",
+      "active_during": [
+        "Jeroboam II"
+      ],
+      "date_estimate": "780-760 BC",
+      "references": [
+        "Jon.1.1",
+        "2Ki.14.25"
+      ],
+      "notes": "Sent to Nineveh; also prophesied Israel's border restoration"
+    },
+    {
+      "name": "Gad",
+      "active_during": [
+        "David's reign"
+      ],
+      "references": [
+        "1Sa.22.5",
+        "2Sa.24.11"
+      ],
+      "notes": "David's seer"
+    },
+    {
+      "name": "Ahijah",
+      "active_during": [
+        "Solomon",
+        "Jeroboam I"
+      ],
+      "references": [
+        "1Ki.11.29-39",
+        "1Ki.14.2"
+      ],
+      "notes": "Prophesied the kingdom's division"
+    },
+    {
+      "name": "Shemaiah",
+      "active_during": [
+        "Rehoboam"
+      ],
+      "references": [
+        "1Ki.12.22",
+        "2Ch.12.5"
+      ],
+      "notes": "Prevented Rehoboam from fighting Israel"
+    },
+    {
+      "name": "Huldah",
+      "active_during": [
+        "Josiah"
+      ],
+      "date_estimate": "622 BC",
+      "references": [
+        "2Ki.22.14-20"
+      ],
+      "notes": "Prophetess; confirmed the Book of the Law found in temple"
+    },
+    {
+      "name": "Deborah",
+      "active_during": [
+        "Period of Judges"
+      ],
+      "references": [
+        "Jdg.4.4-5"
+      ],
+      "notes": "Prophetess and judge; judged Israel under the palm tree"
+    }
+  ],
+  "age_milestones": {
+    "abraham": [
+      {
+        "age": 75,
+        "event": "Called to leave Haran",
+        "reference": "Gen.12.4"
+      },
+      {
+        "age": 86,
+        "event": "Ishmael born",
+        "reference": "Gen.16.16"
+      },
+      {
+        "age": 99,
+        "event": "Covenant of circumcision",
+        "reference": "Gen.17.1"
+      },
+      {
+        "age": 100,
+        "event": "Isaac born",
+        "reference": "Gen.21.5"
+      },
+      {
+        "age": 137,
+        "event": "Sarah dies",
+        "reference": "Gen.23.1"
+      },
+      {
+        "age": 175,
+        "event": "Death",
+        "reference": "Gen.25.7"
+      }
+    ],
+    "isaac": [
+      {
+        "age": 40,
+        "event": "Married Rebekah",
+        "reference": "Gen.25.20"
+      },
+      {
+        "age": 60,
+        "event": "Jacob and Esau born",
+        "reference": "Gen.25.26"
+      },
+      {
+        "age": 180,
+        "event": "Death",
+        "reference": "Gen.35.28"
+      }
+    ],
+    "jacob": [
+      {
+        "age": 77,
+        "event": "Fled to Haran (estimate)",
+        "notes": "Based on chronological calculations"
+      },
+      {
+        "age": 84,
+        "event": "Married Leah and Rachel",
+        "reference": "Gen.29.20-28"
+      },
+      {
+        "age": 97,
+        "event": "Returned to Canaan",
+        "reference": "Gen.31.38-41"
+      },
+      {
+        "age": 130,
+        "event": "Entered Egypt",
+        "reference": "Gen.47.9"
+      },
+      {
+        "age": 147,
+        "event": "Death",
+        "reference": "Gen.47.28"
+      }
+    ],
+    "joseph": [
+      {
+        "age": 17,
+        "event": "Sold into slavery",
+        "reference": "Gen.37.2"
+      },
+      {
+        "age": 30,
+        "event": "Entered Pharaoh's service",
+        "reference": "Gen.41.46"
+      },
+      {
+        "age": 110,
+        "event": "Death",
+        "reference": "Gen.50.22"
+      }
+    ],
+    "moses": [
+      {
+        "age": 40,
+        "event": "Fled to Midian",
+        "reference": "Act.7.23"
+      },
+      {
+        "age": 80,
+        "event": "Called at burning bush",
+        "reference": "Exo.7.7"
+      },
+      {
+        "age": 120,
+        "event": "Death",
+        "reference": "Deu.34.7"
+      }
+    ],
+    "david": [
+      {
+        "age": 30,
+        "event": "Became king at Hebron",
+        "reference": "2Sa.5.4"
+      },
+      {
+        "age": 37,
+        "event": "Became king over all Israel",
+        "reference": "2Sa.5.4-5"
+      },
+      {
+        "age": 70,
+        "event": "Death",
+        "reference": "2Sa.5.4"
+      }
+    ],
+    "jesus": [
+      {
+        "age": 8,
+        "event": "Circumcision",
+        "days": 8,
+        "reference": "Luk.2.21"
+      },
+      {
+        "age": 12,
+        "event": "Temple visit",
+        "reference": "Luk.2.42"
+      },
+      {
+        "age": 30,
+        "event": "Began ministry (approximately)",
+        "reference": "Luk.3.23"
+      },
+      {
+        "age": 33,
+        "event": "Crucifixion (approximately)",
+        "notes": "Based on ~3 year ministry"
+      }
+    ],
+    "sarah": [
+      {
+        "age": 65,
+        "event": "Left Haran with Abraham (est.)",
+        "reference": "Gen.12.4",
+        "notes": "10 years younger than Abraham (Gen.17.17)"
+      },
+      {
+        "age": 76,
+        "event": "Gave Hagar to Abraham",
+        "reference": "Gen.16.16",
+        "notes": "Abraham was 86"
+      },
+      {
+        "age": 90,
+        "event": "Isaac born",
+        "reference": "Gen.17.17",
+        "notes": "Laughed at the promise"
+      },
+      {
+        "age": 127,
+        "event": "Death at Kiriath-arba (Hebron)",
+        "reference": "Gen.23.1-2"
+      }
+    ],
+    "samuel": [
+      {
+        "age": 0,
+        "event": "Dedicated to the LORD before birth",
+        "reference": "1Sa.1.11"
+      },
+      {
+        "age": 3,
+        "event": "Brought to tabernacle at Shiloh (est.)",
+        "reference": "1Sa.1.24",
+        "notes": "After weaning"
+      },
+      {
+        "age": 12,
+        "event": "Called by the LORD at night (est.)",
+        "reference": "1Sa.3.1-10",
+        "notes": "Age not specified; described as a boy"
+      }
+    ],
+    "caleb": [
+      {
+        "age": 40,
+        "event": "Sent as spy to Canaan",
+        "reference": "Jos.14.7"
+      },
+      {
+        "age": 85,
+        "event": "Claimed Hebron after conquest",
+        "reference": "Jos.14.10-12",
+        "notes": "Still strong as at age 40"
+      }
+    ],
+    "joshua": [
+      {
+        "age": 110,
+        "event": "Death",
+        "reference": "Jos.24.29"
+      }
+    ],
+    "solomon": [
+      {
+        "age": 0,
+        "event": "Born to David and Bathsheba",
+        "reference": "2Sa.12.24"
+      },
+      {
+        "age_note": "young",
+        "event": "Became king",
+        "reference": "1Ki.3.7",
+        "notes": "Called himself 'a little child' — actual age unknown"
+      },
+      {
+        "age_note": "4th year of reign",
+        "event": "Began building temple",
+        "reference": "1Ki.6.1"
+      }
+    ],
+    "noah": [
+      {
+        "age": 500,
+        "event": "Fathered Shem, Ham, Japheth",
+        "reference": "Gen.5.32"
+      },
+      {
+        "age": 600,
+        "event": "The flood began",
+        "reference": "Gen.7.6"
+      },
+      {
+        "age": 601,
+        "event": "Earth dried after flood",
+        "reference": "Gen.8.13"
+      },
+      {
+        "age": 950,
+        "event": "Death",
+        "reference": "Gen.9.29"
+      }
+    ]
+  },
+  "sabbatical_cycles": {
+    "sabbath_year": {
+      "frequency_years": 7,
+      "references": [
+        "Exo.23.10-11",
+        "Lev.25.1-7"
+      ],
+      "requirements": [
+        "Land rest",
+        "Debts released"
+      ]
+    },
+    "jubilee_year": {
+      "frequency_years": 50,
+      "references": [
+        "Lev.25.8-55"
+      ],
+      "requirements": [
+        "Land returns to original owners",
+        "Hebrew slaves freed",
+        "Debts cancelled"
+      ]
+    },
+    "violated_sabbaths": {
+      "duration_years": 70,
+      "references": [
+        "2Ch.36.21",
+        "Jer.25.11"
+      ],
+      "notes": "490 years of missed sabbath years = 70 years exile"
+    }
+  },
+  "prophetic_time_markers": [
+    {
+      "name": "Daniel's 70 Weeks",
+      "duration": "70 sevens (490 years)",
+      "references": [
+        "Dan.9.24-27"
+      ],
+      "notes": "From decree to restore Jerusalem to 'the Anointed One'"
+    },
+    {
+      "name": "Jeremiah's 70 Years of Exile",
+      "duration_years": 70,
+      "references": [
+        "Jer.25.11-12",
+        "Jer.29.10"
+      ],
+      "notes": "Nations shall serve Babylon 70 years"
+    },
+    {
+      "name": "Ezekiel's 390 + 40 Days",
+      "duration_days": 430,
+      "references": [
+        "Eze.4.4-6"
+      ],
+      "notes": "390 days for Israel's sin, 40 for Judah's — one day per year"
+    },
+    {
+      "name": "Daniel's 2,300 Evenings and Mornings",
+      "duration_days": 2300,
+      "references": [
+        "Dan.8.14"
+      ],
+      "notes": "Until the sanctuary is restored to its rightful state"
+    },
+    {
+      "name": "Daniel's 1,290 Days",
+      "duration_days": 1290,
+      "references": [
+        "Dan.12.11"
+      ],
+      "notes": "From abolition of regular sacrifice to the abomination"
+    },
+    {
+      "name": "Daniel's 1,335 Days",
+      "duration_days": 1335,
+      "references": [
+        "Dan.12.12"
+      ],
+      "notes": "Blessed is he who waits and reaches 1,335 days"
+    },
+    {
+      "name": "Isaiah's 65 Years",
+      "duration_years": 65,
+      "references": [
+        "Isa.7.8"
+      ],
+      "notes": "Within 65 years Ephraim will be shattered"
+    },
+    {
+      "name": "Revelation's 42 Months",
+      "duration_months": 42,
+      "references": [
+        "Rev.11.2",
+        "Rev.13.5"
+      ],
+      "notes": "Nations trample the holy city; beast given authority"
+    },
+    {
+      "name": "Revelation's 1,260 Days",
+      "duration_days": 1260,
+      "references": [
+        "Rev.11.3",
+        "Rev.12.6"
+      ],
+      "notes": "Two witnesses prophesy; woman protected in wilderness"
+    },
+    {
+      "name": "Revelation's Five Months",
+      "duration_months": 5,
+      "references": [
+        "Rev.9.5",
+        "Rev.9.10"
+      ],
+      "notes": "Locusts given power to torment for five months"
+    }
+  ]
+}

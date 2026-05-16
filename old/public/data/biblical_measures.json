@@ -1,0 +1,639 @@
+{
+  "_meta": {
+    "description": "Biblical weights, measures, and currency with modern equivalents",
+    "note": "Approximate values based on archaeological evidence; exact equivalents vary by period and region"
+  },
+  "categories": {
+    "length": {
+      "name": "Length",
+      "icon": "📏",
+      "description": "Linear measurements used in Scripture"
+    },
+    "volume_dry": {
+      "name": "Dry Volume",
+      "icon": "🌾",
+      "description": "Measures for grain, flour, and dry goods"
+    },
+    "volume_liquid": {
+      "name": "Liquid Volume",
+      "icon": "🫗",
+      "description": "Measures for wine, oil, and liquids"
+    },
+    "weight": {
+      "name": "Weight",
+      "icon": "⚖️",
+      "description": "Measures of mass"
+    },
+    "currency": {
+      "name": "Currency",
+      "icon": "💰",
+      "description": "Monetary values (often weight-based)"
+    },
+    "time": {
+      "name": "Time",
+      "icon": "⏳",
+      "description": "Time periods and watches"
+    },
+    "area": {
+      "name": "Area",
+      "icon": "📐",
+      "description": "Land measurements"
+    }
+  },
+  "measures": [
+    {
+      "category": "length",
+      "name": "Cubit",
+      "hebrew": "אַמָּה (ammah)",
+      "greek": null,
+      "metric": 44.5,
+      "metric_unit": "centimeters",
+      "imperial": 17.5,
+      "imperial_unit": "inches",
+      "notes": "Forearm length from elbow to fingertip; standard cubit",
+      "references": ["Gen.6.15", "Exo.25.10", "1Ki.6.2"]
+    },
+    {
+      "category": "length",
+      "name": "Long Cubit (Royal)",
+      "hebrew": "אַמָּה (ammah)",
+      "greek": null,
+      "metric": 52.5,
+      "metric_unit": "centimeters",
+      "imperial": 20.7,
+      "imperial_unit": "inches",
+      "notes": "Used in Ezekiel's temple vision; cubit plus a handbreadth",
+      "references": ["Eze.40.5", "Eze.43.13"]
+    },
+    {
+      "category": "length",
+      "name": "Span",
+      "hebrew": "זֶרֶת (zeret)",
+      "greek": null,
+      "metric": 22.25,
+      "metric_unit": "centimeters",
+      "imperial": 8.75,
+      "imperial_unit": "inches",
+      "notes": "Distance from thumb to little finger when spread; half a cubit",
+      "references": ["Exo.28.16", "1Sa.17.4"]
+    },
+    {
+      "category": "length",
+      "name": "Handbreadth",
+      "hebrew": "טֶפַח (tefach)",
+      "greek": null,
+      "metric": 7.4,
+      "metric_unit": "centimeters",
+      "imperial": 2.9,
+      "imperial_unit": "inches",
+      "notes": "Width of the palm at base of fingers; 1/6 cubit",
+      "references": ["Exo.25.25", "1Ki.7.26", "Psa.39.5"]
+    },
+    {
+      "category": "length",
+      "name": "Finger",
+      "hebrew": "אֶצְבַּע (etsba)",
+      "greek": null,
+      "metric": 1.85,
+      "metric_unit": "centimeters",
+      "imperial": 0.73,
+      "imperial_unit": "inches",
+      "notes": "Width of a finger; 1/4 handbreadth",
+      "references": ["Jer.52.21"]
+    },
+    {
+      "category": "length",
+      "name": "Reed (Rod)",
+      "hebrew": "קָנֶה (qaneh)",
+      "greek": null,
+      "metric": 2.67,
+      "metric_unit": "meters",
+      "imperial": 8.75,
+      "imperial_unit": "feet",
+      "notes": "Measuring rod of 6 cubits",
+      "references": ["Eze.40.5", "Eze.42.16"]
+    },
+    {
+      "category": "length",
+      "name": "Fathom",
+      "hebrew": null,
+      "greek": "ὀργυιά (orguia)",
+      "metric": 1.8,
+      "metric_unit": "meters",
+      "imperial": 6,
+      "imperial_unit": "feet",
+      "notes": "Span of outstretched arms; used for water depth",
+      "references": ["Act.27.28"]
+    },
+    {
+      "category": "length",
+      "name": "Stadion (Furlong)",
+      "hebrew": null,
+      "greek": "στάδιον (stadion)",
+      "metric": 185,
+      "metric_unit": "meters",
+      "imperial": 607,
+      "imperial_unit": "feet",
+      "notes": "Greek measure; about 1/8 Roman mile",
+      "references": ["Luk.24.13", "Joh.6.19", "Rev.14.20"]
+    },
+    {
+      "category": "length",
+      "name": "Roman Mile",
+      "hebrew": null,
+      "greek": "μίλιον (milion)",
+      "metric": 1.48,
+      "metric_unit": "kilometers",
+      "imperial": 4854,
+      "imperial_unit": "feet",
+      "notes": "1000 Roman paces; used in NT",
+      "references": ["Mat.5.41"]
+    },
+    {
+      "category": "length",
+      "name": "Sabbath Day's Journey",
+      "hebrew": null,
+      "greek": "σαββάτου ὁδός",
+      "metric": 889,
+      "metric_unit": "meters",
+      "imperial": 2917,
+      "imperial_unit": "feet",
+      "notes": "Rabbinic limit for travel on Sabbath; about 2000 cubits",
+      "references": ["Act.1.12"]
+    },
+    {
+      "category": "length",
+      "name": "Day's Journey",
+      "hebrew": "דֶּרֶךְ יוֹם",
+      "greek": null,
+      "metric": 32,
+      "metric_unit": "kilometers",
+      "imperial": 20,
+      "imperial_unit": "miles",
+      "notes": "Average travel distance in a day; varies by terrain",
+      "references": ["Gen.30.36", "Num.11.31", "1Ki.19.4"]
+    },
+
+    {
+      "category": "volume_dry",
+      "name": "Omer",
+      "hebrew": "עֹמֶר (omer)",
+      "greek": null,
+      "metric": 2.2,
+      "metric_unit": "liters",
+      "imperial": 2.3,
+      "imperial_unit": "quarts",
+      "notes": "Daily portion of manna per person; 1/10 ephah",
+      "references": ["Exo.16.16", "Exo.16.36"]
+    },
+    {
+      "category": "volume_dry",
+      "name": "Seah",
+      "hebrew": "סְאָה (seah)",
+      "greek": "σάτον (saton)",
+      "metric": 7.3,
+      "metric_unit": "liters",
+      "imperial": 7.7,
+      "imperial_unit": "quarts",
+      "notes": "1/3 ephah; common measure for grain and flour",
+      "references": ["Gen.18.6", "1Sa.25.18", "Mat.13.33"]
+    },
+    {
+      "category": "volume_dry",
+      "name": "Ephah",
+      "hebrew": "אֵיפָה (ephah)",
+      "greek": null,
+      "metric": 22,
+      "metric_unit": "liters",
+      "imperial": 5.8,
+      "imperial_unit": "gallons",
+      "notes": "Primary dry measure; equals liquid bath",
+      "references": ["Exo.16.36", "Lev.5.11", "Rut.2.17"]
+    },
+    {
+      "category": "volume_dry",
+      "name": "Lethek (Half Homer)",
+      "hebrew": "לֶתֶךְ (lethek)",
+      "greek": null,
+      "metric": 110,
+      "metric_unit": "liters",
+      "imperial": 29,
+      "imperial_unit": "gallons",
+      "notes": "5 ephah; half a homer",
+      "references": ["Hos.3.2"]
+    },
+    {
+      "category": "volume_dry",
+      "name": "Homer (Kor)",
+      "hebrew": "חֹמֶר (homer) / כֹּר (kor)",
+      "greek": "κόρος (koros)",
+      "metric": 220,
+      "metric_unit": "liters",
+      "imperial": 58,
+      "imperial_unit": "gallons",
+      "notes": "Donkey-load; 10 ephah; largest dry measure",
+      "references": ["Lev.27.16", "Eze.45.14", "Luk.16.7"]
+    },
+    {
+      "category": "volume_dry",
+      "name": "Cab (Kab)",
+      "hebrew": "קַב (qab)",
+      "greek": null,
+      "metric": 1.2,
+      "metric_unit": "liters",
+      "imperial": 1.27,
+      "imperial_unit": "quarts",
+      "notes": "1/18 ephah; small measure",
+      "references": ["2Ki.6.25"]
+    },
+
+    {
+      "category": "volume_liquid",
+      "name": "Log",
+      "hebrew": "לֹג (log)",
+      "greek": null,
+      "metric": 0.31,
+      "metric_unit": "liters",
+      "imperial": 0.66,
+      "imperial_unit": "pints",
+      "notes": "Smallest liquid measure; 1/12 hin",
+      "references": ["Lev.14.10", "Lev.14.12"]
+    },
+    {
+      "category": "volume_liquid",
+      "name": "Hin",
+      "hebrew": "הִין (hin)",
+      "greek": null,
+      "metric": 3.7,
+      "metric_unit": "liters",
+      "imperial": 0.98,
+      "imperial_unit": "gallons",
+      "notes": "1/6 bath; used for oil and wine in offerings",
+      "references": ["Exo.29.40", "Lev.19.36", "Eze.4.11"]
+    },
+    {
+      "category": "volume_liquid",
+      "name": "Bath",
+      "hebrew": "בַּת (bath)",
+      "greek": "βάτος (batos)",
+      "metric": 22,
+      "metric_unit": "liters",
+      "imperial": 5.8,
+      "imperial_unit": "gallons",
+      "notes": "Primary liquid measure; equals dry ephah",
+      "references": ["1Ki.7.26", "Eze.45.10", "Luk.16.6"]
+    },
+    {
+      "category": "volume_liquid",
+      "name": "Cor",
+      "hebrew": "כֹּר (kor)",
+      "greek": null,
+      "metric": 220,
+      "metric_unit": "liters",
+      "imperial": 58,
+      "imperial_unit": "gallons",
+      "notes": "10 baths; same as homer for liquids",
+      "references": ["1Ki.5.11", "2Ch.2.10", "Ezr.7.22"]
+    },
+    {
+      "category": "volume_liquid",
+      "name": "Metretes (Firkin)",
+      "hebrew": null,
+      "greek": "μετρητής (metretes)",
+      "metric": 39,
+      "metric_unit": "liters",
+      "imperial": 10.3,
+      "imperial_unit": "gallons",
+      "notes": "Greek liquid measure; used at Cana wedding",
+      "references": ["Joh.2.6"]
+    },
+
+    {
+      "category": "weight",
+      "name": "Gerah",
+      "hebrew": "גֵּרָה (gerah)",
+      "greek": null,
+      "metric": 0.57,
+      "metric_unit": "grams",
+      "imperial": 0.02,
+      "imperial_unit": "ounces",
+      "notes": "Smallest weight; 1/20 shekel",
+      "references": ["Exo.30.13", "Lev.27.25", "Eze.45.12"]
+    },
+    {
+      "category": "weight",
+      "name": "Bekah (Half Shekel)",
+      "hebrew": "בֶּקַע (beqa)",
+      "greek": null,
+      "metric": 5.7,
+      "metric_unit": "grams",
+      "imperial": 0.2,
+      "imperial_unit": "ounces",
+      "notes": "Half shekel; temple tax",
+      "references": ["Gen.24.22", "Exo.38.26"]
+    },
+    {
+      "category": "weight",
+      "name": "Shekel",
+      "hebrew": "שֶׁקֶל (sheqel)",
+      "greek": null,
+      "metric": 11.4,
+      "metric_unit": "grams",
+      "imperial": 0.4,
+      "imperial_unit": "ounces",
+      "notes": "Standard weight unit; 20 gerahs",
+      "references": ["Gen.23.15", "Exo.30.13", "1Sa.17.5"]
+    },
+    {
+      "category": "weight",
+      "name": "Mina (Maneh)",
+      "hebrew": "מָנֶה (maneh)",
+      "greek": "μνᾶ (mna)",
+      "metric": 570,
+      "metric_unit": "grams",
+      "imperial": 1.25,
+      "imperial_unit": "pounds",
+      "notes": "50 shekels",
+      "references": ["1Ki.10.17", "Ezr.2.69", "Eze.45.12"]
+    },
+    {
+      "category": "weight",
+      "name": "Talent",
+      "hebrew": "כִּכָּר (kikkar)",
+      "greek": "τάλαντον (talanton)",
+      "metric": 34,
+      "metric_unit": "kilograms",
+      "imperial": 75,
+      "imperial_unit": "pounds",
+      "notes": "60 minas; 3000 shekels; largest weight",
+      "references": ["Exo.25.39", "2Sa.12.30", "Mat.18.24"]
+    },
+    {
+      "category": "weight",
+      "name": "Litra (Roman Pound)",
+      "hebrew": null,
+      "greek": "λίτρα (litra)",
+      "metric": 327,
+      "metric_unit": "grams",
+      "imperial": 0.72,
+      "imperial_unit": "pounds",
+      "notes": "Roman pound (libra); 12 ounces",
+      "references": ["Joh.12.3", "Joh.19.39"]
+    },
+
+    {
+      "category": "currency",
+      "name": "Gerah",
+      "hebrew": "גֵּרָה (gerah)",
+      "greek": null,
+      "metric": 0.57,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Smallest coin value; 1/20 shekel",
+      "references": ["Exo.30.13"]
+    },
+    {
+      "category": "currency",
+      "name": "Bekah",
+      "hebrew": "בֶּקַע (beqa)",
+      "greek": null,
+      "metric": 5.7,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Half shekel; temple poll tax",
+      "references": ["Exo.38.26"]
+    },
+    {
+      "category": "currency",
+      "name": "Shekel of Silver",
+      "hebrew": "שֶׁקֶל כֶּסֶף",
+      "greek": null,
+      "metric": 11.4,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Standard silver currency; Joseph sold for 20 shekels",
+      "references": ["Gen.37.28", "Gen.23.15", "Jdg.17.10"]
+    },
+    {
+      "category": "currency",
+      "name": "Shekel of Gold",
+      "hebrew": "שֶׁקֶל זָהָב",
+      "greek": null,
+      "metric": 11.4,
+      "metric_unit": "grams gold",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Gold weight unit",
+      "references": ["Gen.24.22", "1Ch.21.25"]
+    },
+    {
+      "category": "currency",
+      "name": "Lepton (Mite)",
+      "hebrew": null,
+      "greek": "λεπτόν (lepton)",
+      "metric": null,
+      "metric_unit": null,
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Smallest Jewish bronze coin; widow's mite; 1/2 quadrans",
+      "references": ["Mar.12.42", "Luk.12.59", "Luk.21.2"]
+    },
+    {
+      "category": "currency",
+      "name": "Quadrans (Farthing)",
+      "hebrew": null,
+      "greek": "κοδράντης (kodrantes)",
+      "metric": null,
+      "metric_unit": null,
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Roman bronze coin; 2 lepta; 1/4 assarion",
+      "references": ["Mat.5.26", "Mar.12.42"]
+    },
+    {
+      "category": "currency",
+      "name": "Assarion (Penny)",
+      "hebrew": null,
+      "greek": "ἀσσάριον (assarion)",
+      "metric": null,
+      "metric_unit": null,
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Roman copper coin; 4 quadrans; 1/16 denarius",
+      "references": ["Mat.10.29", "Luk.12.6"]
+    },
+    {
+      "category": "currency",
+      "name": "Denarius",
+      "hebrew": null,
+      "greek": "δηνάριον (denarion)",
+      "metric": 3.9,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Roman silver coin; day's wage for a laborer",
+      "references": ["Mat.20.2", "Mat.22.19", "Mar.6.37"]
+    },
+    {
+      "category": "currency",
+      "name": "Drachma",
+      "hebrew": null,
+      "greek": "δραχμή (drachme)",
+      "metric": 4.3,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Greek silver coin; roughly equal to denarius",
+      "references": ["Luk.15.8", "Luk.15.9"]
+    },
+    {
+      "category": "currency",
+      "name": "Didrachmon (Half Shekel)",
+      "hebrew": null,
+      "greek": "δίδραχμον (didrachmon)",
+      "metric": 8.6,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Greek double-drachma; temple tax",
+      "references": ["Mat.17.24"]
+    },
+    {
+      "category": "currency",
+      "name": "Stater (Shekel)",
+      "hebrew": null,
+      "greek": "στατήρ (stater)",
+      "metric": 17.2,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Greek coin worth 4 drachmas; found in fish's mouth",
+      "references": ["Mat.17.27"]
+    },
+    {
+      "category": "currency",
+      "name": "Mina",
+      "hebrew": "מָנֶה (maneh)",
+      "greek": "μνᾶ (mna)",
+      "metric": 570,
+      "metric_unit": "grams silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "100 drachmas; parable of the minas",
+      "references": ["Luk.19.13", "Ezr.2.69"]
+    },
+    {
+      "category": "currency",
+      "name": "Talent of Silver",
+      "hebrew": "כִּכַּר כֶּסֶף",
+      "greek": "τάλαντον (talanton)",
+      "metric": 34,
+      "metric_unit": "kilograms silver",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "6000 denarii; 60 minas; enormous sum",
+      "references": ["Mat.18.24", "Mat.25.15"]
+    },
+    {
+      "category": "currency",
+      "name": "Talent of Gold",
+      "hebrew": "כִּכַּר זָהָב",
+      "greek": null,
+      "metric": 34,
+      "metric_unit": "kilograms gold",
+      "imperial": null,
+      "imperial_unit": null,
+      "notes": "Gold talent; vast wealth",
+      "references": ["2Sa.12.30", "1Ki.9.14", "1Ch.22.14"]
+    },
+
+    {
+      "category": "time",
+      "name": "Watch (Night)",
+      "hebrew": "אַשְׁמֻרָה (ashmurah)",
+      "greek": "φυλακή (phylake)",
+      "metric": 3,
+      "metric_unit": "hours",
+      "imperial": 3,
+      "imperial_unit": "hours",
+      "notes": "Night divided into watches; Romans used 4, Jews originally 3",
+      "references": ["Jdg.7.19", "Mat.14.25", "Mar.13.35"]
+    },
+    {
+      "category": "time",
+      "name": "Hour",
+      "hebrew": "שָׁעָה (shaah)",
+      "greek": "ὥρα (hora)",
+      "metric": 1,
+      "metric_unit": "hour",
+      "imperial": 1,
+      "imperial_unit": "hour",
+      "notes": "Daylight divided into 12 hours; length varied by season",
+      "references": ["Dan.4.19", "Mat.20.3", "Joh.11.9"]
+    },
+    {
+      "category": "time",
+      "name": "Third Hour",
+      "hebrew": null,
+      "greek": "ὥρα τρίτη",
+      "metric": 9,
+      "metric_unit": "AM (approx)",
+      "imperial": 9,
+      "imperial_unit": "AM (approx)",
+      "notes": "Mid-morning; time of morning sacrifice",
+      "references": ["Mar.15.25", "Act.2.15"]
+    },
+    {
+      "category": "time",
+      "name": "Sixth Hour",
+      "hebrew": null,
+      "greek": "ὥρα ἕκτη",
+      "metric": 12,
+      "metric_unit": "noon",
+      "imperial": 12,
+      "imperial_unit": "noon",
+      "notes": "Noon; midday",
+      "references": ["Mat.27.45", "Joh.4.6", "Act.10.9"]
+    },
+    {
+      "category": "time",
+      "name": "Ninth Hour",
+      "hebrew": null,
+      "greek": "ὥρα ἐνάτη",
+      "metric": 3,
+      "metric_unit": "PM (approx)",
+      "imperial": 3,
+      "imperial_unit": "PM (approx)",
+      "notes": "Mid-afternoon; time of evening sacrifice",
+      "references": ["Mat.27.46", "Act.3.1", "Act.10.30"]
+    },
+
+    {
+      "category": "area",
+      "name": "Yoke (Acre)",
+      "hebrew": "צֶמֶד (tsemed)",
+      "greek": null,
+      "metric": 0.2,
+      "metric_unit": "hectares",
+      "imperial": 0.5,
+      "imperial_unit": "acres",
+      "notes": "Land plowed by a yoke of oxen in a day",
+      "references": ["1Sa.14.14", "Isa.5.10"]
+    },
+    {
+      "category": "area",
+      "name": "Cubit Squared",
+      "hebrew": null,
+      "greek": null,
+      "metric": 0.198,
+      "metric_unit": "square meters",
+      "imperial": 2.13,
+      "imperial_unit": "square feet",
+      "notes": "Area measurement for construction",
+      "references": ["1Ki.6.2"]
+    }
+  ]
+}

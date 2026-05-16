@@ -1,0 +1,1111 @@
+{
+  "_meta": {
+    "description": "Daily life in biblical times - occupations, food, clothing, housing, family customs, and everyday practices",
+    "categories": {
+      "occupations": "Jobs and trades",
+      "food": "Diet, cooking, meals",
+      "clothing": "Garments and dress",
+      "housing": "Homes and buildings",
+      "family": "Marriage, children, household",
+      "commerce": "Trade, money, markets",
+      "agriculture": "Farming and herding",
+      "crafts": "Artisans and manufacturing"
+    }
+  },
+  "items": [
+    {
+      "id": "carpenter",
+      "name": "Carpenter",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Craftsmen who worked with wood to build furniture, doors, roof beams, agricultural tools, and boats. Wood was scarce in much of Israel, making carpentry a valued skill.",
+      "details": {
+        "materials": "Sycamore, olive, oak, cedar (imported from Lebanon), acacia. Local woods were often poor quality; fine lumber was imported.",
+        "tools": "Saw, hammer, chisel, plane, bow drill, plumb line, measuring line, compass, axe, adze",
+        "products": "Doors, roof beams, furniture (tables, beds, stools), yokes, plows, threshing sledges, boats, chests, coffins",
+        "social_status": "Respected trade. Not among the elite, but skilled craftsmen were valued. Jesus and Joseph practiced this trade."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mar.6.3",
+          "description": "Jesus called 'the carpenter' by people of Nazareth"
+        },
+        {
+          "reference": "Mat.13.55",
+          "description": "Jesus called 'the carpenter's son'"
+        },
+        {
+          "reference": "2Sa.5.11",
+          "description": "Hiram of Tyre sent carpenters to build David's palace"
+        },
+        {
+          "reference": "Isa.44.13",
+          "description": "Description of a carpenter's work and tools"
+        }
+      ],
+      "archaeological_evidence": "Wooden furniture found at Jericho and in Egyptian tombs. Iron and bronze woodworking tools found at many sites. Wooden beams preserved in dry climates.",
+      "references": ["Mar.6.3", "Mat.13.55", "2Sa.5.11", "1Ki.5.6", "Isa.44.13", "Jer.24.1"]
+    },
+    {
+      "id": "shepherd",
+      "name": "Shepherd",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Tenders of sheep and goats. One of the oldest professions, central to Israelite economy and identity. Many biblical figures were shepherds, and the image became a powerful metaphor for leadership and God's care.",
+      "details": {
+        "duties": "Leading flocks to pasture and water, protecting from predators (lions, bears, wolves), finding lost sheep, caring for sick or injured animals, assisting in births",
+        "equipment": "Staff (for guidance), rod (for defense), sling, leather bag, cloak, waterskin",
+        "lifestyle": "Often lived outdoors with flocks for extended periods. Knew each sheep individually. Slept in the open or in simple shelters.",
+        "social_status": "Lower status in later periods - considered unclean by Pharisees. But the image of shepherd remained honored due to David and prophetic tradition."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.46.34",
+          "description": "Shepherds were an abomination to Egyptians"
+        },
+        {
+          "reference": "1Sa.17.34-36",
+          "description": "David protected his flock from lion and bear"
+        },
+        {
+          "reference": "Psa.23.1-6",
+          "description": "The LORD is my shepherd"
+        },
+        {
+          "reference": "Luk.2.8-20",
+          "description": "Shepherds at Jesus' birth"
+        },
+        {
+          "reference": "Joh.10.11-14",
+          "description": "Jesus as the Good Shepherd"
+        }
+      ],
+      "archaeological_evidence": "Sheepfolds found throughout Israel. Shepherds' implements recovered. Ancient texts describe shepherding practices similar to biblical descriptions.",
+      "references": ["Gen.46.34", "1Sa.16.11", "1Sa.17.34-36", "Psa.23.1-6", "Eze.34.1-31", "Luk.2.8-20", "Joh.10.1-18"]
+    },
+    {
+      "id": "fisherman",
+      "name": "Fisherman",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Workers who caught fish from the Sea of Galilee, the Mediterranean, and the Jordan River. Several of Jesus' disciples were fishermen. Fishing was a significant industry in Galilee.",
+      "details": {
+        "methods": "Casting nets (thrown by hand), drag nets (large nets pulled between boats), hook and line, spear fishing",
+        "equipment": "Boats (large enough for 12+ people), various nets, hooks, baskets for catch, torches for night fishing",
+        "fish_types": "Tilapia (St. Peter's fish), sardines, carp, catfish. Some fish were unclean (no scales) and not eaten by Jews.",
+        "social_status": "Working class but could be prosperous. Zebedee had hired servants (Mar.1.20). Fishing cooperatives existed."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.4.18-22",
+          "description": "Jesus calls Peter, Andrew, James, and John from their fishing"
+        },
+        {
+          "reference": "Luk.5.1-11",
+          "description": "Miraculous catch of fish"
+        },
+        {
+          "reference": "Joh.21.1-14",
+          "description": "Jesus appears to disciples while fishing after resurrection"
+        },
+        {
+          "reference": "Mat.17.27",
+          "description": "Coin in fish's mouth for temple tax"
+        }
+      ],
+      "archaeological_evidence": "Ancient fishing boats found preserved in Sea of Galilee mud. Fish hooks, net weights, and anchors discovered. Fish processing facilities at Magdala (Tarichaea, meaning 'place of salted fish').",
+      "references": ["Mat.4.18-22", "Mar.1.16-20", "Luk.5.1-11", "Joh.21.1-14", "Eze.47.10"]
+    },
+    {
+      "id": "tentmaker",
+      "name": "Tentmaker / Leatherworker",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Craftsmen who made tents from goat hair cloth or leather. Also made leather goods like sandals, belts, wineskins, and bags. Paul practiced this trade.",
+      "details": {
+        "materials": "Black goat hair (woven into cloth), leather from goats, sheep, cattle",
+        "products": "Tents (for nomads, soldiers, markets), awnings, sandals, belts, wineskins, water bags, harnesses",
+        "process": "Weaving goat hair into weatherproof cloth, cutting and stitching leather, waterproofing with oil or pitch",
+        "social_status": "Respectable manual trade. Rabbis were expected to learn a trade - 'Torah with work' was the ideal."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Act.18.3",
+          "description": "Paul worked as tentmaker with Aquila and Priscilla"
+        },
+        {
+          "reference": "Act.20.34",
+          "description": "Paul's hands provided for his needs"
+        },
+        {
+          "reference": "Exo.26.7",
+          "description": "Tabernacle covered with goat hair tent"
+        }
+      ],
+      "archaeological_evidence": "Leather sandals and bags preserved in dry caves (Dead Sea region). Weaving implements found. Roman military tents described in sources.",
+      "references": ["Act.18.3", "Act.20.34", "1Th.2.9", "2Th.3.8", "Exo.26.7"]
+    },
+    {
+      "id": "farmer",
+      "name": "Farmer",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "The majority of Israelites were farmers. Agriculture dominated the economy. The agricultural calendar shaped religious festivals, and farming imagery fills scripture.",
+      "details": {
+        "crops": "Wheat, barley (main grains), grapes, olives, figs, dates, pomegranates, lentils, beans, onions, garlic, cucumbers, melons",
+        "tools": "Wooden plow with iron tip, sickle (flint or iron), threshing sledge, winnowing fork, mattock, hoe",
+        "calendar": "Fall plowing and sowing; spring barley harvest; late spring wheat harvest; summer fruit harvest; fall olive and grape harvest",
+        "challenges": "Drought, locusts, blight, hail, war, heavy taxation. Many small farmers lost land to debt."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.26.12",
+          "description": "Isaac reaped a hundredfold"
+        },
+        {
+          "reference": "Rut.2.1-23",
+          "description": "Ruth gleaning in Boaz's field"
+        },
+        {
+          "reference": "Mat.13.3-9",
+          "description": "Parable of the sower"
+        },
+        {
+          "reference": "Joh.4.35",
+          "description": "Fields white for harvest"
+        }
+      ],
+      "archaeological_evidence": "Iron plowshares, sickle blades, threshing floors, grain silos, olive and wine presses found at many sites. Gezer calendar (10th century BC) lists agricultural activities by month.",
+      "references": ["Gen.26.12", "Deu.24.19-21", "Rut.2.1-23", "1Ki.19.19", "Isa.28.24-29", "Mat.13.3-9", "Mar.4.26-29"]
+    },
+    {
+      "id": "potter",
+      "name": "Potter",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Craftsmen who made clay vessels for storage, cooking, and everyday use. Pottery was essential and ubiquitous. The potter's work became a powerful image of God's sovereignty over creation.",
+      "details": {
+        "process": "Digging and preparing clay, wedging to remove air, shaping on wheel or by hand, drying, firing in kiln",
+        "products": "Storage jars, cooking pots, bowls, cups, lamps, pitchers, juglets for oil and perfume",
+        "tools": "Potter's wheel (foot-powered), scrapers, paddles, kilns",
+        "social_status": "Essential but not prestigious. Potters often worked in specific quarters of towns."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Jer.18.1-6",
+          "description": "Jeremiah watches potter work - God as potter, Israel as clay"
+        },
+        {
+          "reference": "Isa.64.8",
+          "description": "We are the clay, you are the potter"
+        },
+        {
+          "reference": "Rom.9.21",
+          "description": "Potter's right over the clay"
+        },
+        {
+          "reference": "Lam.4.2",
+          "description": "Precious sons of Zion worth their weight in gold, now regarded as clay pots"
+        }
+      ],
+      "archaeological_evidence": "Pottery is the most common artifact found at excavations. Potters' wheels, kilns, and workshops excavated. Pottery styles help date archaeological layers.",
+      "references": ["Jer.18.1-6", "Jer.19.1-11", "Isa.29.16", "Isa.64.8", "Rom.9.21", "2Co.4.7"]
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "category": "occupations",
+      "period": "All periods (prominent in NT)",
+      "description": "Specialists in reading, writing, and interpreting documents. In early periods, royal officials and record keepers. By NT times, experts in Jewish law who taught and rendered legal decisions.",
+      "details": {
+        "duties_ot": "Recording royal decrees, keeping accounts, writing letters, copying documents",
+        "duties_nt": "Studying and teaching Torah, rendering legal judgments, serving in Sanhedrin, training disciples",
+        "training": "Long apprenticeship studying scripture and oral tradition. Called 'rabbi' (teacher)",
+        "social_status": "High status, especially in NT period. Respected authorities on law. Often associated with Pharisees."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Ezr.7.6",
+          "description": "Ezra the scribe, skilled in the Law of Moses"
+        },
+        {
+          "reference": "Mat.23.2",
+          "description": "Scribes and Pharisees sit on Moses' seat"
+        },
+        {
+          "reference": "Mar.12.28-34",
+          "description": "A scribe asks about the greatest commandment"
+        },
+        {
+          "reference": "Mat.13.52",
+          "description": "Scribe trained for the kingdom brings out old and new"
+        }
+      ],
+      "archaeological_evidence": "Writing implements (reed pens, ink), ostraca (pottery with writing), papyrus fragments, Dead Sea Scrolls copied by scribes.",
+      "references": ["Ezr.7.6", "Neh.8.1-8", "Jer.8.8", "Mat.2.4", "Mat.23.2-7", "Mar.12.28-34", "Luk.20.46"]
+    },
+    {
+      "id": "tax_collector",
+      "name": "Tax Collector",
+      "category": "occupations",
+      "period": "NT era",
+      "description": "Jews who collected taxes for Rome. They bid for the right to collect taxes in a region and kept anything above the required amount. Despised as collaborators with Rome and sinners.",
+      "details": {
+        "system": "Rome sold tax-collecting rights. Collectors paid Rome in advance, then collected taxes plus profit from the people.",
+        "types": "Customs duties at borders and ports, poll tax on persons, land tax on property",
+        "abuses": "Common to overcharge. No accountability. People had little recourse against them.",
+        "social_status": "Regarded as sinners and traitors. Barred from synagogues. Grouped with prostitutes as the worst of society."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.9.9-13",
+          "description": "Jesus calls Matthew the tax collector"
+        },
+        {
+          "reference": "Luk.19.1-10",
+          "description": "Zacchaeus the chief tax collector repents"
+        },
+        {
+          "reference": "Luk.18.9-14",
+          "description": "Parable of Pharisee and tax collector"
+        },
+        {
+          "reference": "Mat.5.46",
+          "description": "Even tax collectors love those who love them"
+        }
+      ],
+      "archaeological_evidence": "Tax receipts on papyrus found in Egypt. Customs stations identified at Capernaum and other sites.",
+      "references": ["Mat.5.46", "Mat.9.9-13", "Mat.11.19", "Mat.18.17", "Mat.21.31-32", "Luk.18.9-14", "Luk.19.1-10"]
+    },
+    {
+      "id": "soldier",
+      "name": "Soldier",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Military personnel. In OT times, Israelite armies and foreign powers. In NT, primarily Roman soldiers who occupied Palestine. Soldiers enforced order, collected taxes, and carried out executions.",
+      "details": {
+        "israelite_army": "Tribal militia in early period. Professional standing army under kings. Every man liable for military service.",
+        "roman_army": "Professional soldiers serving 25 years. Legions (5,000 men) of Roman citizens. Auxiliary troops from provinces. Centurions commanded 100 men.",
+        "equipment": "Sword, spear, shield, helmet, armor (bronze or iron). Roman soldiers: gladius (short sword), pilum (javelin), scutum (shield).",
+        "role_in_nt": "Maintained order, guarded prisoners, carried out crucifixions, collected taxes at checkpoints"
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.8.5-13",
+          "description": "Centurion's servant healed - great faith"
+        },
+        {
+          "reference": "Act.10.1-48",
+          "description": "Cornelius the centurion - first Gentile convert"
+        },
+        {
+          "reference": "Luk.3.14",
+          "description": "John Baptist's instructions to soldiers"
+        },
+        {
+          "reference": "Mat.27.54",
+          "description": "Centurion at cross: 'Truly this was the Son of God'"
+        }
+      ],
+      "archaeological_evidence": "Roman military equipment found throughout the empire. Fortress sites excavated. Inscriptions naming units stationed in Judea.",
+      "references": ["Mat.8.5-13", "Mat.27.27-54", "Luk.3.14", "Luk.7.1-10", "Act.10.1-48", "Act.27.1", "Eph.6.13-17"]
+    },
+    {
+      "id": "physician",
+      "name": "Physician",
+      "category": "occupations",
+      "period": "All periods",
+      "description": "Healers who treated illness and injury. Ancient medicine combined practical treatments with religious rituals. Physicians existed but their effectiveness was limited. Luke was a physician.",
+      "details": {
+        "treatments": "Bandaging wounds, setting bones, herbal remedies, olive oil and wine as antiseptics, rest and diet",
+        "limitations": "No knowledge of germs or infection. Many conditions untreatable. Surgery rare and dangerous.",
+        "religious_aspect": "Priests diagnosed skin diseases. Healing often sought through prayer and sacrifice. Illness sometimes seen as punishment for sin.",
+        "social_status": "Varied. Some respected; others mistrusted. The woman with bleeding spent all she had on physicians without cure (Mar.5.26)."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Col.4.14",
+          "description": "Luke the beloved physician"
+        },
+        {
+          "reference": "Mar.5.26",
+          "description": "Woman suffered much under many physicians"
+        },
+        {
+          "reference": "Mat.9.12",
+          "description": "Those who are well have no need of a physician"
+        },
+        {
+          "reference": "Jer.8.22",
+          "description": "Is there no balm in Gilead? Is there no physician there?"
+        }
+      ],
+      "archaeological_evidence": "Medical instruments found at various sites. Egyptian medical papyri describe treatments. Greek medical texts (Hippocrates, Galen) influenced the ancient world.",
+      "references": ["Gen.50.2", "2Ch.16.12", "Jer.8.22", "Mat.9.12", "Mar.2.17", "Mar.5.26", "Luk.4.23", "Col.4.14"]
+    },
+    {
+      "id": "bread",
+      "name": "Bread",
+      "category": "food",
+      "period": "All periods",
+      "description": "The staple food of the ancient Near East. 'Bread' often means food in general. Made from wheat or barley flour, mixed with water and salt, usually leavened, baked daily in clay ovens or on hot stones.",
+      "details": {
+        "grains": "Wheat bread for the wealthy; barley bread for the poor. Barley was less desirable but cheaper.",
+        "preparation": "Grain ground by hand with millstones (women's work), mixed into dough, leavened with old dough, baked in ovens",
+        "types": "Flat round loaves, thick cakes, thin wafers. Unleavened bread for Passover.",
+        "significance": "Breaking bread meant sharing a meal and fellowship. 'Bread and water' meant basic sustenance. 'Bread of life' - Jesus' title."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.3.19",
+          "description": "By the sweat of your face you shall eat bread"
+        },
+        {
+          "reference": "Exo.12.15-20",
+          "description": "Unleavened bread at Passover"
+        },
+        {
+          "reference": "Joh.6.35",
+          "description": "Jesus: I am the bread of life"
+        },
+        {
+          "reference": "Mat.26.26",
+          "description": "Jesus took bread, broke it: This is my body"
+        },
+        {
+          "reference": "Luk.11.3",
+          "description": "Give us each day our daily bread"
+        }
+      ],
+      "archaeological_evidence": "Ovens, grinding stones, carbonized grain found at many sites. Egyptian and Mesopotamian art depicts bread-making. Bread molds discovered.",
+      "references": ["Gen.3.19", "Exo.12.15-20", "Lev.2.4-5", "1Ki.17.6", "Mat.4.4", "Mat.26.26", "Joh.6.35", "Act.2.42"]
+    },
+    {
+      "id": "wine",
+      "name": "Wine",
+      "category": "food",
+      "period": "All periods",
+      "description": "Fermented grape juice, a common drink in the ancient world. Safer than water, which was often contaminated. Used in meals, celebrations, offerings, and medicine. Both celebrated and warned against in scripture.",
+      "details": {
+        "production": "Grapes harvested in late summer, crushed by foot in wine presses, juice fermented in jars or wineskins, aged in sealed containers",
+        "types": "New wine (fresh, still fermenting), aged wine, mixed wine (spiced or diluted)",
+        "uses": "Daily drink with meals, celebrations, religious offerings, medicinal (disinfectant, pain relief), hospitality",
+        "warnings": "Drunkenness condemned. Nazarites abstained. Priests could not drink while serving. Yet wine also seen as blessing."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.9.20-21",
+          "description": "Noah planted a vineyard and became drunk"
+        },
+        {
+          "reference": "Joh.2.1-11",
+          "description": "Jesus turns water to wine at wedding"
+        },
+        {
+          "reference": "Mat.26.27-29",
+          "description": "The cup at the Last Supper"
+        },
+        {
+          "reference": "1Ti.5.23",
+          "description": "A little wine for your stomach"
+        },
+        {
+          "reference": "Eph.5.18",
+          "description": "Do not get drunk with wine"
+        }
+      ],
+      "archaeological_evidence": "Wine presses carved in rock throughout Israel. Storage jars, wine-related inscriptions. Seeds and residue analyzed to identify ancient wines.",
+      "references": ["Gen.9.20-21", "Num.6.3", "Psa.104.15", "Pro.20.1", "Pro.23.29-35", "Joh.2.1-11", "Mat.26.27-29", "1Ti.5.23", "Eph.5.18"]
+    },
+    {
+      "id": "olive_oil",
+      "name": "Olive Oil",
+      "category": "food",
+      "period": "All periods",
+      "description": "Essential product of the Mediterranean world. Used for cooking, lighting, medicine, cosmetics, and religious anointing. The olive tree was a symbol of peace and prosperity.",
+      "details": {
+        "production": "Olives harvested in fall, crushed in stone presses, oil separated from water and pulp. First pressing (virgin oil) was finest.",
+        "uses_food": "Cooking oil, dipping for bread, ingredient in baking",
+        "uses_other": "Lamp fuel (primary source of light), skin moisturizer, hair treatment, healing wounds, anointing for consecration",
+        "significance": "Anointing with oil set apart kings, priests, and prophets. 'Messiah' and 'Christ' both mean 'anointed one.'"
+      },
+      "biblical_examples": [
+        {
+          "reference": "Exo.27.20",
+          "description": "Pure olive oil for the lampstand"
+        },
+        {
+          "reference": "1Sa.16.13",
+          "description": "Samuel anointed David with oil"
+        },
+        {
+          "reference": "Luk.10.34",
+          "description": "Good Samaritan used oil and wine on wounds"
+        },
+        {
+          "reference": "Jam.5.14",
+          "description": "Elders anoint the sick with oil"
+        }
+      ],
+      "archaeological_evidence": "Olive presses found throughout Israel. Ancient olive trees still living. Oil storage jars. Inscriptions mentioning olive oil trade.",
+      "references": ["Exo.27.20", "Lev.2.1-7", "1Sa.16.13", "1Ki.17.12-16", "Psa.23.5", "Mat.25.1-13", "Luk.10.34", "Jam.5.14"]
+    },
+    {
+      "id": "fish",
+      "name": "Fish",
+      "category": "food",
+      "period": "All periods",
+      "description": "Major protein source, especially around the Sea of Galilee. Fresh fish eaten locally; dried or salted fish traded widely. Fish was common food for ordinary people.",
+      "details": {
+        "sources": "Sea of Galilee, Mediterranean coast, Jordan River. Some fish also from Egypt.",
+        "types": "Tilapia (musht), sardines, carp. Catfish and eels were unclean (no scales).",
+        "preservation": "Dried in the sun, salted, or pickled. Salted fish could be stored and transported long distances.",
+        "preparation": "Grilled, boiled, dried. Often eaten with bread. Fish sauce (garum) used as seasoning."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.14.17-21",
+          "description": "Five loaves and two fish fed 5,000"
+        },
+        {
+          "reference": "Luk.24.42-43",
+          "description": "Risen Jesus ate broiled fish"
+        },
+        {
+          "reference": "Joh.21.9-13",
+          "description": "Jesus prepared fish for disciples after resurrection"
+        },
+        {
+          "reference": "Mat.7.10",
+          "description": "Would give a serpent when asked for fish?"
+        }
+      ],
+      "archaeological_evidence": "Fish bones at many sites. Fish hooks, net weights. Magdala (Tarichaea) was a major fish processing center. Fish mosaics in ancient synagogues.",
+      "references": ["Num.11.5", "Neh.13.16", "Mat.7.10", "Mat.14.17-21", "Mat.15.34-38", "Luk.24.42-43", "Joh.21.9-13"]
+    },
+    {
+      "id": "meat",
+      "name": "Meat",
+      "category": "food",
+      "period": "All periods",
+      "description": "Eaten less frequently than today - mainly for special occasions, sacrifices, and the wealthy. Sheep, goats, cattle, and certain birds were eaten. Strict rules governed slaughter and which animals were clean.",
+      "details": {
+        "clean_animals": "Sheep, goat, cattle (cud-chewing with split hooves), deer, gazelle. Certain birds (chicken, dove, quail).",
+        "unclean_animals": "Pig, camel, rabbit, shellfish, most insects, predatory birds. Eating these was forbidden.",
+        "slaughter": "Blood must be drained (blood is life). Cannot eat blood or fat of sacrificial animals. Kosher laws governed preparation.",
+        "occasions": "Festivals, welcoming guests, celebrations. Fatted calf killed for honored guests."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Lev.11.1-47",
+          "description": "Clean and unclean animals defined"
+        },
+        {
+          "reference": "Gen.18.7",
+          "description": "Abraham prepared a calf for the three visitors"
+        },
+        {
+          "reference": "Luk.15.23",
+          "description": "Fatted calf killed for prodigal son"
+        },
+        {
+          "reference": "Exo.12.3-11",
+          "description": "Passover lamb - specific instructions"
+        }
+      ],
+      "archaeological_evidence": "Animal bones at excavations show diet patterns. More goat/sheep bones than cattle. Butchering marks studied to understand practices.",
+      "references": ["Gen.18.7", "Lev.11.1-47", "Deu.14.3-21", "Exo.12.3-11", "1Sa.28.24", "Luk.15.23", "Act.10.9-16"]
+    },
+    {
+      "id": "tunic",
+      "name": "Tunic (Inner Garment)",
+      "category": "clothing",
+      "period": "All periods",
+      "description": "The basic garment worn next to the skin by both men and women. A simple T-shaped or rectangular cloth with holes for head and arms, reaching to the knees or ankles. Usually made of linen or wool.",
+      "details": {
+        "materials": "Linen (from flax - cooler, worn by priests and wealthy), wool (warmer, common), cotton (later periods)",
+        "construction": "Woven in one piece or sewn from two pieces. Sleeves could be short or long. Could be plain or decorated.",
+        "wearing": "Worn directly on skin or over a loincloth. Belted at the waist for work. Going without tunic was considered naked.",
+        "significance": "Jesus' tunic was seamless, woven in one piece (Joh.19.23). Giving your tunic meant giving your basic garment."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.37.3",
+          "description": "Joseph's 'coat of many colors' was a special tunic"
+        },
+        {
+          "reference": "Mat.5.40",
+          "description": "If sued for tunic, give cloak also"
+        },
+        {
+          "reference": "Joh.19.23",
+          "description": "Jesus' seamless tunic - soldiers cast lots for it"
+        },
+        {
+          "reference": "Act.9.39",
+          "description": "Widows showed tunics Dorcas had made"
+        }
+      ],
+      "archaeological_evidence": "Textile fragments preserved in dry climates. Depictions in art from Egypt, Assyria, and later periods. Loom weights found at many sites.",
+      "references": ["Gen.37.3", "Exo.28.4", "Mat.5.40", "Mat.10.10", "Luk.6.29", "Joh.19.23", "Act.9.39"]
+    },
+    {
+      "id": "cloak",
+      "name": "Cloak (Outer Garment)",
+      "category": "clothing",
+      "period": "All periods",
+      "description": "A large rectangular cloth worn over the tunic. Served as coat by day and blanket by night. Essential for protection from cold and weather. Law protected the poor person's cloak.",
+      "details": {
+        "construction": "Large rectangular wool cloth, usually undyed or natural brown. Could be decorated. Wrapped or draped over shoulders.",
+        "function": "Protection from cold, rain, sun. Blanket at night. Could carry items in its folds. Sign of dignity.",
+        "legal_protection": "If taken as pledge, must be returned by sunset - the poor need it for warmth at night (Exo.22.26-27).",
+        "significance": "Prophets wore distinctive cloaks (Elijah). Casting cloak over someone could mean claiming them or blessing them."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Exo.22.26-27",
+          "description": "Return neighbor's cloak by sunset"
+        },
+        {
+          "reference": "1Ki.19.19",
+          "description": "Elijah cast his cloak on Elisha"
+        },
+        {
+          "reference": "2Ki.2.13-14",
+          "description": "Elisha took up Elijah's cloak after his ascent"
+        },
+        {
+          "reference": "Mat.5.40",
+          "description": "Give cloak as well as tunic"
+        },
+        {
+          "reference": "Act.9.39",
+          "description": "Garments Dorcas had made"
+        }
+      ],
+      "archaeological_evidence": "Wool textile fragments. Depictions in ancient art show wrapped garments. Clothing pins and fasteners found.",
+      "references": ["Exo.22.26-27", "Deu.24.13", "1Ki.19.19", "2Ki.2.13-14", "Mat.5.40", "Mar.10.50", "Luk.6.29"]
+    },
+    {
+      "id": "sandals",
+      "name": "Sandals",
+      "category": "clothing",
+      "period": "All periods",
+      "description": "Basic footwear - leather soles strapped to the foot. Going barefoot was common for the poor and required in holy places. Sandals were removed as a sign of respect or mourning.",
+      "details": {
+        "construction": "Leather soles, straps of leather or cloth. Simple designs most common. Wealthier people had more elaborate sandals.",
+        "significance": "Removing sandals in holy places (Exo.3.5). Not worthy to untie sandals = extreme unworthiness. Sandal ceremony in levirate marriage (Rut.4.7-8).",
+        "customs": "Guests' sandals removed and feet washed by servants. Walking in sandals through streets made feet dusty - hence foot washing."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Exo.3.5",
+          "description": "Moses told to remove sandals on holy ground"
+        },
+        {
+          "reference": "Rut.4.7-8",
+          "description": "Sandal exchange in legal transactions"
+        },
+        {
+          "reference": "Mar.1.7",
+          "description": "John not worthy to untie Jesus' sandal"
+        },
+        {
+          "reference": "Luk.15.22",
+          "description": "Father puts sandals on prodigal son's feet"
+        }
+      ],
+      "archaeological_evidence": "Leather sandals preserved in caves (Dead Sea region). Sandals depicted in Egyptian and Assyrian art. Soles of various designs found.",
+      "references": ["Exo.3.5", "Jos.5.15", "Rut.4.7-8", "Amo.2.6", "Mat.3.11", "Mar.1.7", "Luk.15.22", "Joh.1.27"]
+    },
+    {
+      "id": "headcovering",
+      "name": "Head Covering",
+      "category": "clothing",
+      "period": "All periods",
+      "description": "Protection from sun was essential in the Middle East. Men wore cloths or turbans; women covered their heads as a sign of modesty and marital status. Uncovering the head could be shameful.",
+      "details": {
+        "mens_wear": "Cloth headband, turban, or draped cloth. Priests wore specific turbans. Styles varied by period and region.",
+        "womens_wear": "Veil or cloth covering hair. Married women always covered in public. Uncovering a woman's head was an insult.",
+        "significance": "Head covering showed status and modesty. Paul discussed head covering in worship (1Co.11). High priest's turban was sacred."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Exo.28.4",
+          "description": "Turban for the high priest"
+        },
+        {
+          "reference": "1Co.11.4-16",
+          "description": "Paul on head coverings in worship"
+        },
+        {
+          "reference": "Gen.24.65",
+          "description": "Rebekah covered herself with veil when meeting Isaac"
+        },
+        {
+          "reference": "2Sa.15.30",
+          "description": "David covered his head in mourning"
+        }
+      ],
+      "archaeological_evidence": "Depictions in ancient art show various head covering styles. Textile fragments. Different styles for different cultures and periods.",
+      "references": ["Gen.24.65", "Exo.28.4", "2Sa.15.30", "Est.6.12", "1Co.11.4-16"]
+    },
+    {
+      "id": "israelite_house",
+      "name": "Israelite House",
+      "category": "housing",
+      "period": "Iron Age (1200-586 BC)",
+      "description": "The typical Israelite house was a 'four-room house' - a distinctive design with a broad room at the back and three long rooms in front, often separated by stone pillars. Simple but functional for family life.",
+      "details": {
+        "construction": "Stone walls, sometimes mud brick on stone foundation. Wooden beams supported roof of branches, reeds, and mud plaster.",
+        "layout": "Central courtyard for cooking and work. Side rooms for storage and animals. Upper room or back room for sleeping. Flat roof for many activities.",
+        "size": "Typically 10-15 meters on a side. Entire extended family might live together. Animals often in ground floor at night.",
+        "features": "Clay oven in courtyard, cistern for water, storage bins, stone benches along walls."
+      },
+      "biblical_examples": [
+        {
+          "reference": "1Ki.17.19",
+          "description": "Elijah took boy to upper room"
+        },
+        {
+          "reference": "Mar.2.4",
+          "description": "Paralytic lowered through roof"
+        },
+        {
+          "reference": "Act.9.37",
+          "description": "Dorcas laid in upper room"
+        },
+        {
+          "reference": "Act.20.8",
+          "description": "Many lamps in upper room where Paul preached"
+        }
+      ],
+      "archaeological_evidence": "Hundreds of four-room houses excavated. Best preserved at sites like Tell en-Nasbeh, Beer-sheba, Hazor. Floor plans clearly show typical layout.",
+      "references": ["Deu.22.8", "Jos.2.6", "Jdg.16.26-27", "1Ki.17.19", "2Ki.4.10", "Mar.2.4", "Mar.14.15", "Act.9.37", "Act.20.8"]
+    },
+    {
+      "id": "roof",
+      "name": "Roof",
+      "category": "housing",
+      "period": "All periods",
+      "description": "Flat roofs made of wooden beams covered with branches and packed mud. The roof was an essential part of living space - used for sleeping in summer, drying food, prayer, and social activities.",
+      "details": {
+        "construction": "Wooden beams across walls, smaller branches or reeds laid across, thick layer of mud plaster. Had to be rolled after rain to prevent leaks.",
+        "uses": "Sleeping in hot weather, drying flax and grain, socializing, private prayer, mourning, making announcements",
+        "access": "External stairs or ladder. Law required parapet (railing) for safety (Deu.22.8).",
+        "maintenance": "Mud roof needed regular repair. Could be dug through relatively easily (Mar.2.4)."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Deu.22.8",
+          "description": "Required parapet on roof for safety"
+        },
+        {
+          "reference": "Jos.2.6",
+          "description": "Rahab hid spies under flax on roof"
+        },
+        {
+          "reference": "2Sa.11.2",
+          "description": "David walked on palace roof, saw Bathsheba"
+        },
+        {
+          "reference": "Mar.2.4",
+          "description": "Friends dug through roof to lower paralytic"
+        },
+        {
+          "reference": "Act.10.9",
+          "description": "Peter went up on housetop to pray"
+        }
+      ],
+      "archaeological_evidence": "Beam sockets in walls. Roller stones for packing roofs. Staircases along exterior walls. Pottery and artifacts found on roof collapse layers.",
+      "references": ["Deu.22.8", "Jos.2.6", "Jdg.16.27", "2Sa.11.2", "Pro.21.9", "Mar.2.4", "Mat.10.27", "Act.10.9"]
+    },
+    {
+      "id": "marriage_customs",
+      "name": "Marriage Customs",
+      "category": "family",
+      "period": "All periods",
+      "description": "Marriage was a family and economic arrangement, not just a personal choice. Families negotiated marriages, paid bride prices, celebrated with feasts, and established new households. Most people married in their teens.",
+      "details": {
+        "arrangement": "Families arranged marriages. Father's approval essential. Marriage within tribe often preferred. Some marriages were political alliances.",
+        "betrothal": "Formal commitment, legally binding like marriage. Lasted up to a year. Breaking betrothal required divorce. Joseph and Mary were betrothed (Mat.1.18).",
+        "bride_price": "Groom's family paid bride's family (mohar). Demonstrated the groom could provide. Could be money, goods, or service (Jacob worked 7 years).",
+        "wedding": "Week-long celebration. Procession to groom's house. Wedding feast with family and community. Consummation on first night."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.24.1-67",
+          "description": "Abraham's servant finds Rebekah for Isaac"
+        },
+        {
+          "reference": "Gen.29.15-30",
+          "description": "Jacob works 14 years for Rachel and Leah"
+        },
+        {
+          "reference": "Mat.1.18-25",
+          "description": "Joseph and Mary's betrothal"
+        },
+        {
+          "reference": "Joh.2.1-11",
+          "description": "Wedding at Cana - Jesus' first miracle"
+        },
+        {
+          "reference": "Mat.25.1-13",
+          "description": "Parable of ten virgins waiting for bridegroom"
+        }
+      ],
+      "archaeological_evidence": "Marriage contracts on papyrus from Jewish communities in Egypt. Wedding jewelry and adornments. Ancient texts describe customs.",
+      "references": ["Gen.24.1-67", "Gen.29.15-30", "Gen.34.12", "Exo.22.16-17", "Deu.22.13-29", "Mat.1.18-25", "Mat.25.1-13", "Joh.2.1-11"]
+    },
+    {
+      "id": "betrothal",
+      "name": "Betrothal",
+      "category": "family",
+      "period": "All periods",
+      "description": "A formal, legally binding commitment before marriage. More serious than modern engagement - the couple was considered married in the eyes of the law, though they did not yet live together. Breaking betrothal required divorce.",
+      "details": {
+        "process": "Groom or his representative made formal offer. Bride price agreed upon. Contract might be written. Blessings pronounced.",
+        "duration": "Usually about one year. Time for groom to prepare a home. Bride remained with her family.",
+        "legal_status": "Betrothed woman called 'wife.' Unfaithfulness during betrothal was adultery. Only divorce could end it.",
+        "consummation": "Couple did not live together or have relations during betrothal. Wedding ceremony began cohabitation."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.1.18-19",
+          "description": "Joseph and Mary betrothed; he considered divorce when she was pregnant"
+        },
+        {
+          "reference": "Deu.22.23-24",
+          "description": "Betrothed woman who commits adultery treated as married"
+        },
+        {
+          "reference": "Luk.1.27",
+          "description": "Mary betrothed to Joseph"
+        },
+        {
+          "reference": "2Co.11.2",
+          "description": "Paul: I betrothed you to Christ"
+        }
+      ],
+      "archaeological_evidence": "Betrothal contracts from ancient Jewish communities. Legal documents from Elephantine and later periods.",
+      "references": ["Deu.20.7", "Deu.22.23-27", "Mat.1.18-19", "Luk.1.27", "Luk.2.5", "2Co.11.2"]
+    },
+    {
+      "id": "inheritance",
+      "name": "Inheritance",
+      "category": "family",
+      "period": "All periods",
+      "description": "Property passed from father to sons. The firstborn received a double portion. Daughters inherited only if there were no sons. Land was supposed to stay within the tribe and family.",
+      "details": {
+        "firstborn": "Eldest son received double portion (2/3 if two sons, 2/4 if three sons, etc.). This was his birthright.",
+        "daughters": "Could inherit only if no sons (Num.27.1-11). If they inherited, they must marry within their tribe to keep land in the family.",
+        "land": "Ancestral land was sacred. Selling land permanently was forbidden. Jubilee returned land to original families every 50 years.",
+        "disinheritance": "Possible for serious offenses. Reuben lost birthright due to sin with his father's concubine."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Deu.21.15-17",
+          "description": "Firstborn receives double portion"
+        },
+        {
+          "reference": "Num.27.1-11",
+          "description": "Daughters of Zelophehad - daughters can inherit"
+        },
+        {
+          "reference": "Luk.15.12",
+          "description": "Prodigal son asks for his share of inheritance"
+        },
+        {
+          "reference": "Gen.25.29-34",
+          "description": "Esau sells birthright to Jacob"
+        },
+        {
+          "reference": "1Ch.5.1",
+          "description": "Reuben's birthright given to Joseph's sons"
+        }
+      ],
+      "archaeological_evidence": "Property transfer documents. Boundary stones. Legal texts describing inheritance customs from surrounding cultures.",
+      "references": ["Gen.25.29-34", "Gen.48.22", "Num.27.1-11", "Num.36.1-12", "Deu.21.15-17", "1Ch.5.1", "Luk.15.12", "Gal.4.1-7"]
+    },
+    {
+      "id": "market",
+      "name": "Market / Marketplace",
+      "category": "commerce",
+      "period": "All periods",
+      "description": "The center of economic life in towns and cities. Buyers and sellers gathered at city gates or in designated squares. Marketplaces were also social centers where people gathered, news spread, and sometimes legal matters were settled.",
+      "details": {
+        "location": "City gate (most common), central square, or along main streets. Temporary stalls or permanent shops.",
+        "activities": "Buying/selling food, crafts, animals. Hiring workers. Exchanging money. Socializing and hearing news.",
+        "practices": "Bargaining expected. Weights and measures sometimes dishonest. Prophets condemned cheating. Sabbath markets forbidden.",
+        "social_function": "Place to be seen, greet friends, conduct business. Children played there. Prophets and teachers spoke there."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Mat.20.3",
+          "description": "Workers standing idle in marketplace"
+        },
+        {
+          "reference": "Mat.23.7",
+          "description": "Pharisees loved greetings in marketplaces"
+        },
+        {
+          "reference": "Luk.7.32",
+          "description": "Children calling to each other in marketplace"
+        },
+        {
+          "reference": "Act.17.17",
+          "description": "Paul reasoned in the marketplace at Athens"
+        },
+        {
+          "reference": "Amo.8.5",
+          "description": "Merchants eager to end Sabbath and open market"
+        }
+      ],
+      "archaeological_evidence": "Market areas excavated at many sites. Shops along streets. Scales and weights. Trade goods from distant lands.",
+      "references": ["Neh.13.15-21", "Amo.8.5", "Mat.20.3", "Mat.23.7", "Mar.12.38", "Luk.7.32", "Luk.11.43", "Act.16.19", "Act.17.17"]
+    },
+    {
+      "id": "weights_measures",
+      "name": "Weights and Measures",
+      "category": "commerce",
+      "period": "All periods",
+      "description": "Commerce depended on standard weights and measures, but these were often inconsistent or manipulated. Honest weights were commanded by God; dishonest scales were condemned by prophets.",
+      "details": {
+        "weight_system": "Talent (largest), mina, shekel, gerah (smallest). Shekel was basic unit - about 11.4 grams.",
+        "volume_dry": "Homer, ephah, omer, seah. Ephah was about 22 liters (6 gallons).",
+        "volume_liquid": "Bath (equal to ephah), hin, log. Bath was about 22 liters.",
+        "length": "Cubit (elbow to fingertip - about 18 inches), span, handbreadth, finger."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Lev.19.35-36",
+          "description": "Use honest scales, weights, and measures"
+        },
+        {
+          "reference": "Pro.11.1",
+          "description": "False scales are an abomination to the LORD"
+        },
+        {
+          "reference": "Amo.8.5",
+          "description": "Making ephah small and shekel great - cheating"
+        },
+        {
+          "reference": "Mic.6.11",
+          "description": "Wicked scales and dishonest weights"
+        }
+      ],
+      "archaeological_evidence": "Stone weights inscribed with values. Balance scales. Measures carved in stone. Variation in actual weights shows inconsistency.",
+      "references": ["Exo.30.13", "Lev.19.35-36", "Deu.25.13-16", "Pro.11.1", "Pro.16.11", "Pro.20.10", "Eze.45.10-12", "Amo.8.5", "Mic.6.11"]
+    },
+    {
+      "id": "harvest",
+      "name": "Harvest",
+      "category": "agriculture",
+      "period": "All periods",
+      "description": "The most important time in the agricultural year. Barley harvest came in spring, wheat in late spring/early summer, then fruit harvests through summer and fall. The entire community worked together. Failure meant famine.",
+      "details": {
+        "barley_harvest": "March-April. First grain to ripen. Passover/Unleavened Bread celebrated at this time. Firstfruits offered.",
+        "wheat_harvest": "May-June. Main grain crop. Pentecost (Shavuot) celebrated at end of wheat harvest. Seven weeks after Passover.",
+        "fruit_harvest": "Grapes (August-September), olives (October-November). Tabernacles celebrated after ingathering.",
+        "process": "Cut with sickle, gathered into sheaves, carried to threshing floor, threshed, winnowed, stored."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Rut.1.22",
+          "description": "Ruth and Naomi arrived at beginning of barley harvest"
+        },
+        {
+          "reference": "Exo.23.16",
+          "description": "Feast of Harvest (Pentecost) at wheat harvest"
+        },
+        {
+          "reference": "Mat.9.37-38",
+          "description": "Harvest is plentiful, workers are few"
+        },
+        {
+          "reference": "Joh.4.35",
+          "description": "Fields are white for harvest"
+        },
+        {
+          "reference": "Rev.14.15",
+          "description": "Harvest of the earth"
+        }
+      ],
+      "archaeological_evidence": "Sickles (flint and iron), threshing floors, grain storage pits. Gezer calendar describes agricultural year. Harvest scenes in ancient art.",
+      "references": ["Exo.23.16", "Lev.23.9-22", "Rut.1.22", "Rut.2.23", "Pro.10.5", "Mat.9.37-38", "Joh.4.35", "Rev.14.15"]
+    },
+    {
+      "id": "threshing",
+      "name": "Threshing",
+      "category": "agriculture",
+      "period": "All periods",
+      "description": "The process of separating grain from stalks after harvest. Done on a threshing floor - a flat area of hard ground, often on a hilltop to catch the wind. Grain was beaten or crushed, then tossed in the air to separate.",
+      "details": {
+        "threshing_floor": "Flat circular area of rock or packed earth, usually on a hilltop for wind. Owned by individuals or shared by village.",
+        "methods": "Beating with sticks (small amounts), oxen treading (medium), threshing sledge (large amounts) - wooden board with stones or metal embedded.",
+        "winnowing": "After threshing, grain tossed in air with fork. Wind blew away chaff (light husks). Heavy grain fell back to floor.",
+        "significance": "Threshing floor was important location - sometimes for gatherings and legal matters. Metaphor for judgment."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Rut.3.2-14",
+          "description": "Ruth met Boaz at threshing floor"
+        },
+        {
+          "reference": "2Sa.24.18-25",
+          "description": "David bought threshing floor of Araunah - site of Temple"
+        },
+        {
+          "reference": "Mat.3.12",
+          "description": "Winnowing fork to clear threshing floor"
+        },
+        {
+          "reference": "1Co.9.9",
+          "description": "Do not muzzle ox while treading grain"
+        }
+      ],
+      "archaeological_evidence": "Threshing floors identified at many sites. Threshing sledge fragments with flint teeth. Winnowing forks. Rock-cut floors on hilltops.",
+      "references": ["Rut.3.2-14", "2Sa.24.18-25", "1Ch.21.18-28", "Isa.41.15-16", "Jer.51.33", "Hos.13.3", "Mat.3.12", "1Co.9.9"]
+    },
+    {
+      "id": "vineyard",
+      "name": "Vineyard",
+      "category": "agriculture",
+      "period": "All periods",
+      "description": "Grape cultivation was major agriculture in Israel. Vineyards covered hillsides unsuitable for grain. Grapes were eaten fresh, dried as raisins, or made into wine. The vineyard was a powerful symbol of Israel.",
+      "details": {
+        "planting": "Hillsides terraced with stone walls. Vines planted in rows. Took 3-5 years before first harvest. Stones cleared, watchtower built.",
+        "care": "Pruning in early spring (removing dead and excess growth). Training on supports. Protecting from animals (stone walls, thorns).",
+        "harvest": "August-September. Grapes picked by hand. Carried to wine press. Treading by foot. Juice collected and fermented.",
+        "symbolism": "Israel as God's vineyard (Isa.5). Jesus as true vine (Joh.15). Vineyard parables common."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Isa.5.1-7",
+          "description": "Song of the vineyard - Israel as vineyard"
+        },
+        {
+          "reference": "Joh.15.1-8",
+          "description": "Jesus: I am the true vine"
+        },
+        {
+          "reference": "Mat.20.1-16",
+          "description": "Parable of workers in vineyard"
+        },
+        {
+          "reference": "Mat.21.33-44",
+          "description": "Parable of wicked tenants in vineyard"
+        },
+        {
+          "reference": "1Ki.21.1-16",
+          "description": "Naboth's vineyard - Ahab's sin"
+        }
+      ],
+      "archaeological_evidence": "Terraced hillsides visible throughout Israel. Wine presses cut in rock. Watchtower remains. Ancient wine jars.",
+      "references": ["Gen.9.20", "Num.13.23", "1Ki.21.1-16", "Isa.5.1-7", "Isa.27.2-6", "Mat.20.1-16", "Mat.21.33-44", "Joh.15.1-8"]
+    },
+    {
+      "id": "weaving",
+      "name": "Weaving",
+      "category": "crafts",
+      "period": "All periods",
+      "description": "Essential craft for producing cloth for clothing, tents, and household items. Done primarily by women in homes, though professional weavers existed. Spinning thread and weaving cloth were daily tasks.",
+      "details": {
+        "materials": "Wool (most common), linen (from flax - finer, more valuable), goat hair (for tents). Imported cotton and silk later.",
+        "process": "Raw fiber cleaned and carded, spun into thread using spindle and whorl, woven on loom. Horizontal or vertical looms used.",
+        "products": "Tunics, cloaks, blankets, tent panels, curtains, sacks. Tabernacle curtains were elaborate weavings.",
+        "social_aspect": "Women's primary craft. Skilled weaver was valuable. Proverbs 31 woman 'works with willing hands' at spindle and distaff."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Pro.31.13-24",
+          "description": "Excellent wife works with wool and flax, sells garments"
+        },
+        {
+          "reference": "Exo.35.25-26",
+          "description": "Skilled women spun yarn for Tabernacle"
+        },
+        {
+          "reference": "Jdg.16.13-14",
+          "description": "Delilah wove Samson's hair into fabric"
+        },
+        {
+          "reference": "Act.9.39",
+          "description": "Dorcas made tunics and garments"
+        }
+      ],
+      "archaeological_evidence": "Loom weights (clay or stone). Spindle whorls. Textile fragments. Weaving equipment depicted in Egyptian art.",
+      "references": ["Exo.26.1", "Exo.35.25-26", "Jdg.16.13-14", "2Ki.23.7", "Pro.31.13-24", "Act.9.39"]
+    },
+    {
+      "id": "pottery_making",
+      "name": "Pottery Making",
+      "category": "crafts",
+      "period": "All periods",
+      "description": "Clay vessels were essential for storage, cooking, and daily life. Potters worked in every town, shaping clay on wheels and firing in kilns. Pottery styles help archaeologists date sites.",
+      "details": {
+        "clay": "Dug from deposits, cleaned of impurities, mixed with water, wedged to remove air bubbles. Different clays for different purposes.",
+        "forming": "Potter's wheel (foot-powered turntable), hand-building, molds. Wheel-thrown pottery most common after Bronze Age.",
+        "firing": "Air-dried pottery is fragile. Kilns reached 900-1000°C to harden clay. Wood or dung for fuel. Could take days.",
+        "products": "Storage jars, cooking pots, bowls, cups, lamps, juglets for oil and perfume, pitchers, amphorae."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Jer.18.1-6",
+          "description": "Jeremiah at the potter's house - God as potter"
+        },
+        {
+          "reference": "Isa.64.8",
+          "description": "We are the clay, you are the potter"
+        },
+        {
+          "reference": "Lam.4.2",
+          "description": "Precious people now regarded as clay pots"
+        },
+        {
+          "reference": "2Co.4.7",
+          "description": "Treasure in jars of clay"
+        }
+      ],
+      "archaeological_evidence": "Pottery is the most common archaeological find. Potter's wheels, kilns, wasters (misfired pots). Pottery typology is basic dating tool.",
+      "references": ["1Ch.4.23", "Isa.29.16", "Isa.64.8", "Jer.18.1-6", "Jer.19.1-11", "Lam.4.2", "Rom.9.21", "2Co.4.7"]
+    },
+    {
+      "id": "metalwork",
+      "name": "Metalwork",
+      "category": "crafts",
+      "period": "All periods",
+      "description": "Smiths worked copper, bronze, iron, gold, and silver. Making tools, weapons, jewelry, and religious objects. Metalworking was specialized knowledge, sometimes controlled by certain groups.",
+      "details": {
+        "metals": "Copper (earliest), bronze (copper + tin), iron (harder, replaced bronze), gold and silver (for jewelry and sacred objects)",
+        "processes": "Mining/smelting ore, casting in molds, hammering, forging, gilding, inlay work",
+        "products": "Tools (plows, axes, sickles), weapons (swords, spearheads), jewelry, Temple vessels and decorations",
+        "smiths": "Specialized craftsmen. Tubal-cain first metalworker (Gen.4.22). Philistines controlled iron technology (1Sa.13.19-22)."
+      },
+      "biblical_examples": [
+        {
+          "reference": "Gen.4.22",
+          "description": "Tubal-cain, forger of bronze and iron tools"
+        },
+        {
+          "reference": "1Sa.13.19-22",
+          "description": "No smith in Israel - Philistine control of iron"
+        },
+        {
+          "reference": "1Ki.7.13-47",
+          "description": "Hiram made bronze work for Temple"
+        },
+        {
+          "reference": "Isa.44.12",
+          "description": "Blacksmith works at forge"
+        },
+        {
+          "reference": "Act.19.24",
+          "description": "Demetrius the silversmith made Artemis shrines"
+        }
+      ],
+      "archaeological_evidence": "Copper smelting sites at Timna and Faynan. Bronze and iron tools throughout Israel. Gold jewelry. Crucibles and slag from metalworking.",
+      "references": ["Gen.4.22", "Exo.31.1-5", "1Sa.13.19-22", "1Ki.7.13-47", "2Ch.24.12", "Isa.44.12", "Jer.6.29", "Act.19.24"]
+    }
+  ]
+}

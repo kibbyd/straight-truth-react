@@ -1,0 +1,456 @@
+{
+  "summary": {
+    "total_esv_mappings": 297759,
+    "confirmed": 223930,
+    "confirmed_pct": 75.2,
+    "dropped": 73829,
+    "dropped_pct": 24.8,
+    "esv_verses_before": 30726,
+    "esv_verses_after": 30640,
+    "verses_lost": 86,
+    "no_kjv_verse_count": 15
+  },
+  "per_book": {
+    "1Ch": {
+      "total": 7627,
+      "confirmed": 6715,
+      "dropped": 912,
+      "no_kjv": 0,
+      "confirmed_pct": 88.0
+    },
+    "1Co": {
+      "total": 4538,
+      "confirmed": 3701,
+      "dropped": 837,
+      "no_kjv": 0,
+      "confirmed_pct": 81.6
+    },
+    "1Jo": {
+      "total": 1607,
+      "confirmed": 1228,
+      "dropped": 379,
+      "no_kjv": 0,
+      "confirmed_pct": 76.4
+    },
+    "1Ki": {
+      "total": 8882,
+      "confirmed": 7002,
+      "dropped": 1880,
+      "no_kjv": 0,
+      "confirmed_pct": 78.8
+    },
+    "1Pe": {
+      "total": 1191,
+      "confirmed": 1025,
+      "dropped": 166,
+      "no_kjv": 0,
+      "confirmed_pct": 86.1
+    },
+    "1Sa": {
+      "total": 8750,
+      "confirmed": 6762,
+      "dropped": 1988,
+      "no_kjv": 0,
+      "confirmed_pct": 77.3
+    },
+    "1Th": {
+      "total": 1016,
+      "confirmed": 834,
+      "dropped": 182,
+      "no_kjv": 0,
+      "confirmed_pct": 82.1
+    },
+    "1Ti": {
+      "total": 1154,
+      "confirmed": 989,
+      "dropped": 165,
+      "no_kjv": 0,
+      "confirmed_pct": 85.7
+    },
+    "2Ch": {
+      "total": 9297,
+      "confirmed": 7612,
+      "dropped": 1685,
+      "no_kjv": 0,
+      "confirmed_pct": 81.9
+    },
+    "2Co": {
+      "total": 2787,
+      "confirmed": 2234,
+      "dropped": 553,
+      "no_kjv": 0,
+      "confirmed_pct": 80.2
+    },
+    "2Jo": {
+      "total": 189,
+      "confirmed": 151,
+      "dropped": 38,
+      "no_kjv": 0,
+      "confirmed_pct": 79.9
+    },
+    "2Ki": {
+      "total": 8509,
+      "confirmed": 6805,
+      "dropped": 1704,
+      "no_kjv": 0,
+      "confirmed_pct": 80.0
+    },
+    "2Pe": {
+      "total": 737,
+      "confirmed": 623,
+      "dropped": 114,
+      "no_kjv": 0,
+      "confirmed_pct": 84.5
+    },
+    "2Sa": {
+      "total": 7430,
+      "confirmed": 5825,
+      "dropped": 1605,
+      "no_kjv": 0,
+      "confirmed_pct": 78.4
+    },
+    "2Th": {
+      "total": 568,
+      "confirmed": 454,
+      "dropped": 114,
+      "no_kjv": 0,
+      "confirmed_pct": 79.9
+    },
+    "2Ti": {
+      "total": 899,
+      "confirmed": 756,
+      "dropped": 143,
+      "no_kjv": 0,
+      "confirmed_pct": 84.1
+    },
+    "3Jo": {
+      "total": 150,
+      "confirmed": 121,
+      "dropped": 29,
+      "no_kjv": 0,
+      "confirmed_pct": 80.7
+    },
+    "Act": {
+      "total": 12166,
+      "confirmed": 9313,
+      "dropped": 2853,
+      "no_kjv": 0,
+      "confirmed_pct": 76.5
+    },
+    "Amo": {
+      "total": 1467,
+      "confirmed": 1063,
+      "dropped": 404,
+      "no_kjv": 0,
+      "confirmed_pct": 72.5
+    },
+    "Col": {
+      "total": 1086,
+      "confirmed": 829,
+      "dropped": 257,
+      "no_kjv": 0,
+      "confirmed_pct": 76.3
+    },
+    "Dan": {
+      "total": 3874,
+      "confirmed": 3243,
+      "dropped": 631,
+      "no_kjv": 0,
+      "confirmed_pct": 83.7
+    },
+    "Deu": {
+      "total": 9462,
+      "confirmed": 6499,
+      "dropped": 2963,
+      "no_kjv": 6,
+      "confirmed_pct": 68.7
+    },
+    "Ecc": {
+      "total": 1871,
+      "confirmed": 1203,
+      "dropped": 668,
+      "no_kjv": 0,
+      "confirmed_pct": 64.3
+    },
+    "Eph": {
+      "total": 1755,
+      "confirmed": 1306,
+      "dropped": 449,
+      "no_kjv": 0,
+      "confirmed_pct": 74.4
+    },
+    "Est": {
+      "total": 1847,
+      "confirmed": 1412,
+      "dropped": 435,
+      "no_kjv": 0,
+      "confirmed_pct": 76.4
+    },
+    "Exo": {
+      "total": 11109,
+      "confirmed": 8099,
+      "dropped": 3010,
+      "no_kjv": 6,
+      "confirmed_pct": 72.9
+    },
+    "Eze": {
+      "total": 12649,
+      "confirmed": 9093,
+      "dropped": 3556,
+      "no_kjv": 0,
+      "confirmed_pct": 71.9
+    },
+    "Ezr": {
+      "total": 2436,
+      "confirmed": 2029,
+      "dropped": 407,
+      "no_kjv": 0,
+      "confirmed_pct": 83.3
+    },
+    "Gal": {
+      "total": 1599,
+      "confirmed": 1220,
+      "dropped": 379,
+      "no_kjv": 0,
+      "confirmed_pct": 76.3
+    },
+    "Gen": {
+      "total": 13711,
+      "confirmed": 9914,
+      "dropped": 3797,
+      "no_kjv": 0,
+      "confirmed_pct": 72.3
+    },
+    "Hab": {
+      "total": 447,
+      "confirmed": 315,
+      "dropped": 132,
+      "no_kjv": 0,
+      "confirmed_pct": 70.5
+    },
+    "Hag": {
+      "total": 463,
+      "confirmed": 355,
+      "dropped": 108,
+      "no_kjv": 0,
+      "confirmed_pct": 76.7
+    },
+    "Heb": {
+      "total": 3389,
+      "confirmed": 2644,
+      "dropped": 745,
+      "no_kjv": 0,
+      "confirmed_pct": 78.0
+    },
+    "Hos": {
+      "total": 1683,
+      "confirmed": 1173,
+      "dropped": 510,
+      "no_kjv": 0,
+      "confirmed_pct": 69.7
+    },
+    "Isa": {
+      "total": 11753,
+      "confirmed": 8499,
+      "dropped": 3254,
+      "no_kjv": 0,
+      "confirmed_pct": 72.3
+    },
+    "Jdg": {
+      "total": 6223,
+      "confirmed": 4543,
+      "dropped": 1680,
+      "no_kjv": 0,
+      "confirmed_pct": 73.0
+    },
+    "Jer": {
+      "total": 14953,
+      "confirmed": 10347,
+      "dropped": 4606,
+      "no_kjv": 0,
+      "confirmed_pct": 69.2
+    },
+    "Job": {
+      "total": 5428,
+      "confirmed": 3487,
+      "dropped": 1941,
+      "no_kjv": 0,
+      "confirmed_pct": 64.2
+    },
+    "Joe": {
+      "total": 690,
+      "confirmed": 512,
+      "dropped": 178,
+      "no_kjv": 0,
+      "confirmed_pct": 74.2
+    },
+    "Joh": {
+      "total": 11263,
+      "confirmed": 8611,
+      "dropped": 2652,
+      "no_kjv": 0,
+      "confirmed_pct": 76.5
+    },
+    "Jon": {
+      "total": 464,
+      "confirmed": 323,
+      "dropped": 141,
+      "no_kjv": 0,
+      "confirmed_pct": 69.6
+    },
+    "Jos": {
+      "total": 6472,
+      "confirmed": 4759,
+      "dropped": 1713,
+      "no_kjv": 0,
+      "confirmed_pct": 73.5
+    },
+    "Jud": {
+      "total": 304,
+      "confirmed": 229,
+      "dropped": 75,
+      "no_kjv": 0,
+      "confirmed_pct": 75.3
+    },
+    "Lam": {
+      "total": 1068,
+      "confirmed": 769,
+      "dropped": 299,
+      "no_kjv": 0,
+      "confirmed_pct": 72.0
+    },
+    "Lev": {
+      "total": 7732,
+      "confirmed": 5399,
+      "dropped": 2333,
+      "no_kjv": 0,
+      "confirmed_pct": 69.8
+    },
+    "Luk": {
+      "total": 13313,
+      "confirmed": 10161,
+      "dropped": 3152,
+      "no_kjv": 0,
+      "confirmed_pct": 76.3
+    },
+    "Mal": {
+      "total": 497,
+      "confirmed": 340,
+      "dropped": 157,
+      "no_kjv": 0,
+      "confirmed_pct": 68.4
+    },
+    "Mar": {
+      "total": 7487,
+      "confirmed": 5762,
+      "dropped": 1725,
+      "no_kjv": 0,
+      "confirmed_pct": 77.0
+    },
+    "Mat": {
+      "total": 12972,
+      "confirmed": 10013,
+      "dropped": 2959,
+      "no_kjv": 0,
+      "confirmed_pct": 77.2
+    },
+    "Mic": {
+      "total": 1018,
+      "confirmed": 716,
+      "dropped": 302,
+      "no_kjv": 0,
+      "confirmed_pct": 70.3
+    },
+    "Nah": {
+      "total": 359,
+      "confirmed": 271,
+      "dropped": 88,
+      "no_kjv": 0,
+      "confirmed_pct": 75.5
+    },
+    "Neh": {
+      "total": 3598,
+      "confirmed": 2769,
+      "dropped": 829,
+      "no_kjv": 0,
+      "confirmed_pct": 77.0
+    },
+    "Num": {
+      "total": 10399,
+      "confirmed": 7787,
+      "dropped": 2612,
+      "no_kjv": 0,
+      "confirmed_pct": 74.9
+    },
+    "Oba": {
+      "total": 205,
+      "confirmed": 146,
+      "dropped": 59,
+      "no_kjv": 0,
+      "confirmed_pct": 71.2
+    },
+    "Phm": {
+      "total": 242,
+      "confirmed": 179,
+      "dropped": 63,
+      "no_kjv": 0,
+      "confirmed_pct": 74.0
+    },
+    "Pro": {
+      "total": 4749,
+      "confirmed": 3464,
+      "dropped": 1285,
+      "no_kjv": 3,
+      "confirmed_pct": 72.9
+    },
+    "Psa": {
+      "total": 14054,
+      "confirmed": 9873,
+      "dropped": 4181,
+      "no_kjv": 0,
+      "confirmed_pct": 70.3
+    },
+    "Rev": {
+      "total": 7113,
+      "confirmed": 5571,
+      "dropped": 1542,
+      "no_kjv": 0,
+      "confirmed_pct": 78.3
+    },
+    "Rom": {
+      "total": 4937,
+      "confirmed": 3891,
+      "dropped": 1046,
+      "no_kjv": 0,
+      "confirmed_pct": 78.8
+    },
+    "Rut": {
+      "total": 848,
+      "confirmed": 577,
+      "dropped": 271,
+      "no_kjv": 0,
+      "confirmed_pct": 68.0
+    },
+    "Tit": {
+      "total": 476,
+      "confirmed": 372,
+      "dropped": 104,
+      "no_kjv": 0,
+      "confirmed_pct": 78.2
+    },
+    "Zec": {
+      "total": 2256,
+      "confirmed": 1620,
+      "dropped": 636,
+      "no_kjv": 0,
+      "confirmed_pct": 71.8
+    },
+    "Zep": {
+      "total": 541,
+      "confirmed": 393,
+      "dropped": 148,
+      "no_kjv": 0,
+      "confirmed_pct": 72.6
+    }
+  }
+}

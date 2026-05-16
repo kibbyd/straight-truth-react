@@ -1,42 +1,4 @@
-# Dependencies
-node_modules/
-
-# Build output
-dist/
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-npm-debug.log*
-
-# Local env files
+*.exe
 .env
-.env.local
-.env.*.local
-
-# Playwright
-.playwright-mcp/
-
-# Vite cache
-.vite/
-
-# Claude
-.claude/
-
-# Windows artifacts
-nul
-
-# Temporary map staging folders
-possibles/
-zips/
-tmpclaude-*
-data_sources/
+__pycache__/
+.idea/

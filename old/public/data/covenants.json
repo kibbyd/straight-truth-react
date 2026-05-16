@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "description": "Biblical covenants as recorded in scripture",
+    "note": "Terms and conditions as explicitly stated in the text"
+  },
+  "covenants": [
+    {
+      "name": "Adamic Covenant",
+      "parties": ["God", "Adam"],
+      "context": "Garden of Eden - conditions for dwelling there",
+      "terms": [
+        "Be fruitful and multiply",
+        "Fill the earth and subdue it",
+        "Have dominion over all creatures",
+        "Eat from any tree except the tree of knowledge of good and evil",
+        "Death as consequence for eating from forbidden tree"
+      ],
+      "references": ["Gen.1.28-30", "Gen.2.16-17"]
+    },
+    {
+      "name": "Noahic Covenant",
+      "parties": ["God", "Noah", "All living creatures"],
+      "context": "After the flood",
+      "terms": [
+        "Never again destroy all life by flood",
+        "Seedtime and harvest shall not cease",
+        "Be fruitful and multiply",
+        "Every moving thing given as food",
+        "Do not eat blood",
+        "Whoever sheds man's blood, by man his blood shall be shed"
+      ],
+      "sign": "Rainbow",
+      "references": ["Gen.8.21-22", "Gen.9.1-17"]
+    },
+    {
+      "name": "Abrahamic Covenant",
+      "parties": ["God", "Abraham (Abram)", "His descendants"],
+      "context": "God's call to Abraham",
+      "terms": [
+        "Make Abraham a great nation",
+        "Bless Abraham and make his name great",
+        "Abraham will be a blessing",
+        "Bless those who bless him, curse those who curse him",
+        "All families of earth blessed through him",
+        "Give the land of Canaan to his descendants",
+        "Descendants as numerous as stars and sand"
+      ],
+      "sign": "Circumcision",
+      "references": ["Gen.12.1-3", "Gen.13.14-17", "Gen.15.1-21", "Gen.17.1-14", "Gen.22.15-18"]
+    },
+    {
+      "name": "Mosaic Covenant (Sinai)",
+      "parties": ["God", "Israel"],
+      "context": "Mount Sinai after exodus from Egypt",
+      "terms": [
+        "Israel to be God's treasured possession",
+        "Israel to be a kingdom of priests and holy nation",
+        "Obedience to God's commands required",
+        "Ten Commandments given",
+        "Detailed laws for worship, civil life, and conduct",
+        "Blessings for obedience, curses for disobedience"
+      ],
+      "sign": "Sabbath",
+      "references": ["Exo.19.3-8", "Exo.20.1-17", "Exo.24.1-8", "Exo.31.12-17", "Deu.28.1-68"]
+    },
+    {
+      "name": "Priestly Covenant (Phinehas)",
+      "parties": ["God", "Phinehas", "His descendants"],
+      "context": "Phinehas' zeal at Peor",
+      "terms": [
+        "Covenant of peace",
+        "Perpetual priesthood for Phinehas and descendants"
+      ],
+      "references": ["Num.25.10-13"]
+    },
+    {
+      "name": "Deuteronomic Covenant",
+      "parties": ["God", "Israel (new generation)"],
+      "context": "Plains of Moab before entering Canaan",
+      "terms": [
+        "Renewal of Sinai covenant with new generation",
+        "Love God with all heart, soul, and strength",
+        "Teach commands to children",
+        "Detailed blessings for obedience",
+        "Detailed curses for disobedience including exile"
+      ],
+      "references": ["Deu.29.1-29", "Deu.30.1-20"]
+    },
+    {
+      "name": "Davidic Covenant",
+      "parties": ["God", "David", "His descendants"],
+      "context": "David's desire to build a temple",
+      "terms": [
+        "God will make David's name great",
+        "God will establish a place for Israel",
+        "David's son will build the temple",
+        "God will establish the throne of his kingdom forever",
+        "God will be a father to David's son",
+        "Discipline for wrongdoing but love not withdrawn",
+        "David's house and kingdom eternal"
+      ],
+      "references": ["2Sa.7.8-16", "1Ch.17.7-14", "Psa.89.3-4", "Psa.89.19-37"]
+    },
+    {
+      "name": "New Covenant",
+      "parties": ["God", "House of Israel", "House of Judah"],
+      "context": "Prophesied through Jeremiah; instituted by Jesus",
+      "terms": [
+        "Law written on hearts, not stone",
+        "God will be their God, they will be his people",
+        "No need to teach neighbor to know God - all will know him",
+        "Forgiveness of sins - iniquity remembered no more"
+      ],
+      "sign": "Cup (Lord's Supper)",
+      "references": ["Jer.31.31-34", "Eze.36.26-27", "Mat.26.28", "Mar.14.24", "Luk.22.20", "Heb.8.6-13", "Heb.9.15"]
+    },
+    {
+      "name": "Salt Covenant",
+      "parties": ["God", "Aaron", "Priests"],
+      "context": "Priestly portions from offerings",
+      "terms": [
+        "Perpetual covenant",
+        "Priests receive portions of offerings"
+      ],
+      "references": ["Num.18.19", "2Ch.13.5"]
+    },
+    {
+      "name": "Covenant with Levi",
+      "parties": ["God", "Levi (tribe)"],
+      "context": "Levites' faithfulness",
+      "terms": [
+        "Covenant of life and peace",
+        "Levites to revere God",
+        "True instruction in their mouth",
+        "Walk with God in peace and uprightness",
+        "Turn many from iniquity"
+      ],
+      "references": ["Mal.2.4-7", "Deu.33.8-11"]
+    },
+    {
+      "name": "Land Covenant (Palestinian)",
+      "parties": ["God", "Israel"],
+      "context": "Future restoration prophesied",
+      "terms": [
+        "Regathering from all nations after exile",
+        "Circumcision of heart",
+        "Return to obedience",
+        "Curses placed on enemies",
+        "Prosperity in the land"
+      ],
+      "references": ["Deu.30.1-10"]
+    }
+  ]
+}

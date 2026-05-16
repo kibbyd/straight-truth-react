@@ -1,0 +1,338 @@
+{
+  "_meta": {
+    "description": "Major and Minor Prophets from biblical prophetic books",
+    "source": "Prophetic book authorship - Isaiah through Malachi",
+    "total_prophets": 41,
+    "method": "Curated list of prophetic book authors"
+  },
+  "prophets": [
+    {
+      "name": "Isaiah",
+      "confidence": "high",
+      "category": "Major Prophets",
+      "reference": "Isa.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Jeremiah",
+      "confidence": "high",
+      "category": "Major Prophets",
+      "reference": "Jer.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Ezekiel",
+      "confidence": "high",
+      "category": "Major Prophets",
+      "reference": "Eze.1.3",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Daniel",
+      "confidence": "high",
+      "category": "Major Prophets",
+      "reference": "Dan.1.6",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Hosea",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Hos.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Joel",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Joe.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Amos",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Amo.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Obadiah",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Oba.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Jonah",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Jon.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Micah",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Mic.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Nahum",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Nah.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Habakkuk",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Hab.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Zephaniah",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Zep.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Haggai",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Hag.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Zechariah",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Zec.1.1",
+      "book": "",
+      "restricted": true
+    },
+    {
+      "name": "Malachi",
+      "confidence": "high",
+      "category": "Minor Prophets",
+      "reference": "Mal.1.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Abraham",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "Gen.20.7",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Moses",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "Deu.34.10",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Aaron",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "Exo.7.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Miriam",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "Exo.15.20",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Deborah",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "Jdg.4.4",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Samuel",
+      "confidence": "high",
+      "category": "Pre-Monarchy Prophets",
+      "reference": "1Sa.3.20",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Gad",
+      "confidence": "high",
+      "category": "United Monarchy Prophets",
+      "reference": "1Sa.22.5",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Nathan",
+      "confidence": "high",
+      "category": "United Monarchy Prophets",
+      "reference": "2Sa.7.2",
+      "book": "",
+      "restricted": true
+    },
+    {
+      "name": "Ahijah",
+      "confidence": "high",
+      "category": "United Monarchy Prophets",
+      "reference": "1Ki.11.29",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Iddo",
+      "confidence": "high",
+      "category": "United Monarchy Prophets",
+      "reference": "2Ch.9.29",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Elijah",
+      "confidence": "high",
+      "category": "Northern Kingdom Prophets",
+      "reference": "1Ki.18.36",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Elisha",
+      "confidence": "high",
+      "category": "Northern Kingdom Prophets",
+      "reference": "2Ki.6.12",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Micaiah",
+      "confidence": "high",
+      "category": "Northern Kingdom Prophets",
+      "reference": "1Ki.22.8",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Oded",
+      "confidence": "high",
+      "category": "Northern Kingdom Prophets",
+      "reference": "2Ch.28.9",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Shemaiah",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "1Ki.12.22",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Hanani",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "2Ch.16.7",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Jahaziel",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "2Ch.20.14",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Eliezer",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "2Ch.20.37",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Huldah",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "2Ki.22.14",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Uriah",
+      "confidence": "high",
+      "category": "Southern Kingdom Prophets",
+      "reference": "Jer.26.20",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Agabus",
+      "confidence": "high",
+      "category": "New Testament Prophets",
+      "reference": "Act.11.28",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Anna",
+      "confidence": "high",
+      "category": "New Testament Prophets",
+      "reference": "Luk.2.36",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Simeon",
+      "confidence": "high",
+      "category": "New Testament Prophets",
+      "reference": "Luk.2.25",
+      "book": "",
+      "restricted": true
+    },
+    {
+      "name": "Barnabas",
+      "confidence": "high",
+      "category": "New Testament Prophets",
+      "reference": "Act.13.1",
+      "book": "",
+      "restricted": false
+    },
+    {
+      "name": "Silas",
+      "confidence": "high",
+      "category": "New Testament Prophets",
+      "reference": "Act.15.32",
+      "book": "",
+      "restricted": false
+    }
+  ]
+}

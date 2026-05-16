@@ -1,0 +1,802 @@
+{
+  "suspect_quotations": [
+    {
+      "ot": "Gen.12.7",
+      "nt": "Gal.3.16",
+      "shared_words": 1,
+      "overlap_pct": 12.5,
+      "has_quote_marker": false,
+      "ot_text": "Then the LORD appeared to Abram and said, \"To your offspring I will give this land.\" So he built there an altar to the LORD, who had appeared to him.",
+      "nt_text": "Now the promises were made to Abraham and to his offspring. It does not say, \"And to offsprings,\" referring to many, but referring to one, \"And to you"
+    },
+    {
+      "ot": "Gen.15.5",
+      "nt": "Rom.4.18",
+      "shared_words": 1,
+      "overlap_pct": 11.1,
+      "has_quote_marker": false,
+      "ot_text": "And he brought him outside and said, \"Look toward heaven, and number the stars, if you are able to number them.\" Then he said to him, \"So shall your o",
+      "nt_text": "In hope he believed against hope, that he should become the father of many nations, as he had been told, \"So shall your offspring be.\""
+    },
+    {
+      "ot": "Gen.47.31",
+      "nt": "Heb.11.21",
+      "shared_words": 1,
+      "overlap_pct": 14.3,
+      "has_quote_marker": false,
+      "ot_text": "And he said, \"Swear to me\"; and he swore to him. Then Israel bowed himself upon the head of his bed.",
+      "nt_text": "By faith Jacob, when dying, blessed each of the sons of Joseph, bowing in worship over the head of his staff."
+    },
+    {
+      "ot": "Exo.20.17",
+      "nt": "Rom.7.7",
+      "shared_words": 1,
+      "overlap_pct": 14.3,
+      "has_quote_marker": false,
+      "ot_text": "\"You shall not covet your neighbor's house; you shall not covet your neighbor's wife, or his male servant, or his female servant, or his ox, or his do",
+      "nt_text": "What then shall we say? That the law is sin? By no means! Yet if it had not been for the law, I would not have known sin. I would not have known what "
+    },
+    {
+      "ot": "Exo.33.19",
+      "nt": "Rom.9.15",
+      "shared_words": 1,
+      "overlap_pct": 25.0,
+      "has_quote_marker": false,
+      "ot_text": "And he said, \"I will make all my goodness pass before you and will proclaim before you my name 'The LORD.' And I will be gracious to whom I will be gr",
+      "nt_text": "For he says to Moses, \"I will have mercy on whom I have mercy, and I will have compassion on whom I have compassion.\""
+    },
+    {
+      "ot": "Lev.23.29",
+      "nt": "Act.3.23",
+      "shared_words": 1,
+      "overlap_pct": 14.3,
+      "has_quote_marker": false,
+      "ot_text": "For whoever is not afflicted on that very day shall be cut off from his people.",
+      "nt_text": "And it shall be that every soul who does not listen to that prophet shall be destroyed from the people.'"
+    },
+    {
+      "ot": "Num.16.5",
+      "nt": "2Ti.2.19",
+      "shared_words": 1,
+      "overlap_pct": 11.1,
+      "has_quote_marker": false,
+      "ot_text": "and he said to Korah and all his company, \"In the morning the LORD will show who is his, and who is holy, and will bring him near to him. The one whom",
+      "nt_text": "But God's firm foundation stands, bearing this seal: \"The Lord knows those who are his,\" and, \"Let everyone who names the name of the Lord depart from"
+    },
+    {
+      "ot": "Deu.18.19",
+      "nt": "Act.3.23",
+      "shared_words": 1,
+      "overlap_pct": 14.3,
+      "has_quote_marker": false,
+      "ot_text": "And whoever will not listen to my words that he shall speak in my name, I myself will require it of him.",
+      "nt_text": "And it shall be that every soul who does not listen to that prophet shall be destroyed from the people.'"
+    },
+    {
+      "ot": "Deu.32.43",
+      "nt": "Heb.1.6",
+      "shared_words": 0,
+      "overlap_pct": 0.0,
+      "has_quote_marker": false,
+      "ot_text": "\"Rejoice with him, O heavens; bow down to him, all gods, for he avenges the blood of his children and takes vengeance on his adversaries. He repays th",
+      "nt_text": "And again, when he brings the firstborn into the world, he says, \"Let all God's angels worship him.\""
+    },
+    {
+      "ot": "Job.41.11",
+      "nt": "Rom.11.35",
+      "shared_words": 1,
+      "overlap_pct": 25.0,
+      "has_quote_marker": false,
+      "ot_text": "Who has first given to me, that I should repay him? Whatever is under the whole heaven is mine.",
+      "nt_text": "\"Or who has given a gift to him that he might be repaid?\""
+    },
+    {
+      "ot": "Psa.10.7",
+      "nt": "Rom.3.14",
+      "shared_words": 1,
+      "overlap_pct": 25.0,
+      "has_quote_marker": false,
+      "ot_text": "His mouth is filled with cursing and deceit and oppression; under his tongue are mischief and iniquity.",
+      "nt_text": "\"Their mouth is full of curses and bitterness.\""
+    },
+    {
+      "ot": "Psa.82.6",
+      "nt": "Joh.10.34",
+      "shared_words": 1,
+      "overlap_pct": 25.0,
+      "has_quote_marker": false,
+      "ot_text": "I said, \"You are gods, sons of the Most High, all of you;",
+      "nt_text": "Jesus answered them, \"Is it not written in your Law, 'I said, you are gods'?"
+    },
+    {
+      "ot": "Isa.8.8",
+      "nt": "Mat.1.23",
+      "shared_words": 1,
+      "overlap_pct": 10.0,
+      "has_quote_marker": false,
+      "ot_text": "and it will sweep on into Judah, it will overflow and pass on, reaching even to the neck, and its outspread wings will fill the breadth of your land, ",
+      "nt_text": "\"Behold, the virgin shall conceive and bear a son, and they shall call his name Immanuel\" (which means, God with us)."
+    },
+    {
+      "ot": "Isa.8.17",
+      "nt": "Heb.2.13",
+      "shared_words": 0,
+      "overlap_pct": 0.0,
+      "has_quote_marker": false,
+      "ot_text": "I will wait for the LORD, who is hiding his face from the house of Jacob, and I will hope in him.",
+      "nt_text": "And again, \"I will put my trust in him.\" And again, \"Behold, I and the children God has given me.\""
+    },
+    {
+      "ot": "Isa.40.13",
+      "nt": "1Co.2.16",
+      "shared_words": 1,
+      "overlap_pct": 20.0,
+      "has_quote_marker": false,
+      "ot_text": "Who has measured the Spirit of the LORD, or what man shows him his counsel?",
+      "nt_text": "\"For who has understood the mind of the Lord so as to instruct him?\" But we have the mind of Christ."
+    },
+    {
+      "ot": "Isa.40.13",
+      "nt": "Rom.11.34",
+      "shared_words": 1,
+      "overlap_pct": 25.0,
+      "has_quote_marker": false,
+      "ot_text": "Who has measured the Spirit of the LORD, or what man shows him his counsel?",
+      "nt_text": "\"For who has known the mind of the Lord, or who has been his counselor?\""
+    },
+    {
+      "ot": "Isa.43.21",
+      "nt": "1Pe.2.9",
+      "shared_words": 1,
+      "overlap_pct": 16.7,
+      "has_quote_marker": false,
+      "ot_text": "the people whom I formed for myself that they might declare my praise.",
+      "nt_text": "But you are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who calle"
+    },
+    {
+      "ot": "Isa.58.6",
+      "nt": "Luk.4.18",
+      "shared_words": 1,
+      "overlap_pct": 8.3,
+      "has_quote_marker": false,
+      "ot_text": "\"Is not this the fast that I choose: to loose the bonds of wickedness, to undo the straps of the yoke, to let the oppressed go free, and to break ever",
+      "nt_text": "\"The Spirit of the Lord is upon me, because he has anointed me to proclaim good news to the poor. He has sent me to proclaim liberty to the captives a"
+    },
+    {
+      "ot": "Eze.20.34",
+      "nt": "2Co.6.17",
+      "shared_words": 0,
+      "overlap_pct": 0.0,
+      "has_quote_marker": false,
+      "ot_text": "I will bring you out from the peoples and gather you out of the countries where you are scattered, with a mighty hand and an outstretched arm, and wit",
+      "nt_text": "Therefore go out from their midst, and be separate from them, says the Lord, and touch no unclean thing; then I will welcome you,"
+    },
+    {
+      "ot": "Hos.2.23",
+      "nt": "Rom.9.25",
+      "shared_words": 1,
+      "overlap_pct": 14.3,
+      "has_quote_marker": false,
+      "ot_text": "and I will sow her for myself in the land. And I will have mercy on No Mercy, and I will say to Not My People, 'You are my people'; and he shall say, ",
+      "nt_text": "As indeed he says in Hosea, \"Those who were not my people I will call 'my people,' and her who was not beloved I will call 'beloved.'\""
+    }
+  ],
+  "missing_text": [],
+  "numeric_mismatches": [
+    {
+      "name": "Lamech",
+      "field": "age_at_son",
+      "value": 182,
+      "refs": [
+        "Gen.5.28-31"
+      ],
+      "text_sample": "When Lamech had lived 122 years, he fathered a son and called his name Noah, saying, \"Out of the ground that the LORD has cursed this one shall bring us relief from our work and from the painful toil of our hands.\" Lamech lived after he fathered Noah 595 years and had other sons and daughters. Thus ",
+      "path": "timelines.lifespans.pre_flood[8]"
+    },
+    {
+      "name": "Shem",
+      "field": "years",
+      "value": 600,
+      "refs": [
+        "Gen.11.10-11"
+      ],
+      "text_sample": "These are the generations of Shem. When Shem was 100 years old, he fathered Arpachshad two years after the flood. And Shem lived after he fathered Arpachshad 500 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[0]"
+    },
+    {
+      "name": "Arphaxad",
+      "field": "years",
+      "value": 438,
+      "refs": [
+        "Gen.11.12-13"
+      ],
+      "text_sample": "When Arpachshad had lived 35 years, he fathered Shelah. And Arpachshad lived after he fathered Shelah 403 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[1]"
+    },
+    {
+      "name": "Shelah",
+      "field": "years",
+      "value": 433,
+      "refs": [
+        "Gen.11.14-15"
+      ],
+      "text_sample": "When Shelah had lived 30 years, he fathered Eber. And Shelah lived after he fathered Eber 403 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[2]"
+    },
+    {
+      "name": "Eber",
+      "field": "years",
+      "value": 464,
+      "refs": [
+        "Gen.11.16-17"
+      ],
+      "text_sample": "When Eber had lived 34 years, he fathered Peleg. And Eber lived after he fathered Peleg 430 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[3]"
+    },
+    {
+      "name": "Peleg",
+      "field": "years",
+      "value": 239,
+      "refs": [
+        "Gen.11.18-19"
+      ],
+      "text_sample": "When Peleg had lived 30 years, he fathered Reu. And Peleg lived after he fathered Reu 209 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[4]"
+    },
+    {
+      "name": "Reu",
+      "field": "years",
+      "value": 239,
+      "refs": [
+        "Gen.11.20-21"
+      ],
+      "text_sample": "When Reu had lived 32 years, he fathered Serug. And Reu lived after he fathered Serug 207 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[5]"
+    },
+    {
+      "name": "Serug",
+      "field": "years",
+      "value": 230,
+      "refs": [
+        "Gen.11.22-23"
+      ],
+      "text_sample": "When Serug had lived 30 years, he fathered Nahor. And Serug lived after he fathered Nahor 200 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[6]"
+    },
+    {
+      "name": "Nahor",
+      "field": "years",
+      "value": 148,
+      "refs": [
+        "Gen.11.24-25"
+      ],
+      "text_sample": "When Nahor had lived 29 years, he fathered Terah. And Nahor lived after he fathered Terah 119 years and had other sons and daughters.",
+      "path": "timelines.lifespans.post_flood[7]"
+    },
+    {
+      "name": "Nebuchadnezzar II",
+      "field": "years",
+      "value": 43,
+      "refs": [
+        "2Ki.24.1",
+        "Dan.1.1"
+      ],
+      "text_sample": "In his days, Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years. Then he turned and rebelled against him. In the third year of the reign of Jehoiakim king of Judah, Nebuchadnezzar king of Babylon came to Jerusalem and besieged it.",
+      "path": "timelines.reigns.foreign_empires.babylon[0]"
+    },
+    {
+      "name": "Creation to Flood",
+      "field": "duration_years",
+      "value": 1656,
+      "refs": [
+        "Gen.5.1-32",
+        "Gen.7.6"
+      ],
+      "text_sample": "This is the book of the generations of Adam. When God created man, he made him in the likeness of God. Male and female he created them, and he blessed them and named them Man when they were created. When Adam had lived 130 years, he fathered a son in his own likeness, after his image, and named him ",
+      "path": "timelines.periods[0]"
+    },
+    {
+      "name": "The Flood",
+      "field": "duration_days",
+      "value": 371,
+      "refs": [
+        "Gen.7.11",
+        "Gen.8.14"
+      ],
+      "text_sample": "In the six hundredth year of Noah's life, in the second month, on the seventeenth day of the month, on that day all the fountains of the great deep burst forth, and the windows of the heavens were opened. In the second month, on the twenty-seventh day of the month, the earth had dried out.",
+      "path": "timelines.periods[1]"
+    },
+    {
+      "name": "Flood to Abraham's Call",
+      "field": "duration_years",
+      "value": 427,
+      "refs": [
+        "Gen.11.10-26",
+        "Gen.12.4"
+      ],
+      "text_sample": "These are the generations of Shem. When Shem was 100 years old, he fathered Arpachshad two years after the flood. And Shem lived after he fathered Arpachshad 500 years and had other sons and daughters. When Arpachshad had lived 35 years, he fathered Shelah. And Arpachshad lived after he fathered She",
+      "path": "timelines.periods[2]"
+    },
+    {
+      "name": "Patriarchal Period",
+      "field": "duration_years",
+      "value": 215,
+      "refs": [
+        "Gen.12.4",
+        "Gen.21.5",
+        "Gen.25.26",
+        "Gen.47.9"
+      ],
+      "text_sample": "So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he departed from Haran. Abraham was a hundred years old when his son Isaac was born to him. Afterward his brother came out with his hand holding Esau's heel, so his name was called Jacob. Isaac was ",
+      "path": "timelines.periods[3]"
+    },
+    {
+      "name": "Conquest of Canaan",
+      "field": "duration_years",
+      "value": 7,
+      "refs": [
+        "Jos.14.7-10"
+      ],
+      "text_sample": "I was forty years old when Moses the servant of the LORD sent me from Kadesh-barnea to spy out the land, and I brought him word again as it was in my heart. But my brothers who went up with me made the heart of the people melt; yet I wholly followed the LORD my God. And Moses swore on that day, sayi",
+      "path": "timelines.periods[6]"
+    },
+    {
+      "name": "United Kingdom",
+      "field": "duration_years",
+      "value": 120,
+      "refs": [
+        "Act.13.21",
+        "1Ki.2.11",
+        "1Ki.11.42"
+      ],
+      "text_sample": "Then they asked for a king, and God gave them Saul the son of Kish, a man of the tribe of Benjamin, for forty years. And the time that David reigned over Israel was forty years. He reigned seven years in Hebron and thirty-three years in Jerusalem. And the time that Solomon reigned in Jerusalem over ",
+      "path": "timelines.periods[8]"
+    },
+    {
+      "name": "Divided Kingdom",
+      "field": "duration_years",
+      "value": 209,
+      "refs": [
+        "1Ki.12.16-20",
+        "2Ki.17.6"
+      ],
+      "text_sample": "And when all Israel saw that the king did not listen to them, the people answered the king, \"What portion do we have in David? We have no inheritance in the son of Jesse. To your tents, O Israel! Look now to your own house, David.\" So Israel went to their tents. But Rehoboam reigned over the people ",
+      "path": "timelines.periods[9]"
+    },
+    {
+      "name": "Judah Alone",
+      "field": "duration_years",
+      "value": 136,
+      "refs": [
+        "2Ki.17.6",
+        "2Ki.25.1-21"
+      ],
+      "text_sample": "In the ninth year of Hoshea, the king of Assyria captured Samaria, and he carried the Israelites away to Assyria and placed them in Halah, and on the Habor, the river of Gozan, and in the cities of the Medes. And in the ninth year of his reign, in the tenth month, on the tenth day of the month, Nebu",
+      "path": "timelines.periods[10]"
+    },
+    {
+      "name": "Persian Period",
+      "field": "duration_years",
+      "value": 207,
+      "refs": [
+        "2Ch.36.20-23",
+        "Ezr.1.1"
+      ],
+      "text_sample": "He took into exile in Babylon those who had escaped from the sword, and they became servants to him and to his sons until the establishment of the kingdom of Persia, to fulfill the word of the LORD by the mouth of Jeremiah, until the land had enjoyed its Sabbaths. All the days that it lay desolate i",
+      "path": "timelines.periods[12]"
+    },
+    {
+      "name": "Jesus's Ministry",
+      "field": "duration_years",
+      "value": 3,
+      "refs": [
+        "Joh.2.13",
+        "Joh.6.4",
+        "Joh.11.55"
+      ],
+      "text_sample": "The Passover of the Jews was at hand, and Jesus went up to Jerusalem. Now the Passover, the feast of the Jews, was at hand. Now the Passover of the Jews was at hand, and many went up from the country to Jerusalem before the Passover to purify themselves.",
+      "path": "timelines.periods[14]"
+    },
+    {
+      "name": "Siege of Jerusalem (Babylonian)",
+      "field": "duration_years",
+      "value": 2,
+      "refs": [
+        "2Ki.25.1-3"
+      ],
+      "text_sample": "And in the ninth year of his reign, in the tenth month, on the tenth day of the month, Nebuchadnezzar king of Babylon came with all his army against Jerusalem and laid siege to it. And they built siegeworks allaround it. So the city was besieged till the eleventh year of King Zedekiah. On the ninth ",
+      "path": "timelines.events.old_testament[45]"
+    },
+    {
+      "name": "Ezekiel's Symbolic Lying",
+      "field": "duration_days",
+      "value": 430,
+      "refs": [
+        "Eze.4.4-6"
+      ],
+      "text_sample": "\"Then lie on your left side, and place the punishment of the house of Israel upon it. For the number of the days that you lie on it, you shall bear their punishment. For I assign to you a number of days, 390 days, equal to the number of the years of their punishment. So long shall you bear the punis",
+      "path": "timelines.events.old_testament[46]"
+    },
+    {
+      "name": "Second Temple Construction",
+      "field": "duration_years",
+      "value": 4,
+      "refs": [
+        "Ezr.6.15",
+        "Hag.1.1"
+      ],
+      "text_sample": "and this house was finished on the third day of the month of Adar, in the sixth year of the reign of Darius the king. In the second year of Darius the king, in the sixth month, on the first day of the month, the word of the LORD came by the hand of Haggai the prophet to Zerubbabel the son of Shealti",
+      "path": "timelines.events.old_testament[47]"
+    },
+    {
+      "name": "Daniel's Prayer and Fasting",
+      "field": "duration_days",
+      "value": 21,
+      "refs": [
+        "Dan.10.2-3"
+      ],
+      "text_sample": "In those days I, Daniel, was mourning for three weeks. I ate no delicacies, no meat or wine entered my mouth, nor did I anoint myself at all, for the full three weeks.",
+      "path": "timelines.events.old_testament[50]"
+    },
+    {
+      "name": "Sun Standing Still at Gibeon",
+      "field": "duration_days",
+      "value": 1,
+      "refs": [
+        "Jos.10.12-14"
+      ],
+      "text_sample": "At that time Joshua spoke to the LORD in the day when the LORD gave the Amorites over to the sons of Israel, and he said in the sight of Israel, \"Sun, stand still at Gibeon, and moon, in the Valley of Aijalon.\" And the sun stood still, and the moon stopped, until the nation took vengeance on their e",
+      "path": "timelines.events.old_testament[69]"
+    },
+    {
+      "name": "Gideon's Fleece Test",
+      "field": "duration_days",
+      "value": 2,
+      "refs": [
+        "Jdg.6.36-40"
+      ],
+      "text_sample": "Then Gideon said to God, \"If you will save Israel by my hand, as you have said, behold, I am laying a fleece of wool on the threshing floor. If there is dew on the fleece alone, and it is dry on all the ground, then I shall know that you will save Israel by my hand, as you have said.\" And it was so.",
+      "path": "timelines.events.old_testament[71]"
+    },
+    {
+      "name": "David's Flight from Saul",
+      "field": "duration_years",
+      "value": 10,
+      "refs": [
+        "1Sa.19.10",
+        "1Sa.27.7",
+        "2Sa.2.11"
+      ],
+      "text_sample": "And Saul sought to pin David to the wall with the spear, but he eluded Saul, so that he struck the spear into the wall. And David fled and escaped that night. And the number of the days that David lived in the country of the Phil-istines was a year and four months. And the time that David was king i",
+      "path": "timelines.events.old_testament[73]"
+    },
+    {
+      "name": "David in Philistine Territory",
+      "field": "duration_months",
+      "value": 16,
+      "refs": [
+        "1Sa.27.7"
+      ],
+      "text_sample": "And the number of the days that David lived in the country of the Phil-istines was a year and four months.",
+      "path": "timelines.events.old_testament[74]"
+    },
+    {
+      "name": "Ezra's Journey from Babylon",
+      "field": "duration_months",
+      "value": 4,
+      "refs": [
+        "Ezr.7.9"
+      ],
+      "text_sample": "For on the first day of the first month he began to go up from Babylonia, and on the first day of the fifth month he came to Jerusalem, for the good hand of his God was on him.",
+      "path": "timelines.events.old_testament[81]"
+    },
+    {
+      "name": "Esther's Two Banquets",
+      "field": "duration_days",
+      "value": 2,
+      "refs": [
+        "Est.5.4-8",
+        "Est.7.1-6"
+      ],
+      "text_sample": "And Esther said, \"If it please the king, let the king and Haman come today to a feast that I have prepared for the king.\" Then the king said, \"Bring Haman quickly, so that we may do as Esther has asked.\" So the king and Haman came to the feast that Esther had prepared. And as they were drinking wine",
+      "path": "timelines.events.old_testament[84]"
+    },
+    {
+      "name": "Purim Celebration Established",
+      "field": "duration_days",
+      "value": 2,
+      "refs": [
+        "Est.9.21-22"
+      ],
+      "text_sample": "obliging them to keep the fourteenth day of the month Adar and also the fifteenth day of the same, year by year, as the days on which the Jews got relief from their enemies, and as the month that had been turned for them from sorrow into gladness and from mourning into a holiday; that they should ma",
+      "path": "timelines.events.old_testament[85]"
+    },
+    {
+      "name": "Pentecost after Resurrection",
+      "field": "duration_days",
+      "value": 50,
+      "refs": [
+        "Act.2.1"
+      ],
+      "text_sample": "When the day of Pentecost arrived, they were all together in one place.",
+      "path": "timelines.events.new_testament[2]"
+    },
+    {
+      "name": "Paul and Barnabas in Antioch",
+      "field": "duration_years",
+      "value": 1,
+      "refs": [
+        "Act.11.26"
+      ],
+      "text_sample": "and when he had found him, he brought him to Antioch. For a whole year they met with the church and taught a great many people. And in Antioch the disciples were first called Christians.",
+      "path": "timelines.events.new_testament[5]"
+    },
+    {
+      "name": "Paul in Corinth",
+      "field": "duration_months",
+      "value": 18,
+      "refs": [
+        "Act.18.11"
+      ],
+      "text_sample": "And he stayed a year and six months, teaching the word of God among them.",
+      "path": "timelines.events.new_testament[6]"
+    },
+    {
+      "name": "Darkness during Crucifixion",
+      "field": "duration_hours",
+      "value": 3,
+      "refs": [
+        "Mar.15.33",
+        "Mat.27.45",
+        "Luk.23.44"
+      ],
+      "text_sample": "And when the sixth hour had come, there was darkness over the whole land until the ninth hour. Now from the sixth hour there was darkness over all the land until the ninth hour. It was now about the sixth hour, and there was darkness over the whole land until the ninth hour,",
+      "path": "timelines.events.new_testament[17]"
+    },
+    {
+      "name": "Waiting for the Spirit at Pentecost",
+      "field": "duration_days",
+      "value": 10,
+      "refs": [
+        "Act.1.3",
+        "Act.2.1"
+      ],
+      "text_sample": "To them he presented himself alive after his suffering by many proofs, appearing to them during forty days and speaking about the kingdom of God. When the day of Pentecost arrived, they were all together in one place.",
+      "path": "timelines.events.new_testament[29]"
+    },
+    {
+      "name": "Mount Sinai",
+      "field": "duration_months",
+      "value": 11,
+      "refs": [
+        "Exo.19.1",
+        "Num.10.11"
+      ],
+      "text_sample": "On the third new moon after the people of Israel had gone out of the land of Egypt, on that day they came into the wilderness of Sinai. In the second year, in the second month, on the twentieth day of the month, the cloud lifted from over the tabernacle of the testimony,",
+      "path": "timelines.journeys.exodus[7]"
+    },
+    {
+      "name": "First Missionary Journey",
+      "field": "duration_years",
+      "value": 2,
+      "refs": [
+        "Act.13.1-14.28"
+      ],
+      "text_sample": "Now there were in the church at Antioch prophets and teachers, Barnabas, Simeon who was called Niger, Lucius of Cyrene, Manaen a member of the court of Herod the tetrarch, and Saul. While they were worshiping the Lord and fasting, the Holy Spirit said, \"Set apart for me Barnabas and Saul for the wor",
+      "path": "timelines.journeys.paul_missionary[0]"
+    },
+    {
+      "name": "Second Return under Ezra",
+      "field": "duration_months",
+      "value": 4,
+      "refs": [
+        "Ezr.7.9",
+        "Ezr.8.31"
+      ],
+      "text_sample": "For on the first day of the first month he began to go up from Babylonia, and on the first day of the fifth month he came to Jerusalem, for the good hand of his God was on him. Then we departed from the river Ahava on the twelfth day of the first month, to go to Jerusalem. The hand of our God was on",
+      "path": "timelines.journeys.ezra_nehemiah[1]"
+    },
+    {
+      "name": "Second Temple (Zerubbabel)",
+      "field": "duration_years",
+      "value": 4,
+      "refs": [
+        "Ezr.3.8-13",
+        "Ezr.6.15"
+      ],
+      "text_sample": "Now in the second year after their coming to the house of God at Jerusalem, in the second month, Zerubbabel the son of Shealtiel and Jeshua the son of Jozadak made a beginning, together with the rest of their kinsmen, the priests and the Levites and all who had come to Jerusalem from the captivity. ",
+      "path": "timelines.building_projects[5]"
+    },
+    {
+      "name": "Elisha",
+      "field": "duration_years",
+      "value": 50,
+      "refs": [
+        "1Ki.19.19",
+        "2Ki.13.14-20"
+      ],
+      "text_sample": "So he departed from there and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen in front of him, and he was with the twelfth. Elijah passed by him and cast his cloak upon him. Now when Elisha had fallen sick with the illness of which he was to die, Joash king of Israel went d",
+      "path": "timelines.prophetic_periods[3]"
+    },
+    {
+      "name": "Jeremiah",
+      "field": "duration_years",
+      "value": 40,
+      "refs": [
+        "Jer.1.2-3",
+        "Jer.25.3"
+      ],
+      "text_sample": "to whom the word of the LORD came in the days of Josiah the son of Amon, king of Judah, in the thirteenth year of his reign. It came also in the days of Jehoiakim the son of Josiah, king of Judah, and until the end of the eleventh year of Zedekiah, the son of Josiah, king of Judah, until the captivi",
+      "path": "timelines.prophetic_periods[8]"
+    },
+    {
+      "name": "Ezekiel",
+      "field": "duration_years",
+      "value": 22,
+      "refs": [
+        "Eze.1.1-2",
+        "Eze.29.17"
+      ],
+      "text_sample": "In the thirtieth year, in the fourth month, on the fifth day of the month, as I was among the exiles by the Chebar canal, the heavens were opened, and I saw visions of God. On the fifth day of the month (it was the fifth year of the exile of King Jehoiachin), In the twenty-seventh year, in the first",
+      "path": "timelines.prophetic_periods[9]"
+    },
+    {
+      "name": "John the Baptist",
+      "field": "duration_months",
+      "value": 6,
+      "refs": [
+        "Luk.3.1-3",
+        "Mat.14.10"
+      ],
+      "text_sample": "In the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of the region of Ituraea and Trachonitis, and Lysanias tetrarch of Abilene, during the high priesthood of Annas and Caiaphas, the word o",
+      "path": "timelines.prophetic_periods[14]"
+    },
+    {
+      "name": "Sarah dies",
+      "field": "age",
+      "value": 137,
+      "refs": [
+        "Gen.23.1"
+      ],
+      "text_sample": "Sarah lived 127 years; these were the years of the life of Sarah.",
+      "path": "timelines.age_milestones.abraham[4]"
+    },
+    {
+      "name": "Married Leah and Rachel",
+      "field": "age",
+      "value": 84,
+      "refs": [
+        "Gen.29.20-28"
+      ],
+      "text_sample": "So Jacob served seven years for Rachel, and they seemed to him but a few days because of thelove he had for her. Then Jacob said to Laban, \"Give me my wife that I may go in to her, for my time is completed.\" So Laban gathered together all the people of the place and made a feast. But in the evening ",
+      "path": "timelines.age_milestones.jacob[1]"
+    },
+    {
+      "name": "Returned to Canaan",
+      "field": "age",
+      "value": 97,
+      "refs": [
+        "Gen.31.38-41"
+      ],
+      "text_sample": "These twenty years I have been with you. Your ewes and your female goats have not miscarried, and I have not eaten the rams of your flocks. What was torn by wild beasts I did not bring to you. I bore the loss of it myself. From my hand you required it, whether stolen by day or stolen by night. There",
+      "path": "timelines.age_milestones.jacob[2]"
+    },
+    {
+      "name": "Became king over all Israel",
+      "field": "age",
+      "value": 37,
+      "refs": [
+        "2Sa.5.4-5"
+      ],
+      "text_sample": "David was thirty years old when he began to reign, and he reigned forty years. At Hebron he reigned over Judah seven years and six months, and at Jerusalem he reigned over all Israel and Judah thirty-three years.",
+      "path": "timelines.age_milestones.david[1]"
+    },
+    {
+      "name": "Death",
+      "field": "age",
+      "value": 70,
+      "refs": [
+        "2Sa.5.4"
+      ],
+      "text_sample": "David was thirty years old when he began to reign, and he reigned forty years.",
+      "path": "timelines.age_milestones.david[2]"
+    },
+    {
+      "name": "Left Haran with Abraham (est.)",
+      "field": "age",
+      "value": 65,
+      "refs": [
+        "Gen.12.4"
+      ],
+      "text_sample": "So Abram went, as the LORD had told him, and Lot went with him. Abram was seventy-five years old when he departed from Haran.",
+      "path": "timelines.age_milestones.sarah[0]"
+    },
+    {
+      "name": "Gave Hagar to Abraham",
+      "field": "age",
+      "value": 76,
+      "refs": [
+        "Gen.16.16"
+      ],
+      "text_sample": "Abram was eighty-six years old when Hagar bore Ishmael to Abram.",
+      "path": "timelines.age_milestones.sarah[1]"
+    },
+    {
+      "name": "Called by the LORD at night (est.)",
+      "field": "age",
+      "value": 12,
+      "refs": [
+        "1Sa.3.1-10"
+      ],
+      "text_sample": "Now the young man Samuel was ministering to the LORD under Eli. And the word of the LORD was rare in those days; there was no frequent vision. At that time Eli, whose eyesight had begun to grow dim so that he could not see, was lying down in his own place. The lamp of God had not yet gone out, and S",
+      "path": "timelines.age_milestones.samuel[2]"
+    },
+    {
+      "name": "Earth dried after flood",
+      "field": "age",
+      "value": 601,
+      "refs": [
+        "Gen.8.13"
+      ],
+      "text_sample": "In the six hundred and first year, in the first month, the first day of the month, the waters were dried from off the earth. And Noah removed the covering of the ark and looked, and behold, the face of the ground was dry.",
+      "path": "timelines.age_milestones.noah[2]"
+    },
+    {
+      "name": "Ezekiel's 390 + 40 Days",
+      "field": "duration_days",
+      "value": 430,
+      "refs": [
+        "Eze.4.4-6"
+      ],
+      "text_sample": "\"Then lie on your left side, and place the punishment of the house of Israel upon it. For the number of the days that you lie on it, you shall bear their punishment. For I assign to you a number of days, 390 days, equal to the number of the years of their punishment. So long shall you bear the punis",
+      "path": "timelines.prophetic_time_markers[2]"
+    },
+    {
+      "name": "Daniel's 2,300 Evenings and Mornings",
+      "field": "duration_days",
+      "value": 2300,
+      "refs": [
+        "Dan.8.14"
+      ],
+      "text_sample": "And he said to me, \"For 2,300 evenings and mornings. Then the sanctuary shall be restored to its rightful state.\"",
+      "path": "timelines.prophetic_time_markers[3]"
+    },
+    {
+      "name": "Daniel's 1,290 Days",
+      "field": "duration_days",
+      "value": 1290,
+      "refs": [
+        "Dan.12.11"
+      ],
+      "text_sample": "And from the time that the regular burnt offering is taken away and the abomination that makes desolate is set up, there shall be 1,290 days.",
+      "path": "timelines.prophetic_time_markers[4]"
+    },
+    {
+      "name": "Daniel's 1,335 Days",
+      "field": "duration_days",
+      "value": 1335,
+      "refs": [
+        "Dan.12.12"
+      ],
+      "text_sample": "Blessed is he who waits and arrives at the 1,335 days.",
+      "path": "timelines.prophetic_time_markers[5]"
+    },
+    {
+      "name": "Revelation's 1,260 Days",
+      "field": "duration_days",
+      "value": 1260,
+      "refs": [
+        "Rev.11.3",
+        "Rev.12.6"
+      ],
+      "text_sample": "And I will grant authority to my two witnesses, and they will prophesy for 1,260 days, clothed in sackcloth.\" and the woman fled into the wilderness, where she has a place prepared by God, in which she is to be nourished for 1,260 days.",
+      "path": "timelines.prophetic_time_markers[8]"
+    }
+  ],
+  "summary": {
+    "quotation_pairs_checked": 301,
+    "suspect_quotations": 20,
+    "numeric_claims_verified": 208,
+    "numeric_mismatches": 58
+  }
+}

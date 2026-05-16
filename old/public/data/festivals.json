@@ -1,0 +1,234 @@
+{
+  "_meta": {
+    "description": "Jewish calendar, festivals, and sacred times as recorded in Scripture",
+    "note": "Dates given in Hebrew calendar months"
+  },
+  "calendar": {
+    "months": [
+      {"number": 1, "hebrew": "Nisan (Aviv)", "modern": "March-April", "notes": "First month of religious year (Exo.12.2)"},
+      {"number": 2, "hebrew": "Iyyar (Ziv)", "modern": "April-May", "notes": "Second month"},
+      {"number": 3, "hebrew": "Sivan", "modern": "May-June", "notes": "Third month"},
+      {"number": 4, "hebrew": "Tammuz", "modern": "June-July", "notes": "Fourth month"},
+      {"number": 5, "hebrew": "Av", "modern": "July-August", "notes": "Fifth month"},
+      {"number": 6, "hebrew": "Elul", "modern": "August-September", "notes": "Sixth month"},
+      {"number": 7, "hebrew": "Tishri (Ethanim)", "modern": "September-October", "notes": "Seventh month; first month of civil year"},
+      {"number": 8, "hebrew": "Cheshvan (Bul)", "modern": "October-November", "notes": "Eighth month"},
+      {"number": 9, "hebrew": "Kislev", "modern": "November-December", "notes": "Ninth month"},
+      {"number": 10, "hebrew": "Tevet", "modern": "December-January", "notes": "Tenth month"},
+      {"number": 11, "hebrew": "Shevat", "modern": "January-February", "notes": "Eleventh month"},
+      {"number": 12, "hebrew": "Adar", "modern": "February-March", "notes": "Twelfth month; Adar II added in leap years"}
+    ]
+  },
+  "festivals": [
+    {
+      "name": "Passover (Pesach)",
+      "hebrew": "פֶּסַח",
+      "date": "Nisan 14",
+      "duration": "1 day",
+      "type": "Pilgrimage Festival",
+      "purpose": "Commemorates the exodus from Egypt; the passing over of Israelite homes",
+      "observances": [
+        "Slaughter of Passover lamb at twilight",
+        "Blood applied to doorposts",
+        "Lamb roasted and eaten with unleavened bread and bitter herbs",
+        "No bone of the lamb to be broken"
+      ],
+      "references": ["Exo.12.1-14", "Exo.12.21-28", "Lev.23.5", "Num.9.1-14", "Deu.16.1-8"]
+    },
+    {
+      "name": "Unleavened Bread (Chag HaMatzot)",
+      "hebrew": "חַג הַמַּצּוֹת",
+      "date": "Nisan 15-21",
+      "duration": "7 days",
+      "type": "Pilgrimage Festival",
+      "purpose": "Commemorates the hasty departure from Egypt; no time for bread to rise",
+      "observances": [
+        "Remove all leaven from homes",
+        "Eat unleavened bread for seven days",
+        "Sacred assemblies on first and seventh days",
+        "No regular work on first and seventh days"
+      ],
+      "references": ["Exo.12.15-20", "Exo.13.3-10", "Lev.23.6-8", "Num.28.17-25", "Deu.16.3-4"]
+    },
+    {
+      "name": "Firstfruits (Bikkurim)",
+      "hebrew": "בִּכּוּרִים",
+      "date": "Nisan 16 (day after Sabbath during Unleavened Bread)",
+      "duration": "1 day",
+      "type": "Agricultural Festival",
+      "purpose": "Presentation of the first sheaf of barley harvest to the LORD",
+      "observances": [
+        "Wave a sheaf of firstfruits before the LORD",
+        "Burnt offering of a male lamb",
+        "Grain offering with oil and drink offering",
+        "No new grain eaten until offering made"
+      ],
+      "references": ["Lev.23.9-14"]
+    },
+    {
+      "name": "Weeks/Pentecost (Shavuot)",
+      "hebrew": "שָׁבוּעוֹת",
+      "date": "Sivan 6 (50 days after Firstfruits)",
+      "duration": "1 day",
+      "type": "Pilgrimage Festival",
+      "purpose": "Celebration of wheat harvest; later associated with giving of the Law at Sinai",
+      "observances": [
+        "Sacred assembly; no regular work",
+        "Wave offering of two loaves of leavened bread",
+        "Various animal sacrifices",
+        "Leave gleanings for poor and foreigner"
+      ],
+      "references": ["Exo.23.16", "Exo.34.22", "Lev.23.15-22", "Num.28.26-31", "Deu.16.9-12"]
+    },
+    {
+      "name": "Trumpets (Yom Teruah)",
+      "hebrew": "יוֹם תְּרוּעָה",
+      "date": "Tishri 1",
+      "duration": "1 day",
+      "type": "Sacred Assembly",
+      "purpose": "Day of trumpet blasts; beginning of civil new year (later Rosh Hashanah)",
+      "observances": [
+        "Sacred assembly; no regular work",
+        "Blowing of trumpets (shofar)",
+        "Special burnt offerings"
+      ],
+      "references": ["Lev.23.23-25", "Num.29.1-6"]
+    },
+    {
+      "name": "Day of Atonement (Yom Kippur)",
+      "hebrew": "יוֹם כִּפּוּר",
+      "date": "Tishri 10",
+      "duration": "1 day",
+      "type": "Sacred Assembly",
+      "purpose": "Annual atonement for sins of priests and people; cleansing of the sanctuary",
+      "observances": [
+        "Afflict your souls (fasting)",
+        "No work of any kind",
+        "High priest enters Most Holy Place with blood",
+        "Two goats: one sacrificed, one (scapegoat) sent into wilderness",
+        "Sabbath of complete rest"
+      ],
+      "references": ["Lev.16.1-34", "Lev.23.26-32", "Num.29.7-11"]
+    },
+    {
+      "name": "Tabernacles/Booths (Sukkot)",
+      "hebrew": "סֻכּוֹת",
+      "date": "Tishri 15-21",
+      "duration": "7 days",
+      "type": "Pilgrimage Festival",
+      "purpose": "Commemorates dwelling in booths during wilderness wanderings; harvest thanksgiving",
+      "observances": [
+        "Dwell in booths (sukkot) for seven days",
+        "Take branches of palm, willow, and leafy trees",
+        "Rejoice before the LORD",
+        "Sacred assembly on first day; no regular work",
+        "Daily burnt offerings"
+      ],
+      "references": ["Exo.23.16", "Lev.23.33-43", "Num.29.12-38", "Deu.16.13-15"]
+    },
+    {
+      "name": "Eighth Day Assembly (Shemini Atzeret)",
+      "hebrew": "שְׁמִינִי עֲצֶרֶת",
+      "date": "Tishri 22",
+      "duration": "1 day",
+      "type": "Sacred Assembly",
+      "purpose": "Closing assembly after Tabernacles",
+      "observances": [
+        "Sacred assembly; no regular work",
+        "Special burnt offerings"
+      ],
+      "references": ["Lev.23.36", "Num.29.35-38"]
+    },
+    {
+      "name": "Sabbath (Shabbat)",
+      "hebrew": "שַׁבָּת",
+      "date": "Every 7th day",
+      "duration": "1 day (weekly)",
+      "type": "Weekly Sacred Time",
+      "purpose": "Day of rest; commemorates God's rest after creation and deliverance from Egypt",
+      "observances": [
+        "No work",
+        "Sacred assembly",
+        "Sign of the covenant between God and Israel",
+        "Showbread replaced in tabernacle/temple"
+      ],
+      "references": ["Gen.2.2-3", "Exo.20.8-11", "Exo.31.12-17", "Lev.23.3", "Deu.5.12-15"]
+    },
+    {
+      "name": "New Moon (Rosh Chodesh)",
+      "hebrew": "רֹאשׁ חֹדֶשׁ",
+      "date": "1st of each month",
+      "duration": "1 day (monthly)",
+      "type": "Monthly Sacred Time",
+      "purpose": "Marking the beginning of each month",
+      "observances": [
+        "Trumpet blowing",
+        "Special burnt offerings",
+        "Cessation of trade (in practice)"
+      ],
+      "references": ["Num.10.10", "Num.28.11-15", "1Sa.20.5", "2Ki.4.23", "Amo.8.5"]
+    },
+    {
+      "name": "Sabbath Year (Shemitah)",
+      "hebrew": "שְׁמִטָּה",
+      "date": "Every 7th year",
+      "duration": "1 year",
+      "type": "Sabbatical Year",
+      "purpose": "Rest for the land; release of debts",
+      "observances": [
+        "No sowing or reaping",
+        "Land lies fallow",
+        "What grows naturally is for all to eat",
+        "Release of debts among Israelites"
+      ],
+      "references": ["Exo.23.10-11", "Lev.25.1-7", "Deu.15.1-11", "Deu.31.10-13"]
+    },
+    {
+      "name": "Year of Jubilee (Yovel)",
+      "hebrew": "יוֹבֵל",
+      "date": "Every 50th year (after 7x7 years)",
+      "duration": "1 year",
+      "type": "Jubilee Year",
+      "purpose": "Liberty proclaimed; land returns to original owners; slaves freed",
+      "observances": [
+        "Trumpet blast on Day of Atonement",
+        "Proclaim liberty throughout the land",
+        "Return of property to original families",
+        "Hebrew slaves go free",
+        "No sowing or reaping"
+      ],
+      "references": ["Lev.25.8-55", "Lev.27.17-24", "Num.36.4"]
+    }
+  ],
+  "post_exilic_festivals": [
+    {
+      "name": "Purim",
+      "hebrew": "פּוּרִים",
+      "date": "Adar 14-15",
+      "duration": "2 days",
+      "type": "Commemorative Festival",
+      "purpose": "Commemorates deliverance of Jews in Persia through Esther and Mordecai",
+      "observances": [
+        "Reading of the book of Esther",
+        "Days of feasting and joy",
+        "Giving gifts to one another and to the poor"
+      ],
+      "origin": "Instituted by Mordecai and Esther",
+      "references": ["Est.9.20-32"]
+    },
+    {
+      "name": "Hanukkah (Dedication)",
+      "hebrew": "חֲנֻכָּה",
+      "date": "Kislev 25 - Tevet 2/3",
+      "duration": "8 days",
+      "type": "Commemorative Festival",
+      "purpose": "Commemorates rededication of the temple after Maccabean victory (167 BC)",
+      "observances": [
+        "Lighting of lamps/candles for eight days"
+      ],
+      "origin": "Instituted during Second Temple period (not in Torah)",
+      "references": ["Joh.10.22"],
+      "note": "Referenced as 'Feast of Dedication' in the NT; detailed in 1-2 Maccabees (apocrypha)"
+    }
+  ]
+}

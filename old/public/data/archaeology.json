@@ -1,0 +1,1145 @@
+{
+  "_meta": {
+    "description": "Archaeological evidence for biblical accounts",
+    "categories": {
+      "sites": "Major excavated locations",
+      "artifacts": "Objects confirming biblical accounts",
+      "manuscripts": "Ancient textual sources",
+      "inscriptions": "Written records on stone/pottery"
+    }
+  },
+  "items": [
+    {
+      "id": "jericho",
+      "name": "Jericho (Tell es-Sultan)",
+      "category": "sites",
+      "location": "West Bank, near modern Jericho",
+      "period": "Neolithic to Iron Age (9000 BC - 586 BC)",
+      "discovered": "1868 (Charles Warren); major excavations 1930-36 (John Garstang), 1952-58 (Kathleen Kenyon)",
+      "description": "One of the oldest continuously inhabited cities in the world. Multiple layers of settlement show repeated destruction and rebuilding over thousands of years.",
+      "significance": "Evidence of a massive destruction layer with walls that fell outward (unusual - walls normally fall inward when attacked). City was burned after walls collapsed. Stored grain found in houses suggests sudden destruction rather than prolonged siege.",
+      "key_finds": [
+        {
+          "name": "Collapsed mudbrick walls",
+          "details": "Walls found fallen outward at base of tell, providing a ramp into the city"
+        },
+        {
+          "name": "Burned destruction layer",
+          "details": "Thick ash layer covering the city, indicating fire followed the collapse"
+        },
+        {
+          "name": "Full grain storage jars",
+          "details": "Unusual - invaders normally take food supplies. Suggests quick destruction"
+        }
+      ],
+      "biblical_connection": "Joshua's conquest describes walls falling flat (Jos 6:20), city burned with fire (Jos 6:24), and command not to take plunder (Jos 6:17-19)",
+      "scholarly_notes": "Dating debated. Garstang dated destruction to ~1400 BC (fits early Exodus date). Kenyon dated it to ~1550 BC (too early). Recent analysis by Bryant Wood suggests Garstang may have been closer.",
+      "current_location": "Site open to visitors; artifacts in Rockefeller Museum, Jerusalem",
+      "references": ["Jos.6.1-25", "Jos.2.1-21", "Heb.11.30"]
+    },
+    {
+      "id": "megiddo",
+      "name": "Megiddo (Tel Megiddo)",
+      "category": "sites",
+      "location": "Jezreel Valley, northern Israel",
+      "period": "4000 BC - 350 BC",
+      "discovered": "1903-05 (Gottlieb Schumacher); major excavations 1925-39 (Oriental Institute of Chicago)",
+      "description": "Strategic fortress city controlling the Via Maris trade route. Over 20 layers of occupation show its importance across millennia. One of Solomon's chariot cities.",
+      "significance": "Massive gate complex matches gates at Hazor and Gezer - all three attributed to Solomon (1Ki 9:15). Evidence of Canaanite temples, Egyptian influence, and Israelite fortifications.",
+      "key_finds": [
+        {
+          "name": "Six-chambered gate",
+          "details": "Identical design found at Hazor and Gezer, matching the three cities Solomon fortified"
+        },
+        {
+          "name": "Stable complexes",
+          "details": "Large structures originally identified as Solomon's stables; now debated"
+        },
+        {
+          "name": "Water tunnel system",
+          "details": "Underground tunnel to spring, similar to Jerusalem's water systems"
+        }
+      ],
+      "biblical_connection": "Listed as Solomon's fortification project (1Ki 9:15). Site of battles including Deborah's victory (Jdg 5:19) and Josiah's death fighting Pharaoh Necho (2Ki 23:29-30). Greek name 'Armageddon' from Hebrew Har-Megiddo (Rev 16:16).",
+      "scholarly_notes": "Gate dating debated - some attribute to Solomon, others to Ahab. Multiple destruction layers confirm strategic importance.",
+      "current_location": "Tel Megiddo National Park; artifacts in Israel Museum and Oriental Institute, Chicago",
+      "references": ["1Ki.9.15", "Jdg.5.19", "2Ki.23.29-30", "Rev.16.16"]
+    },
+    {
+      "id": "hazor",
+      "name": "Hazor (Tel Hazor)",
+      "category": "sites",
+      "location": "Upper Galilee, northern Israel",
+      "period": "2700 BC - 732 BC",
+      "discovered": "1928 (John Garstang); major excavations 1955-58, 1968-69 (Yigael Yadin)",
+      "description": "Largest Canaanite city in the land, called 'the head of all those kingdoms' (Jos 11:10). At its peak covered 200 acres with population of 40,000. Major destruction layer shows violent burning.",
+      "significance": "Massive destruction layer dated to 13th century BC shows city was burned with intense fire - Canaanite statues found deliberately broken. Rebuilt much smaller under Solomon.",
+      "key_finds": [
+        {
+          "name": "Burned destruction layer",
+          "details": "Thick ash and debris showing complete destruction by fire"
+        },
+        {
+          "name": "Mutilated statues",
+          "details": "Canaanite religious statues found with heads and hands deliberately broken off"
+        },
+        {
+          "name": "Six-chambered gate",
+          "details": "Same design as Megiddo and Gezer, attributed to Solomon"
+        }
+      ],
+      "biblical_connection": "Joshua burned Hazor after defeating King Jabin (Jos 11:10-13). Later rebuilt and fortified by Solomon (1Ki 9:15). Another King Jabin oppressed Israel in Judges period (Jdg 4:2).",
+      "scholarly_notes": "Only Hazor said to be burned by Joshua among northern cities (Jos 11:13). Archaeological evidence matches this detail precisely.",
+      "current_location": "Tel Hazor National Park; artifacts in Israel Museum, Jerusalem",
+      "references": ["Jos.11.10-13", "1Ki.9.15", "Jdg.4.2"]
+    },
+    {
+      "id": "jerusalem",
+      "name": "City of David (Jerusalem)",
+      "category": "sites",
+      "location": "Jerusalem, Israel",
+      "period": "3000 BC - present",
+      "discovered": "1867 (Charles Warren); continuous excavations since 1920s",
+      "description": "Original Jerusalem captured by David from the Jebusites. Small ridge south of Temple Mount, only 12 acres. Water shaft discovered explains how David's men entered the city.",
+      "significance": "Warren's Shaft and Hezekiah's Tunnel show advanced water engineering. Large Stone Structure may be David's palace or Jebusite fortress (the Millo). Hundreds of seal impressions from royal officials found.",
+      "key_finds": [
+        {
+          "name": "Warren's Shaft",
+          "details": "Water system that may be the 'water shaft' David's men used to take the city (2Sa 5:8)"
+        },
+        {
+          "name": "Hezekiah's Tunnel",
+          "details": "533-meter tunnel bringing Gihon Spring water inside walls before Assyrian siege"
+        },
+        {
+          "name": "Large Stone Structure",
+          "details": "Massive Iron Age building, possibly David's palace or Jebusite fortress"
+        },
+        {
+          "name": "Bullae (seal impressions)",
+          "details": "Over 50 clay seal impressions naming biblical officials including Baruch son of Neriah (Jeremiah's scribe)"
+        }
+      ],
+      "biblical_connection": "David captured Jebus and made it his capital (2Sa 5:6-9). Solomon built temple on threshing floor above (2Ch 3:1). Hezekiah's tunnel prepared for Assyrian siege (2Ki 20:20).",
+      "scholarly_notes": "Debate over extent of 10th century Jerusalem. Recent finds suggest larger settlement than minimalists proposed.",
+      "current_location": "City of David Archaeological Park, Jerusalem",
+      "references": ["2Sa.5.6-9", "2Ki.20.20", "2Ch.3.1", "Jer.36.4"]
+    },
+    {
+      "id": "samaria",
+      "name": "Samaria (Sebaste)",
+      "category": "sites",
+      "location": "West Bank, near Nablus",
+      "period": "880 BC - 700 AD",
+      "discovered": "1908-10 (Harvard Expedition); 1931-35 (Joint Expedition)",
+      "description": "Capital of northern kingdom of Israel, founded by King Omri. Built on a hill he purchased for two talents of silver. Later expanded by his son Ahab with ivory-decorated palace.",
+      "significance": "Ivory fragments confirm the 'ivory house' Ahab built (1Ki 22:39). Ostraca (pottery inscriptions) mention tax payments and places. City fell to Assyria in 722 BC.",
+      "key_finds": [
+        {
+          "name": "Ivory carvings",
+          "details": "Hundreds of ivory fragments from furniture and wall panels, confirming Ahab's ivory house"
+        },
+        {
+          "name": "Samaria Ostraca",
+          "details": "63 pottery inscriptions recording shipments of wine and oil, showing administrative system"
+        },
+        {
+          "name": "Royal acropolis",
+          "details": "Omri and Ahab's palace complex with fine ashlar masonry"
+        }
+      ],
+      "biblical_connection": "Omri bought the hill and built Samaria (1Ki 16:24). Ahab added ivory house (1Ki 22:39). Prophets condemned its luxury (Amo 3:15). Fell to Assyria (2Ki 17:5-6).",
+      "scholarly_notes": "Quality of construction confirms biblical description of wealthy capital. Ostraca provide insight into daily administration.",
+      "current_location": "Sebastia Archaeological Park; artifacts in Israel Museum and Istanbul Museum",
+      "references": ["1Ki.16.24", "1Ki.22.39", "Amo.3.15", "2Ki.17.5-6"]
+    },
+    {
+      "id": "capernaum",
+      "name": "Capernaum (Kfar Nahum)",
+      "category": "sites",
+      "location": "Northwest shore, Sea of Galilee",
+      "period": "200 BC - 700 AD",
+      "discovered": "1838 (Edward Robinson); excavations 1905-present (Franciscan Custody)",
+      "description": "Fishing village that became Jesus' home base during his Galilean ministry. Called 'his own city' (Mat 9:1). Synagogue and Peter's house identified.",
+      "significance": "White limestone synagogue (4th century) built over black basalt synagogue from Jesus' time - likely where Jesus taught. House church built over traditional site of Peter's house shows early Christian veneration.",
+      "key_finds": [
+        {
+          "name": "Basalt synagogue foundation",
+          "details": "1st century synagogue beneath later limestone synagogue, likely where Jesus taught"
+        },
+        {
+          "name": "Peter's house",
+          "details": "1st century house with later church built over it; graffiti mentions Jesus and Peter"
+        },
+        {
+          "name": "Fishing equipment",
+          "details": "Anchors, hooks, and weights confirming fishing industry"
+        }
+      ],
+      "biblical_connection": "Jesus made Capernaum his base (Mat 4:13). Healed in synagogue (Mar 1:21-28). Peter's house nearby (Mar 1:29-31). Pronounced judgment on unbelieving city (Mat 11:23-24).",
+      "scholarly_notes": "Octagonal church over Peter's house shows veneration began in 1st century. Many miracles recorded here.",
+      "current_location": "Capernaum National Park; managed by Franciscans",
+      "references": ["Mat.4.13", "Mat.9.1", "Mar.1.21-28", "Mar.1.29-31", "Mat.11.23-24"]
+    },
+    {
+      "id": "bethsaida",
+      "name": "Bethsaida (et-Tell)",
+      "category": "sites",
+      "location": "North shore, Sea of Galilee",
+      "period": "1000 BC - 300 AD",
+      "discovered": "1987 (Rami Arav); excavations ongoing",
+      "description": "Fishing village on north shore of Sea of Galilee. Home of apostles Peter, Andrew, and Philip. Upgraded to city status by Herod Philip, who renamed it Julias.",
+      "significance": "Iron Age city gate and temple found. Roman-era fishing village matches gospel description. One of cities Jesus condemned for unbelief despite his miracles there.",
+      "key_finds": [
+        {
+          "name": "City gate complex",
+          "details": "Iron Age gate showing city's importance in Old Testament period"
+        },
+        {
+          "name": "Fishermen's houses",
+          "details": "1st century domestic structures with fishing equipment"
+        },
+        {
+          "name": "Wine cellar",
+          "details": "Roman period storage facility"
+        }
+      ],
+      "biblical_connection": "Home of Peter, Andrew, and Philip (Joh 1:44). Jesus healed blind man here (Mar 8:22-26). Fed 5,000 nearby (Luk 9:10-17). Condemned for unbelief (Mat 11:21).",
+      "scholarly_notes": "Location debated - et-Tell is about 2km from current shoreline due to sediment. Some propose el-Araj closer to water.",
+      "current_location": "Bethsaida Excavations Park; artifacts in Israel Museum",
+      "references": ["Joh.1.44", "Mar.8.22-26", "Luk.9.10-17", "Mat.11.21"]
+    },
+    {
+      "id": "lachish",
+      "name": "Lachish (Tel Lachish)",
+      "category": "sites",
+      "location": "Shephelah region, southern Israel",
+      "period": "3000 BC - 400 BC",
+      "discovered": "1932-38 (James Starkey); 1973-94 (Tel Aviv University)",
+      "description": "Second most important city in Judah after Jerusalem. Massive fortifications and palace-fort. Destroyed by Sennacherib in 701 BC; siege depicted in Assyrian palace reliefs.",
+      "significance": "Assyrian siege ramp still visible. Lachish Letters written during Babylonian invasion preserve desperate military communications from final days of Judah.",
+      "key_finds": [
+        {
+          "name": "Assyrian siege ramp",
+          "details": "Massive earth and stone ramp Sennacherib built to attack city walls"
+        },
+        {
+          "name": "Counter-ramp",
+          "details": "Defenders built ramp inside wall to maintain height advantage"
+        },
+        {
+          "name": "Lachish Letters",
+          "details": "21 ostraca from Babylonian siege, military correspondence mentioning fire signals"
+        },
+        {
+          "name": "Mass grave",
+          "details": "1,500 bodies in cave, likely siege casualties"
+        }
+      ],
+      "biblical_connection": "Sennacherib besieged Lachish while demanding Jerusalem's surrender (2Ki 18:13-17). Jeremiah mentions Lachish as one of last cities standing (Jer 34:7).",
+      "scholarly_notes": "Lachish relief in British Museum shows siege in detail. Letters mention prophet possibly referring to Jeremiah.",
+      "current_location": "Tel Lachish National Park; letters in Israel Museum; reliefs in British Museum",
+      "references": ["2Ki.18.13-17", "2Ki.19.8", "Jer.34.7", "2Ch.32.9"]
+    },
+    {
+      "id": "gezer",
+      "name": "Gezer (Tel Gezer)",
+      "category": "sites",
+      "location": "Shephelah region, central Israel",
+      "period": "3500 BC - 100 BC",
+      "discovered": "1871 (Charles Clermont-Ganneau); excavations 1902-09, 1964-74",
+      "description": "Strategic city guarding route from coast to Jerusalem. Given to Solomon by Pharaoh as dowry for his daughter. One of three cities Solomon fortified.",
+      "significance": "Six-chambered gate identical to Megiddo and Hazor confirms Solomon's building program. Gezer Calendar is one of oldest Hebrew inscriptions.",
+      "key_finds": [
+        {
+          "name": "Six-chambered gate",
+          "details": "Same design as Megiddo and Hazor gates, attributed to Solomon"
+        },
+        {
+          "name": "Gezer Calendar",
+          "details": "10th century BC inscription listing agricultural seasons - oldest Hebrew writing"
+        },
+        {
+          "name": "High place",
+          "details": "Ten standing stones in row, Canaanite worship site"
+        },
+        {
+          "name": "Water tunnel",
+          "details": "Underground system reaching water table"
+        }
+      ],
+      "biblical_connection": "Pharaoh conquered Gezer and gave it to Solomon as dowry (1Ki 9:16). Solomon rebuilt it along with Hazor and Megiddo (1Ki 9:15).",
+      "scholarly_notes": "Gezer Calendar shows agricultural knowledge. Boundary stones mark city limits with 'belonging to Gezer' in Hebrew and Greek.",
+      "current_location": "Tel Gezer National Park; calendar in Istanbul Archaeological Museum",
+      "references": ["1Ki.9.15-17", "Jos.10.33", "Jos.16.10"]
+    },
+    {
+      "id": "dan",
+      "name": "Dan (Tel Dan)",
+      "category": "sites",
+      "location": "Northern tip of Israel, Golan Heights base",
+      "period": "2700 BC - 200 AD",
+      "discovered": "1966 (Avraham Biran); excavations 1966-99",
+      "description": "Northernmost city of Israel ('from Dan to Beersheba'). Originally called Laish, captured by tribe of Dan. Jeroboam set up golden calf here to rival Jerusalem temple.",
+      "significance": "Mud-brick gate from Abraham's time preserved. Iron Age gate complex where kings held court. Tel Dan Stele provides first extra-biblical mention of 'House of David'.",
+      "key_finds": [
+        {
+          "name": "Middle Bronze Age gate",
+          "details": "4,000-year-old mud-brick arch gate, oldest arch in world, from Abraham's era"
+        },
+        {
+          "name": "Iron Age gate complex",
+          "details": "Where kings sat in judgment; throne platform and canopy bases found"
+        },
+        {
+          "name": "Tel Dan Stele",
+          "details": "9th century inscription mentioning 'House of David' - first extra-biblical reference"
+        },
+        {
+          "name": "High place",
+          "details": "Large platform where Jeroboam's golden calf likely stood"
+        }
+      ],
+      "biblical_connection": "Abraham pursued kings to Dan (Gen 14:14). Tribe of Dan captured Laish (Jdg 18:27-29). Jeroboam set up calf worship (1Ki 12:28-30).",
+      "scholarly_notes": "Tel Dan Stele silenced claims that David was legendary. Date matches time of Hazael of Damascus.",
+      "current_location": "Tel Dan Nature Reserve; stele in Israel Museum",
+      "references": ["Gen.14.14", "Jdg.18.27-29", "1Ki.12.28-30", "2Ki.10.29"]
+    },
+    {
+      "id": "nineveh",
+      "name": "Nineveh (Kuyunjik)",
+      "category": "sites",
+      "location": "Near Mosul, northern Iraq",
+      "period": "6000 BC - 612 BC",
+      "discovered": "1842 (Paul-Emile Botta); 1845-51 (Austen Henry Layard)",
+      "description": "Capital of Assyrian Empire at its height under Sennacherib and Ashurbanipal. Massive walls, palaces, and library. Destroyed in 612 BC as prophesied by Nahum.",
+      "significance": "Sennacherib's palace contained reliefs showing Lachish siege and records claiming 200,150 Jews deported. Library of Ashurbanipal preserved 30,000 cuneiform tablets.",
+      "key_finds": [
+        {
+          "name": "Sennacherib's palace",
+          "details": "Southwest Palace with 71 rooms, many with carved reliefs"
+        },
+        {
+          "name": "Lachish reliefs",
+          "details": "Detailed stone carvings of Assyrian siege of Lachish"
+        },
+        {
+          "name": "Taylor Prism",
+          "details": "Sennacherib's account of Jerusalem campaign - 'shut up Hezekiah like a bird in a cage'"
+        },
+        {
+          "name": "Library of Ashurbanipal",
+          "details": "30,000+ tablets including Epic of Gilgamesh with flood account"
+        }
+      ],
+      "biblical_connection": "Jonah preached repentance there (Jon 3:1-10). Nahum prophesied destruction (Nah 1-3). Sennacherib ruled from here during invasion of Judah (2Ki 19:36).",
+      "scholarly_notes": "Fall in 612 BC fulfilled Nahum's prophecy. Library tablets revolutionized understanding of ancient Near East.",
+      "current_location": "Site in Iraq (limited access); artifacts in British Museum and Iraq Museum",
+      "references": ["Jon.3.1-10", "Nah.1.1", "Nah.3.7", "2Ki.19.36"]
+    },
+    {
+      "id": "babylon",
+      "name": "Babylon",
+      "category": "sites",
+      "location": "Near Hillah, central Iraq",
+      "period": "2300 BC - 300 AD",
+      "discovered": "1811 (Claudius Rich); major excavations 1899-1917 (Robert Koldewey)",
+      "description": "Capital of Babylonian Empire. Nebuchadnezzar II made it largest city in world with famous walls, Ishtar Gate, and legendary hanging gardens. Jews exiled here 586 BC.",
+      "significance": "Ishtar Gate and Processional Way show city's grandeur. Administrative tablets mention King Jehoiachin of Judah receiving rations. Walls match Greek descriptions.",
+      "key_finds": [
+        {
+          "name": "Ishtar Gate",
+          "details": "Blue glazed brick gate with dragons and bulls, reconstructed in Berlin"
+        },
+        {
+          "name": "Processional Way",
+          "details": "Street leading to temples where New Year festival held"
+        },
+        {
+          "name": "Jehoiachin tablets",
+          "details": "Ration lists naming 'Yaukin king of Judah' (Jehoiachin) receiving food allotments"
+        },
+        {
+          "name": "Etemenanki ziggurat",
+          "details": "Base of massive stepped tower, possibly inspiration for Tower of Babel"
+        }
+      ],
+      "biblical_connection": "Jews exiled to Babylon (2Ki 25:8-11). Nebuchadnezzar's madness (Dan 4). Belshazzar's feast (Dan 5). Prophets condemned (Isa 13-14, Jer 50-51).",
+      "scholarly_notes": "Jehoiachin tablets confirm biblical account of king's survival in exile (2Ki 25:27-30). City fell to Persians in 539 BC as Daniel records.",
+      "current_location": "Site in Iraq; Ishtar Gate in Pergamon Museum, Berlin; tablets in British Museum",
+      "references": ["2Ki.25.8-11", "2Ki.25.27-30", "Dan.4.1-37", "Dan.5.1-31", "Jer.50.1"]
+    },
+    {
+      "id": "ur",
+      "name": "Ur (Tell el-Muqayyar)",
+      "category": "sites",
+      "location": "Southern Iraq, near Nasiriyah",
+      "period": "5000 BC - 400 BC",
+      "discovered": "1854 (J.E. Taylor); major excavations 1922-34 (Leonard Woolley)",
+      "description": "Abraham's hometown before God called him to Canaan. Major Sumerian city with massive ziggurat to moon god. Royal tombs showed advanced civilization.",
+      "significance": "Ziggurat of Ur-Nammu stands 70 feet high. Royal Cemetery had gold, jewelry, and servants buried with kings. Shows sophisticated culture Abraham left behind.",
+      "key_finds": [
+        {
+          "name": "Great Ziggurat",
+          "details": "Three-stage stepped tower dedicated to moon god Nanna, partially restored"
+        },
+        {
+          "name": "Royal Cemetery",
+          "details": "Tombs with gold artifacts, lyres, gaming boards, and sacrificed attendants"
+        },
+        {
+          "name": "Ur-Nammu law code",
+          "details": "Law code predating Hammurabi by 300 years"
+        },
+        {
+          "name": "Residential houses",
+          "details": "Two-story homes with courtyards showing urban lifestyle"
+        }
+      ],
+      "biblical_connection": "Abraham came from Ur of the Chaldeans (Gen 11:31). God called him to leave for Canaan (Gen 12:1). Stephen mentions Ur in his speech (Act 7:2-4).",
+      "scholarly_notes": "Debate over which Ur - southern Mesopotamian city most accepted. Abraham left advanced urban culture for nomadic life.",
+      "current_location": "Site in Iraq (US military base nearby); artifacts in British Museum, Penn Museum, Iraq Museum",
+      "references": ["Gen.11.28-31", "Gen.12.1", "Gen.15.7", "Neh.9.7", "Act.7.2-4"]
+    },
+    {
+      "id": "shiloh",
+      "name": "Shiloh (Khirbet Seilun)",
+      "category": "sites",
+      "location": "West Bank, north of Jerusalem",
+      "period": "1700 BC - 400 AD",
+      "discovered": "1920s (Danish expedition); 1981-84 (Israel Finkelstein)",
+      "description": "Israel's religious center before Jerusalem. Tabernacle stood here for 369 years. Samuel grew up serving at Shiloh. Destroyed, likely by Philistines after Ark captured.",
+      "significance": "Large platform cut into rock may be where tabernacle stood. Destruction layer dated to mid-11th century BC matches time of Eli and Samuel. City never fully recovered.",
+      "key_finds": [
+        {
+          "name": "Rock-cut platform",
+          "details": "Level area that could have supported tabernacle, matching dimensions"
+        },
+        {
+          "name": "Destruction debris",
+          "details": "Burned layer from ~1050 BC, time of Philistine wars"
+        },
+        {
+          "name": "Storage rooms",
+          "details": "Rooms possibly for tabernacle supplies or sacrificial offerings"
+        },
+        {
+          "name": "Byzantine church",
+          "details": "Later church commemorating tabernacle site"
+        }
+      ],
+      "biblical_connection": "Tabernacle set up at Shiloh (Jos 18:1). Hannah prayed for Samuel there (1Sa 1:9-11). Ark captured by Philistines (1Sa 4:1-11). Jeremiah warns Jerusalem will become like Shiloh (Jer 7:12-14).",
+      "scholarly_notes": "Jeremiah's reference shows Shiloh's destruction was well-known. Site confirms destruction but Philistine involvement is inference.",
+      "current_location": "Tel Shiloh Archaeological Park; artifacts in Israel Museum",
+      "references": ["Jos.18.1", "1Sa.1.9-11", "1Sa.4.1-11", "Jer.7.12-14", "Jer.26.6"]
+    },
+    {
+      "id": "qumran",
+      "name": "Qumran",
+      "category": "sites",
+      "location": "Northwest shore, Dead Sea",
+      "period": "150 BC - 68 AD",
+      "discovered": "1947 (Bedouin shepherds found scrolls); excavations 1951-56 (Roland de Vaux)",
+      "description": "Settlement of Jewish community (likely Essenes) who copied and preserved scrolls. Scriptorium, ritual baths, and communal facilities found. Destroyed by Romans in 68 AD.",
+      "significance": "Community that hid Dead Sea Scrolls. Provides insight into Jewish life and beliefs in Jesus' time. Shows careful scripture preservation.",
+      "key_finds": [
+        {
+          "name": "Scriptorium",
+          "details": "Room with tables and inkwells where scrolls were copied"
+        },
+        {
+          "name": "Ritual baths (mikva'ot)",
+          "details": "Multiple stepped pools for ritual purification"
+        },
+        {
+          "name": "Cemetery",
+          "details": "1,200+ graves aligned north-south, mostly adult males"
+        },
+        {
+          "name": "Pottery workshop",
+          "details": "Where scroll jars were likely manufactured"
+        }
+      ],
+      "biblical_connection": "Community preserved Old Testament texts 1,000 years older than previous manuscripts. Shows scripture unchanged over millennia.",
+      "scholarly_notes": "Debate whether Qumran residents wrote scrolls or just stored them. Essene connection widely accepted but not certain.",
+      "current_location": "Qumran National Park; scrolls in Shrine of the Book, Israel Museum",
+      "references": []
+    },
+    {
+      "id": "tel_dan_stele",
+      "name": "Tel Dan Stele",
+      "category": "artifacts",
+      "location": "Found at Tel Dan, northern Israel",
+      "period": "9th century BC (c. 841 BC)",
+      "discovered": "1993-94 (Avraham Biran)",
+      "description": "Broken basalt monument set up by Aramean king (likely Hazael of Damascus) boasting of military victories. Contains phrase 'House of David' - first reference to David outside the Bible.",
+      "significance": "Silenced scholarly claims that David was legendary or mythical. Written by Israel's enemy, making mention of David's dynasty more credible.",
+      "key_finds": [
+        {
+          "name": "Fragment A",
+          "details": "Main piece with 'House of David' phrase"
+        },
+        {
+          "name": "Fragments B1 and B2",
+          "details": "Additional pieces found nearby in 1994"
+        }
+      ],
+      "biblical_connection": "References 'king of Israel' and 'House of David' (king of Judah). Likely describes events from 2 Kings 8-9 involving Hazael's wars against Israel and Judah.",
+      "scholarly_notes": "Some scholars initially questioned reading but consensus now accepts 'House of David' interpretation. Changes debate about historicity of David.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["2Ki.8.7-15", "2Ki.8.28-29", "2Ki.10.32-33"]
+    },
+    {
+      "id": "siloam_inscription",
+      "name": "Siloam Inscription",
+      "category": "artifacts",
+      "location": "Found in Hezekiah's Tunnel, Jerusalem",
+      "period": "c. 701 BC",
+      "discovered": "1880 (Jacob Eliahu, a student)",
+      "description": "Hebrew inscription carved in tunnel wall celebrating completion of Hezekiah's water tunnel. Describes two teams of workers digging from opposite ends and meeting in middle.",
+      "significance": "Confirms 2 Kings 20:20 account of Hezekiah's tunnel construction. Shows Hebrew script and language of 8th century BC. Engineering feat - 533 meters through solid rock.",
+      "key_finds": [
+        {
+          "name": "Six-line inscription",
+          "details": "Classical Hebrew describing tunnel completion"
+        }
+      ],
+      "biblical_connection": "Hezekiah made the pool and tunnel to bring water into city before Assyrian siege (2Ki 20:20, 2Ch 32:30).",
+      "scholarly_notes": "Inscription cut from wall illegally in 1890; now in Istanbul. Tunnel exactly as described - teams met slightly off-center.",
+      "current_location": "Istanbul Archaeological Museum (tunnel remains in Jerusalem)",
+      "references": ["2Ki.20.20", "2Ch.32.30", "2Ch.32.3-4"]
+    },
+    {
+      "id": "cyrus_cylinder",
+      "name": "Cyrus Cylinder",
+      "category": "artifacts",
+      "location": "Found in Babylon, Iraq",
+      "period": "539-530 BC",
+      "discovered": "1879 (Hormuzd Rassam)",
+      "description": "Clay cylinder inscribed by Persian King Cyrus the Great after conquering Babylon. Describes his policy of allowing exiled peoples to return home and rebuild temples.",
+      "significance": "Confirms Cyrus's decree allowing exiles to return. Shows his policy was empire-wide, not special treatment for Jews. Called 'first charter of human rights' (though this is modern interpretation).",
+      "key_finds": [
+        {
+          "name": "Cylinder text",
+          "details": "45 lines in Akkadian cuneiform describing Cyrus's policies"
+        }
+      ],
+      "biblical_connection": "Cyrus decreed Jews could return and rebuild temple (Ezr 1:1-4). Isaiah prophesied Cyrus by name 150 years earlier (Isa 44:28, 45:1). Called God's 'shepherd' and 'anointed.'",
+      "scholarly_notes": "Cylinder shows Cyrus presented himself as liberator. Jewish sources (Ezra, Isaiah) and Persian record agree on his character.",
+      "current_location": "British Museum, London (replica at UN headquarters)",
+      "references": ["Ezr.1.1-4", "Isa.44.28", "Isa.45.1", "2Ch.36.22-23"]
+    },
+    {
+      "id": "black_obelisk",
+      "name": "Black Obelisk of Shalmaneser III",
+      "category": "artifacts",
+      "location": "Found at Nimrud (Calah), Iraq",
+      "period": "c. 825 BC",
+      "discovered": "1846 (Austen Henry Layard)",
+      "description": "Black limestone obelisk showing tribute brought to Assyrian king Shalmaneser III from conquered peoples. Contains earliest image of an Israelite - King Jehu bowing down.",
+      "significance": "Only ancient image of an Israelite king. Shows Jehu (or his ambassador) prostrated before Assyrian king, paying tribute. Confirms Jehu's dynasty and Assyrian dominance.",
+      "key_finds": [
+        {
+          "name": "Jehu panel",
+          "details": "Shows figure bowing with caption 'tribute of Jehu son of Omri'"
+        },
+        {
+          "name": "Five registers",
+          "details": "Multiple panels showing tribute from different nations"
+        }
+      ],
+      "biblical_connection": "Jehu became king by coup (2Ki 9-10). Paying tribute to Assyria not mentioned in Bible but shows political situation. Called 'son of Omri' (dynasty name, not literal).",
+      "scholarly_notes": "Jehu destroyed Omri's dynasty but Assyrians still called Israel 'house of Omri.' Shows international recognition of Omride power.",
+      "current_location": "British Museum, London",
+      "references": ["2Ki.9.1-10", "2Ki.10.32-33"]
+    },
+    {
+      "id": "taylor_prism",
+      "name": "Taylor Prism (Sennacherib's Prism)",
+      "category": "artifacts",
+      "location": "Found at Nineveh, Iraq",
+      "period": "691 BC",
+      "discovered": "1830 (Colonel R. Taylor)",
+      "description": "Six-sided clay prism with Assyrian king Sennacherib's account of his military campaigns. Describes siege of Jerusalem - 'I shut up Hezekiah the Jew like a bird in a cage.'",
+      "significance": "Confirms 2 Kings 18-19 account from enemy perspective. Sennacherib boasts of conquests but notably does NOT claim to have taken Jerusalem - matches biblical account of miraculous deliverance.",
+      "key_finds": [
+        {
+          "name": "Jerusalem campaign account",
+          "details": "Claims 46 walled cities taken, 200,150 people deported, but no capture of Jerusalem"
+        }
+      ],
+      "biblical_connection": "Sennacherib invaded Judah in Hezekiah's 14th year (2Ki 18:13). Besieged Jerusalem but angel killed 185,000 Assyrians (2Ki 19:35). Sennacherib returned home without taking city.",
+      "scholarly_notes": "Assyrian kings never admitted defeats. Sennacherib's silence about taking Jerusalem is significant - it agrees with biblical account of his failure there.",
+      "current_location": "British Museum, London",
+      "references": ["2Ki.18.13-19.37", "2Ch.32.1-22", "Isa.36.1-37.38"]
+    },
+    {
+      "id": "mesha_stele",
+      "name": "Mesha Stele (Moabite Stone)",
+      "category": "artifacts",
+      "location": "Found at Dhiban, Jordan",
+      "period": "c. 840 BC",
+      "discovered": "1868 (F.A. Klein); broken by Bedouin, partially reconstructed",
+      "description": "Black basalt monument by Moabite King Mesha celebrating victory over Israel. Mentions Omri, Israel, and possibly 'House of David.' Oldest inscription mentioning Israelite god YHWH.",
+      "significance": "Confirms Omri's oppression of Moab and Moabite revolt. Provides Moabite perspective on events in 2 Kings 3. May contain second 'House of David' reference.",
+      "key_finds": [
+        {
+          "name": "34-line inscription",
+          "details": "Moabite language (similar to Hebrew) describing Mesha's victories"
+        }
+      ],
+      "biblical_connection": "Mesha king of Moab rebelled after Ahab's death (2Ki 3:4-5). Israel, Judah, and Edom attacked but withdrew (2Ki 3:6-27). Stele gives Moab's victory claim.",
+      "scholarly_notes": "Stele broken when Bedouin heated and poured water on it. Squeeze (paper impression) made earlier preserves text. 'House of David' reading debated but increasingly accepted.",
+      "current_location": "Louvre Museum, Paris",
+      "references": ["2Ki.3.4-27", "2Ki.1.1"]
+    },
+    {
+      "id": "ketef_hinnom",
+      "name": "Ketef Hinnom Scrolls",
+      "category": "artifacts",
+      "location": "Found at Ketef Hinnom, Jerusalem",
+      "period": "c. 650-587 BC",
+      "discovered": "1979 (Gabriel Barkay)",
+      "description": "Two tiny silver scrolls found in burial cave, worn as amulets. When unrolled, found to contain oldest known text of scripture - the priestly blessing from Numbers 6:24-26.",
+      "significance": "400 years older than Dead Sea Scrolls. Shows biblical text was fixed and revered before Babylonian exile. Text matches Masoretic tradition almost exactly.",
+      "key_finds": [
+        {
+          "name": "KH1 (larger scroll)",
+          "details": "Contains expanded version of priestly blessing and divine name"
+        },
+        {
+          "name": "KH2 (smaller scroll)",
+          "details": "Contains Numbers 6:24-26 blessing"
+        }
+      ],
+      "biblical_connection": "Contains priestly blessing: 'The LORD bless you and keep you; the LORD make his face shine upon you...' (Num 6:24-26)",
+      "scholarly_notes": "Careful unrolling at Israel Museum took three years. Dated to pre-exilic period.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["Num.6.24-26"]
+    },
+    {
+      "id": "pilate_inscription",
+      "name": "Pilate Stone",
+      "category": "artifacts",
+      "location": "Found at Caesarea Maritima, Israel",
+      "period": "26-36 AD",
+      "discovered": "1961 (Italian archaeological team)",
+      "description": "Limestone block with Latin inscription mentioning Pontius Pilate as prefect of Judea. Part of dedication for building (possibly temple to Tiberius). Only archaeological evidence of Pilate.",
+      "significance": "Confirms Pilate's existence, title, and time period. Corrects assumption he was 'procurator' - stone shows he was 'prefect.' First physical evidence of gospel character.",
+      "key_finds": [
+        {
+          "name": "Four-line inscription",
+          "details": "Partially readable: '[Pon]tius Pilatus [Praef]ectus Iuda[ea]e'"
+        }
+      ],
+      "biblical_connection": "Pilate judged Jesus and ordered his crucifixion (Mat 27:11-26, Mar 15:1-15, Luk 23:1-25, Joh 18:28-19:16). Gospels accurately place him as governor of Judea under Tiberius.",
+      "scholarly_notes": "Stone reused as theater seat, which preserved it. Original building unknown. Confirms gospel chronology.",
+      "current_location": "Israel Museum, Jerusalem (replica at Caesarea)",
+      "references": ["Mat.27.2", "Mat.27.11-26", "Luk.3.1", "Luk.23.1-25", "Joh.18.28-19.16"]
+    },
+    {
+      "id": "caiaphas_ossuary",
+      "name": "Caiaphas Ossuary",
+      "category": "artifacts",
+      "location": "Found in Jerusalem (Peace Forest)",
+      "period": "1st century AD",
+      "discovered": "1990 (construction workers)",
+      "description": "Ornate bone box (ossuary) inscribed 'Joseph son of Caiaphas.' Contained bones of 60-year-old man. From family tomb with 12 ossuaries. High priest who tried Jesus.",
+      "significance": "Confirms existence of high priest Caiaphas. Shows his full name was Joseph Caiaphas (Josephus calls him 'Joseph who was called Caiaphas'). Ornate ossuary indicates wealth.",
+      "key_finds": [
+        {
+          "name": "Inscribed ossuary",
+          "details": "Decorated box with 'Yehosef bar Qafa' (Joseph son of Caiaphas) in Aramaic"
+        },
+        {
+          "name": "Bones",
+          "details": "Remains of elderly man, possibly the high priest himself"
+        }
+      ],
+      "biblical_connection": "Caiaphas was high priest who tried Jesus (Mat 26:3, 57). Prophesied Jesus would die for the nation (Joh 11:49-52). Led prosecution before Sanhedrin.",
+      "scholarly_notes": "Some scholars question identification, but name, location, time period, and wealth indicators strongly support connection to gospel Caiaphas.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["Mat.26.3", "Mat.26.57-68", "Joh.11.49-52", "Joh.18.13-14"]
+    },
+    {
+      "id": "pool_siloam",
+      "name": "Pool of Siloam",
+      "category": "artifacts",
+      "location": "City of David, Jerusalem",
+      "period": "1st century BC - 1st century AD",
+      "discovered": "2004 (sewer workers); excavated 2004-05",
+      "description": "Large stepped pool at end of Hezekiah's Tunnel. Used for ritual purification. Where Jesus sent blind man to wash (Joh 9:7). Much larger than previously known Byzantine pool.",
+      "significance": "Confirms location described in John's gospel. Large public pool with steps for immersion. Coins date it to Second Temple period. Shows John knew Jerusalem geography.",
+      "key_finds": [
+        {
+          "name": "Stepped pool",
+          "details": "Large rectangular pool with steps on all sides for entering water"
+        },
+        {
+          "name": "Herodian coins",
+          "details": "Coins in plaster date construction to late 1st century BC"
+        },
+        {
+          "name": "Street from Temple",
+          "details": "Pilgrimage road connecting pool to Temple Mount"
+        }
+      ],
+      "biblical_connection": "Jesus sent blind man to wash here (Joh 9:1-11). Name means 'sent' - John notes this significance. Pool fed by Gihon Spring through Hezekiah's Tunnel.",
+      "scholarly_notes": "Discovery showed John's detailed knowledge of pre-70 AD Jerusalem. Pool destroyed with city in 70 AD, so author knew city before destruction.",
+      "current_location": "City of David Archaeological Park, Jerusalem",
+      "references": ["Joh.9.1-11", "Neh.3.15", "Isa.8.6"]
+    },
+    {
+      "id": "hezekiah_seal",
+      "name": "Seal of Hezekiah",
+      "category": "artifacts",
+      "location": "Found at Ophel, Jerusalem",
+      "period": "c. 727-698 BC",
+      "discovered": "2015 (Eilat Mazar excavation)",
+      "description": "Clay seal impression (bulla) stamped with King Hezekiah's royal seal. Shows winged sun disk with ankh symbols. Inscription reads 'Belonging to Hezekiah [son of] Ahaz king of Judah.'",
+      "significance": "First seal impression of Israelite or Judean king found in controlled excavation. Connects directly to one of most important kings in Bible. Shows Egyptian artistic influence.",
+      "key_finds": [
+        {
+          "name": "Bulla",
+          "details": "Oval seal impression, 13mm diameter, with Hebrew inscription"
+        }
+      ],
+      "biblical_connection": "Hezekiah was Judah's most faithful king (2Ki 18:5). Prepared for Assyrian invasion. Built tunnel, fortified walls. Father was wicked king Ahaz.",
+      "scholarly_notes": "Found in fill from royal bakery area near Temple Mount. Shows administrative practices of Judean kingdom.",
+      "current_location": "Hebrew University, Jerusalem",
+      "references": ["2Ki.18.1-8", "2Ki.20.20", "2Ch.29.1-32.33", "Isa.36.1-39.8"]
+    },
+    {
+      "id": "dead_sea_scrolls",
+      "name": "Dead Sea Scrolls",
+      "category": "manuscripts",
+      "location": "Found in caves near Qumran, Dead Sea",
+      "period": "250 BC - 68 AD",
+      "discovered": "1947-56 (Bedouin shepherds and archaeologists)",
+      "description": "Over 900 manuscripts found in 11 caves. Include oldest copies of Hebrew Bible, community rules, and commentaries. Written in Hebrew, Aramaic, and Greek. Most copied; some written at Qumran.",
+      "significance": "Pushed back oldest biblical manuscripts by 1,000 years. Show text was carefully preserved - matches later Masoretic tradition closely. Every OT book represented except Esther.",
+      "key_finds": [
+        {
+          "name": "Great Isaiah Scroll (1QIsa)",
+          "details": "Complete Isaiah scroll, 1,000 years older than previous oldest copy"
+        },
+        {
+          "name": "Psalms scrolls",
+          "details": "Multiple copies showing variations in psalm order"
+        },
+        {
+          "name": "Community Rule",
+          "details": "Describes beliefs and practices of Qumran community"
+        },
+        {
+          "name": "War Scroll",
+          "details": "Describes final battle between 'sons of light' and 'sons of darkness'"
+        }
+      ],
+      "biblical_connection": "Preserved text of Hebrew Bible. Isaiah 53 (suffering servant) identical to later copies. Shows scriptures Jesus read were same as ours.",
+      "scholarly_notes": "Some scrolls match Masoretic text exactly; others show minor variations. Confirms textual reliability over millennia.",
+      "current_location": "Shrine of the Book, Israel Museum; some in Jordan and France",
+      "references": []
+    },
+    {
+      "id": "codex_sinaiticus",
+      "name": "Codex Sinaiticus",
+      "category": "manuscripts",
+      "location": "Found at St. Catherine's Monastery, Sinai",
+      "period": "c. 325-360 AD",
+      "discovered": "1844 and 1859 (Constantin von Tischendorf)",
+      "description": "One of oldest complete New Testament manuscripts. Written on vellum (animal skin) in Greek. Contains complete NT plus parts of OT and two early Christian writings. 4th century.",
+      "significance": "Oldest complete New Testament. Shows text was stable by 4th century. Important for understanding textual history. Written by several scribes with later corrections.",
+      "key_finds": [
+        {
+          "name": "Complete New Testament",
+          "details": "All 27 books plus Epistle of Barnabas and Shepherd of Hermas"
+        },
+        {
+          "name": "Old Testament portions",
+          "details": "About half of Septuagint (Greek OT)"
+        }
+      ],
+      "biblical_connection": "Contains familiar text of gospels, letters, Revelation. Minor variations from later manuscripts help scholars understand copying process.",
+      "scholarly_notes": "Story of discovery controversial - some parts may have been in monastery all along. Pages now divided between four institutions.",
+      "current_location": "British Library (main), Leipzig University, St. Catherine's, Russian National Library",
+      "references": []
+    },
+    {
+      "id": "codex_vaticanus",
+      "name": "Codex Vaticanus",
+      "category": "manuscripts",
+      "location": "Vatican Library, Rome (where catalogued since 1481)",
+      "period": "c. 300-325 AD",
+      "discovered": "Unknown - in Vatican since at least 15th century",
+      "description": "Possibly oldest near-complete Bible. Greek text on vellum. Missing end of Hebrews, Pastoral Epistles, Philemon, Revelation. May predate Sinaiticus slightly.",
+      "significance": "One of two most important biblical manuscripts. Represents 'Alexandrian' text type. Very careful copying with few errors.",
+      "key_finds": [
+        {
+          "name": "Greek Bible",
+          "details": "Both OT (Septuagint) and most of NT in single codex"
+        }
+      ],
+      "biblical_connection": "Shows text of scripture as known in early 4th century. Basis for many modern translations along with Sinaiticus.",
+      "scholarly_notes": "Origin unknown - possibly Egypt or Caesarea. Vatican restricted access until 19th century. Now photographed and available online.",
+      "current_location": "Vatican Library, Rome",
+      "references": []
+    },
+    {
+      "id": "p52_rylands",
+      "name": "Rylands Papyrus P52",
+      "category": "manuscripts",
+      "location": "Found in Egypt (exact location unknown)",
+      "period": "c. 100-150 AD",
+      "discovered": "1920 (acquired); identified 1934 (C.H. Roberts)",
+      "description": "Oldest known New Testament manuscript fragment. Credit-card-sized piece containing John 18:31-33 (front) and 18:37-38 (back). Dialogue between Jesus and Pilate.",
+      "significance": "Dated to 125-175 AD, placing John's Gospel in Egypt within decades of composition. Shows rapid spread of gospel manuscripts.",
+      "key_finds": [
+        {
+          "name": "Fragment",
+          "details": "8.9 x 6 cm piece with Greek text on both sides"
+        }
+      ],
+      "biblical_connection": "Contains Pilate asking 'What is truth?' and Jesus saying 'My kingdom is not of this world' (Joh 18:31-33, 37-38).",
+      "scholarly_notes": "Dating based on handwriting style (paleography). Some scholars propose later date; consensus remains early 2nd century.",
+      "current_location": "John Rylands Library, Manchester, UK",
+      "references": ["Joh.18.31-38"]
+    },
+    {
+      "id": "nash_papyrus",
+      "name": "Nash Papyrus",
+      "category": "manuscripts",
+      "location": "Found in Egypt",
+      "period": "c. 150-100 BC",
+      "discovered": "1898 (W.L. Nash purchased from dealer)",
+      "description": "Four fragments containing Ten Commandments (Exodus 20/Deuteronomy 5 combined) and Shema (Deuteronomy 6:4-5). Used for teaching or worship, not a Bible scroll.",
+      "significance": "Oldest Hebrew biblical manuscript before Dead Sea Scrolls. Shows text was being taught and memorized. Combines two versions of Ten Commandments.",
+      "key_finds": [
+        {
+          "name": "Four fragments",
+          "details": "Hebrew text of Ten Commandments and Shema prayer"
+        }
+      ],
+      "biblical_connection": "Contains Ten Commandments and 'Hear O Israel, the LORD our God, the LORD is one' (Deu 6:4).",
+      "scholarly_notes": "Text variations show liturgical use. Combination text suggests worship/teaching purpose rather than scripture scroll.",
+      "current_location": "Cambridge University Library",
+      "references": ["Exo.20.1-17", "Deu.5.6-21", "Deu.6.4-5"]
+    },
+    {
+      "id": "chester_beatty",
+      "name": "Chester Beatty Papyri",
+      "category": "manuscripts",
+      "location": "Found in Egypt (Fayyum region)",
+      "period": "2nd-4th century AD",
+      "discovered": "1930-31 (purchased by Chester Beatty)",
+      "description": "Collection of 11 codices containing portions of OT, NT, and other texts. Includes early copies of Gospels, Acts, Paul's letters, and Revelation. Important for textual criticism.",
+      "significance": "P45 contains oldest Gospels codex (c. 250 AD). P46 is oldest Pauline letters collection (c. 200 AD). P47 is oldest Revelation manuscript. Shows early codex book format.",
+      "key_finds": [
+        {
+          "name": "P45",
+          "details": "Portions of all four Gospels and Acts, c. 250 AD"
+        },
+        {
+          "name": "P46",
+          "details": "Most of Paul's letters including Romans, Corinthians, Galatians, c. 200 AD"
+        },
+        {
+          "name": "P47",
+          "details": "Revelation chapters 9-17, c. 280 AD"
+        }
+      ],
+      "biblical_connection": "Show NT text in 2nd-3rd century. Confirm essential accuracy of later manuscripts.",
+      "scholarly_notes": "Some fragments held at University of Michigan (from same find). P46 missing 2 Thessalonians and Pastoral Epistles - possibly never included.",
+      "current_location": "Chester Beatty Library, Dublin; some at University of Michigan",
+      "references": []
+    },
+    {
+      "id": "bodmer_papyri",
+      "name": "Bodmer Papyri",
+      "category": "manuscripts",
+      "location": "Found in Egypt (Upper Egypt)",
+      "period": "2nd-4th century AD",
+      "discovered": "1952-56 (purchased by Martin Bodmer)",
+      "description": "Collection of early manuscripts including P66 (John) and P75 (Luke-John). Some of earliest continuous gospel texts. Show care in copying.",
+      "significance": "P66 dates c. 200 AD - one of oldest Gospel manuscripts. P75 (c. 175-225 AD) shows text nearly identical to 4th century Vaticanus - proving careful transmission.",
+      "key_finds": [
+        {
+          "name": "P66",
+          "details": "Most of John's Gospel, c. 200 AD"
+        },
+        {
+          "name": "P72",
+          "details": "Oldest 1-2 Peter and Jude, 3rd-4th century"
+        },
+        {
+          "name": "P75",
+          "details": "Most of Luke and John, c. 175-225 AD"
+        }
+      ],
+      "biblical_connection": "P66 includes John 1:1 ('In the beginning was the Word'), John 3:16, resurrection accounts.",
+      "scholarly_notes": "P75's similarity to Vaticanus shows text remained stable for 200 years of copying.",
+      "current_location": "Bodmer Library (Cologny, Switzerland); Vatican Library (P75 gifted in 2007)",
+      "references": ["Joh.1.1", "Joh.3.16"]
+    },
+    {
+      "id": "septuagint",
+      "name": "Septuagint (LXX)",
+      "category": "manuscripts",
+      "location": "Translated in Alexandria, Egypt",
+      "period": "3rd-1st century BC",
+      "discovered": "Always known; earliest fragments found in Qumran and Egypt",
+      "description": "Greek translation of Hebrew Bible made for Greek-speaking Jews in Egypt. Legend says 72 translators produced identical translations (hence 'LXX'). Used by early church.",
+      "significance": "Shows how Hebrew scripture was understood before Christ. New Testament authors often quote from Septuagint. Preserves some readings older than Masoretic text.",
+      "key_finds": [
+        {
+          "name": "Qumran Greek scrolls",
+          "details": "Septuagint fragments among Dead Sea Scrolls"
+        },
+        {
+          "name": "Rylands Papyrus 458",
+          "details": "Oldest Septuagint fragment (Deuteronomy), 2nd century BC"
+        }
+      ],
+      "biblical_connection": "Many NT quotations match Septuagint rather than Hebrew. Shows Jesus and apostles used Greek Bible alongside Hebrew.",
+      "scholarly_notes": "Different books translated at different times with varying quality. Valuable for textual criticism of OT.",
+      "current_location": "Various libraries (Sinaiticus, Vaticanus contain Septuagint)",
+      "references": []
+    },
+    {
+      "id": "masoretic_text",
+      "name": "Masoretic Text",
+      "category": "manuscripts",
+      "location": "Developed primarily in Tiberias, Israel",
+      "period": "6th-10th century AD (based on older tradition)",
+      "discovered": "Continuous tradition; Aleppo Codex (930 AD), Leningrad Codex (1008 AD)",
+      "description": "Standard Hebrew text of Old Testament. Masoretes (Jewish scribes) added vowel marks and notes to preserve exact pronunciation and copying accuracy. Basis of modern Hebrew Bibles.",
+      "significance": "Defines authoritative Hebrew text. Notes count letters, words, middle of books to ensure perfect copying. Dead Sea Scrolls show text was stable for 1,000 years before Masoretes.",
+      "key_finds": [
+        {
+          "name": "Aleppo Codex",
+          "details": "Oldest complete Masoretic manuscript (930 AD); now partially damaged"
+        },
+        {
+          "name": "Leningrad Codex",
+          "details": "Oldest complete Hebrew Bible (1008 AD); basis of modern printed editions"
+        }
+      ],
+      "biblical_connection": "Preserves text Jesus and apostles would have known. Hebrew text behind modern OT translations.",
+      "scholarly_notes": "Masoretic notes reveal obsessive care: counts of letters, unusual spellings, middle letter of Torah.",
+      "current_location": "Aleppo Codex in Israel Museum; Leningrad Codex in Russian National Library",
+      "references": []
+    },
+    {
+      "id": "samaritan_pentateuch",
+      "name": "Samaritan Pentateuch",
+      "category": "manuscripts",
+      "location": "Preserved by Samaritan community",
+      "period": "c. 400 BC split from Jewish text; oldest manuscript 12th century AD",
+      "discovered": "1616 (Pietro della Valle brought first copy to Europe)",
+      "description": "Samaritan version of first five books (Torah). About 6,000 differences from Masoretic text, mostly spelling. Some readings match Septuagint against Masoretic.",
+      "significance": "Independent witness to Pentateuch text. Shows importance of Mount Gerizim to Samaritans. Some readings may preserve older forms.",
+      "key_finds": [
+        {
+          "name": "Abisha Scroll",
+          "details": "Samaritans' oldest scroll; tradition claims very ancient origin"
+        },
+        {
+          "name": "Qumran proto-Samaritan texts",
+          "details": "Dead Sea Scrolls showing proto-Samaritan text type"
+        }
+      ],
+      "biblical_connection": "Reflects Samaritan claim that Gerizim (not Jerusalem) is true worship site (see Joh 4:20). Jesus' conversation with Samaritan woman references this dispute.",
+      "scholarly_notes": "Most differences trivial; major ones promote Gerizim. Split from mainstream Judaism dates to Persian or Hellenistic period.",
+      "current_location": "Samaritan community in Holon (Israel) and Nablus; copies in various libraries",
+      "references": ["Joh.4.19-24", "Deu.27.4"]
+    },
+    {
+      "id": "merneptah_stele",
+      "name": "Merneptah Stele",
+      "category": "inscriptions",
+      "location": "Found at Thebes, Egypt",
+      "period": "c. 1208 BC",
+      "discovered": "1896 (Flinders Petrie)",
+      "description": "Victory stele of Pharaoh Merneptah celebrating Libyan campaign. Final lines describe Canaan expedition including famous line: 'Israel is laid waste; its seed is no more.'",
+      "significance": "Earliest mention of 'Israel' outside the Bible, dated to 1208 BC. Determinative hieroglyph indicates Israel was a people, not a city or land.",
+      "key_finds": [
+        {
+          "name": "Ten-foot granite stele",
+          "details": "28 lines of hieroglyphics; Israel mentioned in line 27"
+        }
+      ],
+      "biblical_connection": "Confirms Israel existed in Canaan by late 13th century BC. Egyptian claim of destruction is exaggerated - Israel clearly survived.",
+      "scholarly_notes": "Israel written with 'people' determinative, not 'land' - suggests tribal confederation stage. Critical for dating Exodus and conquest.",
+      "current_location": "Egyptian Museum, Cairo",
+      "references": []
+    },
+    {
+      "id": "lachish_letters",
+      "name": "Lachish Letters",
+      "category": "inscriptions",
+      "location": "Found at Lachish, Israel",
+      "period": "c. 588-586 BC",
+      "discovered": "1935 and 1938 (J.L. Starkey)",
+      "description": "21 pottery fragments (ostraca) with Hebrew military correspondence. Written during Babylonian siege. Mention commanders, prophets, and watching for fire signals from Azekah.",
+      "significance": "Snapshot of final days of Judah. One letter mentions 'we are watching for the signals of Lachish... for we cannot see Azekah' - Azekah may have already fallen.",
+      "key_finds": [
+        {
+          "name": "Letter 4",
+          "details": "Mentions watching for fire signals; Azekah no longer visible"
+        },
+        {
+          "name": "Letter 3",
+          "details": "Mentions unnamed prophet and army commander going to Egypt"
+        },
+        {
+          "name": "Letter 6",
+          "details": "Complaints about officials 'weakening the hands' of people"
+        }
+      ],
+      "biblical_connection": "Jeremiah mentions Lachish and Azekah as last cities standing (Jer 34:7). Officials accused Jeremiah of 'weakening the hands' of defenders (Jer 38:4) - same phrase in letters.",
+      "scholarly_notes": "Letters show Hebrew language and military organization. References to prophet may describe Jeremiah's situation.",
+      "current_location": "British Museum (most); Israel Museum",
+      "references": ["Jer.34.7", "Jer.38.4"]
+    },
+    {
+      "id": "arad_ostraca",
+      "name": "Arad Ostraca",
+      "category": "inscriptions",
+      "location": "Found at Tel Arad, Israel",
+      "period": "7th-6th century BC",
+      "discovered": "1962-67 (Yohanan Aharoni)",
+      "description": "Over 100 Hebrew inscriptions on pottery from Judean fortress. Administrative records including supplies, troop movements, and temple references. Name YHWH written frequently.",
+      "significance": "Show daily administration of Judean fortress. References to 'house of YHWH' suggest temple or shrine at Arad. Names match biblical personal names (Eliashib, Nahum).",
+      "key_finds": [
+        {
+          "name": "Eliashib archive",
+          "details": "Letters to fortress commander about wine, flour, oil supplies"
+        },
+        {
+          "name": "Temple references",
+          "details": "Mention 'house of YHWH' and priestly families"
+        },
+        {
+          "name": "Kittim mentions",
+          "details": "Greek mercenaries receiving rations"
+        }
+      ],
+      "biblical_connection": "Name Eliashib appears in Bible (Neh 3:1, 12:10). Temple at Arad may relate to high places kings tried to remove (2Ki 18:22).",
+      "scholarly_notes": "Arad temple with altar was decommissioned, possibly during Hezekiah's reforms. Greek mercenaries show international composition of Judean forces.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["Neh.3.1", "2Ki.18.22"]
+    },
+    {
+      "id": "samaria_ostraca",
+      "name": "Samaria Ostraca",
+      "category": "inscriptions",
+      "location": "Found at Samaria, Israel",
+      "period": "c. 784-783 BC (reign of Jeroboam II)",
+      "discovered": "1910 (Harvard Expedition)",
+      "description": "63 pottery fragments recording shipments of wine and oil to palace. Name recipients, donors, places, and years. Provide insight into northern kingdom administration.",
+      "significance": "Show tax system and royal estates. Place names match Bible (Shechem, Tirzah). Personal names contain 'Baal' element, confirming syncretism prophets condemned.",
+      "key_finds": [
+        {
+          "name": "Tax records",
+          "details": "Receipts for wine and oil shipments to king"
+        },
+        {
+          "name": "Place names",
+          "details": "Biblical locations including clan territories from Joshua"
+        },
+        {
+          "name": "Personal names",
+          "details": "Names with YHWH and Baal elements showing mixed worship"
+        }
+      ],
+      "biblical_connection": "Date to prosperous reign of Jeroboam II (2Ki 14:23-29). Prophets Amos and Hosea condemned northern kingdom luxury and Baal worship during this period.",
+      "scholarly_notes": "Names with Baal element (like Abibaal, Meribaal) show continued syncretism despite official YHWH worship.",
+      "current_location": "Istanbul Archaeological Museum",
+      "references": ["2Ki.14.23-29", "Hos.2.16-17", "Amo.4.1"]
+    },
+    {
+      "id": "gezer_calendar",
+      "name": "Gezer Calendar",
+      "category": "inscriptions",
+      "location": "Found at Gezer, Israel",
+      "period": "c. 925 BC",
+      "discovered": "1908 (R.A.S. Macalister)",
+      "description": "Small limestone tablet listing agricultural seasons. Possibly a schoolboy's exercise. One of oldest Hebrew inscriptions. Lists months for plowing, planting, harvest, etc.",
+      "significance": "Shows Hebrew writing in use during Solomon's time. Agricultural cycle matches biblical descriptions. May be mnemonic for learning calendar.",
+      "key_finds": [
+        {
+          "name": "Limestone tablet",
+          "details": "10.5 x 7.2 cm with 7 lines of Hebrew"
+        }
+      ],
+      "biblical_connection": "Agricultural seasons match biblical references to plowing (1Ki 19:19), harvest (Rut 2:23), grape gathering (Jdg 9:27). From Solomon's fortified city.",
+      "scholarly_notes": "Interpretation debated - months or activities? Writing style suggests early Hebrew script development.",
+      "current_location": "Istanbul Archaeological Museum",
+      "references": ["1Ki.19.19", "Rut.2.23", "Jdg.9.27"]
+    },
+    {
+      "id": "yhwh_inscriptions",
+      "name": "YHWH Inscriptions",
+      "category": "inscriptions",
+      "location": "Various sites including Kuntillet Ajrud and Khirbet el-Qom",
+      "period": "9th-8th century BC",
+      "discovered": "Kuntillet Ajrud 1975-76; Khirbet el-Qom 1967",
+      "description": "Ancient Hebrew inscriptions containing the divine name YHWH. Some mention 'YHWH of Samaria,' 'YHWH of Teman,' and controversially 'YHWH and his Asherah.'",
+      "significance": "Show widespread use of divine name. 'YHWH and his Asherah' texts confirm prophets' condemnations of syncretism - people worshipped YHWH alongside goddess.",
+      "key_finds": [
+        {
+          "name": "Kuntillet Ajrud inscriptions",
+          "details": "Blessing texts mentioning 'YHWH of Samaria and his Asherah'"
+        },
+        {
+          "name": "Khirbet el-Qom inscription",
+          "details": "Tomb blessing mentioning YHWH and possibly Asherah"
+        }
+      ],
+      "biblical_connection": "Confirms prophetic condemnation of Asherah poles alongside YHWH worship (1Ki 14:15, 2Ki 17:16, 2Ki 23:6). Shows popular religion included goddess worship.",
+      "scholarly_notes": "Debate over 'Asherah' - goddess, cult object, or feminine aspect? Inscriptions prove syncretism was real problem prophets addressed.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["1Ki.14.15", "2Ki.17.16", "2Ki.23.6", "Jdg.3.7"]
+    },
+    {
+      "id": "ekron_inscription",
+      "name": "Ekron Inscription",
+      "category": "inscriptions",
+      "location": "Found at Tel Miqne (Ekron), Israel",
+      "period": "c. 690 BC",
+      "discovered": "1996 (Trude Dothan and Seymour Gitin)",
+      "description": "Five-line inscription identifying site as Ekron and naming rulers. Mentions Achish son of Padi - Padi is known from Assyrian records as king of Ekron restored by Sennacherib.",
+      "significance": "First inscription definitively identifying a Philistine city. Confirms site identification. Names match Assyrian records. Shows Philistine writing in Semitic language.",
+      "key_finds": [
+        {
+          "name": "Temple dedication",
+          "details": "Inscription dedicating temple to goddess Ptgyh (possibly Pythogeia)"
+        }
+      ],
+      "biblical_connection": "Ekron was one of five Philistine cities (Jos 13:3). Achish may be related to king of Gath who sheltered David (1Sa 27:2). Padi mentioned in Sennacherib's annals.",
+      "scholarly_notes": "Longest Philistine inscription found. Shows cultural assimilation - Philistines adopted Semitic language while keeping Greek goddess names.",
+      "current_location": "Israel Museum, Jerusalem",
+      "references": ["Jos.13.3", "1Sa.5.10", "1Sa.27.2", "2Ki.1.2-3"]
+    },
+    {
+      "id": "balaam_inscription",
+      "name": "Deir Alla Inscription (Balaam Inscription)",
+      "category": "inscriptions",
+      "location": "Found at Tell Deir Alla, Jordan",
+      "period": "c. 840-760 BC",
+      "discovered": "1967 (H.J. Franken)",
+      "description": "Plaster inscription found fallen from wall. Mentions 'Balaam son of Beor' as 'seer of the gods.' Contains prophecy of divine council deciding destruction. Written in dialect related to Hebrew.",
+      "significance": "First reference to biblical figure outside Bible that's not a king. Confirms Balaam was remembered centuries later. Shows he was famous prophet in region.",
+      "key_finds": [
+        {
+          "name": "Plaster fragments",
+          "details": "119 fragments with black and red ink text"
+        }
+      ],
+      "biblical_connection": "Balaam son of Beor was seer hired by Moab to curse Israel (Num 22-24). Instead blessed Israel. Later led Israel into sin (Num 31:16). Remembered negatively in NT (2Pe 2:15, Jud 1:11).",
+      "scholarly_notes": "Text shows Balaam remembered as legitimate prophet in Transjordan. Confirms biblical presentation of him as real historical figure.",
+      "current_location": "Jordan Archaeological Museum, Amman",
+      "references": ["Num.22.5", "Num.24.17", "Num.31.16", "2Pe.2.15", "Jud.1.11"]
+    }
+  ]
+}

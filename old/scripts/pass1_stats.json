@@ -1,0 +1,12 @@
+{
+  "total_words": 377869,
+  "matched": 295277,
+  "unmatched": 82592,
+  "artifacts_skipped": 55123,
+  "verses_processed": 30771,
+  "by_type": {
+    "exact_match": 0,
+    "case_sensitive_match": 0,
+    "yahweh_lord": 0
+  }
+}
