@@ -1,8 +1,0 @@
-{
-  "title": "Straight Truth",
-  "theme": "light",
-  "body": [
-    ["st-header"],
-    ["bible-workspace"]
-  ]
-}
