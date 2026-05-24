@@ -15,7 +15,7 @@ function ParallelPassagesColumn({ columnId, data }) {
   const { data: appData, compareMultiplePassages } = useApp()
   const [searchQuery, setSearchQuery] = useState('')
   const [expandedCategories, setExpandedCategories] = useState(
-    Object.fromEntries(categoryOrder.map(c => [c, true]))
+    Object.fromEntries(categoryOrder.map(c => [c, false]))
   )
 
   const parallelSets = appData.parallelPassages || []
