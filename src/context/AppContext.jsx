@@ -39,7 +39,8 @@ export function AppProvider({ children }) {
     archaeology: [],
     definitions: [],
     topicalClusters: [],
-    topicalIndex: []
+    topicalIndex: [],
+    manuscriptVariants: { editions: {}, disputed: [], verses: {} }
   })
 
   // Lookup sets for O(1) entity checking
@@ -162,7 +163,7 @@ export function AppProvider({ children }) {
     // Note: comparePassages/compareMultiplePassages bypass this by using setColumns directly
     const singleInstanceTypes = ['passage', 'search', 'crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
-      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'places', 'parallels', 'peoples', 'religions', 'dailylife', 'archaeology', 'definitions', 'topical']
+      'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'places', 'parallels', 'peoples', 'religions', 'dailylife', 'archaeology', 'definitions', 'topical', 'manuscript']
 
     if (singleInstanceTypes.includes(type)) {
       const existing = columns.find(c => c.type === type)
@@ -273,6 +274,16 @@ export function AppProvider({ children }) {
     }
   }, [columns, addColumn, updateColumn])
 
+  // Open manuscript evidence column
+  const openManuscript = useCallback((verseId) => {
+    const existing = columns.find(c => c.type === 'manuscript')
+    if (existing) {
+      updateColumn(existing.id, { verseId })
+    } else {
+      addColumn('manuscript', { verseId })
+    }
+  }, [columns, addColumn, updateColumn])
+
   // Compare two passages side-by-side (for OT→NT quotations)
   const comparePassages = useCallback((otVerseRef, ntVerseRef) => {
     const otParts = otVerseRef.split('.')
@@ -369,6 +380,7 @@ export function AppProvider({ children }) {
     // Actions
     openStrongs,
     openCrossRefs,
+    openManuscript,
     comparePassages,
     compareMultiplePassages,
     showToast,

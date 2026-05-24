@@ -25,6 +25,7 @@ import DailyLifeColumn from './columns/DailyLifeColumn'
 import ArchaeologyColumn from './columns/ArchaeologyColumn'
 import DefinitionsColumn from './columns/DefinitionsColumn'
 import TopicalStudyColumn from './columns/TopicalStudyColumn'
+import ManuscriptColumn from './columns/ManuscriptColumn'
 
 // Column title mapping
 const columnTitles = {
@@ -53,7 +54,8 @@ const columnTitles = {
   dailylife: 'Daily Life',
   archaeology: 'Archaeology',
   definitions: 'Definitions',
-  topical: 'Topical Study'
+  topical: 'Topical Study',
+  manuscript: 'Manuscript Evidence'
 }
 
 function Column({
@@ -137,6 +139,8 @@ function Column({
         return <DefinitionsColumn columnId={column.id} data={column.data} />
       case 'topical':
         return <TopicalStudyColumn columnId={column.id} data={column.data} />
+      case 'manuscript':
+        return <ManuscriptColumn columnId={column.id} data={column.data} />
       default:
         return <div className="window-content">Unknown column type: {column.type}</div>
     }

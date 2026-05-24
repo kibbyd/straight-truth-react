@@ -11,7 +11,9 @@ function BibleColumn({ columnId, data }) {
     highlightedStrong,
     setHighlightedStrong,
     openStrongs,
-    openCrossRefs
+    openCrossRefs,
+    openManuscript,
+    columns
   } = useApp()
 
   const book = data?.book || 'Gen'
@@ -19,6 +21,12 @@ function BibleColumn({ columnId, data }) {
   const columnHighlightVerse = data?.highlightVerse || null
   const verseRefs = useRef({})
   const [showOriginal, setShowOriginal] = useState(false)
+
+  // Track which verse has active manuscript highlighting
+  const activeManuscriptVerse = useMemo(() => {
+    const msCol = columns.find(c => c.type === 'manuscript')
+    return msCol?.data?.verseId || null
+  }, [columns])
 
   // Determine which verse to highlight - prefer column-specific, fall back to global
   const activeHighlightVerse = columnHighlightVerse || selectedVerse
@@ -76,6 +84,15 @@ function BibleColumn({ columnId, data }) {
   const hasCrossRefs = useCallback((verseId) => {
     return appData.crossRefs[verseId] && appData.crossRefs[verseId].length > 0
   }, [appData.crossRefs])
+
+  // Check if verse has manuscript variants (NT only)
+  const NT_BOOKS = new Set(['Mat','Mar','Luk','Joh','Act','Rom','1Co','2Co','Gal','Eph','Phi','Col','1Th','2Th','1Ti','2Ti','Tit','Phm','Heb','Jam','1Pe','2Pe','1Jo','2Jo','3Jo','Jud','Rev'])
+  const hasManuscriptVariants = useCallback((verseId) => {
+    const vBook = verseId.split('.')[0]
+    if (!NT_BOOKS.has(vBook)) return false
+    const verses = appData.manuscriptVariants?.verses
+    return verses && verses[verseId] && verses[verseId].length > 0
+  }, [appData.manuscriptVariants?.verses])
 
   // Get Strong's data for verse
   const getStrongsForVerse = useCallback((verseId) => {
@@ -140,12 +157,80 @@ function BibleColumn({ columnId, data }) {
     return map
   }, [getStrongsForVerse, appData.strongs.lexicon, appData.verses])
 
+  // Build variant markup data: highlighted word indices + insertion markers for missing words
+  const getVariantMarkup = useCallback((verseId, esvText) => {
+    const variants = appData.manuscriptVariants?.verses?.[verseId]
+    if (!variants) return null
+
+    const esvWords = esvText.split(/\s+/)
+    const cleanWords = esvWords.map(w => w.replace(/[.,;:!?'"]/g, '').toLowerCase())
+    const claimed = new Set()
+    const highlights = new Set()
+    const insertions = {} // wordIndex -> [{english, greek}] for missing words
+
+    for (const v of variants) {
+      if (v.in && v.in.includes('NA28')) {
+        // Word IS in the displayed text — highlight it
+
+        // Strategy 1: match via Strong's number through gloss map
+        if (v.strong) {
+          const normStrong = normalizeStrong(v.strong)
+          const glossMap = buildGlossMap(verseId)
+          for (const [idx, entry] of Object.entries(glossMap)) {
+            if (normalizeStrong(entry.strong) === normStrong && !claimed.has(parseInt(idx))) {
+              highlights.add(parseInt(idx))
+              claimed.add(parseInt(idx))
+            }
+          }
+        }
+
+        // Strategy 2: match English words against ESV
+        const englishSources = [v.english]
+        if (v.variant?.english) englishSources.push(v.variant.english)
+        for (const eng of englishSources) {
+          if (!eng) continue
+          const varWords = eng.replace(/[.,;:!?'"<>]/g, '').toLowerCase().split(/\s+/).filter(Boolean)
+          for (const vw of varWords) {
+            if (vw.length < 3) continue
+            for (let wi = 0; wi < cleanWords.length; wi++) {
+              if (claimed.has(wi)) continue
+              const cw = cleanWords[wi]
+              if (cw === vw || cw === vw + 's' || cw === vw + 'd' || cw === vw + 'ed' ||
+                  cw === vw + 'ing' || cw === vw + 'es' ||
+                  (vw.endsWith('e') && cw === vw + 'd') ||
+                  (vw.endsWith('y') && cw === vw.slice(0, -1) + 'ies') ||
+                  vw === cw + 's' || vw === cw + 'd' || vw === cw + 'ed') {
+                highlights.add(wi)
+                claimed.add(wi)
+                break
+              }
+            }
+          }
+        }
+      } else if (v.type === 'extra') {
+        // Word is NOT in the displayed text — show insertion marker
+        // Place near the word's position in the verse
+        const insertAt = Math.min(v.pos - 1, esvWords.length - 1)
+        const idx = Math.max(0, insertAt)
+        if (!insertions[idx]) insertions[idx] = []
+        insertions[idx].push({
+          english: v.english?.replace(/[<>]/g, '') || '',
+          greek: v.greek || ''
+        })
+      }
+    }
+
+    const hasData = highlights.size > 0 || Object.keys(insertions).length > 0
+    return hasData ? { highlights, insertions } : null
+  }, [appData.manuscriptVariants?.verses, buildGlossMap])
+
   // Render verse text — two modes:
   // Normal: inline text with clickable Strong's words (gloss-matched)
   // Interlinear: grid of word columns, English on top, transliteration below
   const renderVerse = useCallback((text, verseId) => {
     const lexicon = appData.strongs.lexicon
     const glossMap = buildGlossMap(verseId)
+    const variantMarkup = (verseId === activeManuscriptVerse) ? getVariantMarkup(verseId, text) : null
     const words = text.split(/(\s+)/)
 
     const cells = []
@@ -160,7 +245,7 @@ function BibleColumn({ columnId, data }) {
 
       let entityIcons = ''
       if (lookups.kingNames.has(cleanWord)) entityIcons += '👑'
-      if (lookups.prophetNames.has(cleanWord)) entityIcons += '📜'
+      if (lookups.prophetNames.has(cleanWord)) entityIcons += '📣'
       if (lookups.placeNames.has(cleanWord)) entityIcons += '📍'
       if (lookups.waterNames.has(cleanWord)) entityIcons += '💧'
       if (lookups.mountainNames.has(cleanWord)) entityIcons += '⛰️'
@@ -174,6 +259,8 @@ function BibleColumn({ columnId, data }) {
 
       const isHighlighted = strongsMatch && highlightedStrong &&
         normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
+      const isVariant = variantMarkup?.highlights?.has(wordIndex)
+      const insertionHere = variantMarkup?.insertions?.[wordIndex]
 
       if (showOriginal) {
         cells.push(
@@ -182,7 +269,7 @@ function BibleColumn({ columnId, data }) {
             className={`interlinear-cell${strongsMatch ? ' has-strongs' : ''}`}
           >
             <span
-              className={strongsMatch ? `hl strongs${isHighlighted ? ' selected' : ''}` : undefined}
+              className={strongsMatch ? `hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}` : (isVariant ? 'ms-variant-word' : undefined)}
               onClick={strongsMatch ? (e) => {
                 e.stopPropagation()
                 setHighlightedStrong(null)
@@ -201,7 +288,7 @@ function BibleColumn({ columnId, data }) {
           cells.push(
             <span
               key={`${i}-strong`}
-              className={`hl strongs${isHighlighted ? ' selected' : ''}`}
+              className={`hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}`}
               onClick={(e) => {
                 e.stopPropagation()
                 setHighlightedStrong(null)
@@ -209,6 +296,13 @@ function BibleColumn({ columnId, data }) {
               }}
               title={`Strong's ${strongsMatch.strong}`}
             >
+              {word}
+              {entityIcons && <span className="role-icons">{entityIcons}</span>}
+            </span>
+          )
+        } else if (isVariant) {
+          cells.push(
+            <span key={i} className="ms-variant-word">
               {word}
               {entityIcons && <span className="role-icons">{entityIcons}</span>}
             </span>
@@ -223,6 +317,17 @@ function BibleColumn({ columnId, data }) {
         } else {
           cells.push(word)
         }
+        // Insertion marker for missing words (words in other copies but not this text)
+        if (insertionHere) {
+          for (const ins of insertionHere) {
+            cells.push(
+              <span key={`${i}-ins-${ins.english}`} className="ms-insertion-marker" title={`Some copies add: ${ins.english} (${ins.greek})`}>
+                [{ins.english}]
+              </span>
+            )
+          }
+        }
+
         if (i < words.length - 1) cells.push(' ')
       }
 
@@ -233,7 +338,7 @@ function BibleColumn({ columnId, data }) {
       return <span className="interlinear-row">{cells}</span>
     }
     return cells
-  }, [buildGlossMap, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
+  }, [buildGlossMap, getVariantMarkup, activeManuscriptVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
 
   // Handle verse click
   const handleVerseClick = useCallback((verseId) => {
@@ -245,6 +350,12 @@ function BibleColumn({ columnId, data }) {
     e.stopPropagation()
     openCrossRefs(verseId)
   }, [openCrossRefs])
+
+  // Handle manuscript indicator click
+  const handleManuscriptClick = useCallback((e, verseId) => {
+    e.stopPropagation()
+    openManuscript(verseId)
+  }, [openManuscript])
 
   return (
     <div className="window-content">
@@ -263,6 +374,7 @@ function BibleColumn({ columnId, data }) {
         const verseId = `${verse.book}.${verse.chapter}.${verse.verse}`
         const isSelected = isVerseHighlighted(verseId, activeHighlightVerse)
         const hasRefs = hasCrossRefs(verseId)
+        const hasVariants = hasManuscriptVariants(verseId)
 
         return (
           <div
@@ -278,6 +390,15 @@ function BibleColumn({ columnId, data }) {
                 title="View cross-references"
               >
                 🔗
+              </span>
+            )}
+            {hasVariants && (
+              <span
+                className="manuscript-indicator"
+                onClick={(e) => handleManuscriptClick(e, verseId)}
+                title="View manuscript evidence"
+              >
+                📜
               </span>
             )}
             <span className="verse-num">{verse.verse}</span>
