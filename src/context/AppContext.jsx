@@ -40,7 +40,8 @@ export function AppProvider({ children }) {
     definitions: [],
     topicalClusters: [],
     topicalIndex: [],
-    manuscriptVariants: { editions: {}, disputed: [], verses: {} }
+    manuscriptVariants: { editions: {}, disputed: [], verses: {} },
+    redLetters: {}
   })
 
   // Lookup sets for O(1) entity checking

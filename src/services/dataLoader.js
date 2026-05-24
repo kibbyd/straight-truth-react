@@ -79,7 +79,8 @@ export async function loadAllData() {
     topicalClusters,
     topicalIndex,
     strongsCorrections,
-    manuscriptVariants
+    manuscriptVariants,
+    redLetters
   ] = await Promise.all([
     fetchJSON('bible_verses.json'),
     fetchJSON('strongs_data.json'),
@@ -112,7 +113,8 @@ export async function loadAllData() {
     fetchJSON('topical_clusters.json'),
     fetchJSON('topical_index.json'),
     fetchJSON('strongs_corrections.json'),
-    fetchJSON('tagnt_variants.json')
+    fetchJSON('tagnt_variants.json'),
+    fetchJSON('red_letters.json')
   ])
 
   // Process cross-references from connections
@@ -162,6 +164,7 @@ export async function loadAllData() {
     definitions: definitions.definitions || [],
     topicalClusters: topicalClusters.clusters || [],
     topicalIndex: topicalIndex.topics || [],
-    manuscriptVariants: manuscriptVariants || { editions: {}, disputed: [], verses: {} }
+    manuscriptVariants: manuscriptVariants || { editions: {}, disputed: [], verses: {} },
+    redLetters: redLetters || {}
   }
 }
