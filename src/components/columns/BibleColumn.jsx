@@ -1,6 +1,6 @@
 import { useMemo, useCallback, useEffect, useRef, useState } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatChapterRef } from '../../data/bibleBooks'
+import { formatChapterRef, bibleBooks } from '../../data/bibleBooks'
 
 function BibleColumn({ columnId, data }) {
   const {
@@ -13,6 +13,7 @@ function BibleColumn({ columnId, data }) {
     openStrongs,
     openCrossRefs,
     openManuscript,
+    updateColumn,
     columns
   } = useApp()
 
@@ -357,8 +358,39 @@ function BibleColumn({ columnId, data }) {
     openManuscript(verseId)
   }, [openManuscript])
 
+  // Navigate to previous/next chapter
+  const navigateChapter = useCallback((direction) => {
+    if (direction === 1) {
+      const bookInfo = bibleBooks.find(b => b.abbr === book)
+      if (chapter < bookInfo?.chapters) {
+        updateColumn(columnId, { book, chapter: chapter + 1, highlightVerse: null })
+      } else {
+        const bookIdx = bibleBooks.findIndex(b => b.abbr === book)
+        if (bookIdx < bibleBooks.length - 1) {
+          const nextBook = bibleBooks[bookIdx + 1].abbr
+          updateColumn(columnId, { book: nextBook, chapter: 1, highlightVerse: null })
+        }
+      }
+    } else {
+      if (chapter > 1) {
+        updateColumn(columnId, { book, chapter: chapter - 1, highlightVerse: null })
+      } else {
+        const bookIdx = bibleBooks.findIndex(b => b.abbr === book)
+        if (bookIdx > 0) {
+          const prevBook = bibleBooks[bookIdx - 1]
+          updateColumn(columnId, { book: prevBook.abbr, chapter: prevBook.chapters, highlightVerse: null })
+        }
+      }
+    }
+    setSelectedVerse(null)
+  }, [book, chapter, columnId, updateColumn, setSelectedVerse])
+
   return (
-    <div className="window-content">
+    <div className="window-content passage-with-nav">
+      <div className="passage-nav-chevron left" onClick={() => navigateChapter(-1)} title="Previous chapter">
+        ‹
+      </div>
+      <div className="passage-nav-inner">
       <div className="passage-header-row">
         <h2 className="passage-header">{formatChapterRef(book, chapter)}</h2>
         <button
@@ -412,6 +444,10 @@ function BibleColumn({ columnId, data }) {
           No verses found for {formatChapterRef(book, chapter)}
         </div>
       )}
+      </div>
+      <div className="passage-nav-chevron right" onClick={() => navigateChapter(1)} title="Next chapter">
+        ›
+      </div>
     </div>
   )
 }

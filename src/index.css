@@ -317,6 +317,38 @@ body {
     user-select: text;
 }
 
+/* ========== PASSAGE NAV CHEVRONS ========== */
+.passage-with-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.passage-nav-chevron {
+    width: 20px;
+    min-width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--text-muted);
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.5;
+    transition: opacity 0.15s, background 0.15s;
+}
+
+.passage-nav-chevron:hover {
+    opacity: 1;
+    background: var(--surface-dim);
+}
+
+.passage-nav-inner {
+    flex: 1;
+    overflow: auto;
+    padding: 16px;
+}
+
 /* ========== PASSAGE CONTENT ========== */
 .passage-header {
     font-size: 22px;
