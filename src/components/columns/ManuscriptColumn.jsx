@@ -136,7 +136,7 @@ function ManuscriptColumn({ columnId, data }) {
                 <div className="ms-card-editions">
                   <span className="ms-editions-label">Found in:</span>
                   {item.in.map(ed => (
-                    <span key={ed} className="ms-edition-tag ms-ed-in">{ed}</span>
+                    <span key={ed} className="ms-edition-tag ms-ed-in" title={variants?.editions?.[ed]?.name || ed}>{ed}</span>
                   ))}
                 </div>
 
@@ -144,7 +144,7 @@ function ManuscriptColumn({ columnId, data }) {
                   <div className="ms-card-editions">
                     <span className="ms-editions-label">Missing from:</span>
                     {item.notIn.map(ed => (
-                      <span key={ed} className="ms-edition-tag ms-ed-out">{ed}</span>
+                      <span key={ed} className="ms-edition-tag ms-ed-out" title={variants?.editions?.[ed]?.name || ed}>{ed}</span>
                     ))}
                   </div>
                 )}
@@ -159,7 +159,7 @@ function ManuscriptColumn({ columnId, data }) {
                       <div className="ms-card-editions ms-var-editions">
                         <span className="ms-editions-label">In:</span>
                         {item.variant.in.map(ed => (
-                          <span key={ed} className="ms-edition-tag ms-ed-in">{ed}</span>
+                          <span key={ed} className="ms-edition-tag ms-ed-in" title={variants?.editions?.[ed]?.name || ed}>{ed}</span>
                         ))}
                       </div>
                     )}
