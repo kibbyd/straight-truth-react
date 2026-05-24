@@ -1,33 +1,45 @@
 import { useMemo, useState } from 'react'
 import { useApp } from '../../context/AppContext'
-import { formatVerseRef } from '../../data/bibleBooks'
+import { formatVerseRef, bibleBooks } from '../../data/bibleBooks'
 
 function SearchColumn({ columnId, data }) {
   const { data: appData, goToVerse, updateColumn } = useApp()
   const [localQuery, setLocalQuery] = useState(data?.query || '')
+  const [expandedBooks, setExpandedBooks] = useState({})
 
   const query = data?.query || ''
 
-  // Search results
-  const results = useMemo(() => {
-    if (!query || query.length < 2) return []
+  // Search results grouped by book
+  const { grouped, totalCount } = useMemo(() => {
+    if (!query || query.length < 2) return { grouped: [], totalCount: 0 }
 
-    const searchLower = query.toLowerCase()
-    const matches = []
+    const searchRegex = new RegExp(`\\b${escapeRegex(query)}\\b`, 'i')
+    const byBook = {}
+    let total = 0
 
     for (const verse of appData.verses) {
-      if (verse.text.toLowerCase().includes(searchLower)) {
-        matches.push({
+      if (searchRegex.test(verse.text)) {
+        const book = verse.book
+        if (!byBook[book]) byBook[book] = []
+        byBook[book].push({
           verseId: `${verse.book}.${verse.chapter}.${verse.verse}`,
           text: verse.text
         })
+        total++
       }
-      // Limit to 200 results for performance
-      if (matches.length >= 200) break
     }
 
-    return matches
+    // Order by canonical bible book order
+    const ordered = bibleBooks
+      .filter(b => byBook[b.abbr])
+      .map(b => ({ abbr: b.abbr, name: b.name, results: byBook[b.abbr] }))
+
+    return { grouped: ordered, totalCount: total }
   }, [query, appData.verses])
+
+  const toggleBook = (abbr) => {
+    setExpandedBooks(prev => ({ ...prev, [abbr]: !prev[abbr] }))
+  }
 
   // Highlight search term in text
   const highlightMatch = (text) => {
@@ -84,10 +96,9 @@ function SearchColumn({ columnId, data }) {
             Search
           </button>
         </div>
-        {query && (
+        {query && totalCount > 0 && (
           <div style={{ marginTop: '8px', fontSize: '14px', color: 'var(--text-muted)' }}>
-            {results.length} result{results.length !== 1 ? 's' : ''} for "{query}"
-            {results.length >= 200 && ' (showing first 200)'}
+            {totalCount} result{totalCount !== 1 ? 's' : ''} for "{query}" in {grouped.length} book{grouped.length !== 1 ? 's' : ''}
           </div>
         )}
       </div>
@@ -99,29 +110,45 @@ function SearchColumn({ columnId, data }) {
           </div>
         )}
 
-        {query && results.length === 0 && (
+        {query && totalCount === 0 && (
           <div style={{ padding: '40px 20px', textAlign: 'center', color: 'var(--text-muted)' }}>
             No verses found matching "{query}"
           </div>
         )}
 
-        {results.map(result => (
-          <div
-            key={result.verseId}
-            className="search-result-item"
-            onClick={() => goToVerse(result.verseId)}
-            style={{
-              padding: '12px 16px',
-              borderBottom: '1px solid var(--border-light)',
-              cursor: 'pointer'
-            }}
-          >
-            <div style={{ fontWeight: 600, color: 'var(--primary)', marginBottom: '4px' }}>
-              {formatVerseRef(result.verseId)}
+        {grouped.map(group => (
+          <div key={group.abbr} className="accordion-section">
+            <div
+              className={`accordion-header${expandedBooks[group.abbr] ? ' expanded' : ''}`}
+              onClick={() => toggleBook(group.abbr)}
+            >
+              <span className="accordion-icon">▶</span>
+              <span className="accordion-title">{group.name}</span>
+              <span className="accordion-count">{group.results.length}</span>
             </div>
-            <div style={{ fontSize: '14px', color: 'var(--text)', lineHeight: 1.5 }}>
-              {highlightMatch(result.text)}
-            </div>
+            {expandedBooks[group.abbr] && (
+              <div className="accordion-content">
+                {group.results.map(result => (
+                  <div
+                    key={result.verseId}
+                    className="search-result-item"
+                    onClick={() => goToVerse(result.verseId)}
+                    style={{
+                      padding: '12px 16px',
+                      borderBottom: '1px solid var(--border-light)',
+                      cursor: 'pointer'
+                    }}
+                  >
+                    <div style={{ fontWeight: 600, color: 'var(--primary)', marginBottom: '4px' }}>
+                      {formatVerseRef(result.verseId)}
+                    </div>
+                    <div style={{ fontSize: '14px', color: 'var(--text)', lineHeight: 1.5 }}>
+                      {highlightMatch(result.text)}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -161,7 +161,7 @@ export function AppProvider({ children }) {
 
     // For most types, only allow one instance (via dropdown)
     // Note: comparePassages/compareMultiplePassages bypass this by using setColumns directly
-    const singleInstanceTypes = ['passage', 'search', 'crossrefs', 'notes', 'miracles', 'parables', 'prayers',
+    const singleInstanceTypes = ['passage', 'crossrefs', 'notes', 'miracles', 'parables', 'prayers',
       'namesofgod', 'quotations', 'covenants', 'festivals', 'familytrees',
       'questions', 'glossary', 'converter', 'strongs', 'timelines', 'maps', 'places', 'parallels', 'peoples', 'religions', 'dailylife', 'archaeology', 'definitions', 'topical', 'manuscript']
 
