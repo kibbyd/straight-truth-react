@@ -247,19 +247,14 @@ function BibleColumn({ columnId, data }) {
     const lexicon = appData.strongs.lexicon
     const glossMap = buildGlossMap(verseId)
     const variantMarkup = (verseId === activeManuscriptVerse) ? getVariantMarkup(verseId, text) : null
-    const wojRanges = appData.redLetters?.[verseId] || null
     const words = text.split(/(\s+)/)
 
     const cells = []
     let wordIndex = 0
-    let charPos = 0
 
     for (let i = 0; i < words.length; i++) {
       const word = words[i]
-      if (/^\s+$/.test(word)) {
-        charPos += word.length
-        continue
-      }
+      if (/^\s+$/.test(word)) continue
 
       const strongsMatch = glossMap[wordIndex] || null
       const cleanWord = word.replace(/[.,;:!?'"]/g, '')
@@ -282,7 +277,6 @@ function BibleColumn({ columnId, data }) {
         normalizeStrong(strongsMatch.strong) === normalizeStrong(highlightedStrong)
       const isVariant = variantMarkup?.highlights?.has(wordIndex)
       const insertionHere = variantMarkup?.insertions?.[wordIndex]
-      const isWoj = wojRanges && wojRanges.some(([s, e]) => charPos >= s && charPos < e)
 
       if (showOriginal) {
         cells.push(
@@ -291,7 +285,7 @@ function BibleColumn({ columnId, data }) {
             className={`interlinear-cell${strongsMatch ? ' has-strongs' : ''}`}
           >
             <span
-              className={strongsMatch ? `hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}${isWoj ? ' woj' : ''}` : `${isVariant ? 'ms-variant-word' : ''}${isWoj ? ' woj' : ''}`.trim() || undefined}
+              className={strongsMatch ? `hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}` : (isVariant ? 'ms-variant-word' : undefined)}
               onClick={strongsMatch ? (e) => {
                 e.stopPropagation()
                 setHighlightedStrong(null)
@@ -310,7 +304,7 @@ function BibleColumn({ columnId, data }) {
           cells.push(
             <span
               key={`${i}-strong`}
-              className={`hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}${isWoj ? ' woj' : ''}`}
+              className={`hl strongs${isHighlighted ? ' selected' : ''}${isVariant ? ' ms-variant-word' : ''}`}
               onClick={(e) => {
                 e.stopPropagation()
                 setHighlightedStrong(null)
@@ -322,9 +316,9 @@ function BibleColumn({ columnId, data }) {
               {entityIcons && <span className="role-icons">{entityIcons}</span>}
             </span>
           )
-        } else if (isVariant || isWoj) {
+        } else if (isVariant) {
           cells.push(
-            <span key={i} className={`${isVariant ? 'ms-variant-word' : ''}${isWoj ? ' woj' : ''}`.trim()}>
+            <span key={i} className="ms-variant-word">
               {word}
               {entityIcons && <span className="role-icons">{entityIcons}</span>}
             </span>
@@ -353,7 +347,6 @@ function BibleColumn({ columnId, data }) {
         if (i < words.length - 1) cells.push(' ')
       }
 
-      charPos += word.length + 1  // +1 for the space
       wordIndex++
     }
 
@@ -361,7 +354,7 @@ function BibleColumn({ columnId, data }) {
       return <span className="interlinear-row">{cells}</span>
     }
     return cells
-  }, [buildGlossMap, getVariantMarkup, activeManuscriptVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon, appData.redLetters])
+  }, [buildGlossMap, getVariantMarkup, activeManuscriptVerse, lookups, openStrongs, highlightedStrong, setHighlightedStrong, showOriginal, appData.strongs.lexicon])
 
   // Handle verse click
   const handleVerseClick = useCallback((verseId) => {
