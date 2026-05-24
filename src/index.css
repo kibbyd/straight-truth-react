@@ -350,6 +350,29 @@ body {
 }
 
 /* ========== PASSAGE CONTENT ========== */
+.passage-book-select,
+.passage-chapter-select {
+    padding: 4px 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: var(--font-sm);
+    background: var(--surface);
+}
+
+.passage-go-btn {
+    padding: 4px 12px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    font-size: var(--font-sm);
+    cursor: pointer;
+}
+
+.passage-go-btn:hover {
+    opacity: 0.9;
+}
+
 .passage-header {
     font-size: 22px;
     font-weight: 600;
@@ -486,10 +509,14 @@ body {
 .passage-header-row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 8px;
     margin-bottom: 20px;
     border-bottom: 2px solid var(--border);
     padding-bottom: 12px;
+}
+
+.passage-header-row .original-toggle {
+    margin-left: auto;
 }
 
 .passage-header-row .passage-header {

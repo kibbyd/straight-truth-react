@@ -22,6 +22,21 @@ function BibleColumn({ columnId, data }) {
   const columnHighlightVerse = data?.highlightVerse || null
   const verseRefs = useRef({})
   const [showOriginal, setShowOriginal] = useState(false)
+  const [navBook, setNavBook] = useState(book)
+  const [navChapter, setNavChapter] = useState(chapter)
+
+  // Sync nav selects when column data changes
+  useEffect(() => {
+    setNavBook(book)
+    setNavChapter(chapter)
+  }, [book, chapter])
+
+  const currentBookData = bibleBooks.find(b => b.abbr === navBook) || bibleBooks[0]
+
+  const handleGo = () => {
+    updateColumn(columnId, { book: navBook, chapter: navChapter, highlightVerse: null })
+    setSelectedVerse(null)
+  }
 
   // Track which verse has active manuscript highlighting
   const activeManuscriptVerse = useMemo(() => {
@@ -392,7 +407,25 @@ function BibleColumn({ columnId, data }) {
       </div>
       <div className="passage-nav-inner">
       <div className="passage-header-row">
-        <h2 className="passage-header">{formatChapterRef(book, chapter)}</h2>
+        <select
+          className="passage-book-select"
+          value={navBook}
+          onChange={(e) => { setNavBook(e.target.value); setNavChapter(1) }}
+        >
+          {bibleBooks.map(b => (
+            <option key={b.abbr} value={b.abbr}>{b.name}</option>
+          ))}
+        </select>
+        <select
+          className="passage-chapter-select"
+          value={navChapter}
+          onChange={(e) => setNavChapter(parseInt(e.target.value))}
+        >
+          {Array.from({ length: currentBookData.chapters }, (_, i) => (
+            <option key={i + 1} value={i + 1}>{i + 1}</option>
+          ))}
+        </select>
+        <button className="passage-go-btn" onClick={handleGo}>Go</button>
         <button
           className={`original-toggle${showOriginal ? ' active' : ''}`}
           onClick={() => setShowOriginal(!showOriginal)}
